@@ -1,0 +1,2856 @@
+{
+  "match_info": {
+    "team1": "India",
+    "team2": "England",
+    "venue": "Mumbai",
+    "date": "2026-03-04",
+    "toss_winner": "England",
+    "toss_decision": "field",
+    "result": "India won by 7 runs",
+    "winner": "India",
+    "margin": "7 runs",
+    "player_of_match": "Sanju Samson, IND",
+    "team1_impact_player_in": null,
+    "team1_impact_player_out": null,
+    "team1_impact_player_over": null,
+    "team2_impact_player_in": null,
+    "team2_impact_player_out": null,
+    "team2_impact_player_over": null
+  },
+  "refined_critechery_score": {
+    "team1": {
+      "total": 80.9,
+      "batting": {
+        "sr_dominance": {
+          "value": 25,
+          "max": 25
+        },
+        "boundary_efficiency": {
+          "value": 15,
+          "max": 15
+        },
+        "extras_discipline": {
+          "value": 10.0,
+          "max": 10
+        }
+      },
+      "bowling": {
+        "economy_squeeze": {
+          "value": 0,
+          "max": 15
+        },
+        "wicket_punch": {
+          "value": 15,
+          "max": 15
+        },
+        "dot_dominance": {
+          "value": 9.9,
+          "max": 10
+        },
+        "bowling_strike_rate": {
+          "value": 6.0,
+          "max": 10
+        }
+      }
+    },
+    "team2": {
+      "total": 75.3,
+      "batting": {
+        "sr_dominance": {
+          "value": 23.2,
+          "max": 25
+        },
+        "boundary_efficiency": {
+          "value": 15,
+          "max": 15
+        },
+        "extras_discipline": {
+          "value": 10.0,
+          "max": 10
+        }
+      },
+      "bowling": {
+        "economy_squeeze": {
+          "value": 0,
+          "max": 15
+        },
+        "wicket_punch": {
+          "value": 12.5,
+          "max": 15
+        },
+        "dot_dominance": {
+          "value": 9.6,
+          "max": 10
+        },
+        "bowling_strike_rate": {
+          "value": 5.0,
+          "max": 10
+        }
+      }
+    }
+  },
+  "humdinger_score": {
+    "score": 9.5,
+    "max": 10,
+    "components": {
+      "time_near_50": 3.5,
+      "last_over_drama": 2.0,
+      "margin": 2.0,
+      "wicket_cluster": 1.0,
+      "boundary_burst": 1.0
+    },
+    "details": {
+      "near_50_balls": 21,
+      "near_50_pct": 0.175,
+      "margin_runs": 8,
+      "death_boundary_pct_inn1": 78.7,
+      "death_boundary_pct_inn2": 68.0
+    }
+  },
+  "pressure_index": {
+    "innings1": [
+      {
+        "over": 0,
+        "pressure": 0.253,
+        "dot_pct": 0.333,
+        "wickets": 0,
+        "runs": 12,
+        "rr_deviation": 0.4
+      },
+      {
+        "over": 1,
+        "pressure": 0.5,
+        "dot_pct": 0.5,
+        "wickets": 1,
+        "runs": 8,
+        "rr_deviation": 0.0
+      },
+      {
+        "over": 2,
+        "pressure": 0.38,
+        "dot_pct": 0.5,
+        "wickets": 0,
+        "runs": 14,
+        "rr_deviation": 0.6
+      },
+      {
+        "over": 3,
+        "pressure": 0.157,
+        "dot_pct": 0.167,
+        "wickets": 0,
+        "runs": 11,
+        "rr_deviation": 0.3
+      },
+      {
+        "over": 4,
+        "pressure": 0.193,
+        "dot_pct": 0.333,
+        "wickets": 0,
+        "runs": 10,
+        "rr_deviation": 0.2
+      },
+      {
+        "over": 5,
+        "pressure": 0.157,
+        "dot_pct": 0.167,
+        "wickets": 0,
+        "runs": 11,
+        "rr_deviation": 0.3
+      },
+      {
+        "over": 6,
+        "pressure": 0.26,
+        "dot_pct": 0.5,
+        "wickets": 0,
+        "runs": 6,
+        "rr_deviation": 0.2
+      },
+      {
+        "over": 7,
+        "pressure": 0.3,
+        "dot_pct": 0.0,
+        "wickets": 0,
+        "runs": 18,
+        "rr_deviation": 1.0
+      },
+      {
+        "over": 8,
+        "pressure": 0.33,
+        "dot_pct": 0.0,
+        "wickets": 0,
+        "runs": 19,
+        "rr_deviation": 1.1
+      },
+      {
+        "over": 9,
+        "pressure": 0.397,
+        "dot_pct": 0.167,
+        "wickets": 1,
+        "runs": 7,
+        "rr_deviation": 0.1
+      },
+      {
+        "over": 10,
+        "pressure": 0.127,
+        "dot_pct": 0.167,
+        "wickets": 0,
+        "runs": 10,
+        "rr_deviation": 0.2
+      },
+      {
+        "over": 11,
+        "pressure": 0.277,
+        "dot_pct": 0.167,
+        "wickets": 0,
+        "runs": 15,
+        "rr_deviation": 0.7
+      },
+      {
+        "over": 12,
+        "pressure": 0.313,
+        "dot_pct": 0.333,
+        "wickets": 0,
+        "runs": 14,
+        "rr_deviation": 0.6
+      },
+      {
+        "over": 13,
+        "pressure": 0.36,
+        "dot_pct": 0.0,
+        "wickets": 1,
+        "runs": 6,
+        "rr_deviation": 0.2
+      },
+      {
+        "over": 14,
+        "pressure": 0.097,
+        "dot_pct": 0.167,
+        "wickets": 0,
+        "runs": 9,
+        "rr_deviation": 0.1
+      },
+      {
+        "over": 15,
+        "pressure": 0.583,
+        "dot_pct": 0.333,
+        "wickets": 1,
+        "runs": 13,
+        "rr_deviation": 0.5
+      },
+      {
+        "over": 16,
+        "pressure": 0.21,
+        "dot_pct": 0.0,
+        "wickets": 0,
+        "runs": 15,
+        "rr_deviation": 0.7
+      },
+      {
+        "over": 17,
+        "pressure": 0.39,
+        "dot_pct": 0.0,
+        "wickets": 1,
+        "runs": 11,
+        "rr_deviation": 0.3
+      },
+      {
+        "over": 18,
+        "pressure": 0.697,
+        "dot_pct": 0.167,
+        "wickets": 1,
+        "runs": 19,
+        "rr_deviation": 1.1
+      },
+      {
+        "over": 19,
+        "pressure": 0.607,
+        "dot_pct": 0.167,
+        "wickets": 1,
+        "runs": 16,
+        "rr_deviation": 0.8
+      }
+    ],
+    "innings2": [
+      {
+        "over": 0,
+        "pressure": 0.142,
+        "dot_pct": 0.333,
+        "wickets": 0,
+        "runs": 13,
+        "rr_deviation": 0.03
+      },
+      {
+        "over": 1,
+        "pressure": 0.821,
+        "dot_pct": 0.5,
+        "wickets": 1,
+        "runs": 2,
+        "rr_deviation": 1.07
+      },
+      {
+        "over": 2,
+        "pressure": 0.281,
+        "dot_pct": 0.5,
+        "wickets": 0,
+        "runs": 10,
+        "rr_deviation": 0.27
+      },
+      {
+        "over": 3,
+        "pressure": 0.076,
+        "dot_pct": 0.167,
+        "wickets": 0,
+        "runs": 13,
+        "rr_deviation": 0.03
+      },
+      {
+        "over": 4,
+        "pressure": 0.671,
+        "dot_pct": 0.5,
+        "wickets": 1,
+        "runs": 7,
+        "rr_deviation": 0.57
+      },
+      {
+        "over": 5,
+        "pressure": 0.609,
+        "dot_pct": 0.0,
+        "wickets": 1,
+        "runs": 23,
+        "rr_deviation": 1.03
+      },
+      {
+        "over": 6,
+        "pressure": 0.106,
+        "dot_pct": 0.167,
+        "wickets": 0,
+        "runs": 14,
+        "rr_deviation": 0.13
+      },
+      {
+        "over": 7,
+        "pressure": 0.532,
+        "dot_pct": 0.333,
+        "wickets": 1,
+        "runs": 16,
+        "rr_deviation": 0.33
+      },
+      {
+        "over": 8,
+        "pressure": 0.106,
+        "dot_pct": 0.167,
+        "wickets": 0,
+        "runs": 14,
+        "rr_deviation": 0.13
+      },
+      {
+        "over": 9,
+        "pressure": 0.364,
+        "dot_pct": 0.333,
+        "wickets": 0,
+        "runs": 5,
+        "rr_deviation": 0.77
+      },
+      {
+        "over": 10,
+        "pressure": 0.184,
+        "dot_pct": 0.333,
+        "wickets": 0,
+        "runs": 11,
+        "rr_deviation": 0.17
+      },
+      {
+        "over": 11,
+        "pressure": 0.039,
+        "dot_pct": 0.0,
+        "wickets": 0,
+        "runs": 14,
+        "rr_deviation": 0.13
+      },
+      {
+        "over": 12,
+        "pressure": 0.069,
+        "dot_pct": 0.0,
+        "wickets": 0,
+        "runs": 15,
+        "rr_deviation": 0.23
+      },
+      {
+        "over": 13,
+        "pressure": 0.478,
+        "dot_pct": 0.167,
+        "wickets": 1,
+        "runs": 9,
+        "rr_deviation": 0.37
+      },
+      {
+        "over": 14,
+        "pressure": 0.088,
+        "dot_pct": 0.167,
+        "wickets": 0,
+        "runs": 12,
+        "rr_deviation": 0.07
+      },
+      {
+        "over": 15,
+        "pressure": 0.208,
+        "dot_pct": 0.167,
+        "wickets": 0,
+        "runs": 8,
+        "rr_deviation": 0.47
+      },
+      {
+        "over": 16,
+        "pressure": 0.106,
+        "dot_pct": 0.167,
+        "wickets": 0,
+        "runs": 14,
+        "rr_deviation": 0.13
+      },
+      {
+        "over": 17,
+        "pressure": 0.268,
+        "dot_pct": 0.167,
+        "wickets": 0,
+        "runs": 6,
+        "rr_deviation": 0.67
+      },
+      {
+        "over": 18,
+        "pressure": 0.478,
+        "dot_pct": 0.167,
+        "wickets": 1,
+        "runs": 9,
+        "rr_deviation": 0.37
+      },
+      {
+        "over": 19,
+        "pressure": 0.549,
+        "dot_pct": 0.0,
+        "wickets": 1,
+        "runs": 21,
+        "rr_deviation": 0.83
+      }
+    ],
+    "baselines": {
+      "inn1_avg": 0.329,
+      "inn2_avg": 0.309,
+      "inn1_powerplay_avg": 0.273,
+      "inn2_powerplay_avg": 0.433,
+      "inn1_death_avg": 0.476,
+      "inn2_death_avg": 0.35
+    },
+    "heatmap_grid": {
+      "innings1": {
+        "matrix": [
+          [
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN
+          ],
+          [
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN
+          ],
+          [
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN
+          ],
+          [
+            NaN,
+            0.607,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN
+          ],
+          [
+            NaN,
+            0.607,
+            0.697,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN
+          ],
+          [
+            NaN,
+            NaN,
+            0.697,
+            0.39,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN
+          ],
+          [
+            NaN,
+            NaN,
+            NaN,
+            0.39,
+            0.21,
+            0.583,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN
+          ],
+          [
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            0.583,
+            0.097,
+            0.36,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN
+          ],
+          [
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            0.313,
+            0.277,
+            0.127,
+            0.397,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN
+          ],
+          [
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            0.397,
+            0.33,
+            0.3,
+            0.26,
+            0.157,
+            0.193,
+            0.157,
+            0.38,
+            0.5,
+            NaN
+          ],
+          [
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            0.5,
+            0.253
+          ]
+        ],
+        "x_labels": [
+          20,
+          19,
+          18,
+          17,
+          16,
+          15,
+          14,
+          13,
+          12,
+          11,
+          10,
+          9,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0
+        ],
+        "y_labels": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "innings2": {
+        "matrix": [
+          [
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN
+          ],
+          [
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN
+          ],
+          [
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN
+          ],
+          [
+            NaN,
+            0.549,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN
+          ],
+          [
+            NaN,
+            NaN,
+            0.478,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN
+          ],
+          [
+            NaN,
+            NaN,
+            0.478,
+            0.268,
+            0.106,
+            0.208,
+            0.088,
+            0.478,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN
+          ],
+          [
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            0.478,
+            0.069,
+            0.039,
+            0.184,
+            0.364,
+            0.106,
+            0.532,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN
+          ],
+          [
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            0.532,
+            0.106,
+            0.609,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN
+          ],
+          [
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            0.609,
+            0.671,
+            NaN,
+            NaN,
+            NaN,
+            NaN
+          ],
+          [
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            0.076,
+            0.281,
+            0.821,
+            NaN
+          ],
+          [
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            0.142
+          ]
+        ],
+        "x_labels": [
+          20,
+          19,
+          18,
+          17,
+          16,
+          15,
+          14,
+          13,
+          12,
+          11,
+          10,
+          9,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0
+        ],
+        "y_labels": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      }
+    }
+  },
+  "win_probability": [
+    {
+      "ball": 1,
+      "win_prob": 0.5352,
+      "boundary_type": "four",
+      "is_wicket": false,
+      "batsman": "Salt",
+      "bowler": "Arshdeep",
+      "score": 4,
+      "wickets": 0
+    },
+    {
+      "ball": 2,
+      "win_prob": 0.5168,
+      "boundary_type": null,
+      "is_wicket": false,
+      "batsman": "Salt",
+      "bowler": "Arshdeep",
+      "score": 5,
+      "wickets": 0
+    },
+    {
+      "ball": 3,
+      "win_prob": 0.5523,
+      "boundary_type": "four",
+      "is_wicket": false,
+      "batsman": "Buttler",
+      "bowler": "Arshdeep",
+      "score": 9,
+      "wickets": 0
+    },
+    {
+      "ball": 4,
+      "win_prob": 0.5157,
+      "boundary_type": null,
+      "is_wicket": false,
+      "batsman": "Buttler",
+      "bowler": "Arshdeep",
+      "score": 9,
+      "wickets": 0
+    },
+    {
+      "ball": 5,
+      "win_prob": 0.5515,
+      "boundary_type": "four",
+      "is_wicket": false,
+      "batsman": "Buttler",
+      "bowler": "Arshdeep",
+      "score": 13,
+      "wickets": 0
+    },
+    {
+      "ball": 6,
+      "win_prob": 0.5147,
+      "boundary_type": null,
+      "is_wicket": false,
+      "batsman": "Buttler",
+      "bowler": "Arshdeep",
+      "score": 13,
+      "wickets": 0
+    },
+    {
+      "ball": 7,
+      "win_prob": 0.4429,
+      "boundary_type": null,
+      "is_wicket": true,
+      "batsman": "Salt",
+      "bowler": "Hardik",
+      "score": 13,
+      "wickets": 1
+    },
+    {
+      "ball": 8,
+      "win_prob": 0.4242,
+      "boundary_type": null,
+      "is_wicket": false,
+      "batsman": "Brook",
+      "bowler": "Hardik",
+      "score": 14,
+      "wickets": 1
+    },
+    {
+      "ball": 9,
+      "win_prob": 0.3878,
+      "boundary_type": null,
+      "is_wicket": false,
+      "batsman": "Buttler",
+      "bowler": "Hardik",
+      "score": 14,
+      "wickets": 1
+    },
+    {
+      "ball": 10,
+      "win_prob": 0.3522,
+      "boundary_type": null,
+      "is_wicket": false,
+      "batsman": "Buttler",
+      "bowler": "Hardik",
+      "score": 14,
+      "wickets": 1
+    },
+    {
+      "ball": 11,
+      "win_prob": 0.318,
+      "boundary_type": null,
+      "is_wicket": false,
+      "batsman": "Buttler",
+      "bowler": "Hardik",
+      "score": 14,
+      "wickets": 1
+    },
+    {
+      "ball": 12,
+      "win_prob": 0.3008,
+      "boundary_type": null,
+      "is_wicket": false,
+      "batsman": "Buttler",
+      "bowler": "Hardik",
+      "score": 15,
+      "wickets": 1
+    },
+    {
+      "ball": 13,
+      "win_prob": 0.269,
+      "boundary_type": null,
+      "is_wicket": false,
+      "batsman": "Buttler",
+      "bowler": "Arshdeep",
+      "score": 15,
+      "wickets": 1
+    },
+    {
+      "ball": 14,
+      "win_prob": 0.2987,
+      "boundary_type": "four",
+      "is_wicket": false,
+      "batsman": "Buttler",
+      "bowler": "Arshdeep",
+      "score": 19,
+      "wickets": 1
+    },
+    {
+      "ball": 15,
+      "win_prob": 0.2666,
+      "boundary_type": null,
+      "is_wicket": false,
+      "batsman": "Buttler",
+      "bowler": "Arshdeep",
+      "score": 19,
+      "wickets": 1
+    },
+    {
+      "ball": 16,
+      "win_prob": 0.2366,
+      "boundary_type": null,
+      "is_wicket": false,
+      "batsman": "Buttler",
+      "bowler": "Arshdeep",
+      "score": 19,
+      "wickets": 1
+    },
+    {
+      "ball": 17,
+      "win_prob": 0.2354,
+      "boundary_type": null,
+      "is_wicket": false,
+      "batsman": "Buttler",
+      "bowler": "Arshdeep",
+      "score": 21,
+      "wickets": 1
+    },
+    {
+      "ball": 18,
+      "win_prob": 0.263,
+      "boundary_type": "four",
+      "is_wicket": false,
+      "batsman": "Buttler",
+      "bowler": "Arshdeep",
+      "score": 25,
+      "wickets": 1
+    },
+    {
+      "ball": 19,
+      "win_prob": 0.247,
+      "boundary_type": null,
+      "is_wicket": false,
+      "batsman": "Brook",
+      "bowler": "Hardik",
+      "score": 26,
+      "wickets": 1
+    },
+    {
+      "ball": 20,
+      "win_prob": 0.2315,
+      "boundary_type": null,
+      "is_wicket": false,
+      "batsman": "Buttler",
+      "bowler": "Hardik",
+      "score": 27,
+      "wickets": 1
+    },
+    {
+      "ball": 21,
+      "win_prob": 0.2593,
+      "boundary_type": "four",
+      "is_wicket": false,
+      "batsman": "Brook",
+      "bowler": "Hardik",
+      "score": 31,
+      "wickets": 1
+    },
+    {
+      "ball": 22,
+      "win_prob": 0.2289,
+      "boundary_type": null,
+      "is_wicket": false,
+      "batsman": "Brook",
+      "bowler": "Hardik",
+      "score": 31,
+      "wickets": 1
+    },
+    {
+      "ball": 23,
+      "win_prob": 0.2139,
+      "boundary_type": null,
+      "is_wicket": false,
+      "batsman": "Brook",
+      "bowler": "Hardik",
+      "score": 32,
+      "wickets": 1
+    },
+    {
+      "ball": 24,
+      "win_prob": 0.2709,
+      "boundary_type": "six",
+      "is_wicket": false,
+      "batsman": "Buttler",
+      "bowler": "Hardik",
+      "score": 38,
+      "wickets": 1
+    },
+    {
+      "ball": 25,
+      "win_prob": 0.2168,
+      "boundary_type": null,
+      "is_wicket": true,
+      "batsman": "Brook",
+      "bowler": "Bumrah",
+      "score": 38,
+      "wickets": 2
+    },
+    {
+      "ball": 26,
+      "win_prob": 0.1896,
+      "boundary_type": null,
+      "is_wicket": false,
+      "batsman": "Bethell",
+      "bowler": "Bumrah",
+      "score": 38,
+      "wickets": 2
+    },
+    {
+      "ball": 27,
+      "win_prob": 0.2431,
+      "boundary_type": "six",
+      "is_wicket": false,
+      "batsman": "Bethell",
+      "bowler": "Bumrah",
+      "score": 44,
+      "wickets": 2
+    },
+    {
+      "ball": 28,
+      "win_prob": 0.2133,
+      "boundary_type": null,
+      "is_wicket": false,
+      "batsman": "Bethell",
+      "bowler": "Bumrah",
+      "score": 44,
+      "wickets": 2
+    },
+    {
+      "ball": 29,
+      "win_prob": 0.186,
+      "boundary_type": null,
+      "is_wicket": false,
+      "batsman": "Bethell",
+      "bowler": "Bumrah",
+      "score": 44,
+      "wickets": 2
+    },
+    {
+      "ball": 30,
+      "win_prob": 0.1726,
+      "boundary_type": null,
+      "is_wicket": false,
+      "batsman": "Bethell",
+      "bowler": "Bumrah",
+      "score": 45,
+      "wickets": 2
+    },
+    {
+      "ball": 31,
+      "win_prob": 0.2237,
+      "boundary_type": "six",
+      "is_wicket": false,
+      "batsman": "Bethell",
+      "bowler": "Varun",
+      "score": 51,
+      "wickets": 2
+    },
+    {
+      "ball": 32,
+      "win_prob": 0.2855,
+      "boundary_type": "six",
+      "is_wicket": false,
+      "batsman": "Bethell",
+      "bowler": "Varun",
+      "score": 57,
+      "wickets": 2
+    },
+    {
+      "ball": 33,
+      "win_prob": 0.3573,
+      "boundary_type": "six",
+      "is_wicket": false,
+      "batsman": "Bethell",
+      "bowler": "Varun",
+      "score": 63,
+      "wickets": 2
+    },
+    {
+      "ball": 34,
+      "win_prob": 0.3374,
+      "boundary_type": null,
+      "is_wicket": false,
+      "batsman": "Bethell",
+      "bowler": "Varun",
+      "score": 64,
+      "wickets": 2
+    },
+    {
+      "ball": 35,
+      "win_prob": 0.2751,
+      "boundary_type": null,
+      "is_wicket": true,
+      "batsman": "Buttler",
+      "bowler": "Varun",
+      "score": 64,
+      "wickets": 3
+    },
+    {
+      "ball": 36,
+      "win_prob": 0.3095,
+      "boundary_type": "four",
+      "is_wicket": false,
+      "batsman": "Banton",
+      "bowler": "Varun",
+      "score": 68,
+      "wickets": 3
+    },
+    {
+      "ball": 37,
+      "win_prob": 0.2734,
+      "boundary_type": null,
+      "is_wicket": false,
+      "batsman": "Bethell",
+      "bowler": "Hardik",
+      "score": 68,
+      "wickets": 3
+    },
+    {
+      "ball": 38,
+      "win_prob": 0.2557,
+      "boundary_type": null,
+      "is_wicket": false,
+      "batsman": "Bethell",
+      "bowler": "Hardik",
+      "score": 69,
+      "wickets": 3
+    },
+    {
+      "ball": 39,
+      "win_prob": 0.2385,
+      "boundary_type": null,
+      "is_wicket": false,
+      "batsman": "Banton",
+      "bowler": "Hardik",
+      "score": 70,
+      "wickets": 3
+    },
+    {
+      "ball": 40,
+      "win_prob": 0.3065,
+      "boundary_type": "six",
+      "is_wicket": false,
+      "batsman": "Bethell",
+      "bowler": "Hardik",
+      "score": 76,
+      "wickets": 3
+    },
+    {
+      "ball": 41,
+      "win_prob": 0.3443,
+      "boundary_type": "four",
+      "is_wicket": false,
+      "batsman": "Bethell",
+      "bowler": "Hardik",
+      "score": 80,
+      "wickets": 3
+    },
+    {
+      "ball": 42,
+      "win_prob": 0.3437,
+      "boundary_type": null,
+      "is_wicket": false,
+      "batsman": "Bethell",
+      "bowler": "Hardik",
+      "score": 82,
+      "wickets": 3
+    },
+    {
+      "ball": 43,
+      "win_prob": 0.4273,
+      "boundary_type": "six",
+      "is_wicket": false,
+      "batsman": "Banton",
+      "bowler": "Axar Patel",
+      "score": 88,
+      "wickets": 3
+    },
+    {
+      "ball": 44,
+      "win_prob": 0.5164,
+      "boundary_type": "six",
+      "is_wicket": false,
+      "batsman": "Banton",
+      "bowler": "Axar Patel",
+      "score": 94,
+      "wickets": 3
+    },
+    {
+      "ball": 45,
+      "win_prob": 0.4438,
+      "boundary_type": null,
+      "is_wicket": true,
+      "batsman": "Banton",
+      "bowler": "Axar Patel",
+      "score": 94,
+      "wickets": 4
+    },
+    {
+      "ball": 46,
+      "win_prob": 0.3998,
+      "boundary_type": null,
+      "is_wicket": false,
+      "batsman": "Jacks",
+      "bowler": "Axar Patel",
+      "score": 94,
+      "wickets": 4
+    },
+    {
+      "ball": 47,
+      "win_prob": 0.3568,
+      "boundary_type": null,
+      "is_wicket": false,
+      "batsman": "Jacks",
+      "bowler": "Axar Patel",
+      "score": 94,
+      "wickets": 4
+    },
+    {
+      "ball": 48,
+      "win_prob": 0.3999,
+      "boundary_type": "four",
+      "is_wicket": false,
+      "batsman": "Jacks",
+      "bowler": "Axar Patel",
+      "score": 98,
+      "wickets": 4
+    },
+    {
+      "ball": 49,
+      "win_prob": 0.4453,
+      "boundary_type": "four",
+      "is_wicket": false,
+      "batsman": "Bethell",
+      "bowler": "Varun",
+      "score": 102,
+      "wickets": 4
+    },
+    {
+      "ball": 50,
+      "win_prob": 0.4922,
+      "boundary_type": "four",
+      "is_wicket": false,
+      "batsman": "Bethell",
+      "bowler": "Varun",
+      "score": 106,
+      "wickets": 4
+    },
+    {
+      "ball": 51,
+      "win_prob": 0.4694,
+      "boundary_type": null,
+      "is_wicket": false,
+      "batsman": "Bethell",
+      "bowler": "Varun",
+      "score": 107,
+      "wickets": 4
+    },
+    {
+      "ball": 52,
+      "win_prob": 0.4231,
+      "boundary_type": null,
+      "is_wicket": false,
+      "batsman": "Jacks",
+      "bowler": "Varun",
+      "score": 107,
+      "wickets": 4
+    },
+    {
+      "ball": 53,
+      "win_prob": 0.4706,
+      "boundary_type": "four",
+      "is_wicket": false,
+      "batsman": "Jacks",
+      "bowler": "Varun",
+      "score": 111,
+      "wickets": 4
+    },
+    {
+      "ball": 54,
+      "win_prob": 0.4472,
+      "boundary_type": null,
+      "is_wicket": false,
+      "batsman": "Jacks",
+      "bowler": "Varun",
+      "score": 112,
+      "wickets": 4
+    },
+    {
+      "ball": 55,
+      "win_prob": 0.4003,
+      "boundary_type": null,
+      "is_wicket": false,
+      "batsman": "Jacks",
+      "bowler": "Axar Patel",
+      "score": 112,
+      "wickets": 4
+    },
+    {
+      "ball": 56,
+      "win_prob": 0.3771,
+      "boundary_type": null,
+      "is_wicket": false,
+      "batsman": "Jacks",
+      "bowler": "Axar Patel",
+      "score": 113,
+      "wickets": 4
+    },
+    {
+      "ball": 57,
+      "win_prob": 0.354,
+      "boundary_type": null,
+      "is_wicket": false,
+      "batsman": "Bethell",
+      "bowler": "Axar Patel",
+      "score": 114,
+      "wickets": 4
+    },
+    {
+      "ball": 58,
+      "win_prob": 0.3537,
+      "boundary_type": null,
+      "is_wicket": false,
+      "batsman": "Jacks",
+      "bowler": "Axar Patel",
+      "score": 116,
+      "wickets": 4
+    },
+    {
+      "ball": 59,
+      "win_prob": 0.309,
+      "boundary_type": null,
+      "is_wicket": false,
+      "batsman": "Jacks",
+      "bowler": "Axar Patel",
+      "score": 116,
+      "wickets": 4
+    },
+    {
+      "ball": 60,
+      "win_prob": 0.2872,
+      "boundary_type": null,
+      "is_wicket": false,
+      "batsman": "Jacks",
+      "bowler": "Axar Patel",
+      "score": 117,
+      "wickets": 4
+    },
+    {
+      "ball": 61,
+      "win_prob": 0.3297,
+      "boundary_type": "four",
+      "is_wicket": false,
+      "batsman": "Jacks",
+      "bowler": "Bumrah",
+      "score": 121,
+      "wickets": 4
+    },
+    {
+      "ball": 62,
+      "win_prob": 0.3068,
+      "boundary_type": null,
+      "is_wicket": false,
+      "batsman": "Jacks",
+      "bowler": "Bumrah",
+      "score": 122,
+      "wickets": 4
+    },
+    {
+      "ball": 63,
+      "win_prob": 0.306,
+      "boundary_type": null,
+      "is_wicket": false,
+      "batsman": "Bethell",
+      "bowler": "Bumrah",
+      "score": 124,
+      "wickets": 4
+    },
+    {
+      "ball": 64,
+      "win_prob": 0.2628,
+      "boundary_type": null,
+      "is_wicket": false,
+      "batsman": "Bethell",
+      "bowler": "Bumrah",
+      "score": 124,
+      "wickets": 4
+    },
+    {
+      "ball": 65,
+      "win_prob": 0.3044,
+      "boundary_type": "four",
+      "is_wicket": false,
+      "batsman": "Bethell",
+      "bowler": "Bumrah",
+      "score": 128,
+      "wickets": 4
+    },
+    {
+      "ball": 66,
+      "win_prob": 0.2605,
+      "boundary_type": null,
+      "is_wicket": false,
+      "batsman": "Bethell",
+      "bowler": "Bumrah",
+      "score": 128,
+      "wickets": 4
+    },
+    {
+      "ball": 67,
+      "win_prob": 0.2392,
+      "boundary_type": null,
+      "is_wicket": false,
+      "batsman": "Jacks",
+      "bowler": "Varun",
+      "score": 129,
+      "wickets": 4
+    },
+    {
+      "ball": 68,
+      "win_prob": 0.2794,
+      "boundary_type": "four",
+      "is_wicket": false,
+      "batsman": "Bethell",
+      "bowler": "Varun",
+      "score": 133,
+      "wickets": 4
+    },
+    {
+      "ball": 69,
+      "win_prob": 0.2568,
+      "boundary_type": null,
+      "is_wicket": false,
+      "batsman": "Bethell",
+      "bowler": "Varun",
+      "score": 134,
+      "wickets": 4
+    },
+    {
+      "ball": 70,
+      "win_prob": 0.235,
+      "boundary_type": null,
+      "is_wicket": false,
+      "batsman": "Jacks",
+      "bowler": "Varun",
+      "score": 135,
+      "wickets": 4
+    },
+    {
+      "ball": 71,
+      "win_prob": 0.2141,
+      "boundary_type": null,
+      "is_wicket": false,
+      "batsman": "Bethell",
+      "bowler": "Varun",
+      "score": 136,
+      "wickets": 4
+    },
+    {
+      "ball": 72,
+      "win_prob": 0.2977,
+      "boundary_type": "six",
+      "is_wicket": false,
+      "batsman": "Jacks",
+      "bowler": "Varun",
+      "score": 142,
+      "wickets": 4
+    },
+    {
+      "ball": 73,
+      "win_prob": 0.2733,
+      "boundary_type": null,
+      "is_wicket": false,
+      "batsman": "Bethell",
+      "bowler": "Axar Patel",
+      "score": 143,
+      "wickets": 4
+    },
+    {
+      "ball": 74,
+      "win_prob": 0.3722,
+      "boundary_type": "six",
+      "is_wicket": false,
+      "batsman": "Jacks",
+      "bowler": "Axar Patel",
+      "score": 149,
+      "wickets": 4
+    },
+    {
+      "ball": 75,
+      "win_prob": 0.4276,
+      "boundary_type": "four",
+      "is_wicket": false,
+      "batsman": "Jacks",
+      "bowler": "Axar Patel",
+      "score": 153,
+      "wickets": 4
+    },
+    {
+      "ball": 76,
+      "win_prob": 0.3992,
+      "boundary_type": null,
+      "is_wicket": false,
+      "batsman": "Jacks",
+      "bowler": "Axar Patel",
+      "score": 154,
+      "wickets": 4
+    },
+    {
+      "ball": 77,
+      "win_prob": 0.399,
+      "boundary_type": null,
+      "is_wicket": false,
+      "batsman": "Bethell",
+      "bowler": "Axar Patel",
+      "score": 156,
+      "wickets": 4
+    },
+    {
+      "ball": 78,
+      "win_prob": 0.3702,
+      "boundary_type": null,
+      "is_wicket": false,
+      "batsman": "Bethell",
+      "bowler": "Axar Patel",
+      "score": 157,
+      "wickets": 4
+    },
+    {
+      "ball": 79,
+      "win_prob": 0.4282,
+      "boundary_type": "four",
+      "is_wicket": false,
+      "batsman": "Bethell",
+      "bowler": "Arshdeep",
+      "score": 161,
+      "wickets": 4
+    },
+    {
+      "ball": 80,
+      "win_prob": 0.4283,
+      "boundary_type": null,
+      "is_wicket": false,
+      "batsman": "Bethell",
+      "bowler": "Arshdeep",
+      "score": 163,
+      "wickets": 4
+    },
+    {
+      "ball": 81,
+      "win_prob": 0.3685,
+      "boundary_type": null,
+      "is_wicket": false,
+      "batsman": "Bethell",
+      "bowler": "Arshdeep",
+      "score": 163,
+      "wickets": 4
+    },
+    {
+      "ball": 82,
+      "win_prob": 0.3678,
+      "boundary_type": null,
+      "is_wicket": false,
+      "batsman": "Bethell",
+      "bowler": "Arshdeep",
+      "score": 165,
+      "wickets": 4
+    },
+    {
+      "ball": 83,
+      "win_prob": 0.3378,
+      "boundary_type": null,
+      "is_wicket": false,
+      "batsman": "Bethell",
+      "bowler": "Arshdeep",
+      "score": 166,
+      "wickets": 4
+    },
+    {
+      "ball": 84,
+      "win_prob": 0.2656,
+      "boundary_type": null,
+      "is_wicket": true,
+      "batsman": "Jacks",
+      "bowler": "Arshdeep",
+      "score": 166,
+      "wickets": 5
+    },
+    {
+      "ball": 85,
+      "win_prob": 0.2641,
+      "boundary_type": null,
+      "is_wicket": false,
+      "batsman": "Bethell",
+      "bowler": "Varun",
+      "score": 168,
+      "wickets": 5
+    },
+    {
+      "ball": 86,
+      "win_prob": 0.3176,
+      "boundary_type": "four",
+      "is_wicket": false,
+      "batsman": "Bethell",
+      "bowler": "Varun",
+      "score": 172,
+      "wickets": 5
+    },
+    {
+      "ball": 87,
+      "win_prob": 0.2879,
+      "boundary_type": null,
+      "is_wicket": false,
+      "batsman": "Bethell",
+      "bowler": "Varun",
+      "score": 173,
+      "wickets": 5
+    },
+    {
+      "ball": 88,
+      "win_prob": 0.2333,
+      "boundary_type": null,
+      "is_wicket": false,
+      "batsman": "Sam Curran",
+      "bowler": "Varun",
+      "score": 173,
+      "wickets": 5
+    },
+    {
+      "ball": 89,
+      "win_prob": 0.2849,
+      "boundary_type": "four",
+      "is_wicket": false,
+      "batsman": "Sam Curran",
+      "bowler": "Varun",
+      "score": 177,
+      "wickets": 5
+    },
+    {
+      "ball": 90,
+      "win_prob": 0.2551,
+      "boundary_type": null,
+      "is_wicket": false,
+      "batsman": "Sam Curran",
+      "bowler": "Varun",
+      "score": 178,
+      "wickets": 5
+    },
+    {
+      "ball": 91,
+      "win_prob": 0.2266,
+      "boundary_type": null,
+      "is_wicket": false,
+      "batsman": "Sam Curran",
+      "bowler": "Bumrah",
+      "score": 179,
+      "wickets": 5
+    },
+    {
+      "ball": 92,
+      "win_prob": 0.1994,
+      "boundary_type": null,
+      "is_wicket": false,
+      "batsman": "Bethell",
+      "bowler": "Bumrah",
+      "score": 180,
+      "wickets": 5
+    },
+    {
+      "ball": 93,
+      "win_prob": 0.2485,
+      "boundary_type": "four",
+      "is_wicket": false,
+      "batsman": "Sam Curran",
+      "bowler": "Bumrah",
+      "score": 184,
+      "wickets": 5
+    },
+    {
+      "ball": 94,
+      "win_prob": 0.1935,
+      "boundary_type": null,
+      "is_wicket": false,
+      "batsman": "Sam Curran",
+      "bowler": "Bumrah",
+      "score": 184,
+      "wickets": 5
+    },
+    {
+      "ball": 95,
+      "win_prob": 0.1674,
+      "boundary_type": null,
+      "is_wicket": false,
+      "batsman": "Sam Curran",
+      "bowler": "Bumrah",
+      "score": 185,
+      "wickets": 5
+    },
+    {
+      "ball": 96,
+      "win_prob": 0.1432,
+      "boundary_type": null,
+      "is_wicket": false,
+      "batsman": "Bethell",
+      "bowler": "Bumrah",
+      "score": 186,
+      "wickets": 5
+    },
+    {
+      "ball": 97,
+      "win_prob": 0.1048,
+      "boundary_type": null,
+      "is_wicket": false,
+      "batsman": "Bethell",
+      "bowler": "Arshdeep",
+      "score": 186,
+      "wickets": 5
+    },
+    {
+      "ball": 98,
+      "win_prob": 0.0869,
+      "boundary_type": null,
+      "is_wicket": false,
+      "batsman": "Bethell",
+      "bowler": "Arshdeep",
+      "score": 187,
+      "wickets": 5
+    },
+    {
+      "ball": 99,
+      "win_prob": 0.0832,
+      "boundary_type": null,
+      "is_wicket": false,
+      "batsman": "Sam Curran",
+      "bowler": "Arshdeep",
+      "score": 189,
+      "wickets": 5
+    },
+    {
+      "ball": 100,
+      "win_prob": 0.0676,
+      "boundary_type": null,
+      "is_wicket": false,
+      "batsman": "Sam Curran",
+      "bowler": "Arshdeep",
+      "score": 190,
+      "wickets": 5
+    },
+    {
+      "ball": 101,
+      "win_prob": 0.1229,
+      "boundary_type": "six",
+      "is_wicket": false,
+      "batsman": "Bethell",
+      "bowler": "Arshdeep",
+      "score": 196,
+      "wickets": 5
+    },
+    {
+      "ball": 102,
+      "win_prob": 0.1623,
+      "boundary_type": "four",
+      "is_wicket": false,
+      "batsman": "Bethell",
+      "bowler": "Arshdeep",
+      "score": 200,
+      "wickets": 5
+    },
+    {
+      "ball": 103,
+      "win_prob": 0.1131,
+      "boundary_type": null,
+      "is_wicket": false,
+      "batsman": "Sam Curran",
+      "bowler": "Bumrah",
+      "score": 200,
+      "wickets": 5
+    },
+    {
+      "ball": 104,
+      "win_prob": 0.0904,
+      "boundary_type": null,
+      "is_wicket": false,
+      "batsman": "Sam Curran",
+      "bowler": "Bumrah",
+      "score": 201,
+      "wickets": 5
+    },
+    {
+      "ball": 105,
+      "win_prob": 0.0724,
+      "boundary_type": null,
+      "is_wicket": false,
+      "batsman": "Bethell",
+      "bowler": "Bumrah",
+      "score": 202,
+      "wickets": 5
+    },
+    {
+      "ball": 106,
+      "win_prob": 0.0731,
+      "boundary_type": null,
+      "is_wicket": false,
+      "batsman": "Sam Curran",
+      "bowler": "Bumrah",
+      "score": 204,
+      "wickets": 5
+    },
+    {
+      "ball": 107,
+      "win_prob": 0.0612,
+      "boundary_type": null,
+      "is_wicket": false,
+      "batsman": "Sam Curran",
+      "bowler": "Bumrah",
+      "score": 205,
+      "wickets": 5
+    },
+    {
+      "ball": 108,
+      "win_prob": 0.0512,
+      "boundary_type": null,
+      "is_wicket": false,
+      "batsman": "Bethell",
+      "bowler": "Bumrah",
+      "score": 206,
+      "wickets": 5
+    },
+    {
+      "ball": 109,
+      "win_prob": 0.1081,
+      "boundary_type": "six",
+      "is_wicket": false,
+      "batsman": "Bethell",
+      "bowler": "Hardik",
+      "score": 212,
+      "wickets": 5
+    },
+    {
+      "ball": 110,
+      "win_prob": 0.0911,
+      "boundary_type": null,
+      "is_wicket": false,
+      "batsman": "Bethell",
+      "bowler": "Hardik",
+      "score": 213,
+      "wickets": 5
+    },
+    {
+      "ball": 111,
+      "win_prob": 0.0618,
+      "boundary_type": null,
+      "is_wicket": true,
+      "batsman": "Sam Curran",
+      "bowler": "Hardik",
+      "score": 213,
+      "wickets": 6
+    },
+    {
+      "ball": 112,
+      "win_prob": 0.0518,
+      "boundary_type": null,
+      "is_wicket": false,
+      "batsman": "Overton",
+      "bowler": "Hardik",
+      "score": 214,
+      "wickets": 6
+    },
+    {
+      "ball": 113,
+      "win_prob": 0.0434,
+      "boundary_type": null,
+      "is_wicket": false,
+      "batsman": "Bethell",
+      "bowler": "Hardik",
+      "score": 215,
+      "wickets": 6
+    },
+    {
+      "ball": 114,
+      "win_prob": 0.0299,
+      "boundary_type": null,
+      "is_wicket": false,
+      "batsman": "Overton",
+      "bowler": "Hardik",
+      "score": 215,
+      "wickets": 6
+    },
+    {
+      "ball": 115,
+      "win_prob": 0.0245,
+      "boundary_type": null,
+      "is_wicket": true,
+      "batsman": "Bethell",
+      "bowler": "Dube",
+      "score": 216,
+      "wickets": 7
+    },
+    {
+      "ball": 116,
+      "win_prob": 0.0205,
+      "boundary_type": null,
+      "is_wicket": false,
+      "batsman": "Archer",
+      "bowler": "Dube",
+      "score": 217,
+      "wickets": 7
+    },
+    {
+      "ball": 117,
+      "win_prob": 0.02,
+      "boundary_type": null,
+      "is_wicket": false,
+      "batsman": "Overton",
+      "bowler": "Dube",
+      "score": 218,
+      "wickets": 7
+    },
+    {
+      "ball": 118,
+      "win_prob": 0.0379,
+      "boundary_type": "six",
+      "is_wicket": false,
+      "batsman": "Archer",
+      "bowler": "Dube",
+      "score": 224,
+      "wickets": 7
+    },
+    {
+      "ball": 119,
+      "win_prob": 0.0819,
+      "boundary_type": "six",
+      "is_wicket": false,
+      "batsman": "Archer",
+      "bowler": "Dube",
+      "score": 230,
+      "wickets": 7
+    },
+    {
+      "ball": 120,
+      "win_prob": 0.168,
+      "boundary_type": "six",
+      "is_wicket": false,
+      "batsman": "Archer",
+      "bowler": "Dube",
+      "score": 236,
+      "wickets": 7
+    }
+  ],
+  "inflexion_points": [
+    {
+      "over_ball": "6.5",
+      "wp_before": 0.256,
+      "wp_after": 0.516,
+      "delta": 0.261,
+      "ball": 41
+    },
+    {
+      "over_ball": "1.2",
+      "wp_before": 0.551,
+      "wp_after": 0.318,
+      "delta": -0.233,
+      "ball": 8
+    },
+    {
+      "over_ball": "1.3",
+      "wp_before": 0.515,
+      "wp_after": 0.301,
+      "delta": -0.214,
+      "ball": 9
+    }
+  ],
+  "volatility_index": {
+    "value": 0.91,
+    "interpretation": "One-sided \u2014 one team dominated throughout"
+  },
+  "burn_rate": {
+    "innings1": [
+      {
+        "over": 0,
+        "runs": 12,
+        "rr": 12,
+        "wickets_this_over": 0,
+        "wickets_remaining": 10,
+        "classification": "Attacking",
+        "wickets": 0
+      },
+      {
+        "over": 1,
+        "runs": 8,
+        "rr": 8,
+        "wickets_this_over": 1,
+        "wickets_remaining": 9,
+        "classification": "Efficient",
+        "wickets": 1
+      },
+      {
+        "over": 2,
+        "runs": 14,
+        "rr": 14,
+        "wickets_this_over": 0,
+        "wickets_remaining": 9,
+        "classification": "Attacking",
+        "wickets": 0
+      },
+      {
+        "over": 3,
+        "runs": 11,
+        "rr": 11,
+        "wickets_this_over": 0,
+        "wickets_remaining": 9,
+        "classification": "Attacking",
+        "wickets": 0
+      },
+      {
+        "over": 4,
+        "runs": 10,
+        "rr": 10,
+        "wickets_this_over": 0,
+        "wickets_remaining": 9,
+        "classification": "Efficient",
+        "wickets": 0
+      },
+      {
+        "over": 5,
+        "runs": 11,
+        "rr": 11,
+        "wickets_this_over": 0,
+        "wickets_remaining": 9,
+        "classification": "Attacking",
+        "wickets": 0
+      },
+      {
+        "over": 6,
+        "runs": 6,
+        "rr": 6,
+        "wickets_this_over": 0,
+        "wickets_remaining": 9,
+        "classification": "Conservative",
+        "wickets": 0
+      },
+      {
+        "over": 7,
+        "runs": 18,
+        "rr": 18,
+        "wickets_this_over": 0,
+        "wickets_remaining": 9,
+        "classification": "Attacking",
+        "wickets": 0
+      },
+      {
+        "over": 8,
+        "runs": 19,
+        "rr": 19,
+        "wickets_this_over": 0,
+        "wickets_remaining": 9,
+        "classification": "Attacking",
+        "wickets": 0
+      },
+      {
+        "over": 9,
+        "runs": 7,
+        "rr": 7,
+        "wickets_this_over": 1,
+        "wickets_remaining": 8,
+        "classification": "Efficient",
+        "wickets": 1
+      },
+      {
+        "over": 10,
+        "runs": 10,
+        "rr": 10,
+        "wickets_this_over": 0,
+        "wickets_remaining": 8,
+        "classification": "Efficient",
+        "wickets": 0
+      },
+      {
+        "over": 11,
+        "runs": 15,
+        "rr": 15,
+        "wickets_this_over": 0,
+        "wickets_remaining": 8,
+        "classification": "Attacking",
+        "wickets": 0
+      },
+      {
+        "over": 12,
+        "runs": 14,
+        "rr": 14,
+        "wickets_this_over": 0,
+        "wickets_remaining": 8,
+        "classification": "Attacking",
+        "wickets": 0
+      },
+      {
+        "over": 13,
+        "runs": 6,
+        "rr": 6,
+        "wickets_this_over": 1,
+        "wickets_remaining": 7,
+        "classification": "Efficient",
+        "wickets": 1
+      },
+      {
+        "over": 14,
+        "runs": 9,
+        "rr": 9,
+        "wickets_this_over": 0,
+        "wickets_remaining": 7,
+        "classification": "Efficient",
+        "wickets": 0
+      },
+      {
+        "over": 15,
+        "runs": 13,
+        "rr": 13,
+        "wickets_this_over": 1,
+        "wickets_remaining": 6,
+        "classification": "Attacking",
+        "wickets": 1
+      },
+      {
+        "over": 16,
+        "runs": 15,
+        "rr": 15,
+        "wickets_this_over": 0,
+        "wickets_remaining": 6,
+        "classification": "Attacking",
+        "wickets": 0
+      },
+      {
+        "over": 17,
+        "runs": 11,
+        "rr": 11,
+        "wickets_this_over": 1,
+        "wickets_remaining": 5,
+        "classification": "Attacking",
+        "wickets": 1
+      },
+      {
+        "over": 18,
+        "runs": 19,
+        "rr": 19,
+        "wickets_this_over": 1,
+        "wickets_remaining": 4,
+        "classification": "Attacking",
+        "wickets": 1
+      },
+      {
+        "over": 19,
+        "runs": 16,
+        "rr": 16,
+        "wickets_this_over": 1,
+        "wickets_remaining": 3,
+        "classification": "Attacking",
+        "wickets": 1
+      }
+    ],
+    "innings2": [
+      {
+        "over": 0,
+        "runs": 13,
+        "rr": 13,
+        "wickets_this_over": 0,
+        "wickets_remaining": 10,
+        "classification": "Attacking",
+        "wickets": 0
+      },
+      {
+        "over": 1,
+        "runs": 2,
+        "rr": 2,
+        "wickets_this_over": 1,
+        "wickets_remaining": 9,
+        "classification": "Efficient",
+        "wickets": 1
+      },
+      {
+        "over": 2,
+        "runs": 10,
+        "rr": 10,
+        "wickets_this_over": 0,
+        "wickets_remaining": 9,
+        "classification": "Efficient",
+        "wickets": 0
+      },
+      {
+        "over": 3,
+        "runs": 13,
+        "rr": 13,
+        "wickets_this_over": 0,
+        "wickets_remaining": 9,
+        "classification": "Attacking",
+        "wickets": 0
+      },
+      {
+        "over": 4,
+        "runs": 7,
+        "rr": 7,
+        "wickets_this_over": 1,
+        "wickets_remaining": 8,
+        "classification": "Efficient",
+        "wickets": 1
+      },
+      {
+        "over": 5,
+        "runs": 23,
+        "rr": 23,
+        "wickets_this_over": 1,
+        "wickets_remaining": 7,
+        "classification": "Attacking",
+        "wickets": 1
+      },
+      {
+        "over": 6,
+        "runs": 14,
+        "rr": 14,
+        "wickets_this_over": 0,
+        "wickets_remaining": 7,
+        "classification": "Attacking",
+        "wickets": 0
+      },
+      {
+        "over": 7,
+        "runs": 16,
+        "rr": 16,
+        "wickets_this_over": 1,
+        "wickets_remaining": 6,
+        "classification": "Attacking",
+        "wickets": 1
+      },
+      {
+        "over": 8,
+        "runs": 14,
+        "rr": 14,
+        "wickets_this_over": 0,
+        "wickets_remaining": 6,
+        "classification": "Attacking",
+        "wickets": 0
+      },
+      {
+        "over": 9,
+        "runs": 5,
+        "rr": 5,
+        "wickets_this_over": 0,
+        "wickets_remaining": 6,
+        "classification": "Conservative",
+        "wickets": 0
+      },
+      {
+        "over": 10,
+        "runs": 11,
+        "rr": 11,
+        "wickets_this_over": 0,
+        "wickets_remaining": 6,
+        "classification": "Attacking",
+        "wickets": 0
+      },
+      {
+        "over": 11,
+        "runs": 14,
+        "rr": 14,
+        "wickets_this_over": 0,
+        "wickets_remaining": 6,
+        "classification": "Attacking",
+        "wickets": 0
+      },
+      {
+        "over": 12,
+        "runs": 15,
+        "rr": 15,
+        "wickets_this_over": 0,
+        "wickets_remaining": 6,
+        "classification": "Attacking",
+        "wickets": 0
+      },
+      {
+        "over": 13,
+        "runs": 9,
+        "rr": 9,
+        "wickets_this_over": 1,
+        "wickets_remaining": 5,
+        "classification": "Efficient",
+        "wickets": 1
+      },
+      {
+        "over": 14,
+        "runs": 12,
+        "rr": 12,
+        "wickets_this_over": 0,
+        "wickets_remaining": 5,
+        "classification": "Attacking",
+        "wickets": 0
+      },
+      {
+        "over": 15,
+        "runs": 8,
+        "rr": 8,
+        "wickets_this_over": 0,
+        "wickets_remaining": 5,
+        "classification": "Efficient",
+        "wickets": 0
+      },
+      {
+        "over": 16,
+        "runs": 14,
+        "rr": 14,
+        "wickets_this_over": 0,
+        "wickets_remaining": 5,
+        "classification": "Attacking",
+        "wickets": 0
+      },
+      {
+        "over": 17,
+        "runs": 6,
+        "rr": 6,
+        "wickets_this_over": 0,
+        "wickets_remaining": 5,
+        "classification": "Conservative",
+        "wickets": 0
+      },
+      {
+        "over": 18,
+        "runs": 9,
+        "rr": 9,
+        "wickets_this_over": 1,
+        "wickets_remaining": 4,
+        "classification": "Efficient",
+        "wickets": 1
+      },
+      {
+        "over": 19,
+        "runs": 21,
+        "rr": 21,
+        "wickets_this_over": 1,
+        "wickets_remaining": 3,
+        "classification": "Attacking",
+        "wickets": 1
+      }
+    ]
+  },
+  "partnerships": {
+    "innings1": [
+      {
+        "batsman1": "Sanju Samson",
+        "batsman2": "Abhishek Sharma",
+        "runs": 20,
+        "balls": 12,
+        "sr": 166.67,
+        "start_over": 0,
+        "end_over": 1,
+        "load_bearing": false
+      },
+      {
+        "batsman1": "Sanju Samson",
+        "batsman2": "Ishan Kishan",
+        "runs": 94,
+        "balls": 45,
+        "sr": 208.89,
+        "start_over": 1,
+        "end_over": 9,
+        "load_bearing": true
+      },
+      {
+        "batsman1": "Sanju Samson",
+        "batsman2": "Shivam Dube",
+        "runs": 41,
+        "balls": 22,
+        "sr": 186.36,
+        "start_over": 9,
+        "end_over": 13,
+        "load_bearing": false
+      },
+      {
+        "batsman1": "Shivam Dube",
+        "batsman2": "Suryakumar Yadav\u00a0(c)",
+        "runs": 28,
+        "balls": 15,
+        "sr": 186.67,
+        "start_over": 13,
+        "end_over": 15,
+        "load_bearing": false
+      },
+      {
+        "batsman1": "Shivam Dube",
+        "batsman2": "Hardik Pandya",
+        "runs": 22,
+        "balls": 11,
+        "sr": 200.0,
+        "start_over": 15,
+        "end_over": 17,
+        "load_bearing": false
+      },
+      {
+        "batsman1": "Shivam Dube",
+        "batsman2": "Tilak Varma",
+        "runs": 22,
+        "balls": 8,
+        "sr": 275.0,
+        "start_over": 17,
+        "end_over": 18,
+        "load_bearing": false
+      },
+      {
+        "batsman1": "Shivam Dube",
+        "batsman2": "Axar Patel",
+        "runs": 15,
+        "balls": 6,
+        "sr": 250.0,
+        "start_over": 18,
+        "end_over": 19,
+        "load_bearing": false
+      }
+    ],
+    "innings2": [
+      {
+        "batsman1": "Phil Salt",
+        "batsman2": "Jos Buttler",
+        "runs": 13,
+        "balls": 7,
+        "sr": 185.71,
+        "start_over": 0,
+        "end_over": 1,
+        "load_bearing": false
+      },
+      {
+        "batsman1": "Jos Buttler",
+        "batsman2": "Harry Brook\u00a0(c)",
+        "runs": 25,
+        "balls": 18,
+        "sr": 138.89,
+        "start_over": 1,
+        "end_over": 4,
+        "load_bearing": false
+      },
+      {
+        "batsman1": "Jos Buttler",
+        "batsman2": "Jacob Bethell",
+        "runs": 26,
+        "balls": 10,
+        "sr": 260.0,
+        "start_over": 4,
+        "end_over": 5,
+        "load_bearing": false
+      },
+      {
+        "batsman1": "Jacob Bethell",
+        "batsman2": "Tom Banton",
+        "runs": 30,
+        "balls": 10,
+        "sr": 300.0,
+        "start_over": 5,
+        "end_over": 7,
+        "load_bearing": false
+      },
+      {
+        "batsman1": "Jacob Bethell",
+        "batsman2": "Will Jacks",
+        "runs": 72,
+        "balls": 39,
+        "sr": 184.62,
+        "start_over": 7,
+        "end_over": 13,
+        "load_bearing": true
+      },
+      {
+        "batsman1": "Jacob Bethell",
+        "batsman2": "Sam Curran",
+        "runs": 47,
+        "balls": 27,
+        "sr": 174.07,
+        "start_over": 13,
+        "end_over": 18,
+        "load_bearing": false
+      },
+      {
+        "batsman1": "Jacob Bethell",
+        "batsman2": "Jamie Overton",
+        "runs": 3,
+        "balls": 4,
+        "sr": 75.0,
+        "start_over": 18,
+        "end_over": 19,
+        "load_bearing": false
+      }
+    ]
+  },
+  "matchups": {
+    "innings1": [
+      {
+        "bowler": "Sam Curran",
+        "batsman": "Samson",
+        "balls_faced": 9,
+        "runs_scored": 22,
+        "matchup_sr": 244.44,
+        "overall_sr": 211.9,
+        "wickets": 0,
+        "boundaries": 4,
+        "effectiveness": "neutral"
+      },
+      {
+        "bowler": "Sam Curran",
+        "batsman": "Dube",
+        "balls_faced": 7,
+        "runs_scored": 15,
+        "matchup_sr": 214.29,
+        "overall_sr": 172.0,
+        "wickets": 0,
+        "boundaries": 2,
+        "effectiveness": "neutral"
+      }
+    ],
+    "innings2": [
+      {
+        "bowler": "Axar Patel",
+        "batsman": "Jacks",
+        "balls_faced": 11,
+        "runs_scored": 19,
+        "matchup_sr": 172.73,
+        "overall_sr": 175.0,
+        "wickets": 0,
+        "boundaries": 3,
+        "effectiveness": "neutral"
+      }
+    ]
+  },
+  "counterfactual_scenarios": [
+    {
+      "scenario_id": 1,
+      "title": "What if Bumrah's 17th over was average?",
+      "change": "Jasprit Bumrah's over 17 conceded 10 runs. If it had yielded average (8.25 economy = ~5 runs), India wins by 12 runs instead of 7.",
+      "original_outcome": "India won by 7 runs",
+      "lola_outcome": "India would have won by 12 runs",
+      "key_number": 5,
+      "original_win_prob": 0.98,
+      "counterfactual_win_prob": 0.995,
+      "narrative": "Bumrah's death bowling was clinical overall, but his 17th over against Jacob Bethell leaked runs. In this scenario, his economy stays at his tournament average. The psychological impact would have been immense \u2014 England's biggest dangerman would have faced a 246-run equation instead of 241, significantly compressing their margin for error in the final overs. This hypothetical emphasizes how India's bowlers held their nerve when it mattered most."
+    },
+    {
+      "scenario_id": 2,
+      "title": "What if Bethell faced Varun from over 8?",
+      "change": "Jacob Bethell scored 105(48) but struggled early against Varun Chakravarthy. If Bethell's SR vs Varun matched his overall SR, his matchup vs Varun yields 5 fewer runs.",
+      "original_outcome": "England fell 17 runs short",
+      "lola_outcome": "England still would have fallen 12 runs short",
+      "key_number": 5,
+      "original_win_prob": 0.38,
+      "counterfactual_win_prob": 0.25,
+      "narrative": "Bethell's brilliance was undeniable, but there were tactical moments where India's spinners had the measure of him. In this counterfactual, Bethell's conversion rate against Varun reflects his overall form instead of a brief power-play anomaly. Even with this adjustment, England's case remains dire \u2014 they'd still need miracles in the final overs. It highlights that singular batting partnerships, even elite ones, cannot salvage a chase unless the entire team contributes."
+    }
+  ],
+  "game_changers": [
+    {
+      "player": "Sanju Samson (IND)",
+      "role": "Batting",
+      "impact": "Player of Match. 89(42) with 8 fours, 7 sixes. His explosive batting provided the backbone India needed.",
+      "decisive_moment": "Overs 1-3"
+    },
+    {
+      "player": "Jacob Bethell (ENG)",
+      "role": "Batting",
+      "impact": "Valiant counter-attack: 105(48) with 8 fours, 7 sixes. Nearly took England home single-handedly.",
+      "decisive_moment": "Overs 5-15"
+    },
+    {
+      "player": "Jasprit Bumrah (IND)",
+      "role": "Bowling",
+      "impact": "4 overs, 1 wicket, 33 runs. Exceptional economy (8.25) and containment in death.",
+      "decisive_moment": "Final 5 overs"
+    }
+  ]
+}
