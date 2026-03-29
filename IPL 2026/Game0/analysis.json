@@ -1,0 +1,1644 @@
+{
+  "match_info": {
+    "team1": "India",
+    "team2": "England",
+    "venue": "Mumbai",
+    "date": "2026-03-04",
+    "toss_winner": "England",
+    "toss_decision": "field",
+    "result": "India won by 7 runs",
+    "winner": "India",
+    "margin": "7 runs",
+    "player_of_match": "Sanju Samson, IND",
+    "team1_impact_player_in": null,
+    "team1_impact_player_out": null,
+    "team1_impact_player_over": null,
+    "team2_impact_player_in": null,
+    "team2_impact_player_out": null,
+    "team2_impact_player_over": null
+  },
+  "timestamp": "2026-03-04",
+  "metrics": {
+    "phase_breakdown": {
+      "innings1": {
+        "powerplay": {
+          "Archer": {
+            "runs": 26,
+            "wickets": 0,
+            "dot_balls": 5,
+            "boundaries": 5,
+            "overs_bowled": "2.0",
+            "dot_pct": 41.66666666666667,
+            "boundary_pct": 41.66666666666667,
+            "run_rate": 13.0
+          },
+          "Jacks": {
+            "runs": 19,
+            "wickets": 1,
+            "dot_balls": 4,
+            "boundaries": 4,
+            "overs_bowled": "2.0",
+            "dot_pct": 33.33333333333333,
+            "boundary_pct": 33.33333333333333,
+            "run_rate": 9.5
+          },
+          "Overton": {
+            "runs": 10,
+            "wickets": 0,
+            "dot_balls": 2,
+            "boundaries": 2,
+            "overs_bowled": "1.0",
+            "dot_pct": 33.33333333333333,
+            "boundary_pct": 33.33333333333333,
+            "run_rate": 10.0
+          },
+          "Sam Curran": {
+            "runs": 11,
+            "wickets": 0,
+            "dot_balls": 1,
+            "boundaries": 2,
+            "overs_bowled": "1.0",
+            "dot_pct": 16.666666666666664,
+            "boundary_pct": 33.33333333333333,
+            "run_rate": 11.0
+          }
+        },
+        "middle": {
+          "Rashid": {
+            "runs": 28,
+            "wickets": 1,
+            "dot_balls": 5,
+            "boundaries": 4,
+            "overs_bowled": "3.0",
+            "dot_pct": 27.77777777777778,
+            "boundary_pct": 22.22222222222222,
+            "run_rate": 9.333333333333334
+          },
+          "Dawson": {
+            "runs": 18,
+            "wickets": 0,
+            "dot_balls": 0,
+            "boundaries": 2,
+            "overs_bowled": "1.0",
+            "dot_pct": 0.0,
+            "boundary_pct": 33.33333333333333,
+            "run_rate": 18.0
+          },
+          "Sam Curran": {
+            "runs": 28,
+            "wickets": 0,
+            "dot_balls": 1,
+            "boundaries": 4,
+            "overs_bowled": "2.0",
+            "dot_pct": 8.333333333333332,
+            "boundary_pct": 33.33333333333333,
+            "run_rate": 14.0
+          },
+          "Overton": {
+            "runs": 10,
+            "wickets": 0,
+            "dot_balls": 1,
+            "boundaries": 1,
+            "overs_bowled": "1.0",
+            "dot_pct": 16.666666666666664,
+            "boundary_pct": 16.666666666666664,
+            "run_rate": 10.0
+          },
+          "Archer": {
+            "runs": 14,
+            "wickets": 0,
+            "dot_balls": 2,
+            "boundaries": 2,
+            "overs_bowled": "1.0",
+            "dot_pct": 33.33333333333333,
+            "boundary_pct": 33.33333333333333,
+            "run_rate": 14.0
+          },
+          "Jacks": {
+            "runs": 6,
+            "wickets": 1,
+            "dot_balls": 0,
+            "boundaries": 0,
+            "overs_bowled": "1.0",
+            "dot_pct": 0.0,
+            "boundary_pct": 0.0,
+            "run_rate": 6.0
+          }
+        },
+        "death": {
+          "Rashid": {
+            "runs": 13,
+            "wickets": 1,
+            "dot_balls": 2,
+            "boundaries": 2,
+            "overs_bowled": "1.0",
+            "dot_pct": 33.33333333333333,
+            "boundary_pct": 33.33333333333333,
+            "run_rate": 13.0
+          },
+          "Overton": {
+            "runs": 15,
+            "wickets": 0,
+            "dot_balls": 0,
+            "boundaries": 3,
+            "overs_bowled": "1.0",
+            "dot_pct": 0.0,
+            "boundary_pct": 50.0,
+            "run_rate": 15.0
+          },
+          "Sam Curran": {
+            "runs": 11,
+            "wickets": 1,
+            "dot_balls": 0,
+            "boundaries": 1,
+            "overs_bowled": "1.0",
+            "dot_pct": 0.0,
+            "boundary_pct": 16.666666666666664,
+            "run_rate": 11.0
+          },
+          "Archer": {
+            "runs": 19,
+            "wickets": 1,
+            "dot_balls": 1,
+            "boundaries": 3,
+            "overs_bowled": "1.0",
+            "dot_pct": 16.666666666666664,
+            "boundary_pct": 50.0,
+            "run_rate": 19.0
+          },
+          "Jacks": {
+            "runs": 16,
+            "wickets": 1,
+            "dot_balls": 1,
+            "boundaries": 2,
+            "overs_bowled": "1.0",
+            "dot_pct": 16.666666666666664,
+            "boundary_pct": 33.33333333333333,
+            "run_rate": 16.0
+          }
+        }
+      },
+      "innings2": {
+        "powerplay": {
+          "Arshdeep": {
+            "runs": 23,
+            "wickets": 0,
+            "dot_balls": 5,
+            "boundaries": 5,
+            "overs_bowled": "2.0",
+            "dot_pct": 41.66666666666667,
+            "boundary_pct": 41.66666666666667,
+            "run_rate": 11.5
+          },
+          "Hardik": {
+            "runs": 15,
+            "wickets": 1,
+            "dot_balls": 4,
+            "boundaries": 2,
+            "overs_bowled": "2.0",
+            "dot_pct": 33.33333333333333,
+            "boundary_pct": 16.666666666666664,
+            "run_rate": 7.5
+          },
+          "Bumrah": {
+            "runs": 7,
+            "wickets": 1,
+            "dot_balls": 3,
+            "boundaries": 1,
+            "overs_bowled": "1.0",
+            "dot_pct": 50.0,
+            "boundary_pct": 16.666666666666664,
+            "run_rate": 7.0
+          },
+          "Varun": {
+            "runs": 23,
+            "wickets": 1,
+            "dot_balls": 0,
+            "boundaries": 4,
+            "overs_bowled": "1.0",
+            "dot_pct": 0.0,
+            "boundary_pct": 66.66666666666666,
+            "run_rate": 23.0
+          }
+        },
+        "middle": {
+          "Hardik": {
+            "runs": 14,
+            "wickets": 0,
+            "dot_balls": 1,
+            "boundaries": 2,
+            "overs_bowled": "1.0",
+            "dot_pct": 16.666666666666664,
+            "boundary_pct": 33.33333333333333,
+            "run_rate": 14.0
+          },
+          "Axar Patel": {
+            "runs": 36,
+            "wickets": 1,
+            "dot_balls": 4,
+            "boundaries": 5,
+            "overs_bowled": "3.0",
+            "dot_pct": 22.22222222222222,
+            "boundary_pct": 27.77777777777778,
+            "run_rate": 12.0
+          },
+          "Varun": {
+            "runs": 40,
+            "wickets": 0,
+            "dot_balls": 2,
+            "boundaries": 7,
+            "overs_bowled": "3.0",
+            "dot_pct": 11.11111111111111,
+            "boundary_pct": 38.88888888888889,
+            "run_rate": 13.333333333333334
+          },
+          "Bumrah": {
+            "runs": 11,
+            "wickets": 0,
+            "dot_balls": 2,
+            "boundaries": 2,
+            "overs_bowled": "1.0",
+            "dot_pct": 33.33333333333333,
+            "boundary_pct": 33.33333333333333,
+            "run_rate": 11.0
+          },
+          "Arshdeep": {
+            "runs": 9,
+            "wickets": 1,
+            "dot_balls": 1,
+            "boundaries": 1,
+            "overs_bowled": "1.0",
+            "dot_pct": 16.666666666666664,
+            "boundary_pct": 16.666666666666664,
+            "run_rate": 9.0
+          }
+        },
+        "death": {
+          "Bumrah": {
+            "runs": 14,
+            "wickets": 0,
+            "dot_balls": 2,
+            "boundaries": 1,
+            "overs_bowled": "2.0",
+            "dot_pct": 16.666666666666664,
+            "boundary_pct": 8.333333333333332,
+            "run_rate": 7.0
+          },
+          "Arshdeep": {
+            "runs": 14,
+            "wickets": 0,
+            "dot_balls": 1,
+            "boundaries": 2,
+            "overs_bowled": "1.0",
+            "dot_pct": 16.666666666666664,
+            "boundary_pct": 33.33333333333333,
+            "run_rate": 14.0
+          },
+          "Hardik": {
+            "runs": 9,
+            "wickets": 1,
+            "dot_balls": 1,
+            "boundaries": 1,
+            "overs_bowled": "1.0",
+            "dot_pct": 16.666666666666664,
+            "boundary_pct": 16.666666666666664,
+            "run_rate": 9.0
+          },
+          "Dube": {
+            "runs": 21,
+            "wickets": 1,
+            "dot_balls": 0,
+            "boundaries": 3,
+            "overs_bowled": "1.0",
+            "dot_pct": 0.0,
+            "boundary_pct": 50.0,
+            "run_rate": 21.0
+          }
+        }
+      }
+    },
+    "batter_bowler_matchups": {
+      "innings1": [
+        {
+          "bowler": "Rashid",
+          "batsman": "Samson",
+          "balls_faced": 9,
+          "runs_scored": 8,
+          "dismissals": 0,
+          "matchup_sr": 88.89,
+          "overall_sr": 211.9,
+          "flag": "ineffective"
+        },
+        {
+          "bowler": "Rashid",
+          "batsman": "Dube",
+          "balls_faced": 8,
+          "runs_scored": 22,
+          "dismissals": 0,
+          "matchup_sr": 275.0,
+          "overall_sr": 176.0,
+          "flag": "effective"
+        },
+        {
+          "bowler": "Archer",
+          "batsman": "Samson",
+          "balls_faced": 14,
+          "runs_scored": 38,
+          "dismissals": 0,
+          "matchup_sr": 271.43,
+          "overall_sr": 211.9,
+          "flag": "neutral"
+        }
+      ],
+      "innings2": [
+        {
+          "bowler": "Varun",
+          "batsman": "Bethell",
+          "balls_faced": 13,
+          "runs_scored": 41,
+          "dismissals": 0,
+          "matchup_sr": 315.38,
+          "overall_sr": 218.75,
+          "flag": "effective"
+        },
+        {
+          "bowler": "Bumrah",
+          "batsman": "Bethell",
+          "balls_faced": 13,
+          "runs_scored": 17,
+          "dismissals": 0,
+          "matchup_sr": 130.77,
+          "overall_sr": 218.75,
+          "flag": "ineffective"
+        },
+        {
+          "bowler": "Hardik",
+          "batsman": "Bethell",
+          "balls_faced": 8,
+          "runs_scored": 21,
+          "dismissals": 0,
+          "matchup_sr": 262.5,
+          "overall_sr": 218.75,
+          "flag": "neutral"
+        }
+      ]
+    },
+    "win_probability": [
+      {
+        "ball_number": 1,
+        "over": 0,
+        "ball": 1,
+        "current_score": 4,
+        "runs_needed": 240,
+        "win_probability": 0.5327
+      },
+      {
+        "ball_number": 2,
+        "over": 0,
+        "ball": 2,
+        "current_score": 5,
+        "runs_needed": 239,
+        "win_probability": 0.5156
+      },
+      {
+        "ball_number": 3,
+        "over": 0,
+        "ball": 3,
+        "current_score": 9,
+        "runs_needed": 235,
+        "win_probability": 0.5482
+      },
+      {
+        "ball_number": 4,
+        "over": 0,
+        "ball": 4,
+        "current_score": 9,
+        "runs_needed": 235,
+        "win_probability": 0.5144
+      },
+      {
+        "ball_number": 5,
+        "over": 0,
+        "ball": 5,
+        "current_score": 13,
+        "runs_needed": 231,
+        "win_probability": 0.5471
+      },
+      {
+        "ball_number": 6,
+        "over": 0,
+        "ball": 6,
+        "current_score": 13,
+        "runs_needed": 231,
+        "win_probability": 0.5133
+      },
+      {
+        "ball_number": 7,
+        "over": 1,
+        "ball": 1,
+        "current_score": 13,
+        "runs_needed": 231,
+        "win_probability": 0.4795
+      },
+      {
+        "ball_number": 8,
+        "over": 1,
+        "ball": 2,
+        "current_score": 14,
+        "runs_needed": 230,
+        "win_probability": 0.4623
+      },
+      {
+        "ball_number": 9,
+        "over": 1,
+        "ball": 3,
+        "current_score": 14,
+        "runs_needed": 230,
+        "win_probability": 0.4288
+      },
+      {
+        "ball_number": 10,
+        "over": 1,
+        "ball": 4,
+        "current_score": 14,
+        "runs_needed": 230,
+        "win_probability": 0.396
+      },
+      {
+        "ball_number": 11,
+        "over": 1,
+        "ball": 5,
+        "current_score": 14,
+        "runs_needed": 230,
+        "win_probability": 0.3641
+      },
+      {
+        "ball_number": 12,
+        "over": 1,
+        "ball": 6,
+        "current_score": 15,
+        "runs_needed": 229,
+        "win_probability": 0.3483
+      },
+      {
+        "ball_number": 13,
+        "over": 2,
+        "ball": 1,
+        "current_score": 15,
+        "runs_needed": 229,
+        "win_probability": 0.3182
+      },
+      {
+        "ball_number": 14,
+        "over": 2,
+        "ball": 2,
+        "current_score": 19,
+        "runs_needed": 225,
+        "win_probability": 0.3473
+      },
+      {
+        "ball_number": 15,
+        "over": 2,
+        "ball": 3,
+        "current_score": 19,
+        "runs_needed": 225,
+        "win_probability": 0.3172
+      },
+      {
+        "ball_number": 16,
+        "over": 2,
+        "ball": 4,
+        "current_score": 19,
+        "runs_needed": 225,
+        "win_probability": 0.2886
+      },
+      {
+        "ball_number": 17,
+        "over": 2,
+        "ball": 5,
+        "current_score": 21,
+        "runs_needed": 223,
+        "win_probability": 0.2881
+      },
+      {
+        "ball_number": 18,
+        "over": 2,
+        "ball": 6,
+        "current_score": 25,
+        "runs_needed": 219,
+        "win_probability": 0.3158
+      },
+      {
+        "ball_number": 19,
+        "over": 3,
+        "ball": 1,
+        "current_score": 26,
+        "runs_needed": 218,
+        "win_probability": 0.3011
+      },
+      {
+        "ball_number": 20,
+        "over": 3,
+        "ball": 2,
+        "current_score": 27,
+        "runs_needed": 217,
+        "win_probability": 0.2868
+      }
+    ],
+    "pressure_index": {
+      "innings1": [
+        {
+          "over": 0,
+          "runs": 12,
+          "wickets": 0,
+          "dots": 2,
+          "dot_pct": 33.33,
+          "run_rate": 12.0,
+          "pressure_score": 13.45
+        },
+        {
+          "over": 1,
+          "runs": 8,
+          "wickets": 1,
+          "dots": 3,
+          "dot_pct": 50.0,
+          "run_rate": 8.0,
+          "pressure_score": 20.3
+        },
+        {
+          "over": 2,
+          "runs": 14,
+          "wickets": 0,
+          "dots": 3,
+          "dot_pct": 50.0,
+          "run_rate": 14.0,
+          "pressure_score": 20.18
+        },
+        {
+          "over": 3,
+          "runs": 11,
+          "wickets": 0,
+          "dots": 1,
+          "dot_pct": 16.67,
+          "run_rate": 11.0,
+          "pressure_score": 6.76
+        },
+        {
+          "over": 4,
+          "runs": 10,
+          "wickets": 0,
+          "dots": 2,
+          "dot_pct": 33.33,
+          "run_rate": 10.0,
+          "pressure_score": 13.39
+        },
+        {
+          "over": 5,
+          "runs": 11,
+          "wickets": 0,
+          "dots": 1,
+          "dot_pct": 16.67,
+          "run_rate": 11.0,
+          "pressure_score": 6.76
+        },
+        {
+          "over": 6,
+          "runs": 6,
+          "wickets": 0,
+          "dots": 3,
+          "dot_pct": 50.0,
+          "run_rate": 6.0,
+          "pressure_score": 20.06
+        },
+        {
+          "over": 7,
+          "runs": 18,
+          "wickets": 0,
+          "dots": 0,
+          "dot_pct": 0.0,
+          "run_rate": 18.0,
+          "pressure_score": 0.3
+        },
+        {
+          "over": 8,
+          "runs": 19,
+          "wickets": 0,
+          "dots": 0,
+          "dot_pct": 0.0,
+          "run_rate": 19.0,
+          "pressure_score": 0.33
+        },
+        {
+          "over": 9,
+          "runs": 7,
+          "wickets": 1,
+          "dots": 1,
+          "dot_pct": 16.67,
+          "run_rate": 7.0,
+          "pressure_score": 7.0
+        },
+        {
+          "over": 10,
+          "runs": 10,
+          "wickets": 0,
+          "dots": 1,
+          "dot_pct": 16.67,
+          "run_rate": 10.0,
+          "pressure_score": 6.73
+        },
+        {
+          "over": 11,
+          "runs": 15,
+          "wickets": 0,
+          "dots": 1,
+          "dot_pct": 16.67,
+          "run_rate": 15.0,
+          "pressure_score": 6.88
+        },
+        {
+          "over": 12,
+          "runs": 14,
+          "wickets": 0,
+          "dots": 2,
+          "dot_pct": 33.33,
+          "run_rate": 14.0,
+          "pressure_score": 13.51
+        },
+        {
+          "over": 13,
+          "runs": 6,
+          "wickets": 1,
+          "dots": 0,
+          "dot_pct": 0.0,
+          "run_rate": 6.0,
+          "pressure_score": 0.36
+        },
+        {
+          "over": 14,
+          "runs": 9,
+          "wickets": 0,
+          "dots": 1,
+          "dot_pct": 16.67,
+          "run_rate": 9.0,
+          "pressure_score": 6.7
+        },
+        {
+          "over": 15,
+          "runs": 13,
+          "wickets": 1,
+          "dots": 2,
+          "dot_pct": 33.33,
+          "run_rate": 13.0,
+          "pressure_score": 13.78
+        },
+        {
+          "over": 16,
+          "runs": 15,
+          "wickets": 0,
+          "dots": 0,
+          "dot_pct": 0.0,
+          "run_rate": 15.0,
+          "pressure_score": 0.21
+        },
+        {
+          "over": 17,
+          "runs": 11,
+          "wickets": 1,
+          "dots": 0,
+          "dot_pct": 0.0,
+          "run_rate": 11.0,
+          "pressure_score": 0.39
+        },
+        {
+          "over": 18,
+          "runs": 19,
+          "wickets": 1,
+          "dots": 1,
+          "dot_pct": 16.67,
+          "run_rate": 19.0,
+          "pressure_score": 7.3
+        },
+        {
+          "over": 19,
+          "runs": 16,
+          "wickets": 1,
+          "dots": 1,
+          "dot_pct": 16.67,
+          "run_rate": 16.0,
+          "pressure_score": 7.21
+        }
+      ],
+      "innings2": [
+        {
+          "over": 0,
+          "runs": 13,
+          "wickets": 0,
+          "dots": 2,
+          "dot_pct": 33.33,
+          "run_rate": 13.0,
+          "pressure_score": 13.34
+        },
+        {
+          "over": 1,
+          "runs": 2,
+          "wickets": 1,
+          "dots": 3,
+          "dot_pct": 50.0,
+          "run_rate": 2.0,
+          "pressure_score": 20.62
+        },
+        {
+          "over": 2,
+          "runs": 10,
+          "wickets": 0,
+          "dots": 3,
+          "dot_pct": 50.0,
+          "run_rate": 10.0,
+          "pressure_score": 20.08
+        },
+        {
+          "over": 3,
+          "runs": 13,
+          "wickets": 0,
+          "dots": 1,
+          "dot_pct": 16.67,
+          "run_rate": 13.0,
+          "pressure_score": 6.68
+        },
+        {
+          "over": 4,
+          "runs": 7,
+          "wickets": 1,
+          "dots": 3,
+          "dot_pct": 50.0,
+          "run_rate": 7.0,
+          "pressure_score": 20.47
+        },
+        {
+          "over": 5,
+          "runs": 23,
+          "wickets": 1,
+          "dots": 0,
+          "dot_pct": 0.0,
+          "run_rate": 23.0,
+          "pressure_score": 0.61
+        },
+        {
+          "over": 6,
+          "runs": 14,
+          "wickets": 0,
+          "dots": 1,
+          "dot_pct": 16.67,
+          "run_rate": 14.0,
+          "pressure_score": 6.71
+        },
+        {
+          "over": 7,
+          "runs": 16,
+          "wickets": 1,
+          "dots": 2,
+          "dot_pct": 33.33,
+          "run_rate": 16.0,
+          "pressure_score": 13.73
+        },
+        {
+          "over": 8,
+          "runs": 14,
+          "wickets": 0,
+          "dots": 1,
+          "dot_pct": 16.67,
+          "run_rate": 14.0,
+          "pressure_score": 6.71
+        },
+        {
+          "over": 9,
+          "runs": 5,
+          "wickets": 0,
+          "dots": 2,
+          "dot_pct": 33.33,
+          "run_rate": 5.0,
+          "pressure_score": 13.56
+        },
+        {
+          "over": 10,
+          "runs": 11,
+          "wickets": 0,
+          "dots": 2,
+          "dot_pct": 33.33,
+          "run_rate": 11.0,
+          "pressure_score": 13.38
+        },
+        {
+          "over": 11,
+          "runs": 14,
+          "wickets": 0,
+          "dots": 0,
+          "dot_pct": 0.0,
+          "run_rate": 14.0,
+          "pressure_score": 0.04
+        },
+        {
+          "over": 12,
+          "runs": 15,
+          "wickets": 0,
+          "dots": 0,
+          "dot_pct": 0.0,
+          "run_rate": 15.0,
+          "pressure_score": 0.07
+        },
+        {
+          "over": 13,
+          "runs": 9,
+          "wickets": 1,
+          "dots": 1,
+          "dot_pct": 16.67,
+          "run_rate": 9.0,
+          "pressure_score": 7.08
+        },
+        {
+          "over": 14,
+          "runs": 12,
+          "wickets": 0,
+          "dots": 1,
+          "dot_pct": 16.67,
+          "run_rate": 12.0,
+          "pressure_score": 6.69
+        },
+        {
+          "over": 15,
+          "runs": 8,
+          "wickets": 0,
+          "dots": 1,
+          "dot_pct": 16.67,
+          "run_rate": 8.0,
+          "pressure_score": 6.81
+        },
+        {
+          "over": 16,
+          "runs": 14,
+          "wickets": 0,
+          "dots": 1,
+          "dot_pct": 16.67,
+          "run_rate": 14.0,
+          "pressure_score": 6.71
+        },
+        {
+          "over": 17,
+          "runs": 6,
+          "wickets": 0,
+          "dots": 1,
+          "dot_pct": 16.67,
+          "run_rate": 6.0,
+          "pressure_score": 6.87
+        },
+        {
+          "over": 18,
+          "runs": 9,
+          "wickets": 1,
+          "dots": 1,
+          "dot_pct": 16.67,
+          "run_rate": 9.0,
+          "pressure_score": 7.08
+        },
+        {
+          "over": 19,
+          "runs": 21,
+          "wickets": 1,
+          "dots": 0,
+          "dot_pct": 0.0,
+          "run_rate": 21.0,
+          "pressure_score": 0.55
+        }
+      ]
+    },
+    "burn_rate": {
+      "innings1": [
+        {
+          "over": 0,
+          "runs": 12,
+          "wickets": 0,
+          "run_rate": 12.0,
+          "classification": "Attacking",
+          "wickets_remaining": 10
+        },
+        {
+          "over": 1,
+          "runs": 8,
+          "wickets": 1,
+          "run_rate": 8.0,
+          "classification": "Efficient",
+          "wickets_remaining": 10
+        },
+        {
+          "over": 2,
+          "runs": 14,
+          "wickets": 0,
+          "run_rate": 14.0,
+          "classification": "Attacking",
+          "wickets_remaining": 9
+        },
+        {
+          "over": 3,
+          "runs": 11,
+          "wickets": 0,
+          "run_rate": 11.0,
+          "classification": "Attacking",
+          "wickets_remaining": 9
+        },
+        {
+          "over": 4,
+          "runs": 10,
+          "wickets": 0,
+          "run_rate": 10.0,
+          "classification": "Efficient",
+          "wickets_remaining": 9
+        },
+        {
+          "over": 5,
+          "runs": 11,
+          "wickets": 0,
+          "run_rate": 11.0,
+          "classification": "Attacking",
+          "wickets_remaining": 9
+        },
+        {
+          "over": 6,
+          "runs": 6,
+          "wickets": 0,
+          "run_rate": 6.0,
+          "classification": "Conservative",
+          "wickets_remaining": 9
+        },
+        {
+          "over": 7,
+          "runs": 18,
+          "wickets": 0,
+          "run_rate": 18.0,
+          "classification": "Attacking",
+          "wickets_remaining": 9
+        },
+        {
+          "over": 8,
+          "runs": 19,
+          "wickets": 0,
+          "run_rate": 19.0,
+          "classification": "Attacking",
+          "wickets_remaining": 9
+        },
+        {
+          "over": 9,
+          "runs": 7,
+          "wickets": 1,
+          "run_rate": 7.0,
+          "classification": "Efficient",
+          "wickets_remaining": 9
+        },
+        {
+          "over": 10,
+          "runs": 10,
+          "wickets": 0,
+          "run_rate": 10.0,
+          "classification": "Efficient",
+          "wickets_remaining": 8
+        },
+        {
+          "over": 11,
+          "runs": 15,
+          "wickets": 0,
+          "run_rate": 15.0,
+          "classification": "Attacking",
+          "wickets_remaining": 8
+        },
+        {
+          "over": 12,
+          "runs": 14,
+          "wickets": 0,
+          "run_rate": 14.0,
+          "classification": "Attacking",
+          "wickets_remaining": 8
+        },
+        {
+          "over": 13,
+          "runs": 6,
+          "wickets": 1,
+          "run_rate": 6.0,
+          "classification": "Efficient",
+          "wickets_remaining": 7
+        },
+        {
+          "over": 14,
+          "runs": 9,
+          "wickets": 0,
+          "run_rate": 9.0,
+          "classification": "Efficient",
+          "wickets_remaining": 7
+        },
+        {
+          "over": 15,
+          "runs": 13,
+          "wickets": 1,
+          "run_rate": 13.0,
+          "classification": "Attacking",
+          "wickets_remaining": 7
+        },
+        {
+          "over": 16,
+          "runs": 15,
+          "wickets": 0,
+          "run_rate": 15.0,
+          "classification": "Attacking",
+          "wickets_remaining": 6
+        },
+        {
+          "over": 17,
+          "runs": 11,
+          "wickets": 1,
+          "run_rate": 11.0,
+          "classification": "Attacking",
+          "wickets_remaining": 6
+        },
+        {
+          "over": 18,
+          "runs": 19,
+          "wickets": 1,
+          "run_rate": 19.0,
+          "classification": "Attacking",
+          "wickets_remaining": 5
+        },
+        {
+          "over": 19,
+          "runs": 16,
+          "wickets": 1,
+          "run_rate": 16.0,
+          "classification": "Attacking",
+          "wickets_remaining": 4
+        }
+      ],
+      "innings2": [
+        {
+          "over": 0,
+          "runs": 13,
+          "wickets": 0,
+          "run_rate": 13.0,
+          "classification": "Attacking",
+          "wickets_remaining": 10
+        },
+        {
+          "over": 1,
+          "runs": 2,
+          "wickets": 1,
+          "run_rate": 2.0,
+          "classification": "Efficient",
+          "wickets_remaining": 9
+        },
+        {
+          "over": 2,
+          "runs": 10,
+          "wickets": 0,
+          "run_rate": 10.0,
+          "classification": "Efficient",
+          "wickets_remaining": 9
+        },
+        {
+          "over": 3,
+          "runs": 13,
+          "wickets": 0,
+          "run_rate": 13.0,
+          "classification": "Attacking",
+          "wickets_remaining": 9
+        },
+        {
+          "over": 4,
+          "runs": 7,
+          "wickets": 1,
+          "run_rate": 7.0,
+          "classification": "Efficient",
+          "wickets_remaining": 8
+        },
+        {
+          "over": 5,
+          "runs": 23,
+          "wickets": 1,
+          "run_rate": 23.0,
+          "classification": "Attacking",
+          "wickets_remaining": 8
+        },
+        {
+          "over": 6,
+          "runs": 14,
+          "wickets": 0,
+          "run_rate": 14.0,
+          "classification": "Attacking",
+          "wickets_remaining": 7
+        },
+        {
+          "over": 7,
+          "runs": 16,
+          "wickets": 1,
+          "run_rate": 16.0,
+          "classification": "Attacking",
+          "wickets_remaining": 7
+        },
+        {
+          "over": 8,
+          "runs": 14,
+          "wickets": 0,
+          "run_rate": 14.0,
+          "classification": "Attacking",
+          "wickets_remaining": 6
+        },
+        {
+          "over": 9,
+          "runs": 5,
+          "wickets": 0,
+          "run_rate": 5.0,
+          "classification": "Conservative",
+          "wickets_remaining": 6
+        },
+        {
+          "over": 10,
+          "runs": 11,
+          "wickets": 0,
+          "run_rate": 11.0,
+          "classification": "Attacking",
+          "wickets_remaining": 6
+        },
+        {
+          "over": 11,
+          "runs": 14,
+          "wickets": 0,
+          "run_rate": 14.0,
+          "classification": "Attacking",
+          "wickets_remaining": 6
+        },
+        {
+          "over": 12,
+          "runs": 15,
+          "wickets": 0,
+          "run_rate": 15.0,
+          "classification": "Attacking",
+          "wickets_remaining": 6
+        },
+        {
+          "over": 13,
+          "runs": 9,
+          "wickets": 1,
+          "run_rate": 9.0,
+          "classification": "Efficient",
+          "wickets_remaining": 6
+        },
+        {
+          "over": 14,
+          "runs": 12,
+          "wickets": 0,
+          "run_rate": 12.0,
+          "classification": "Attacking",
+          "wickets_remaining": 5
+        },
+        {
+          "over": 15,
+          "runs": 8,
+          "wickets": 0,
+          "run_rate": 8.0,
+          "classification": "Efficient",
+          "wickets_remaining": 5
+        },
+        {
+          "over": 16,
+          "runs": 14,
+          "wickets": 0,
+          "run_rate": 14.0,
+          "classification": "Attacking",
+          "wickets_remaining": 5
+        },
+        {
+          "over": 17,
+          "runs": 6,
+          "wickets": 0,
+          "run_rate": 6.0,
+          "classification": "Conservative",
+          "wickets_remaining": 5
+        },
+        {
+          "over": 18,
+          "runs": 9,
+          "wickets": 1,
+          "run_rate": 9.0,
+          "classification": "Efficient",
+          "wickets_remaining": 5
+        },
+        {
+          "over": 19,
+          "runs": 21,
+          "wickets": 1,
+          "run_rate": 21.0,
+          "classification": "Attacking",
+          "wickets_remaining": 3
+        }
+      ]
+    },
+    "partnerships": {
+      "innings1": [
+        {
+          "batsman": "Tilak Varma",
+          "partner": "",
+          "runs": 21,
+          "balls": 6,
+          "strike_rate": 350.0,
+          "start_ball": 106,
+          "end_ball": 112,
+          "load_bearing": false
+        },
+        {
+          "batsman": "Samson",
+          "partner": "",
+          "runs": 14,
+          "balls": 6,
+          "strike_rate": 233.33,
+          "start_ball": 12,
+          "end_ball": 18,
+          "load_bearing": false
+        },
+        {
+          "batsman": "Samson",
+          "partner": "",
+          "runs": 13,
+          "balls": 3,
+          "strike_rate": 433.33,
+          "start_ball": 75,
+          "end_ball": 78,
+          "load_bearing": false
+        },
+        {
+          "batsman": "Samson",
+          "partner": "",
+          "runs": 12,
+          "balls": 4,
+          "strike_rate": 300.0,
+          "start_ball": 51,
+          "end_ball": 55,
+          "load_bearing": false
+        },
+        {
+          "batsman": "Dube",
+          "partner": "",
+          "runs": 12,
+          "balls": 5,
+          "strike_rate": 240.0,
+          "start_ball": 87,
+          "end_ball": 92,
+          "load_bearing": false
+        },
+        {
+          "batsman": "Hardik",
+          "partner": "",
+          "runs": 12,
+          "balls": 3,
+          "strike_rate": 400.0,
+          "start_ball": 115,
+          "end_ball": 118,
+          "load_bearing": false
+        },
+        {
+          "batsman": "Samson",
+          "partner": "",
+          "runs": 11,
+          "balls": 5,
+          "strike_rate": 220.0,
+          "start_ball": 0,
+          "end_ball": 5,
+          "load_bearing": false
+        },
+        {
+          "batsman": "Abhishek",
+          "partner": "",
+          "runs": 9,
+          "balls": 6,
+          "strike_rate": 150.0,
+          "start_ball": 5,
+          "end_ball": 11,
+          "load_bearing": false
+        },
+        {
+          "batsman": "Samson",
+          "partner": "",
+          "runs": 9,
+          "balls": 4,
+          "strike_rate": 225.0,
+          "start_ball": 30,
+          "end_ball": 34,
+          "load_bearing": false
+        },
+        {
+          "batsman": "Ishan",
+          "partner": "",
+          "runs": 8,
+          "balls": 4,
+          "strike_rate": 200.0,
+          "start_ball": 26,
+          "end_ball": 30,
+          "load_bearing": false
+        }
+      ],
+      "innings2": [
+        {
+          "batsman": "Bethell",
+          "partner": "",
+          "runs": 26,
+          "balls": 9,
+          "strike_rate": 288.89,
+          "start_ball": 25,
+          "end_ball": 34,
+          "load_bearing": false
+        },
+        {
+          "batsman": "Archer",
+          "partner": "",
+          "runs": 18,
+          "balls": 3,
+          "strike_rate": 600.0,
+          "load_bearing": false
+        },
+        {
+          "batsman": "Bethell",
+          "partner": "",
+          "runs": 12,
+          "balls": 3,
+          "strike_rate": 400.0,
+          "start_ball": 39,
+          "end_ball": 42,
+          "load_bearing": false
+        },
+        {
+          "batsman": "Banton",
+          "partner": "",
+          "runs": 12,
+          "balls": 2,
+          "strike_rate": 600.0,
+          "start_ball": 42,
+          "end_ball": 44,
+          "load_bearing": false
+        },
+        {
+          "batsman": "Bethell",
+          "partner": "",
+          "runs": 12,
+          "balls": 7,
+          "strike_rate": 171.43,
+          "start_ball": 76,
+          "end_ball": 83,
+          "load_bearing": false
+        },
+        {
+          "batsman": "Buttler",
+          "partner": "",
+          "runs": 11,
+          "balls": 10,
+          "strike_rate": 110.0,
+          "start_ball": 8,
+          "end_ball": 18,
+          "load_bearing": false
+        },
+        {
+          "batsman": "Jacks",
+          "partner": "",
+          "runs": 11,
+          "balls": 3,
+          "strike_rate": 366.67,
+          "start_ball": 73,
+          "end_ball": 76,
+          "load_bearing": false
+        },
+        {
+          "batsman": "Bethell",
+          "partner": "",
+          "runs": 10,
+          "balls": 2,
+          "strike_rate": 500.0,
+          "start_ball": 100,
+          "end_ball": 102,
+          "load_bearing": false
+        },
+        {
+          "batsman": "Bethell",
+          "partner": "",
+          "runs": 9,
+          "balls": 3,
+          "strike_rate": 300.0,
+          "start_ball": 48,
+          "end_ball": 51,
+          "load_bearing": false
+        },
+        {
+          "batsman": "Buttler",
+          "partner": "",
+          "runs": 8,
+          "balls": 4,
+          "strike_rate": 200.0,
+          "start_ball": 2,
+          "end_ball": 6,
+          "load_bearing": false
+        }
+      ]
+    },
+    "turning_points": [
+      {
+        "type": "pressure_swing",
+        "over": 5,
+        "magnitude": -19.86,
+        "pressure_before": 20.47,
+        "pressure_after": 0.61
+      },
+      {
+        "type": "pressure_swing",
+        "over": 4,
+        "magnitude": 13.79,
+        "pressure_before": 6.68,
+        "pressure_after": 20.47
+      },
+      {
+        "type": "pressure_swing",
+        "over": 3,
+        "magnitude": -13.4,
+        "pressure_before": 20.08,
+        "pressure_after": 6.68
+      }
+    ],
+    "inflexion_point": {
+      "over": 7,
+      "ball": 1,
+      "win_prob_before": 0.4436,
+      "win_prob_after": 0.5094,
+      "swing": 0.0658
+    },
+    "humdinger_score": {
+      "innings1": {
+        "total_score": 9.5,
+        "time_near_50": 2,
+        "last_over_drama": 2,
+        "margin_score": 2.5,
+        "wicket_cluster": 1.5,
+        "boundary_burst": 1.5
+      },
+      "innings2": {
+        "total_score": 9.5,
+        "time_near_50": 1.5,
+        "last_over_drama": 2,
+        "margin_score": 2.5,
+        "wicket_cluster": 1.5,
+        "boundary_burst": 2
+      }
+    },
+    "one_number": {
+      "innings1": {
+        "stat": "Strike Rate",
+        "value": 203.33,
+        "baseline": 135,
+        "deviation": 68.33
+      },
+      "innings2": {
+        "stat": "Strike Rate",
+        "value": 196.67,
+        "baseline": 135,
+        "deviation": 61.67
+      }
+    },
+    "commentary_gems": {
+      "innings1": [
+        {
+          "over": 1,
+          "ball": 1,
+          "batsman": "Abhishek",
+          "bowler": "Jacks",
+          "commentary": "1.1 Jacks to Abhishek, FOUR runs. round the wicket, pushed through on off, clattered through the ring! Beats the dive of backward point and races away for a nerves-settling first boundary",
+          "excitement_score": 5,
+          "is_wicket": false,
+          "is_boundary": true
+        },
+        {
+          "over": 1,
+          "ball": 6,
+          "batsman": "Abhishek",
+          "bowler": "Jacks",
+          "commentary": "1.6 Jacks to Abhishek, OUT. Abhishek holes out! Offspin his kryptonite again! There's only one man out there but Jacks sends it straight down his throat. The stadium goes quiet as Abhishek walks off forlornly. Match-up gold from England, although on another day that ball disappears over deep midwicket for six",
+          "excitement_score": 5,
+          "is_wicket": true,
+          "is_boundary": false
+        },
+        {
+          "over": 8,
+          "ball": 2,
+          "batsman": "Ishan",
+          "bowler": "Sam Curran",
+          "commentary": "8.2 Sam Curran to Ishan, SIX runs. launched again! Full and leg side from Curran. Full pint over midwicket from Kishan. Just a pick-up, lovely hands, pinged off the bat. Flies fully 81 metres into the stands",
+          "excitement_score": 5,
+          "is_wicket": false,
+          "is_boundary": true
+        },
+        {
+          "over": 8,
+          "ball": 4,
+          "batsman": "Samson",
+          "bowler": "Sam Curran",
+          "commentary": "8.4 Sam Curran to Samson, SIX runs. clears the man at deep midwicket! Jacks was on the rope, leaps for the ball as he goes over but can't get a hand to it! Six more for Sanju",
+          "excitement_score": 5,
+          "is_wicket": false,
+          "is_boundary": true
+        },
+        {
+          "over": 0,
+          "ball": 3,
+          "batsman": "Samson",
+          "bowler": "Archer",
+          "commentary": "0.3 Archer to Samson, FOUR runs. smacked down the ground! Samson lands a blow early doors. Back of a length outside off, room to free the arms. He connects with a cross-batted hoick through long-on",
+          "excitement_score": 3,
+          "is_wicket": false,
+          "is_boundary": true
+        }
+      ],
+      "innings2": [
+        {
+          "over": 0,
+          "ball": 5,
+          "batsman": "Buttler",
+          "bowler": "Arshdeep",
+          "commentary": "0.5 Arshdeep to Buttler, FOUR runs. inswinging yorker, squeezed for four! Brilliantly bowled but somehow it flies away off the inside edge. You wait three weeks for a Jos Buttler boundary and then two come along in three balls!",
+          "excitement_score": 5,
+          "is_wicket": false,
+          "is_boundary": true
+        },
+        {
+          "over": 5,
+          "ball": 3,
+          "batsman": "Bethell",
+          "bowler": "Varun",
+          "commentary": "5.3 Varun to Bethell, SIX runs. reverse-slogged for six! Goes over the wicket, flicked out on leg stump and Bethell scoops him nonchalantly over deep point! Varun enduring a nightmare start",
+          "excitement_score": 5,
+          "is_wicket": false,
+          "is_boundary": true
+        },
+        {
+          "over": 6,
+          "ball": 4,
+          "batsman": "Bethell",
+          "bowler": "Hardik",
+          "commentary": "6.4 Hardik to Bethell, SIX runs. slotted over deep midwicket! Back-of-a-length offcutter, Bethell sizes it up and nails the flat pull",
+          "excitement_score": 5,
+          "is_wicket": false,
+          "is_boundary": true
+        },
+        {
+          "over": 7,
+          "ball": 1,
+          "batsman": "Banton",
+          "bowler": "Axar Patel",
+          "commentary": "7.1 Axar Patel to Banton, SIX runs. skips down and donks him for six! Round the wicket, into the arc as Banton advances, slides nicely on to the bat as he goes in to out over extra cover",
+          "excitement_score": 5,
+          "is_wicket": false,
+          "is_boundary": true
+        },
+        {
+          "over": 8,
+          "ball": 1,
+          "batsman": "Bethell",
+          "bowler": "Varun",
+          "commentary": "8.1 Varun to Bethell, FOUR runs. pushed through from over the wicket, Bethell smashes it through midwicket! Goes deep and bisects the boundary riders for another four",
+          "excitement_score": 5,
+          "is_wicket": false,
+          "is_boundary": true
+        }
+      ]
+    },
+    "critechery_xi": [
+      {
+        "name": "Jofra Archer",
+        "runs": 19,
+        "balls": 4,
+        "sr": 475.0,
+        "reasoning": "Explosive batting: 475.0 SR in 4 balls"
+      },
+      {
+        "name": "Tom Banton",
+        "runs": 17,
+        "balls": 5,
+        "sr": 340.0,
+        "reasoning": "Explosive batting: 340.0 SR in 5 balls"
+      },
+      {
+        "name": "Tilak Varma",
+        "runs": 21,
+        "balls": 7,
+        "sr": 300.0,
+        "reasoning": "Explosive batting: 300.0 SR in 7 balls"
+      },
+      {
+        "name": "Hardik Pandya",
+        "runs": 27,
+        "balls": 12,
+        "sr": 225.0,
+        "reasoning": "Explosive batting: 225.0 SR in 12 balls"
+      }
+    ],
+    "impact_card": "N/A - World Cup match (no impact players used)"
+  }
+}
