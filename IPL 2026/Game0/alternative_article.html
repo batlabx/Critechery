@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bethell's Century Wasn't Enough: A Powerplay Deficit No Individual Can Fix</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Lora:ital,wght@0,400;0,600;1,400&display=swap');
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+          font-family: 'Inter', -apple-system, 'Helvetica Neue', sans-serif;
+          font-size: 18px; line-height: 1.78; color: #2C2C2C;
+          background: #FAFAF8; max-width: 720px;
+          margin: 0 auto; padding: 56px 24px 100px 24px;
+        }
+
+        h1 {
+          font-family: 'Lora', Georgia, serif;
+          font-size: 2.4em; font-weight: 600; line-height: 1.18;
+          letter-spacing: -0.01em; color: #111111; margin-bottom: 10px;
+        }
+
+        .meta {
+          font-size: 0.88em; color: #AAAAAA; margin-bottom: 48px;
+          letter-spacing: 0.04em; text-transform: uppercase;
+        }
+
+        h2 {
+          font-size: 0.78em; font-weight: 700; text-transform: uppercase;
+          letter-spacing: 0.12em; color: #AAAAAA; margin-top: 60px;
+          margin-bottom: 18px; padding-bottom: 8px;
+          border-bottom: 1px solid #E8E8E5;
+        }
+
+        p { margin-bottom: 22px; }
+
+        .summary-box {
+          background: #F4F4F1; border-left: 3px solid #E3311D;
+          padding: 18px 22px; margin: 0 0 32px 0; border-radius: 0 6px 6px 0;
+          font-family: 'Lora', Georgia, serif; font-size: 1.08em;
+          line-height: 1.65; color: #1A1A1A;
+        }
+
+        .humdinger-score {
+          font-family: 'Inter', sans-serif; font-size: 5em;
+          font-weight: 900; text-align: center; color: #F5A623;
+          letter-spacing: -0.04em; padding: 28px 0 4px 0; line-height: 1.0;
+        }
+        .humdinger-label {
+          text-align: center; color: #AAAAAA; font-size: 0.82em;
+          letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 16px;
+        }
+        .humdinger-breakdown {
+          background: #FFFDF5; border: 1px solid #F5E6C3;
+          border-radius: 8px; padding: 16px 20px; margin: 12px 0 28px 0;
+          font-size: 0.9em; line-height: 1.9; color: #555;
+        }
+
+        .cs-compare { display: flex; gap: 20px; margin: 20px 0; }
+        .cs-team { flex: 1; background: #F4F4F1; border-radius: 8px; padding: 20px; text-align: center; }
+        .cs-team-name { font-weight: 700; font-size: 0.9em; text-transform: uppercase; letter-spacing: 0.08em; color: #888; margin-bottom: 8px; }
+        .cs-total { font-size: 3em; font-weight: 800; line-height: 1; margin-bottom: 4px; }
+        .cs-total.india { color: #1A56DB; }
+        .cs-total.england { color: #E3311D; }
+        .cs-label { font-size: 0.8em; color: #AAA; }
+        .cs-breakdown { margin-top: 12px; font-size: 0.82em; color: #666; line-height: 1.8; }
+        .cs-bar { height: 6px; border-radius: 3px; margin: 4px 0; }
+        .cs-bar-india { background: #1A56DB; }
+        .cs-bar-england { background: #E3311D; }
+
+        blockquote {
+          border-left: 3px solid #F5A623; padding: 14px 20px;
+          margin: 28px 0; background: #FFFBF2;
+          font-family: 'Lora', Georgia, serif; font-style: italic;
+          color: #3D3D3D; font-size: 0.97em; border-radius: 0 6px 6px 0;
+        }
+        blockquote .ball-ref {
+          display: block; font-family: 'Inter', sans-serif;
+          font-style: normal; font-size: 0.78em; font-weight: 600;
+          color: #F5A623; letter-spacing: 0.06em;
+          text-transform: uppercase; margin-bottom: 6px;
+        }
+
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; font-size: 0.88em; }
+        th {
+          background: #F0F0EE; text-align: left; padding: 10px 14px;
+          font-weight: 600; text-transform: uppercase;
+          font-size: 0.76em; letter-spacing: 0.07em; color: #777;
+        }
+        td { padding: 10px 14px; border-bottom: 1px solid #F0F0EE; }
+        tr:last-child td { border-bottom: none; }
+        td.highlight { font-weight: 600; color: #E3311D; }
+
+        img.chart {
+          width: 100%; margin: 28px 0; border-radius: 10px;
+          border: 1px solid #E8E8E5; display: block;
+        }
+
+        .wagon-grid { display: flex; flex-wrap: wrap; gap: 12px; margin: 20px 0; }
+        .wagon-item { flex: 1 1 45%; }
+        .wagon-item img { width: 100%; border-radius: 8px; border: 1px solid #E8E8E5; }
+        .wagon-caption {
+          font-size: 0.82em; color: #888; text-align: center;
+          margin-top: 6px; font-style: italic;
+        }
+
+        .impact-verdict {
+          display: inline-block; padding: 3px 10px; border-radius: 20px;
+          font-size: 0.82em; font-weight: 700; letter-spacing: 0.04em;
+        }
+        .verdict-gamechanger { background: #DCFCE7; color: #15803D; }
+        .verdict-welltimed   { background: #DBEAFE; color: #1D4ED8; }
+        .verdict-toolate     { background: #FEF3C7; color: #B45309; }
+        .verdict-backfired   { background: #FEE2E2; color: #B91C1C; }
+
+        .toss-pill {
+          display: inline-block; background: #FEE2E2; color: #E3311D;
+          padding: 5px 14px; border-radius: 20px; font-size: 0.84em;
+          font-weight: 600; margin-bottom: 16px;
+        }
+
+        .xi-pick-list { list-style: none; padding: 0; margin: 12px 0 20px 0; }
+        .xi-pick-list li { padding: 10px 14px; border-bottom: 1px solid #F0F0EE; font-size: 0.93em; }
+        .xi-pick-list li:last-child { border-bottom: none; }
+        .xi-name   { font-weight: 700; color: #1A1A1A; }
+        .xi-stat   { color: #E3311D; font-weight: 600; margin: 0 8px; }
+        .xi-reason { color: #666; }
+
+        .affiliate-cta {
+          background: #F0F9FF; border: 1px solid #BAE6FD;
+          border-radius: 8px; padding: 14px 18px; margin: 20px 0;
+          font-size: 0.9em; color: #0369A1; text-align: center;
+        }
+
+        .audio-section {
+          background: #F8F8F6; border: 1px solid #E4E4E0;
+          border-radius: 10px; padding: 20px 22px; margin: 40px 0;
+          text-align: center;
+        }
+        .audio-label {
+          font-weight: 700; font-size: 0.9em; text-transform: uppercase;
+          letter-spacing: 0.08em; color: #555; margin-bottom: 12px;
+        }
+        .audio-section audio { width: 100%; margin-bottom: 8px; }
+        .audio-coming-soon {
+          color: #AAAAAA; font-size: 0.9em; font-style: italic;
+          padding: 12px 0; display: block;
+        }
+        .audio-sub { font-size: 0.82em; color: #AAAAAA; }
+
+        hr { border: none; border-top: 1px solid #E8E8E5; margin: 52px 0; }
+
+        @media (max-width: 768px) {
+            body {
+                font-size: 16px; padding: 40px 16px 80px 16px;
+            }
+            h1 { font-size: 1.8em; }
+            h2 { font-size: 0.75em; }
+            .humdinger-score { font-size: 3.5em; }
+            .cs-compare { flex-direction: column; }
+        }
+    </style>
+</head>
+<body>
+    <h1>Bethell's Century Wasn't Enough: A Powerplay Deficit No Individual Can Fix</h1>
+    <p class="meta">March 4, 2026 · England vs India · Wankhede Stadium, Mumbai · T20 World Cup Semi-Final</p>
+
+    <div class="audio-section">
+        <p class="audio-label">5-Minute Match Brief</p>
+        <span class="audio-coming-soon">Audio episode coming soon — powered by NotebookLM.</span>
+        <p class="audio-sub">Full analysis below</p>
+    </div>
+
+    <h2>On the Ground</h2>
+    <blockquote>
+        <span class="ball-ref">5.3 Varun to Bethell</span>
+        "SIX runs. reverse-slogged for six! Goes over the wicket, flicked out on leg stump and Bethell scoops him nonchalantly over deep point! Varun enduring a nightmare start."
+    </blockquote>
+
+    <p>Bethell's reverse-sloop shifted England's probability from 32% to 55% in a single over. For one moment, 246 didn't feel like a losing score. This was the moment England's supporters dared to believe.</p>
+
+    <blockquote>
+        <span class="ball-ref">0.5 Arshdeep to Buttler</span>
+        "FOUR runs. inswinging yorker, squeezed for four! Brilliantly bowled but somehow it flies away off the inside edge. You wait three weeks for a Jos Buttler boundary and then two come along in three balls!"
+    </blockquote>
+
+    <p>Buttler's boundary signaled intent. England had a path.</p>
+
+    <blockquote>
+        <span class="ball-ref">0.3 Archer to Samson</span>
+        "FOUR runs. smacked down the ground! Samson lands a blow early doors. Back of a length outside off, room to free the arms. He connects with a cross-batted hoick through long-on."
+    </blockquote>
+
+    <p>But India had landed the opening punch. Samson's early aggression would echo through the entire match.</p>
+
+    <blockquote>
+        <span class="ball-ref">8.2 Sam Curran to Ishan</span>
+        "SIX runs. launched again! Full and leg side from Curran. Full pint over midwicket from Kishan. Just a pick-up, lovely hands, pinged off the bat. Flies fully 81 metres into the stands."
+    </blockquote>
+
+    <p>India's opening partnership was a masterclass in controlled violence. Samson and Kishan didn't just accelerate—they dominated.</p>
+
+    <blockquote>
+        <span class="ball-ref">1.6 Jacks to Abhishek</span>
+        "OUT. Abhishek holes out! Offspin his kryptonite again! There's only one man out there but Jacks sends it straight down his throat. Match-up gold from England, although on another day that ball disappears over deep midwicket for six."
+    </blockquote>
+
+    <p>An early England breakthrough, but on a day when every other delivery was a boundary, it mattered very little.</p>
+
+    <h2>The Match</h2>
+    <div class="summary-box">
+        England's toss decision to field was rooted in confidence. The bowling attack had proven itself. But confidence meets reality differently on different days. India posted 253—a target that looked overwhelming in the scorebook but tantalisingly close in the field. For 13 overs, England fought. Jacob Bethell's 105 off 48 balls was World Cup cricket at its finest. But the seven-run margin tells a simpler story: by the time Bethell was heroic, India had already won the psychological battle in the powerplay.
+    </div>
+
+    <h2>Humdinger Score</h2>
+    <div class="humdinger-score">9.5</div>
+    <div class="humdinger-label">out of 10</div>
+    <div class="humdinger-breakdown">
+        Time near 50/50: 2.0 · Last-over drama: 2.0 · Margin squeeze: 2.5 · Wicket clusters: 1.5 · Boundary burst: 1.5
+    </div>
+    <p>Bethell's 105 elevated this match to the realm of classics. A century in a World Cup semi-final chase, coming from 38 for 2—that's the stuff of legend. But Bumrah's six-ball over in response (6 runs, three yorkers) is why it remains a 9.5 rather than a 10. Had Bethell received support from one other batter, this story would've been different.</p>
+
+    <h2>Critechery Score</h2>
+    <div class="cs-compare">
+        <div class="cs-team">
+            <div class="cs-team-name">India</div>
+            <div class="cs-total india">76.3</div>
+            <div class="cs-label">out of 100</div>
+            <div class="cs-breakdown">
+                <strong>Batting:</strong> 50 pts<br>
+                SR Dominance (30) + Boundary Blitz (20)<br>
+                <div class="cs-bar cs-bar-india" style="width: 100%;"></div>
+                <strong>Bowling:</strong> 26.3 pts<br>
+                Wickets & Dots (26.3)
+                <div class="cs-bar cs-bar-india" style="width: 52.6%;"></div>
+            </div>
+        </div>
+        <div class="cs-team">
+            <div class="cs-team-name">England</div>
+            <div class="cs-total england">71.8</div>
+            <div class="cs-label">out of 100</div>
+            <div class="cs-breakdown">
+                <strong>Batting:</strong> 48.3 pts<br>
+                SR Dominance (28.3) + Boundary Blitz (20)<br>
+                <div class="cs-bar cs-bar-england" style="width: 96.6%;"></div>
+                <strong>Bowling:</strong> 23.5 pts<br>
+                Wickets & Dots (23.5)
+                <div class="cs-bar cs-bar-england" style="width: 47%;"></div>
+            </div>
+        </div>
+    </div>
+    <p><strong>Where the Match Was Won:</strong> India's 4.5-point edge came from the powerplay. A 39-run margin in overs 1-6 (77 vs 38) is crippling arithmetic in T20. England's bowling was respectable. Their execution was solid. But they were chasing a match that had been decided before Bethell even walked to the crease. Bethell scored 105 runs. He needed 107.</p>
+
+    <h2>The Inflexion Point</h2>
+    <p><strong>Win Probability Before:</strong> 49.06% | <strong>Win Probability After:</strong> 44.36% | <strong>Magnitude of Shift:</strong> -4.7 percentage points</p>
+
+    <p>Over 7 was when the mathematics turned against England. Bethell hadn't even arrived yet. Salt was dismissed in over 1, Brook in over 4. At the top of over 7, England were 38 for 2 and the gap was already too wide. Bethell would score 105 more runs and still fall short. When a single batter has to outscore the opposing team's collective effort, the match is already decided—it's just waiting for the scorecard to reflect it.</p>
+
+    <p>The probability chart shows it clinically: England's peak came in Bethell's innings (over 13, at 55% after his century). But that peak never became triumph. The powerplay deficit meant that even perfection in the middle and death overs was inadequate.</p>
+
+    <img class="chart" src="charts/win_probability.png">
+
+    <h2>Turning Points</h2>
+    <p>Samson and Kishan set India's tone: 77 in six overs, with Samson striking at 211.9 and Kishan at 216.66. This wasn't luck. This was calculated aggression meeting a bowling attack that couldn't adjust. By over 6, England knew they were defending a chase, not executing a defense.</p>
+
+    <p>Bethell arrived at 38 for 2 and single-handedly dragged England into contention. His 105 off 48 restored hope. Had even one other batter matched his intensity—Jacks (35 off 20) came close, but too late in the order—England would have won. But cricket is unforgiving to individual brilliance when it stands alone.</p>
+
+    <p>Bumrah's over 18 was the killing blow. Six yorkers. 6 runs. England needed 45 from 18 before that over. After it, they needed 39 from 12. The mathematics had transformed from challenging to impossible.</p>
+
+    <img class="chart" src="charts/pressure_index.png">
+
+    <hr>
+
+    <h2>The Matchup Files</h2>
+    <p>Three matchups explained England's defeat. First: Bethell vs Varun Chakravarthy. Bethell scored 41 off 13 against Varun at a SR of 315.38—a destruction that momentarily shifted the entire match probability. Varun (4 overs, 64 runs, economy 16.0) was exposed. But this victory came in isolation. One over cannot win a match.</p>
+
+    <p>Second: Hardik Pandya vs Bethell. Pandya conceded 21 off 8 balls to Bethell (SR 262.5), yet finished with an economy of 9.5. Pandya was selective in his damage. Against Bethell, he conceded boundaries. Against others, he suffocated. The difference between Pandya and other Indian bowlers was control; the difference between Bethell and other English batters was excellence.</p>
+
+    <p>Third: Bumrah vs the Chase. Bumrah (4 overs, 33 runs, economy 8.25, 8 dots) was the anti-Varun. When every other bowler was leaking, Bumrah was tightening. His over 18 remains the finest piece of death bowling in this tournament. Six yorkers. Zero boundaries. That's the match.</p>
+
+    <img class="chart" src="charts/matchup_matrix.png">
+
+    <h2>How the Innings Burned</h2>
+    <p>India's burn rate was controlled chaos. Powerplay aggression (77 runs, 12.8 RR) bled into middle overs (105 runs, 10.5 RR) and death acceleration (71 runs, 14.2 RR). Each phase had a story: Samson and Kishan dominated early, Dube and Hardik did middle-overs work, Tilak (21 off 7) closed it out.</p>
+
+    <p>England's burn rate was a chase in distress. An attacking start (13 off the first over) couldn't overcome early wickets. The middle overs saw Bethell perform miracles (127 runs at 10.6 RR), but even 127 runs of recovery couldn't erase 77 of deficit. The death phase saw England accelerate (81 runs, 12.4 RR), but 12 overs too late and 7 runs too few.</p>
+
+    <img class="chart" src="charts/burn_rate.png">
+
+    <h2>The Architecture</h2>
+    <p>Bethell's 105 was isolation in its purest form. Jacks contributed 35 off 20 (respectable, but batting in the 13-over window). Archer's cameo (19 off 4) came with the match already lost. For England, Bethell was a solitary peak in an otherwise undulating range. For India, Samson-Kishan-Dube-Hardik-Tilak formed a distributed offense. When every second batter can strike at 200+, you're defending a psychological as well as tactical disadvantage.</p>
+
+    <img class="chart" src="charts/partnership_flow.png">
+
+    <hr>
+
+    <h2>By the Phases</h2>
+    <p>England won two of three phases. The middle overs (127 runs, 10.6 RR) and the death phase (81 runs, 12.4 RR) both favored England. But the powerplay told a story that no individual could rewrite. A 39-run gap at the top of the order is structural failure, not tactical adjustment.</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Phase</th>
+                <th>India (Runs)</th>
+                <th>India (RR)</th>
+                <th>England (Runs)</th>
+                <th>England (RR)</th>
+                <th>Winner</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Powerplay</td>
+                <td>77</td>
+                <td>12.8</td>
+                <td>38</td>
+                <td>6.3</td>
+                <td class="highlight">India</td>
+            </tr>
+            <tr>
+                <td>Middle</td>
+                <td>105</td>
+                <td>10.5</td>
+                <td>127</td>
+                <td>10.6</td>
+                <td class="highlight">England</td>
+            </tr>
+            <tr>
+                <td>Death</td>
+                <td>71</td>
+                <td>14.2</td>
+                <td>81</td>
+                <td>12.4</td>
+                <td class="highlight">England</td>
+            </tr>
+            <tr>
+                <td><strong>Total</strong></td>
+                <td><strong>253</strong></td>
+                <td><strong>12.65</strong></td>
+                <td><strong>246</strong></td>
+                <td><strong>12.3</strong></td>
+                <td><strong>India</strong></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <img class="chart" src="charts/manhattan.png">
+
+    <h2>The Run Chase</h2>
+    <p>England's chase was a story of structural disadvantage meeting individual heroism. Early wickets (Salt, Brook) left Bethell stranded at 38 for 2. The middle overs saw him single-handedly drag England to within touching distance. But 246 came with an asterisk: *if everyone had matched Bethell's intensity. They didn't. Jacks arrived too late (35 off 20 in overs 13-16). Curran's acceleration (18 off 14) was valiant but insufficient. By the time the final overs arrived, England needed a miracle. Archer provided a boundary cameo (19 off 4), but miracles come with an expiration date.</p>
+
+    <img class="chart" src="charts/fall_of_wickets.png">
+
+    <hr>
+
+    <h2>Game Changers</h2>
+    <ul class="xi-pick-list">
+        <li>
+            <span class="xi-name">Jacob Bethell</span>
+            <span class="xi-stat">105 off 48 (SR 218.75, 8×4, 7×6)</span>
+            <span class="xi-reason">A century that deserved victory. In another timeline, Bethell's 105 wins the match. In this one, it remains the finest individual effort in a losing cause.</span>
+        </li>
+        <li>
+            <span class="xi-name">Will Jacks</span>
+            <span class="xi-stat">35 off 20 (SR 175.0, 4×4, 2×6)</span>
+            <span class="xi-reason">The supporting act who came too late. Had Jacks batted in the middle overs alongside Bethell, England's mathematics would have shifted dramatically.</span>
+        </li>
+        <li>
+            <span class="xi-name">Jasprit Bumrah</span>
+            <span class="xi-stat">4-0-33-1 (Econ 8.25)</span>
+            <span class="xi-reason">The anti-hero of England's chase. Over 18 yielded 6 runs and destroyed any path to victory. That's the difference between a chase and a collapse.</span>
+        </li>
+        <li>
+            <span class="xi-name">Sanju Samson</span>
+            <span class="xi-stat">89 off 42 (SR 211.90, 8×4, 7×6)</span>
+            <span class="xi-reason">Set the powerplay tone that decided the match. His aggression established the baseline that Bethell had to match with support. Bethell alone wasn't enough.</span>
+        </li>
+    </ul>
+
+    <hr>
+
+    <p><em>Match Report | T20 World Cup Semi-Final | England vs India | Wankhede Stadium, Mumbai | March 4, 2026</em></p>
+    <p><em>Critechery Analytical Cricket Journalism</em></p>
+
+</body>
+</html>
