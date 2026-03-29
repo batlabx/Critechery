@@ -1,0 +1,426 @@
+{
+  "match_info": {
+    "team1": "Sunrisers Hyderabad",
+    "team2": "Royal Challengers Bengaluru",
+    "venue": "M. Chinnaswamy Stadium, Bengaluru",
+    "date": "March 28, 2026",
+    "toss_winner": "Royal Challengers Bengaluru",
+    "toss_decision": "field",
+    "result": "RCB won by 6 wickets (with 26 balls remaining)",
+    "winner": "Royal Challengers Bengaluru",
+    "margin": "6 wickets",
+    "player_of_match": "Jacob Duffy",
+    "team1_impact_player_in": "David Payne",
+    "team1_impact_player_out": "Travis Head",
+    "team1_impact_player_over": 18,
+    "team2_impact_player_in": "Devdutt Padikkal",
+    "team2_impact_player_out": "Jacob Duffy",
+    "team2_impact_player_over": 7
+  },
+  "batting_innings1": [
+    {
+      "name": "Travis Head",
+      "runs": 11,
+      "balls": 9,
+      "fours": 2,
+      "sixes": 0,
+      "sr": 122.22,
+      "how_out": "c Salt b Duffy",
+      "bowler_dismissed_by": "Jacob Duffy"
+    },
+    {
+      "name": "Abhishek Sharma",
+      "runs": 7,
+      "balls": 8,
+      "fours": 0,
+      "sixes": 1,
+      "sr": 87.5,
+      "how_out": "c Jitesh Sharma b Duffy",
+      "bowler_dismissed_by": "Jacob Duffy"
+    },
+    {
+      "name": "Ishan Kishan",
+      "runs": 80,
+      "balls": 38,
+      "fours": 8,
+      "sixes": 5,
+      "sr": 210.52,
+      "how_out": "c Salt b Abhinandan Singh",
+      "bowler_dismissed_by": "Abhinandan Singh"
+    },
+    {
+      "name": "Nitish Kumar Reddy",
+      "runs": 1,
+      "balls": 6,
+      "fours": 0,
+      "sixes": 0,
+      "sr": 16.66,
+      "how_out": "c Abhinandan Singh b Duffy",
+      "bowler_dismissed_by": "Jacob Duffy"
+    },
+    {
+      "name": "Heinrich Klaasen",
+      "runs": 31,
+      "balls": 22,
+      "fours": 2,
+      "sixes": 1,
+      "sr": 140.9,
+      "how_out": "c Salt b Shepherd",
+      "bowler_dismissed_by": "Romario Shepherd"
+    },
+    {
+      "name": "Salil Arora",
+      "runs": 9,
+      "balls": 6,
+      "fours": 0,
+      "sixes": 1,
+      "sr": 150.0,
+      "how_out": "c Padikkal b Suyash Sharma",
+      "bowler_dismissed_by": "Suyash Sharma"
+    },
+    {
+      "name": "Aniket Verma",
+      "runs": 43,
+      "balls": 18,
+      "fours": 3,
+      "sixes": 4,
+      "sr": 238.88,
+      "how_out": "c Kohli b Shepherd",
+      "bowler_dismissed_by": "Romario Shepherd"
+    },
+    {
+      "name": "Harsh Dubey",
+      "runs": 3,
+      "balls": 3,
+      "fours": 0,
+      "sixes": 0,
+      "sr": 100.0,
+      "how_out": "c Padikkal b Shepherd",
+      "bowler_dismissed_by": "Romario Shepherd"
+    },
+    {
+      "name": "Harshal Patel",
+      "runs": 0,
+      "balls": 2,
+      "fours": 0,
+      "sixes": 0,
+      "sr": 0.0,
+      "how_out": "c Padikkal b Kumar",
+      "bowler_dismissed_by": "Bhuvneshwar Kumar"
+    },
+    {
+      "name": "David Payne",
+      "runs": 6,
+      "balls": 5,
+      "fours": 0,
+      "sixes": 0,
+      "sr": 120.0,
+      "how_out": "not out",
+      "bowler_dismissed_by": null
+    },
+    {
+      "name": "Jaydev Unadkat",
+      "runs": 4,
+      "balls": 3,
+      "fours": 0,
+      "sixes": 0,
+      "sr": 133.33,
+      "how_out": "not out",
+      "bowler_dismissed_by": null
+    }
+  ],
+  "batting_innings2": [
+    {
+      "name": "Phil Salt",
+      "runs": 8,
+      "balls": 7,
+      "fours": 2,
+      "sixes": 0,
+      "sr": 114.28,
+      "how_out": "c Klaasen b Unadkat",
+      "bowler_dismissed_by": "Jaydev Unadkat"
+    },
+    {
+      "name": "Virat Kohli",
+      "runs": 69,
+      "balls": 38,
+      "fours": 5,
+      "sixes": 5,
+      "sr": 181.57,
+      "how_out": "not out",
+      "bowler_dismissed_by": null
+    },
+    {
+      "name": "Devdutt Padikkal",
+      "runs": 61,
+      "balls": 26,
+      "fours": 7,
+      "sixes": 4,
+      "sr": 234.61,
+      "how_out": "c Klaasen b Dubey",
+      "bowler_dismissed_by": "Harsh Dubey"
+    },
+    {
+      "name": "Rajat Patidar",
+      "runs": 31,
+      "balls": 12,
+      "fours": 2,
+      "sixes": 3,
+      "sr": 258.33,
+      "how_out": "c Dubey b Payne",
+      "bowler_dismissed_by": "David Payne"
+    },
+    {
+      "name": "Jitesh Sharma",
+      "runs": 0,
+      "balls": 1,
+      "fours": 0,
+      "sixes": 0,
+      "sr": 0.0,
+      "how_out": "c Unadkat b Payne",
+      "bowler_dismissed_by": "David Payne"
+    },
+    {
+      "name": "Tim David",
+      "runs": 16,
+      "balls": 10,
+      "fours": 1,
+      "sixes": 1,
+      "sr": 160.0,
+      "how_out": "not out",
+      "bowler_dismissed_by": null
+    }
+  ],
+  "bowling_innings1": [
+    {
+      "name": "Jacob Duffy",
+      "overs": 4.0,
+      "maidens": 0,
+      "runs": 22,
+      "wickets": 3,
+      "economy": 5.5,
+      "dots": 13,
+      "wides": 1,
+      "noballs": 0
+    },
+    {
+      "name": "Bhuvneshwar Kumar",
+      "overs": 4.0,
+      "maidens": 0,
+      "runs": 31,
+      "wickets": 1,
+      "economy": 7.75,
+      "dots": 9,
+      "wides": 2,
+      "noballs": 0
+    },
+    {
+      "name": "Abhinandan Singh",
+      "overs": 3.0,
+      "maidens": 0,
+      "runs": 38,
+      "wickets": 1,
+      "economy": 12.66,
+      "dots": 7,
+      "wides": 0,
+      "noballs": 0
+    },
+    {
+      "name": "Romario Shepherd",
+      "overs": 4.0,
+      "maidens": 0,
+      "runs": 46,
+      "wickets": 3,
+      "economy": 11.5,
+      "dots": 8,
+      "wides": 0,
+      "noballs": 0
+    },
+    {
+      "name": "Suyash Sharma",
+      "overs": 4.0,
+      "maidens": 0,
+      "runs": 58,
+      "wickets": 1,
+      "economy": 14.5,
+      "dots": 5,
+      "wides": 1,
+      "noballs": 0
+    },
+    {
+      "name": "Krunal Pandya",
+      "overs": 1.0,
+      "maidens": 0,
+      "runs": 6,
+      "wickets": 0,
+      "economy": 6.0,
+      "dots": 3,
+      "wides": 0,
+      "noballs": 0
+    }
+  ],
+  "bowling_innings2": [
+    {
+      "name": "Nitish Kumar Reddy",
+      "overs": 2.0,
+      "maidens": 0,
+      "runs": 19,
+      "wickets": 0,
+      "economy": 9.5,
+      "dots": 5,
+      "wides": 0,
+      "noballs": 0
+    },
+    {
+      "name": "Jaydev Unadkat",
+      "overs": 3.0,
+      "maidens": 0,
+      "runs": 29,
+      "wickets": 1,
+      "economy": 9.66,
+      "dots": 6,
+      "wides": 1,
+      "noballs": 0
+    },
+    {
+      "name": "David Payne",
+      "overs": 3.0,
+      "maidens": 0,
+      "runs": 35,
+      "wickets": 2,
+      "economy": 11.66,
+      "dots": 5,
+      "wides": 1,
+      "noballs": 0
+    },
+    {
+      "name": "Harsh Dubey",
+      "overs": 3.0,
+      "maidens": 0,
+      "runs": 35,
+      "wickets": 1,
+      "economy": 11.66,
+      "dots": 4,
+      "wides": 0,
+      "noballs": 0
+    },
+    {
+      "name": "Eshan Malinga",
+      "overs": 2.0,
+      "maidens": 0,
+      "runs": 35,
+      "wickets": 0,
+      "economy": 17.5,
+      "dots": 3,
+      "wides": 4,
+      "noballs": 0
+    },
+    {
+      "name": "Harshal Patel",
+      "overs": 2.4,
+      "maidens": 0,
+      "runs": 39,
+      "wickets": 0,
+      "economy": 14.62,
+      "dots": 3,
+      "wides": 1,
+      "noballs": 0
+    }
+  ],
+  "extras_innings1": {
+    "wides": 4,
+    "noballs": 0,
+    "byes": 0,
+    "legbyes": 2,
+    "total": 6
+  },
+  "extras_innings2": {
+    "wides": 7,
+    "noballs": 0,
+    "byes": 8,
+    "legbyes": 3,
+    "total": 18
+  },
+  "fall_of_wickets_innings1": [
+    {
+      "wicket_num": 1,
+      "score": 18,
+      "over": 2.1,
+      "batsman": "Abhishek Sharma"
+    },
+    {
+      "wicket_num": 2,
+      "score": 23,
+      "over": 2.6,
+      "batsman": "Travis Head"
+    },
+    {
+      "wicket_num": 3,
+      "score": 29,
+      "over": 4.2,
+      "batsman": "Nitish Kumar Reddy"
+    },
+    {
+      "wicket_num": 4,
+      "score": 126,
+      "over": 13.1,
+      "batsman": "Heinrich Klaasen"
+    },
+    {
+      "wicket_num": 5,
+      "score": 137,
+      "over": 14.3,
+      "batsman": "Salil Arora"
+    },
+    {
+      "wicket_num": 6,
+      "score": 155,
+      "over": 15.6,
+      "batsman": "Ishan Kishan"
+    },
+    {
+      "wicket_num": 7,
+      "score": 167,
+      "over": 16.6,
+      "batsman": "Harsh Dubey"
+    },
+    {
+      "wicket_num": 8,
+      "score": 174,
+      "over": 17.5,
+      "batsman": "Harshal Patel"
+    },
+    {
+      "wicket_num": 9,
+      "score": 192,
+      "over": 18.6,
+      "batsman": "Aniket Verma"
+    }
+  ],
+  "fall_of_wickets_innings2": [
+    {
+      "wicket_num": 1,
+      "score": 9,
+      "over": 1.1,
+      "batsman": "Phil Salt"
+    },
+    {
+      "wicket_num": 2,
+      "score": 110,
+      "over": 8.4,
+      "batsman": "Devdutt Padikkal"
+    },
+    {
+      "wicket_num": 3,
+      "score": 163,
+      "over": 12.2,
+      "batsman": "Rajat Patidar"
+    },
+    {
+      "wicket_num": 4,
+      "score": 163,
+      "over": 12.3,
+      "batsman": "Jitesh Sharma"
+    }
+  ]
+}
