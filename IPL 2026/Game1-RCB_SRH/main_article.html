@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Duffy's Demolition Job | RCB vs SRH — Critechery, IPL 2026 Match 1</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Lora:ital,wght@0,400;0,600;1,400&display=swap');
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'Inter', -apple-system, 'Helvetica Neue', sans-serif;
+  font-size: 18px; line-height: 1.78; color: #2C2C2C;
+  background: #FAFAF8; max-width: 720px;
+  margin: 0 auto; padding: 56px 24px 100px 24px;
+}
+
+h1 {
+  font-family: 'Lora', Georgia, serif;
+  font-size: 2.4em; font-weight: 600; line-height: 1.18;
+  letter-spacing: -0.01em; color: #111111; margin-bottom: 10px;
+}
+
+.meta {
+  font-size: 0.88em; color: #AAAAAA; margin-bottom: 48px;
+  letter-spacing: 0.04em; text-transform: uppercase;
+}
+
+h2 {
+  font-size: 0.78em; font-weight: 700; text-transform: uppercase;
+  letter-spacing: 0.12em; color: #AAAAAA; margin-top: 60px;
+  margin-bottom: 18px; padding-bottom: 8px;
+  border-bottom: 1px solid #E8E8E5;
+}
+
+h3 {
+  font-size: 1.05em; font-weight: 700; color: #1A1A1A;
+  margin-top: 32px; margin-bottom: 10px;
+}
+
+p { margin-bottom: 22px; }
+
+.summary-box {
+  background: #F4F4F1; border-left: 3px solid #1A56DB;
+  padding: 18px 22px; margin: 0 0 32px 0; border-radius: 0 6px 6px 0;
+  font-family: 'Lora', Georgia, serif; font-size: 1.08em;
+  line-height: 1.65; color: #1A1A1A;
+}
+
+.one-number-value {
+  font-family: 'Inter', sans-serif; font-size: 3.2em;
+  font-weight: 800; text-align: center; color: #1A56DB;
+  letter-spacing: -0.04em; padding: 36px 0 6px 0; line-height: 1.0;
+}
+.one-number-label {
+  text-align: center; color: #AAAAAA; font-size: 0.88em;
+  font-weight: 500; letter-spacing: 0.06em;
+  text-transform: uppercase; margin-bottom: 10px;
+}
+.one-number-context {
+  text-align: center; font-style: italic;
+  color: #666; font-size: 0.95em; margin-bottom: 40px;
+}
+
+.humdinger-score {
+  font-family: 'Inter', sans-serif; font-size: 5em;
+  font-weight: 900; text-align: center; color: #F5A623;
+  letter-spacing: -0.04em; padding: 28px 0 4px 0; line-height: 1.0;
+}
+.humdinger-label {
+  text-align: center; color: #AAAAAA; font-size: 0.82em;
+  letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 16px;
+}
+.humdinger-breakdown {
+  background: #FFFDF5; border: 1px solid #F5E6C3;
+  border-radius: 8px; padding: 16px 20px; margin: 12px 0 28px 0;
+  font-size: 0.9em; line-height: 1.9; color: #555;
+}
+
+blockquote {
+  border-left: 3px solid #F5A623; padding: 14px 20px;
+  margin: 28px 0; background: #FFFBF2;
+  font-family: 'Lora', Georgia, serif; font-style: italic;
+  color: #3D3D3D; font-size: 0.97em; border-radius: 0 6px 6px 0;
+}
+blockquote .ball-ref {
+  display: block; font-family: 'Inter', sans-serif;
+  font-style: normal; font-size: 0.78em; font-weight: 600;
+  color: #F5A623; letter-spacing: 0.06em;
+  text-transform: uppercase; margin-bottom: 6px;
+}
+
+table { width: 100%; border-collapse: collapse; margin: 20px 0; font-size: 0.88em; }
+th {
+  background: #F0F0EE; text-align: left; padding: 10px 14px;
+  font-weight: 600; text-transform: uppercase;
+  font-size: 0.76em; letter-spacing: 0.07em; color: #777;
+}
+td { padding: 10px 14px; border-bottom: 1px solid #F0F0EE; }
+tr:last-child td { border-bottom: none; }
+td.highlight { font-weight: 600; color: #1A56DB; }
+
+img.chart {
+  width: 100%; margin: 28px 0; border-radius: 10px;
+  border: 1px solid #E8E8E5; display: block;
+}
+
+.cs-compare {
+  display: flex; gap: 16px; margin: 20px 0 28px 0;
+}
+.cs-team {
+  flex: 1; background: #F8F8F6; border-radius: 10px;
+  padding: 16px 18px; border: 1px solid #E8E8E5;
+}
+.cs-team-name {
+  font-weight: 700; font-size: 0.9em; text-transform: uppercase;
+  letter-spacing: 0.08em; color: #666; margin-bottom: 8px;
+}
+.cs-total {
+  font-family: 'Inter', sans-serif; font-size: 2.6em; font-weight: 800;
+  line-height: 1; margin-bottom: 12px;
+}
+.cs-srh .cs-total { color: #FF6200; }
+.cs-rcb .cs-total { color: #CC0000; }
+.cs-row { display: flex; justify-content: space-between; font-size: 0.82em; 
+          color: #555; padding: 3px 0; border-bottom: 1px solid #F0F0EE; }
+.cs-row:last-child { border-bottom: none; }
+.cs-value { font-weight: 600; color: #1A1A1A; }
+
+.lola-scenario {
+  background: #F0F4FF; border: 1px solid #C7D7FD;
+  border-radius: 10px; padding: 20px 24px; margin: 24px 0;
+}
+.lola-title {
+  font-weight: 700; font-size: 1.05em; color: #1E40AF;
+  margin-bottom: 8px;
+}
+.lola-delta {
+  display: inline-block; background: #1A56DB; color: white;
+  padding: 2px 10px; border-radius: 20px; font-size: 0.8em;
+  font-weight: 700; margin-bottom: 12px; letter-spacing: 0.04em;
+}
+.lola-outcome { font-size: 0.9em; color: #444; margin-bottom: 12px; }
+.lola-narrative { font-size: 0.92em; line-height: 1.7; color: #333; }
+
+.xi-pick-list { list-style: none; padding: 0; margin: 12px 0 20px 0; }
+.xi-pick-list li { padding: 10px 14px; border-bottom: 1px solid #F0F0EE; font-size: 0.93em; }
+.xi-pick-list li:last-child { border-bottom: none; }
+.xi-name   { font-weight: 700; color: #1A1A1A; }
+.xi-stat   { color: #1A56DB; font-weight: 600; margin: 0 8px; }
+.xi-reason { color: #666; }
+
+.poll-section { background: #F4F4F1; border-radius: 10px; padding: 20px 24px; margin: 24px 0; }
+.poll-title { font-weight: 700; font-size: 0.95em; color: #1A1A1A; margin-bottom: 12px; }
+.poll-option {
+  display: block; padding: 8px 14px; border: 1px solid #E0E0DC;
+  border-radius: 6px; margin: 6px 0; font-size: 0.88em; color: #444;
+  background: white; cursor: pointer;
+}
+
+.affiliate-cta {
+  background: #F0F9FF; border: 1px solid #BAE6FD;
+  border-radius: 8px; padding: 14px 18px; margin: 20px 0;
+  font-size: 0.9em; color: #0369A1; text-align: center;
+}
+
+.audio-section {
+  background: #F8F8F6; border: 1px solid #E4E4E0;
+  border-radius: 10px; padding: 20px 22px; margin: 40px 0;
+  text-align: center;
+}
+.audio-coming-soon {
+  color: #AAAAAA; font-size: 0.9em; font-style: italic;
+  padding: 12px 0; display: block;
+}
+.audio-sub { font-size: 0.82em; color: #AAAAAA; }
+
+hr { border: none; border-top: 1px solid #E8E8E5; margin: 52px 0; }
+
+.toss-pill {
+  display: inline-block; background: #EEF4FF; color: #1A56DB;
+  padding: 5px 14px; border-radius: 20px; font-size: 0.84em;
+  font-weight: 600; margin-bottom: 16px;
+}
+
+.tp-card {
+  border-left: 3px solid #F5A623; padding: 12px 16px; margin: 16px 0;
+  background: #FFFBF2; border-radius: 0 6px 6px 0;
+}
+.tp-label { font-size: 0.8em; font-weight: 700; text-transform: uppercase;
+            letter-spacing: 0.08em; color: #F5A623; margin-bottom: 6px; }
+
+.gc-card { padding: 14px 0; border-bottom: 1px solid #F0F0EE; }
+.gc-card:last-child { border-bottom: none; }
+.gc-player { font-weight: 700; font-size: 1.05em; color: #1A1A1A; }
+.gc-stat { color: #1A56DB; font-size: 0.85em; font-weight: 600; margin: 2px 0 6px 0; }
+.gc-reason { font-size: 0.9em; color: #444; line-height: 1.6; }
+</style>
+</head>
+<body>
+
+<h1>Duffy's Demolition Job, Then Kohli Takes Over</h1>
+<p class="meta">March 28, 2026 &nbsp;·&nbsp; SRH vs RCB &nbsp;·&nbsp; M. Chinnaswamy Stadium &nbsp;·&nbsp; IPL 2026, Match 1</p>
+
+<div class="audio-section">
+  <p style="font-weight:700;font-size:0.9em;text-transform:uppercase;letter-spacing:0.08em;color:#555;margin-bottom:12px;">5-Minute Match Brief</p>
+  <span class="audio-coming-soon">Audio episode coming soon — upload your NotebookLM sources from Output/notebooklm/ to generate it.</span>
+  <p class="audio-sub">Powered by NotebookLM | Full analysis below</p>
+</div>
+
+<h2>The Humdinger Score</h2>
+
+<div class="humdinger-score">2.9</div>
+<div class="humdinger-label">out of 10</div>
+<div class="humdinger-breakdown">
+  <strong>Win Probability Proximity:</strong> 4.5% of chase balls near 50/50 → 0.9 pts<br>
+  <strong>Last-Over Drama:</strong> RCB won with 26 balls to spare — no late drama → 0 pts<br>
+  <strong>Margin Score:</strong> Won by 6 wickets — comfortable → 0 pts<br>
+  <strong>Wicket Cluster:</strong> SRH lost 3 wickets in 3 overs (2–4) → +1.0 pts<br>
+  <strong>Boundary Burst (Death):</strong> Both innings had boundary-heavy death overs → +1.0 pts
+</div>
+
+<p>A Humdinger Score of 2.9 is the honest number. This was not a nailbiter. RCB won by 6 wickets with 26 balls to spare and their win probability hit 98% before the 10th over of the chase. What kept it from a flat 2.0 was Ishan Kishan — who spent 38 balls refusing to let this match be a procession — and a death phase from both teams that kept the boundary count high. For context: a match decided in the last over by 2 runs scores 7–8. This was different in kind.</p>
+
+<hr>
+
+<h2>The Critechery Score</h2>
+
+
+<div class="cs-compare">
+  <div class="cs-team cs-srh">
+    <div class="cs-team-name">☀️ SRH</div>
+    <div class="cs-total">52.1</div>
+    <div style="font-size:0.78em;font-weight:600;text-transform:uppercase;letter-spacing:0.07em;color:#888;margin-bottom:6px;">BATTING</div>
+    <div class="cs-row"><span>SR Dominance</span><span class="cs-value">13.3 / 25</span></div>
+    <div class="cs-row"><span>Boundary Efficiency</span><span class="cs-value">15 / 15</span></div>
+    <div class="cs-row"><span>Extras Discipline</span><span class="cs-value">1.0 / 10</span></div>
+    <div style="font-size:0.78em;font-weight:600;text-transform:uppercase;letter-spacing:0.07em;color:#888;margin:8px 0 6px;">BOWLING</div>
+    <div class="cs-row"><span>Economy Squeeze</span><span class="cs-value">0 / 15</span></div>
+    <div class="cs-row"><span>Wicket Punch</span><span class="cs-value">10.0 / 15</span></div>
+    <div class="cs-row"><span>Dot Dominance</span><span class="cs-value">7.6 / 10</span></div>
+    <div class="cs-row"><span>Bowling SR</span><span class="cs-value">5.2 / 10</span></div>
+  </div>
+  <div class="cs-team cs-rcb">
+    <div class="cs-team-name">🦁 RCB</div>
+    <div class="cs-total">75.9</div>
+    <div style="font-size:0.78em;font-weight:600;text-transform:uppercase;letter-spacing:0.07em;color:#888;margin-bottom:6px;">BATTING</div>
+    <div class="cs-row"><span>SR Dominance</span><span class="cs-value">24.0 / 25</span></div>
+    <div class="cs-row"><span>Boundary Efficiency</span><span class="cs-value">15 / 15</span></div>
+    <div class="cs-row"><span>Extras Discipline</span><span class="cs-value">0 / 10</span></div>
+    <div style="font-size:0.78em;font-weight:600;text-transform:uppercase;letter-spacing:0.07em;color:#888;margin:8px 0 6px;">BOWLING</div>
+    <div class="cs-row"><span>Economy Squeeze</span><span class="cs-value">2.8 / 15</span></div>
+    <div class="cs-row"><span>Wicket Punch</span><span class="cs-value">15 / 15</span></div>
+    <div class="cs-row"><span>Dot Dominance</span><span class="cs-value">10 / 10</span></div>
+    <div class="cs-row"><span>Bowling SR</span><span class="cs-value">9.0 / 10</span></div>
+  </div>
+</div>
+
+<p>The gap — 75.9 to 52.1 — tells the match story better than the scorecard does. RCB's batting section is near-maxed: a strike rate that cleared 180, boundaries on every third delivery, and Kohli's final over making Harshal Patel's economy card a document of suffering. SRH's bowling failed almost entirely: their Economy Squeeze is zero (no bowler averaged under 8 RPO), and only Wicket Punch and Dot Dominance keep them above 50. The real gap is in the bowling. RCB — led by Duffy and Bhuvi — were extraordinary; SRH's attack was expensive without being threatening.</p>
+
+<hr>
+
+<h2>The Matchup Files</h2>
+
+<h3>Matchup 1: Ishan Kishan vs Jacob Duffy</h3>
+<p>This is the matchup RCB would rather not have happened. Duffy was designed as the opening-spell bowler, his Impact sub substitution at 6.6 overs was always planned. But in the time he was on the field, Ishan Kishan attacked him. The matchup SR of 225 — against Ishan's overall 210.52 — tells you that Ishan didn't respect the short-ball plan. He played the short ball slightly better against Duffy than against anyone else. The key inflection: when Duffy left as the Impact sub, Ishan had already taken root. The damage was done in the other direction — on Duffy's three wickets, which had already re-shaped the match.</p>
+<img class="chart" src="charts/matchup_1.png" alt="Matchup 1: Ishan Kishan vs Jacob Duffy">
+
+<h3>Matchup 2: Aniket Verma vs Suyash Sharma</h3>
+<p>Aniket Verma against leg-spin was always going to be a conversation. Suyash Sharma conceded 260 SR to Aniket — above his already-extraordinary overall of 238.88. Aniket treated Suyash's googly as a short-pitched invitation. Three times in Suyash's last two overs, Aniket cleared long-on. The specific problem: Suyash's googly was identifiable. Aniket picked it from hand. By over 18 — when Suyash was bowling his fourth — Aniket had no respect left for the slower delivery, going for 18 in that over before Shepherd finally ended his night.</p>
+<img class="chart" src="charts/matchup_2.png" alt="Matchup 2: Aniket Verma vs Suyash Sharma">
+
+<h3>Matchup 3: Virat Kohli vs Harshal Patel</h3>
+<p>Harshal Patel vs Virat Kohli at the Chinnaswamy is an equation that has always favored Kohli. A strike rate of 229 against Harshal, versus his overall 181.57, understates what happened in over 15. Kohli saw pace, picked pace, and hit pace. The slower-ball variation that Harshal relied on — the scrambled-seam bouncer — became predictable by the third time. Kohli's over 15 (six, four, four, four) was the closing statement. Harshal walked off with 39 runs in 2.4 overs. The third over, Kohli ended early.</p>
+<img class="chart" src="charts/matchup_3.png" alt="Matchup 3: Virat Kohli vs Harshal Patel">
+
+<h3>Matchup 4: Abhishek Sharma vs Jacob Duffy</h3>
+<p>This one deserves its own card because it tells you exactly how Duffy works. He came around the wicket to the left-hander, dragged it short, and angled the ball into Abhishek's body — the corridor that makes the pull dangerous and the leave impossible. There were wides in the mix, the plan not quite landing cleanly on the first try, but that persistence was the point. Duffy tested the same length, the same angle, over and over, until Abhishek had to play one he should have left. The outcome: 4 legal deliveries, 1 run, 1 wicket, 2 wides en route. A strike rate of 25 against a batter whose overall IPL mark is 147. The blueprint in four balls.</p>
+<img class="chart" src="charts/matchup_4.png" alt="Matchup 4: Abhishek Sharma vs Jacob Duffy">
+
+<hr>
+
+<h2>The Match</h2>
+
+<div class="summary-box">
+RCB won by 6 wickets (26 balls remaining). RCB chased 202 in 15.4 overs — a powerplay of 76/1, a Padikkal explosion (61 off 26), and a Kohli coronation (69* off 38) sealed it. SRH reached 201/9 because of Ishan Kishan alone: 80 off 38 from a 29/3 hole. Without him, there is no match. Without Duffy, there is no RCB win.
+</div>
+
+<h2>On the Ground</h2>
+
+<blockquote>
+  <span class="ball-ref">Over 2.1 — Duffy to Abhishek Sharma</span>
+  Straight up, Salt takes it looking back! Duffy's scrambled seam back of length just outside off, Abhishek in the crease. Bat face opened on impact and he sliced it behind. 18/1.
+</blockquote>
+
+<p>The first sign this was Duffy's match. A ball that shouldn't trouble Abhishek — and completely does.</p>
+
+<blockquote>
+  <span class="ball-ref">Over 2.6 — Duffy to Travis Head</span>
+  Head's been snipered straight to deep square leg! The crowd erupts! Duffy turning it on at the Chinnaswamy. Salt took it with cupped hands around his chest and fell back with the momentum but held on.
+</blockquote>
+
+<p>Two in one over. The crowd felt it. Duffy, in his first Chinnaswamy appearance, just changed the match in six balls.</p>
+
+<blockquote>
+  <span class="ball-ref">Over 15.6 (SRH Innings) — Abhinandan to Ishan Kishan</span>
+  Hang on a minute, I need to pick up my jaw from the floor. PHIL SALT, where's your cape! Ishan Kishan lofts it deep and Salt takes a screamer running back at long-on. Mind-boggling.
+</blockquote>
+
+<p>Phil Salt's catch to dismiss Ishan — the defining defensive moment. It simultaneously ended SRH's best hope and ended the match as a contest.</p>
+
+<blockquote>
+  <span class="ball-ref">Over 15.1 (RCB Chase) — Harshal to Kohli</span>
+  On-pace 127kph ball right in his wheelhouse. Kohli gets under it and with a clean swing, sends it over long-on. IPL 2026 — Kohli is HERE.
+</blockquote>
+
+<p>The first ball of the final over. The Chinnaswamy roar had waited 12 months for this. The commentary team knew it too.</p>
+
+<blockquote>
+  <span class="ball-ref">Over 15.4 (RCB Chase) — Match Ball</span>
+  THAT'S THAT! Defending champions start IPL 2026 with a statement win. Kohli drives through cover — four! RCB win by 6 wickets. 203/4 in 15.4 overs.
+</blockquote>
+
+<h2>Turning Points</h2>
+
+<div class="tp-card">
+  <div class="tp-label">Turning Point 1 — Overs 2-4</div>
+  <p><strong>The Duffy Collapse.</strong> SRH were cruising at 18/0 when Duffy produced two wickets in 5 balls in the second over. Head and Abhishek — SRH's most destructive openers — both fell to short-ball traps. Suddenly 23/2, a matchwinning platform evaporated.</p>
+</div>
+
+<div class="tp-card">
+  <div class="tp-label">Turning Point 2 — Overs 4-16</div>
+  <p><strong>Ishan Kishan's Rescue Act.</strong> What followed was one of the great T20 captain's knocks. Ishan dragged SRH from 29/3 to 155/6, manufacturing 80 off 38 balls with eight fours and five sixes. He batted around collapses, anchored a partnership with Klaasen, and never let RCB breathe.</p>
+</div>
+
+<div class="tp-card">
+  <div class="tp-label">Turning Point 3 — Over 8.4 (Chase)</div>
+  <p><strong>Padikkal Dismissed at 61.</strong> Devdutt Padikkal had been blinding. 61 off 26 with seven fours and four sixes, a debut-season cameo that announced his presence. His departure at 8.4 brought Patidar in but also handed SRH brief hope. They needed a collapse. They got one wicket. RCB got Kohli.</p>
+</div>
+
+<img class="chart" src="charts/pressure_heatmap.png" alt="Pressure Index Heatmap">
+
+<h2>The Inflexion Point</h2>
+
+<p>Before the first ball of the RCB chase, win probability stood at exactly 50% — a target of 202 on a Chinnaswamy surface. By over 1.5, it had moved to 61%. By over 3, past 75%. This was not a match with a defined inflexion point in the traditional sense — there was no single ball where everything changed direction. There were only balls that confirmed what was already becoming clear.</p>
+
+<p>The sharpest movement came in over 6: Padikkal's 17th run in the over took RCB to 76/1 at the powerplay, and win probability touched 85%. Three balls later, Padikkal hit another boundary to push it past 88%. The Chinnaswamy crowd stopped nervous-checking the required run rate at this point. The match's conclusion was being announced, not decided.</p>
+
+<p>And then, a brief pause. Padikkal out at 8.4 for 61 — a flash of SRH life, 110/2, win probability retreating slightly to 82%. Kohli on 30. Patidar to come. RCB still completely in control, but the scoreboard was more honest for a moment than the pitch had been.</p>
+
+<img class="chart" src="charts/win_probability.png" alt="Win Probability">
+<img class="chart" src="charts/run_chase_volatility.png" alt="Run Chase Volatility">
+
+<p>The Volatility Index of 1.00 confirms what the charts show: one team dominated from start to finish. Moderate — RCB generally led but Ishan's innings kept the score competitive. A volatility index near 1.0 means the signed area between actual and par was almost entirely on one side — RCB ahead of par from ball 8, never behind it again. For context, a genuinely seesawing match (2020 MI-DC Final, or any 2019 World Cup result) scores under 0.3.</p>
+
+<hr>
+
+<h2>The Duffy Over (The Decisive Spell)</h2>
+
+<p>Jacob Duffy's four-over spell — 4-0-22-3 — is the number that defines this match. Five-point-five runs per over. At the M. Chinnaswamy Stadium, in the opening match of IPL 2026, against a batting lineup that includes Travis Head and Ishan Kishan. That is not a T20 number. That is a Test match economy at a venue where the ball routinely disappears into a Karnataka night.</p>
+
+<p>The method was specific. The scrambled-seam back-of-length delivery, angled into the body, rising sharply at the chest. Head saw it and pulled — into the hands of Phil Salt at deep square leg. Abhishek saw it and tried to cut — into Jitesh Sharma's gloves. Nitish Reddy saw it and pulled aerially — into midwicket's lap. Three different batsmen. Three different technical responses. Three identical outcomes. Duffy had decoded the SRH top order before they decoded him.</p>
+
+<p>He was pulled from the attack at 6.6 overs when Devdutt Padikkal came on as RCB's Impact sub — a strategic decision that felt uncomfortable in retrospect. At the time, RCB were dominant and needed Padikkal's bat in the chase. Duffy walked off with 22 runs from 24 balls. He finished as Player of the Match, as he deserved. The only question is whether he'd have taken five had he stayed on.</p>
+
+<hr>
+
+<h2>Run Lola Run</h2>
+
+<div class="lola-scenario">
+  <div class="lola-title">🎬 What if Ishan Kishan had been run out for 50?</div>
+  <div class="lola-delta">−31 runs for SRH</div>
+  <div class="lola-outcome"><strong>Original:</strong> SRH 201/9, target 202 → <strong>Lola:</strong> SRH ~170/9, target 171 — RCB wins more comfortably</div>
+  <div class="lola-narrative">Ishan Kishan's 80 wasn't just valuable — it was irreplaceable. He carried SRH from 29/3 in the 4th over to respectability, stringing together partnerships with four different batsmen and manufacturing 30 of his 80 runs in the death phase when SRH needed them most.<br><br><br><br>Remove those 30 runs and SRH's total craters from 201 to approximately 170. At that target, RCB's powerplay alone (76/1) would have almost clinched it. Kohli and Padikkal would have shared a cold drink by the 10th over.<br><br><br><br>The real counterfactual isn't 'would RCB have won' — they'd have won regardless. It's 'would this match have been worth watching?' Ishan's innings converted a forgettable 170-chase into a 201-chase that at least kept score-checking fans nervous through the middle overs.</div>
+</div>
+
+<div class="lola-scenario">
+  <div class="lola-title">🎬 What if Harshal Patel had bowled a dot-ball over to Kohli in over 15?</div>
+  <div class="lola-delta">−18 runs for RCB in final over</div>
+  <div class="lola-outcome"><strong>Original:</strong> RCB 203/4 in 15.4 overs, won by 6 wickets → <strong>Lola:</strong> RCB 192/4 after over 15 — need 11 more in 5 overs. Still comfortable, but match extends.</div>
+  <div class="lola-narrative">The final over of this match — Harshal's 15th — was the kind of over that makes bowlers reconsider their career. 18 runs off 4 balls. Kohli deposited the first delivery over long-on with the serenity of someone walking to the office, then carved three consecutive fours through the off side as if Harshal's field were a suggestion rather than a plan.<br><br><br><br>If Harshal had managed that over at the T20 average (8-9 runs), RCB would have needed 11 more from 30 balls: a straightforward task for Kohli (49 not out at the time) and Tim David. Win probability stays above 94%.<br><br><br><br>The match still ends the same way. What changes is the statement. Kohli's final over was a coronation — a declaration that IPL 2026 would be conducted under his terms. Harshal's plan, whatever it was, died somewhere between the pitch and the long-on boundary.</div>
+</div>
+
+<hr>
+
+<h2>By the Numbers</h2>
+
+<table>
+  <tr>
+    <th>Metric</th>
+    <th>SRH</th>
+    <th>RCB</th>
+  </tr>
+  <tr><td>Score</td><td>201/9 (20 ov)</td><td class="highlight">203/4 (15.4 ov)</td></tr>
+  <tr><td>Run Rate</td><td>10.05</td><td class="highlight">12.95</td></tr>
+  <tr><td>Powerplay</td><td>49/3</td><td class="highlight">76/1</td></tr>
+  <tr><td>Top Score</td><td>Ishan Kishan 80 (38)</td><td class="highlight">V Kohli 69* (38)</td></tr>
+  <tr><td>Best Bowling</td><td>Payne 3-0-35-2</td><td class="highlight">Duffy 4-0-22-3</td></tr>
+  <tr><td>Boundaries</td><td>21 (15×4, 12×6)</td><td class="highlight">30 (22×4, 13×6)</td></tr>
+  <tr><td>Extras</td><td>6</td><td>18</td></tr>
+  <tr><td>Dot Ball %</td><td>~38%</td><td class="highlight">~28%</td></tr>
+  <tr><td>Critechery Score</td><td>52.1</td><td class="highlight">75.9</td></tr>
+</table>
+
+<h2>How the Innings Burned</h2>
+
+<p>SRH's Burn Rate chart tells two stories separated by a hard stop. For the first three overs — the Duffy-driven collapse — it's reckless: two wickets traded at low run rate, the path diving sharply down the wickets-remaining axis. Then, from over 5 to over 12, it stabilises into a long period of efficient-to-attacking scoring: Ishan and Klaasen building a 97-run partnership, wickets preserved, the path staying cautiously between seven and eight wickets in hand. It's a rational resource-management decision forced on them by the opening disaster.</p>
+
+<p>The death phase (overs 16-20) then becomes reckless again — but intentionally. Aniket Verma burned three wickets in three overs for 60 runs: an acceptable trade when 6 wickets are already gone and 40 balls remain. 18 runs from over 18 against Suyash, 18 from over 15 against Abhinandan — those are attacking classifications where the math demanded it.</p>
+
+<p>RCB's Burn Rate doesn't have a drama: it's attacking from over 3 onward, nine wickets in hand at all times except for the double-wicket over 12 (Patidar and Jitesh in consecutive balls). The path barely dips. They had resources to burn. They chose not to waste them.</p>
+
+<img class="chart" src="charts/burn_rate.png" alt="Burn Rate">
+
+<h2>The Architecture</h2>
+
+<p>The load-bearing partnership in this match — the one that made everything else possible — was Ishan Kishan and Heinrich Klaasen's 97-run stand for the 4th wicket (53 balls, SR 183.0). SRH were 29/3 in over 4 when Klaasen came in. They were 126/4 in over 13 when Shepherd removed him. That partnership lasted nine overs and covered the dead period of Ishan's innings when he was consolidating after the chaos. It transformed a match that might have ended at 140-odd into a 201-chase.</p>
+
+<p>RCB's load-bearing partnership — Kohli and Padikkal's 101 runs for the 2nd wicket (45 balls, SR 224.4) — was its opposite: not a rescue act but an acceleration. Salt gone for 8, the score 9/1. Padikkal came in as Impact sub with the express brief to take the powerplay by the throat. He did exactly that, making 61 off 26 before Harsh Dubey overpitched at long-off range. Kohli played the Shiv Chanderpaul role: an anchor who could explode. By the time Padikkal left, the match was decided.</p>
+
+<img class="chart" src="charts/partnership_flow.png" alt="Partnership Flow">
+
+<hr>
+
+<h2>By the Phases</h2>
+
+<p>The powerplay contrast is where this match was lost and won. SRH managed 49/3: a reasonable total, but three of their best batsmen — Head, Abhishek, Nitish — were already gone. RCB managed 76/1: a powerplay that would have won some earlier-era IPL matches outright. The gap — 27 runs and two wickets — compressed everything that followed. SRH needed Ishan to play the innings of his life. He did. It wasn't enough.</p>
+
+<table>
+  <tr>
+    <th>Phase</th>
+    <th>SRH</th>
+    <th>RCB</th>
+  </tr>
+  <tr><td>Powerplay (1-6)</td>
+      <td>49/3 (8.2 RPO)</td>
+      <td class="highlight">76/1 (12.7 RPO)</td>
+  </tr>
+  <tr><td>Middle (7-15)</td>
+      <td>106/3</td>
+      <td class="highlight">127/3</td>
+  </tr>
+  <tr><td>Death (16-20)</td>
+      <td>46/3</td>
+      <td class="highlight">— (match ended over 15)</td>
+  </tr>
+</table>
+
+<img class="chart" src="charts/manhattan.png" alt="Manhattan — Over-by-Over">
+
+<hr>
+
+<h2>Humdinger Score</h2>
+
+<div class="humdinger-score">2.9</div>
+<div class="humdinger-label">out of 10</div>
+
+<p>This match scores 2.9 not because it lacked individual moments of brilliance, but because those moments were never in genuine contest with each other. Duffy's spell was exceptional. Ishan's rescue was heroic. Padikkal's explosion was beautiful. Kohli's final over was operatic. But the final answer — RCB by 6 wickets with 26 balls remaining — was written in the powerplay and never seriously challenged.</p>
+
+<p>For context: a match decided by 40 runs with no final-over drama typically scores 2–4. This match at 2.9 sits correctly in that range. The exciting match you're looking for in the 2026 IPL season starts next week. This one was a demonstration.</p>
+
+<span class="toss-pill">Toss: RCB won and chose to field</span>
+
+<p>The toss decision was straightforward at Chinnaswamy on a March evening under lights: conditions would improve in the second half, dew was likely, and RCB have bowlers suited to the new ball. Duffy's 5.50 economy validated the call spectacularly. The interesting counter-question is whether batting first might have changed Ishan's mindset — whether the pressure of defending a score would have produced a different and perhaps less controlled innings from SRH's captain.</p>
+
+<hr>
+
+<h2>Game Changers</h2>
+
+<div class="gc-card">
+  <div class="gc-player">1. Jacob Duffy <span style="color:#888;font-weight:400;font-size:0.85em">(RCB)</span></div>
+  <div class="gc-stat">4-0-22-3, Economy 5.50, 13 dots</div>
+  <div class="gc-reason">Duffy arrived in Australia the night before and left in over 7 as Padikkal's impact sub replacement. In those seven overs he re-shaped the entire match. Three wickets in 24 balls including SRH's entire top order — Head, Abhishek, and Nitish — for 22 runs. His 5.50 economy in a Chinnaswamy game is borderline supernatural. Player of the Match. Rightfully.</div>
+</div>
+<div class="gc-card">
+  <div class="gc-player">2. Virat Kohli <span style="color:#888;font-weight:400;font-size:0.85em">(RCB)</span></div>
+  <div class="gc-stat">69* off 38 balls, SR 181.57, 5×4, 5×6</div>
+  <div class="gc-reason">Kohli doesn't do quiet. He never has. 69 not out in 38 balls in his IPL 2026 opener — composed until he wasn't, murderous when he needed to be. The final over against Harshal (6,4,4,4) was the kind of statement only Kohli makes at Chinnaswamy. Cricket's greatest centre-forward in his home ground. Season-opening declaration.</div>
+</div>
+<div class="gc-card">
+  <div class="gc-player">3. Ishan Kishan <span style="color:#888;font-weight:400;font-size:0.85em">(SRH)</span></div>
+  <div class="gc-stat">80 off 38, SR 210.52, 8×4, 5×6 — captain's innings</div>
+  <div class="gc-reason">SRH were 29/3 in the 4th over. The number wasn't there to collapse to. Ishan Kishan made himself the reason SRH got to 201. A captain's innings in every sense: he batted through chaos, preserved wickets when it mattered, and then released when the bowling got tired. His 80 built the tension that made this match watchable.</div>
+</div>
+<div class="gc-card">
+  <div class="gc-player">4. Devdutt Padikkal <span style="color:#888;font-weight:400;font-size:0.85em">(RCB)</span></div>
+  <div class="gc-stat">61 off 26, SR 234.61, 7×4, 4×6 — Impact sub</div>
+  <div class="gc-reason">Padikkal came on as an Impact sub at 6.6 overs and immediately changed the mathematics. By 8.4 overs he'd hit 61 from 26 deliveries including a 50 off 21 balls. He turned a competitive chase into a procession. He was dismissed chasing his 70th but his damage was done: RCB were 110/2 in 8.4 overs and Kohli was purring.</div>
+</div>
+
+<img class="chart" src="charts/fall_of_wickets.png" alt="Fall of Wickets">
+
+<hr>
+
+<h2>Reader Polls</h2>
+
+<div class="poll-section">
+  <div class="poll-title">What would you have guessed this match's Humdinger Score was?</div>
+  <span class="poll-option">Below 3.0 — I could tell RCB were going to win</span>
+  <span class="poll-option">3.0–4.9 — Slightly closer than it looked</span>
+  <span class="poll-option">5.0–6.9 — I thought it was a proper contest</span>
+  <span class="poll-option">7.0+ — This felt like a thriller to me</span>
+</div>
+
+<div class="poll-section">
+  <div class="poll-title">Which moment was THE turning point?</div>
+  <span class="poll-option">Duffy's double-wicket over (2.1–2.6) — that was the match</span>
+  <span class="poll-option">Phil Salt's catch to dismiss Ishan (over 15.6) — silenced SRH</span>
+  <span class="poll-option">Padikkal's Impact sub debut — 61 off 26 changed the chase</span>
+  <span class="poll-option">RCB's powerplay 76/1 vs SRH's 49/3 — the real story was the PP</span>
+</div>
+
+<div class="poll-section">
+  <div class="poll-title">Which Critechery metric did you find most useful in this article?</div>
+  <span class="poll-option">🔥 Burn Rate — resource consumption path</span>
+  <span class="poll-option">📊 Pressure Heatmap — where the squeeze concentrated</span>
+  <span class="poll-option">📈 Win Probability — ball-by-ball chase graph</span>
+  <span class="poll-option">🌊 Volatility Index — how one-sided it really was</span>
+  <span class="poll-option">⚔️ Matchup Files — batter vs bowler breakdowns</span>
+  <span class="poll-option">🏆 Critechery Score — team performance index</span>
+  <span class="poll-option">🤩 Humdinger Score — match excitement rating</span>
+  <span class="poll-option">🎬 Run Lola Run — the counterfactuals</span>
+</div>
+
+<hr>
+
+<h2>Critechery XI Pick</h2>
+
+<ul class="xi-pick-list">
+  <li><span class="xi-name">Jacob Duffy</span> <span class="xi-stat">4-0-22-3, Econ 5.50</span> <span class="xi-reason">The night's best player. POM. If he's fit, he's playing.</span></li>
+  <li><span class="xi-name">Devdutt Padikkal</span> <span class="xi-stat">61 off 26, SR 234</span> <span class="xi-reason">Impact sub rule or not — this is a Dream11 must-have.</span></li>
+  <li><span class="xi-name">Virat Kohli</span> <span class="xi-stat">69* off 38, SR 181</span> <span class="xi-reason">He's at home. He's in form. He finished with four boundaries in a row.</span></li>
+  <li><span class="xi-name">Ishan Kishan</span> <span class="xi-stat">80 off 38, SR 210</span> <span class="xi-reason">Even in defeat, the best SRH bat on the night.</span></li>
+</ul>
+<div class="affiliate-cta">Play these picks on Dream11 — [REPLACE WITH AFFILIATE LINK]</div>
+
+<hr>
+<p style="font-size:0.82em;color:#AAAAAA;text-align:center;margin-top:48px;">
+  Critechery — every match, by the numbers.<br>
+  Built by Batlab. IPL 2026, Match 1.
+</p>
+
+</body>
+</html>
