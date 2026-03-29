@@ -1,0 +1,44 @@
+{
+  "india": {
+    "total": 76.3,
+    "batting": {
+      "weighted_sr": 200.8,
+      "sr_dominance": 30,
+      "boundary_pct": 77.2,
+      "boundary_blitz": 20,
+      "fours": 18,
+      "sixes": 19,
+      "batting_subtotal": 50
+    },
+    "bowling": {
+      "economy": 12.15,
+      "economy_squeeze": 0,
+      "wickets": 6,
+      "wicket_punch": 15,
+      "dot_pct": 28.3,
+      "dot_pressure": 11.3,
+      "bowling_subtotal": 26.3
+    }
+  },
+  "england": {
+    "total": 71.8,
+    "batting": {
+      "weighted_sr": 194.2,
+      "sr_dominance": 28.3,
+      "boundary_pct": 74.7,
+      "boundary_blitz": 20,
+      "fours": 21,
+      "sixes": 15,
+      "batting_subtotal": 48.3
+    },
+    "bowling": {
+      "economy": 12.5,
+      "economy_squeeze": 0,
+      "wickets": 5,
+      "wicket_punch": 12.5,
+      "dot_pct": 27.5,
+      "dot_pressure": 11.0,
+      "bowling_subtotal": 23.5
+    }
+  }
+}
