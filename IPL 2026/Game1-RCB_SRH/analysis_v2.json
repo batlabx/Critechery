@@ -1,0 +1,2322 @@
+{
+  "match_info": {
+    "team1": "Sunrisers Hyderabad",
+    "team2": "Royal Challengers Bengaluru",
+    "venue": "M. Chinnaswamy Stadium, Bengaluru",
+    "date": "March 28, 2026",
+    "toss_winner": "Royal Challengers Bengaluru",
+    "toss_decision": "field",
+    "result": "RCB won by 6 wickets (with 26 balls remaining)",
+    "winner": "Royal Challengers Bengaluru",
+    "margin": "6 wickets",
+    "player_of_match": "Jacob Duffy",
+    "team1_impact_player_in": "David Payne",
+    "team1_impact_player_out": "Travis Head",
+    "team1_impact_player_over": 18,
+    "team2_impact_player_in": "Devdutt Padikkal",
+    "team2_impact_player_out": "Jacob Duffy",
+    "team2_impact_player_over": 7
+  },
+  "refined_critechery_score": {
+    "srh": {
+      "total": 52.1,
+      "batting": {
+        "sr_dominance": {
+          "value": 13.3,
+          "max": 25
+        },
+        "boundary_efficiency": {
+          "value": 15,
+          "max": 15
+        },
+        "extras_discipline": {
+          "value": 1.0,
+          "max": 10
+        },
+        "subtotal": 29.3
+      },
+      "bowling": {
+        "economy_squeeze": {
+          "value": 0,
+          "max": 15
+        },
+        "wicket_punch": {
+          "value": 10.0,
+          "max": 15
+        },
+        "dot_dominance": {
+          "value": 7.6,
+          "max": 10
+        },
+        "bowling_strike_rate": {
+          "value": 5.2,
+          "max": 10
+        },
+        "subtotal": 22.8
+      }
+    },
+    "rcb": {
+      "total": 75.9,
+      "batting": {
+        "sr_dominance": {
+          "value": 24.0,
+          "max": 25
+        },
+        "boundary_efficiency": {
+          "value": 15,
+          "max": 15
+        },
+        "extras_discipline": {
+          "value": 0,
+          "max": 10
+        },
+        "subtotal": 39.0
+      },
+      "bowling": {
+        "economy_squeeze": {
+          "value": 2.8,
+          "max": 15
+        },
+        "wicket_punch": {
+          "value": 15,
+          "max": 15
+        },
+        "dot_dominance": {
+          "value": 10,
+          "max": 10
+        },
+        "bowling_strike_rate": {
+          "value": 9.0,
+          "max": 10
+        },
+        "subtotal": 36.8
+      }
+    }
+  },
+  "humdinger_score": {
+    "score": 2.9,
+    "breakdown": {
+      "time_near_50_pct": 0.045,
+      "score_a_win_prob_proximity": 0.91,
+      "score_b_last_over_drama": 0.0,
+      "score_c_margin": 0.0,
+      "score_d_wicket_cluster": 1.0,
+      "score_e_boundary_burst": 1.0
+    }
+  },
+  "win_probability": [
+    {
+      "ball": 1,
+      "over": 1,
+      "ball_in_over": 1,
+      "current_score": 0,
+      "wickets_fallen": 1,
+      "win_prob": 0.5,
+      "is_four": false,
+      "is_six": false,
+      "is_wicket": true,
+      "expected_score": 0.0,
+      "run_advantage": 0.0
+    },
+    {
+      "ball": 2,
+      "over": 1,
+      "ball_in_over": 2,
+      "current_score": 1,
+      "wickets_fallen": 1,
+      "win_prob": 0.5167,
+      "is_four": false,
+      "is_six": false,
+      "is_wicket": false,
+      "expected_score": 0.0,
+      "run_advantage": 1.0
+    },
+    {
+      "ball": 3,
+      "over": 1,
+      "ball_in_over": 3,
+      "current_score": 3,
+      "wickets_fallen": 1,
+      "win_prob": 0.5498,
+      "is_four": false,
+      "is_six": false,
+      "is_wicket": false,
+      "expected_score": 0.0,
+      "run_advantage": 3.0
+    },
+    {
+      "ball": 4,
+      "over": 1,
+      "ball_in_over": 4,
+      "current_score": 5,
+      "wickets_fallen": 1,
+      "win_prob": 0.5826,
+      "is_four": false,
+      "is_six": false,
+      "is_wicket": false,
+      "expected_score": 0.0,
+      "run_advantage": 5.0
+    },
+    {
+      "ball": 5,
+      "over": 1,
+      "ball_in_over": 5,
+      "current_score": 7,
+      "wickets_fallen": 1,
+      "win_prob": 0.6146,
+      "is_four": false,
+      "is_six": false,
+      "is_wicket": false,
+      "expected_score": 0.0,
+      "run_advantage": 7.0
+    },
+    {
+      "ball": 6,
+      "over": 1,
+      "ball_in_over": 6,
+      "current_score": 9,
+      "wickets_fallen": 1,
+      "win_prob": 0.6457,
+      "is_four": false,
+      "is_six": false,
+      "is_wicket": false,
+      "expected_score": 0.0,
+      "run_advantage": 9.0
+    },
+    {
+      "ball": 7,
+      "over": 2,
+      "ball_in_over": 1,
+      "current_score": 10,
+      "wickets_fallen": 1,
+      "win_prob": 0.6608,
+      "is_four": false,
+      "is_six": false,
+      "is_wicket": false,
+      "expected_score": 0.0,
+      "run_advantage": 10.0
+    },
+    {
+      "ball": 8,
+      "over": 2,
+      "ball_in_over": 2,
+      "current_score": 11,
+      "wickets_fallen": 1,
+      "win_prob": 0.6755,
+      "is_four": false,
+      "is_six": false,
+      "is_wicket": false,
+      "expected_score": 0.0,
+      "run_advantage": 11.0
+    },
+    {
+      "ball": 9,
+      "over": 2,
+      "ball_in_over": 3,
+      "current_score": 12,
+      "wickets_fallen": 1,
+      "win_prob": 0.69,
+      "is_four": false,
+      "is_six": false,
+      "is_wicket": false,
+      "expected_score": 0.0,
+      "run_advantage": 12.0
+    },
+    {
+      "ball": 10,
+      "over": 2,
+      "ball_in_over": 4,
+      "current_score": 14,
+      "wickets_fallen": 1,
+      "win_prob": 0.7178,
+      "is_four": false,
+      "is_six": false,
+      "is_wicket": false,
+      "expected_score": 0.0,
+      "run_advantage": 14.0
+    },
+    {
+      "ball": 11,
+      "over": 2,
+      "ball_in_over": 5,
+      "current_score": 16,
+      "wickets_fallen": 1,
+      "win_prob": 0.744,
+      "is_four": false,
+      "is_six": false,
+      "is_wicket": false,
+      "expected_score": 0.0,
+      "run_advantage": 16.0
+    },
+    {
+      "ball": 12,
+      "over": 2,
+      "ball_in_over": 6,
+      "current_score": 18,
+      "wickets_fallen": 1,
+      "win_prob": 0.7685,
+      "is_four": false,
+      "is_six": false,
+      "is_wicket": false,
+      "expected_score": 0.0,
+      "run_advantage": 18.0
+    },
+    {
+      "ball": 13,
+      "over": 3,
+      "ball_in_over": 1,
+      "current_score": 19,
+      "wickets_fallen": 1,
+      "win_prob": 0.7802,
+      "is_four": false,
+      "is_six": false,
+      "is_wicket": false,
+      "expected_score": 0.0,
+      "run_advantage": 19.0
+    },
+    {
+      "ball": 14,
+      "over": 3,
+      "ball_in_over": 2,
+      "current_score": 21,
+      "wickets_fallen": 1,
+      "win_prob": 0.8022,
+      "is_four": false,
+      "is_six": false,
+      "is_wicket": false,
+      "expected_score": 0.0,
+      "run_advantage": 21.0
+    },
+    {
+      "ball": 15,
+      "over": 3,
+      "ball_in_over": 3,
+      "current_score": 23,
+      "wickets_fallen": 1,
+      "win_prob": 0.8225,
+      "is_four": false,
+      "is_six": false,
+      "is_wicket": false,
+      "expected_score": 0.0,
+      "run_advantage": 23.0
+    },
+    {
+      "ball": 16,
+      "over": 3,
+      "ball_in_over": 4,
+      "current_score": 25,
+      "wickets_fallen": 1,
+      "win_prob": 0.8411,
+      "is_four": false,
+      "is_six": false,
+      "is_wicket": false,
+      "expected_score": 0.0,
+      "run_advantage": 25.0
+    },
+    {
+      "ball": 17,
+      "over": 3,
+      "ball_in_over": 5,
+      "current_score": 27,
+      "wickets_fallen": 1,
+      "win_prob": 0.8581,
+      "is_four": false,
+      "is_six": false,
+      "is_wicket": false,
+      "expected_score": 0.0,
+      "run_advantage": 27.0
+    },
+    {
+      "ball": 18,
+      "over": 3,
+      "ball_in_over": 6,
+      "current_score": 29,
+      "wickets_fallen": 1,
+      "win_prob": 0.8736,
+      "is_four": false,
+      "is_six": false,
+      "is_wicket": false,
+      "expected_score": 0.0,
+      "run_advantage": 29.0
+    },
+    {
+      "ball": 19,
+      "over": 4,
+      "ball_in_over": 1,
+      "current_score": 31,
+      "wickets_fallen": 1,
+      "win_prob": 0.8876,
+      "is_four": false,
+      "is_six": false,
+      "is_wicket": false,
+      "expected_score": 0.0,
+      "run_advantage": 31.0
+    },
+    {
+      "ball": 20,
+      "over": 4,
+      "ball_in_over": 2,
+      "current_score": 33,
+      "wickets_fallen": 1,
+      "win_prob": 0.9002,
+      "is_four": false,
+      "is_six": false,
+      "is_wicket": false,
+      "expected_score": 0.0,
+      "run_advantage": 33.0
+    },
+    {
+      "ball": 21,
+      "over": 4,
+      "ball_in_over": 3,
+      "current_score": 35,
+      "wickets_fallen": 1,
+      "win_prob": 0.9116,
+      "is_four": false,
+      "is_six": false,
+      "is_wicket": false,
+      "expected_score": 0.0,
+      "run_advantage": 35.0
+    },
+    {
+      "ball": 22,
+      "over": 4,
+      "ball_in_over": 4,
+      "current_score": 37,
+      "wickets_fallen": 1,
+      "win_prob": 0.9218,
+      "is_four": false,
+      "is_six": false,
+      "is_wicket": false,
+      "expected_score": 0.0,
+      "run_advantage": 37.0
+    },
+    {
+      "ball": 23,
+      "over": 4,
+      "ball_in_over": 5,
+      "current_score": 39,
+      "wickets_fallen": 1,
+      "win_prob": 0.9309,
+      "is_four": false,
+      "is_six": false,
+      "is_wicket": false,
+      "expected_score": 0.0,
+      "run_advantage": 39.0
+    },
+    {
+      "ball": 24,
+      "over": 4,
+      "ball_in_over": 6,
+      "current_score": 44,
+      "wickets_fallen": 1,
+      "win_prob": 0.9495,
+      "is_four": false,
+      "is_six": false,
+      "is_wicket": false,
+      "expected_score": 0.0,
+      "run_advantage": 44.0
+    },
+    {
+      "ball": 25,
+      "over": 5,
+      "ball_in_over": 1,
+      "current_score": 46,
+      "wickets_fallen": 1,
+      "win_prob": 0.9555,
+      "is_four": false,
+      "is_six": false,
+      "is_wicket": false,
+      "expected_score": 0.0,
+      "run_advantage": 46.0
+    },
+    {
+      "ball": 26,
+      "over": 5,
+      "ball_in_over": 2,
+      "current_score": 48,
+      "wickets_fallen": 1,
+      "win_prob": 0.9608,
+      "is_four": false,
+      "is_six": false,
+      "is_wicket": false,
+      "expected_score": 0.0,
+      "run_advantage": 48.0
+    },
+    {
+      "ball": 27,
+      "over": 5,
+      "ball_in_over": 3,
+      "current_score": 50,
+      "wickets_fallen": 1,
+      "win_prob": 0.9656,
+      "is_four": false,
+      "is_six": false,
+      "is_wicket": false,
+      "expected_score": 0.0,
+      "run_advantage": 50.0
+    },
+    {
+      "ball": 28,
+      "over": 5,
+      "ball_in_over": 4,
+      "current_score": 52,
+      "wickets_fallen": 1,
+      "win_prob": 0.9697,
+      "is_four": false,
+      "is_six": false,
+      "is_wicket": false,
+      "expected_score": 0.0,
+      "run_advantage": 52.0
+    },
+    {
+      "ball": 29,
+      "over": 5,
+      "ball_in_over": 5,
+      "current_score": 54,
+      "wickets_fallen": 1,
+      "win_prob": 0.9734,
+      "is_four": false,
+      "is_six": false,
+      "is_wicket": false,
+      "expected_score": 0.0,
+      "run_advantage": 54.0
+    },
+    {
+      "ball": 30,
+      "over": 5,
+      "ball_in_over": 6,
+      "current_score": 59,
+      "wickets_fallen": 1,
+      "win_prob": 0.98,
+      "is_four": false,
+      "is_six": false,
+      "is_wicket": false,
+      "expected_score": 0.0,
+      "run_advantage": 59.0
+    },
+    {
+      "ball": 31,
+      "over": 6,
+      "ball_in_over": 1,
+      "current_score": 61,
+      "wickets_fallen": 1,
+      "win_prob": 0.98,
+      "is_four": false,
+      "is_six": false,
+      "is_wicket": false,
+      "expected_score": 0.0,
+      "run_advantage": 61.0
+    },
+    {
+      "ball": 32,
+      "over": 6,
+      "ball_in_over": 2,
+      "current_score": 63,
+      "wickets_fallen": 1,
+      "win_prob": 0.98,
+      "is_four": false,
+      "is_six": false,
+      "is_wicket": false,
+      "expected_score": 0.0,
+      "run_advantage": 63.0
+    },
+    {
+      "ball": 33,
+      "over": 6,
+      "ball_in_over": 3,
+      "current_score": 65,
+      "wickets_fallen": 1,
+      "win_prob": 0.98,
+      "is_four": false,
+      "is_six": false,
+      "is_wicket": false,
+      "expected_score": 0.0,
+      "run_advantage": 65.0
+    },
+    {
+      "ball": 34,
+      "over": 6,
+      "ball_in_over": 4,
+      "current_score": 67,
+      "wickets_fallen": 1,
+      "win_prob": 0.98,
+      "is_four": false,
+      "is_six": false,
+      "is_wicket": false,
+      "expected_score": 0.0,
+      "run_advantage": 67.0
+    },
+    {
+      "ball": 35,
+      "over": 6,
+      "ball_in_over": 5,
+      "current_score": 71,
+      "wickets_fallen": 1,
+      "win_prob": 0.98,
+      "is_four": true,
+      "is_six": false,
+      "is_wicket": false,
+      "expected_score": 0.0,
+      "run_advantage": 71.0
+    },
+    {
+      "ball": 36,
+      "over": 6,
+      "ball_in_over": 6,
+      "current_score": 76,
+      "wickets_fallen": 1,
+      "win_prob": 0.98,
+      "is_four": false,
+      "is_six": false,
+      "is_wicket": false,
+      "expected_score": 0.0,
+      "run_advantage": 76.0
+    },
+    {
+      "ball": 37,
+      "over": 7,
+      "ball_in_over": 1,
+      "current_score": 77,
+      "wickets_fallen": 1,
+      "win_prob": 0.98,
+      "is_four": false,
+      "is_six": false,
+      "is_wicket": false,
+      "expected_score": 0.0,
+      "run_advantage": 77.0
+    },
+    {
+      "ball": 38,
+      "over": 7,
+      "ball_in_over": 2,
+      "current_score": 79,
+      "wickets_fallen": 1,
+      "win_prob": 0.98,
+      "is_four": false,
+      "is_six": false,
+      "is_wicket": false,
+      "expected_score": 0.0,
+      "run_advantage": 79.0
+    },
+    {
+      "ball": 39,
+      "over": 7,
+      "ball_in_over": 3,
+      "current_score": 81,
+      "wickets_fallen": 1,
+      "win_prob": 0.98,
+      "is_four": false,
+      "is_six": false,
+      "is_wicket": false,
+      "expected_score": 0.0,
+      "run_advantage": 81.0
+    },
+    {
+      "ball": 40,
+      "over": 7,
+      "ball_in_over": 4,
+      "current_score": 83,
+      "wickets_fallen": 1,
+      "win_prob": 0.98,
+      "is_four": false,
+      "is_six": false,
+      "is_wicket": false,
+      "expected_score": 0.0,
+      "run_advantage": 83.0
+    },
+    {
+      "ball": 41,
+      "over": 7,
+      "ball_in_over": 5,
+      "current_score": 85,
+      "wickets_fallen": 1,
+      "win_prob": 0.98,
+      "is_four": false,
+      "is_six": false,
+      "is_wicket": false,
+      "expected_score": 0.0,
+      "run_advantage": 85.0
+    },
+    {
+      "ball": 42,
+      "over": 7,
+      "ball_in_over": 6,
+      "current_score": 87,
+      "wickets_fallen": 1,
+      "win_prob": 0.98,
+      "is_four": false,
+      "is_six": false,
+      "is_wicket": false,
+      "expected_score": 0.0,
+      "run_advantage": 87.0
+    },
+    {
+      "ball": 43,
+      "over": 8,
+      "ball_in_over": 1,
+      "current_score": 89,
+      "wickets_fallen": 1,
+      "win_prob": 0.98,
+      "is_four": false,
+      "is_six": false,
+      "is_wicket": false,
+      "expected_score": 0.0,
+      "run_advantage": 89.0
+    },
+    {
+      "ball": 44,
+      "over": 8,
+      "ball_in_over": 2,
+      "current_score": 93,
+      "wickets_fallen": 1,
+      "win_prob": 0.98,
+      "is_four": true,
+      "is_six": false,
+      "is_wicket": false,
+      "expected_score": 0.0,
+      "run_advantage": 93.0
+    },
+    {
+      "ball": 45,
+      "over": 8,
+      "ball_in_over": 3,
+      "current_score": 97,
+      "wickets_fallen": 1,
+      "win_prob": 0.98,
+      "is_four": true,
+      "is_six": false,
+      "is_wicket": false,
+      "expected_score": 0.0,
+      "run_advantage": 97.0
+    },
+    {
+      "ball": 46,
+      "over": 8,
+      "ball_in_over": 4,
+      "current_score": 97,
+      "wickets_fallen": 2,
+      "win_prob": 0.98,
+      "is_four": false,
+      "is_six": false,
+      "is_wicket": true,
+      "expected_score": 2.7,
+      "run_advantage": 94.3
+    },
+    {
+      "ball": 47,
+      "over": 8,
+      "ball_in_over": 5,
+      "current_score": 101,
+      "wickets_fallen": 2,
+      "win_prob": 0.98,
+      "is_four": true,
+      "is_six": false,
+      "is_wicket": false,
+      "expected_score": 5.4,
+      "run_advantage": 95.6
+    },
+    {
+      "ball": 48,
+      "over": 8,
+      "ball_in_over": 6,
+      "current_score": 107,
+      "wickets_fallen": 2,
+      "win_prob": 0.98,
+      "is_four": false,
+      "is_six": true,
+      "is_wicket": false,
+      "expected_score": 8.1,
+      "run_advantage": 98.9
+    },
+    {
+      "ball": 49,
+      "over": 9,
+      "ball_in_over": 1,
+      "current_score": 109,
+      "wickets_fallen": 2,
+      "win_prob": 0.98,
+      "is_four": false,
+      "is_six": false,
+      "is_wicket": false,
+      "expected_score": 10.8,
+      "run_advantage": 98.2
+    },
+    {
+      "ball": 50,
+      "over": 9,
+      "ball_in_over": 2,
+      "current_score": 111,
+      "wickets_fallen": 2,
+      "win_prob": 0.98,
+      "is_four": false,
+      "is_six": false,
+      "is_wicket": false,
+      "expected_score": 13.5,
+      "run_advantage": 97.5
+    },
+    {
+      "ball": 51,
+      "over": 9,
+      "ball_in_over": 3,
+      "current_score": 113,
+      "wickets_fallen": 2,
+      "win_prob": 0.98,
+      "is_four": false,
+      "is_six": false,
+      "is_wicket": false,
+      "expected_score": 16.2,
+      "run_advantage": 96.8
+    },
+    {
+      "ball": 52,
+      "over": 9,
+      "ball_in_over": 4,
+      "current_score": 115,
+      "wickets_fallen": 2,
+      "win_prob": 0.98,
+      "is_four": false,
+      "is_six": false,
+      "is_wicket": false,
+      "expected_score": 18.9,
+      "run_advantage": 96.1
+    },
+    {
+      "ball": 53,
+      "over": 9,
+      "ball_in_over": 5,
+      "current_score": 117,
+      "wickets_fallen": 2,
+      "win_prob": 0.98,
+      "is_four": false,
+      "is_six": false,
+      "is_wicket": false,
+      "expected_score": 21.5,
+      "run_advantage": 95.5
+    },
+    {
+      "ball": 54,
+      "over": 9,
+      "ball_in_over": 6,
+      "current_score": 122,
+      "wickets_fallen": 2,
+      "win_prob": 0.98,
+      "is_four": false,
+      "is_six": false,
+      "is_wicket": false,
+      "expected_score": 24.2,
+      "run_advantage": 97.8
+    },
+    {
+      "ball": 55,
+      "over": 10,
+      "ball_in_over": 1,
+      "current_score": 124,
+      "wickets_fallen": 2,
+      "win_prob": 0.98,
+      "is_four": false,
+      "is_six": false,
+      "is_wicket": false,
+      "expected_score": 26.9,
+      "run_advantage": 97.1
+    },
+    {
+      "ball": 56,
+      "over": 10,
+      "ball_in_over": 2,
+      "current_score": 126,
+      "wickets_fallen": 2,
+      "win_prob": 0.98,
+      "is_four": false,
+      "is_six": false,
+      "is_wicket": false,
+      "expected_score": 29.6,
+      "run_advantage": 96.4
+    },
+    {
+      "ball": 57,
+      "over": 10,
+      "ball_in_over": 3,
+      "current_score": 128,
+      "wickets_fallen": 2,
+      "win_prob": 0.98,
+      "is_four": false,
+      "is_six": false,
+      "is_wicket": false,
+      "expected_score": 32.3,
+      "run_advantage": 95.7
+    },
+    {
+      "ball": 58,
+      "over": 10,
+      "ball_in_over": 4,
+      "current_score": 130,
+      "wickets_fallen": 2,
+      "win_prob": 0.98,
+      "is_four": false,
+      "is_six": false,
+      "is_wicket": false,
+      "expected_score": 35.0,
+      "run_advantage": 95.0
+    },
+    {
+      "ball": 59,
+      "over": 10,
+      "ball_in_over": 5,
+      "current_score": 132,
+      "wickets_fallen": 2,
+      "win_prob": 0.98,
+      "is_four": false,
+      "is_six": false,
+      "is_wicket": false,
+      "expected_score": 37.7,
+      "run_advantage": 94.3
+    },
+    {
+      "ball": 60,
+      "over": 10,
+      "ball_in_over": 6,
+      "current_score": 137,
+      "wickets_fallen": 2,
+      "win_prob": 0.98,
+      "is_four": false,
+      "is_six": false,
+      "is_wicket": false,
+      "expected_score": 40.4,
+      "run_advantage": 96.6
+    },
+    {
+      "ball": 61,
+      "over": 11,
+      "ball_in_over": 1,
+      "current_score": 139,
+      "wickets_fallen": 2,
+      "win_prob": 0.98,
+      "is_four": false,
+      "is_six": false,
+      "is_wicket": false,
+      "expected_score": 43.1,
+      "run_advantage": 95.9
+    },
+    {
+      "ball": 62,
+      "over": 11,
+      "ball_in_over": 2,
+      "current_score": 141,
+      "wickets_fallen": 2,
+      "win_prob": 0.98,
+      "is_four": false,
+      "is_six": false,
+      "is_wicket": false,
+      "expected_score": 45.8,
+      "run_advantage": 95.2
+    },
+    {
+      "ball": 63,
+      "over": 11,
+      "ball_in_over": 3,
+      "current_score": 143,
+      "wickets_fallen": 2,
+      "win_prob": 0.98,
+      "is_four": false,
+      "is_six": false,
+      "is_wicket": false,
+      "expected_score": 48.5,
+      "run_advantage": 94.5
+    },
+    {
+      "ball": 64,
+      "over": 11,
+      "ball_in_over": 4,
+      "current_score": 145,
+      "wickets_fallen": 2,
+      "win_prob": 0.98,
+      "is_four": false,
+      "is_six": false,
+      "is_wicket": false,
+      "expected_score": 51.2,
+      "run_advantage": 93.8
+    },
+    {
+      "ball": 65,
+      "over": 11,
+      "ball_in_over": 5,
+      "current_score": 147,
+      "wickets_fallen": 2,
+      "win_prob": 0.98,
+      "is_four": false,
+      "is_six": false,
+      "is_wicket": false,
+      "expected_score": 53.9,
+      "run_advantage": 93.1
+    },
+    {
+      "ball": 66,
+      "over": 11,
+      "ball_in_over": 6,
+      "current_score": 151,
+      "wickets_fallen": 2,
+      "win_prob": 0.98,
+      "is_four": true,
+      "is_six": false,
+      "is_wicket": false,
+      "expected_score": 56.6,
+      "run_advantage": 94.4
+    },
+    {
+      "ball": 67,
+      "over": 12,
+      "ball_in_over": 1,
+      "current_score": 153,
+      "wickets_fallen": 2,
+      "win_prob": 0.98,
+      "is_four": false,
+      "is_six": false,
+      "is_wicket": false,
+      "expected_score": 59.3,
+      "run_advantage": 93.7
+    },
+    {
+      "ball": 68,
+      "over": 12,
+      "ball_in_over": 2,
+      "current_score": 153,
+      "wickets_fallen": 3,
+      "win_prob": 0.98,
+      "is_four": false,
+      "is_six": false,
+      "is_wicket": true,
+      "expected_score": 79.5,
+      "run_advantage": 73.5
+    },
+    {
+      "ball": 69,
+      "over": 12,
+      "ball_in_over": 3,
+      "current_score": 153,
+      "wickets_fallen": 4,
+      "win_prob": 0.9734,
+      "is_four": false,
+      "is_six": false,
+      "is_wicket": true,
+      "expected_score": 99.0,
+      "run_advantage": 54.0
+    },
+    {
+      "ball": 70,
+      "over": 12,
+      "ball_in_over": 4,
+      "current_score": 155,
+      "wickets_fallen": 4,
+      "win_prob": 0.9734,
+      "is_four": false,
+      "is_six": false,
+      "is_wicket": false,
+      "expected_score": 101.0,
+      "run_advantage": 54.0
+    },
+    {
+      "ball": 71,
+      "over": 12,
+      "ball_in_over": 5,
+      "current_score": 159,
+      "wickets_fallen": 4,
+      "win_prob": 0.9766,
+      "is_four": true,
+      "is_six": false,
+      "is_wicket": false,
+      "expected_score": 103.0,
+      "run_advantage": 56.0
+    },
+    {
+      "ball": 72,
+      "over": 12,
+      "ball_in_over": 6,
+      "current_score": 163,
+      "wickets_fallen": 4,
+      "win_prob": 0.9794,
+      "is_four": true,
+      "is_six": false,
+      "is_wicket": false,
+      "expected_score": 105.0,
+      "run_advantage": 58.0
+    },
+    {
+      "ball": 73,
+      "over": 13,
+      "ball_in_over": 1,
+      "current_score": 163,
+      "wickets_fallen": 4,
+      "win_prob": 0.9766,
+      "is_four": false,
+      "is_six": false,
+      "is_wicket": false,
+      "expected_score": 107.1,
+      "run_advantage": 55.9
+    },
+    {
+      "ball": 74,
+      "over": 13,
+      "ball_in_over": 2,
+      "current_score": 163,
+      "wickets_fallen": 4,
+      "win_prob": 0.9733,
+      "is_four": false,
+      "is_six": false,
+      "is_wicket": false,
+      "expected_score": 109.1,
+      "run_advantage": 53.9
+    },
+    {
+      "ball": 75,
+      "over": 13,
+      "ball_in_over": 3,
+      "current_score": 164,
+      "wickets_fallen": 4,
+      "win_prob": 0.9714,
+      "is_four": false,
+      "is_six": false,
+      "is_wicket": false,
+      "expected_score": 111.1,
+      "run_advantage": 52.9
+    },
+    {
+      "ball": 76,
+      "over": 13,
+      "ball_in_over": 4,
+      "current_score": 165,
+      "wickets_fallen": 4,
+      "win_prob": 0.9695,
+      "is_four": false,
+      "is_six": false,
+      "is_wicket": false,
+      "expected_score": 113.1,
+      "run_advantage": 51.9
+    },
+    {
+      "ball": 77,
+      "over": 13,
+      "ball_in_over": 5,
+      "current_score": 166,
+      "wickets_fallen": 4,
+      "win_prob": 0.9674,
+      "is_four": false,
+      "is_six": false,
+      "is_wicket": false,
+      "expected_score": 115.1,
+      "run_advantage": 50.9
+    },
+    {
+      "ball": 78,
+      "over": 13,
+      "ball_in_over": 6,
+      "current_score": 167,
+      "wickets_fallen": 4,
+      "win_prob": 0.9652,
+      "is_four": false,
+      "is_six": false,
+      "is_wicket": false,
+      "expected_score": 117.2,
+      "run_advantage": 49.8
+    },
+    {
+      "ball": 79,
+      "over": 14,
+      "ball_in_over": 1,
+      "current_score": 168,
+      "wickets_fallen": 4,
+      "win_prob": 0.9628,
+      "is_four": false,
+      "is_six": false,
+      "is_wicket": false,
+      "expected_score": 119.2,
+      "run_advantage": 48.8
+    },
+    {
+      "ball": 80,
+      "over": 14,
+      "ball_in_over": 2,
+      "current_score": 169,
+      "wickets_fallen": 4,
+      "win_prob": 0.9603,
+      "is_four": false,
+      "is_six": false,
+      "is_wicket": false,
+      "expected_score": 121.2,
+      "run_advantage": 47.8
+    },
+    {
+      "ball": 81,
+      "over": 14,
+      "ball_in_over": 3,
+      "current_score": 173,
+      "wickets_fallen": 4,
+      "win_prob": 0.9651,
+      "is_four": true,
+      "is_six": false,
+      "is_wicket": false,
+      "expected_score": 123.2,
+      "run_advantage": 49.8
+    },
+    {
+      "ball": 82,
+      "over": 14,
+      "ball_in_over": 4,
+      "current_score": 179,
+      "wickets_fallen": 4,
+      "win_prob": 0.973,
+      "is_four": false,
+      "is_six": true,
+      "is_wicket": false,
+      "expected_score": 125.2,
+      "run_advantage": 53.8
+    },
+    {
+      "ball": 83,
+      "over": 14,
+      "ball_in_over": 5,
+      "current_score": 180,
+      "wickets_fallen": 4,
+      "win_prob": 0.9711,
+      "is_four": false,
+      "is_six": false,
+      "is_wicket": false,
+      "expected_score": 127.3,
+      "run_advantage": 52.7
+    },
+    {
+      "ball": 84,
+      "over": 14,
+      "ball_in_over": 6,
+      "current_score": 181,
+      "wickets_fallen": 4,
+      "win_prob": 0.9692,
+      "is_four": false,
+      "is_six": false,
+      "is_wicket": false,
+      "expected_score": 129.3,
+      "run_advantage": 51.7
+    },
+    {
+      "ball": 85,
+      "over": 15,
+      "ball_in_over": 1,
+      "current_score": 187,
+      "wickets_fallen": 4,
+      "win_prob": 0.9762,
+      "is_four": false,
+      "is_six": true,
+      "is_wicket": false,
+      "expected_score": 131.3,
+      "run_advantage": 55.7
+    },
+    {
+      "ball": 86,
+      "over": 15,
+      "ball_in_over": 2,
+      "current_score": 191,
+      "wickets_fallen": 4,
+      "win_prob": 0.9791,
+      "is_four": true,
+      "is_six": false,
+      "is_wicket": false,
+      "expected_score": 133.3,
+      "run_advantage": 57.7
+    },
+    {
+      "ball": 87,
+      "over": 15,
+      "ball_in_over": 3,
+      "current_score": 195,
+      "wickets_fallen": 4,
+      "win_prob": 0.98,
+      "is_four": true,
+      "is_six": false,
+      "is_wicket": false,
+      "expected_score": 135.3,
+      "run_advantage": 59.7
+    },
+    {
+      "ball": 88,
+      "over": 15,
+      "ball_in_over": 4,
+      "current_score": 199,
+      "wickets_fallen": 4,
+      "win_prob": 0.98,
+      "is_four": true,
+      "is_six": false,
+      "is_wicket": false,
+      "expected_score": 137.4,
+      "run_advantage": 61.6
+    }
+  ],
+  "inflexion_points": [
+    {
+      "over_ball": "1.5",
+      "wp_before": 0.5167,
+      "wp_after": 0.6146,
+      "delta": 0.0979
+    },
+    {
+      "over_ball": "2.6",
+      "wp_before": 0.69,
+      "wp_after": 0.7685,
+      "delta": 0.0785
+    },
+    {
+      "over_ball": "4.1",
+      "wp_before": 0.8411,
+      "wp_after": 0.8876,
+      "delta": 0.0465
+    }
+  ],
+  "volatility_index": {
+    "value": 1.0,
+    "interpretation": "Moderate \u2014 RCB generally led but Ishan's innings kept the score competitive"
+  },
+  "burn_rate": {
+    "srh": [
+      {
+        "over": 1,
+        "runs": 18,
+        "wickets": 0,
+        "wickets_remaining": 10,
+        "classification": "Attacking",
+        "run_rate": 18,
+        "bowler": "Bhuvneshwar Kumar"
+      },
+      {
+        "over": 2,
+        "runs": 5,
+        "wickets": 2,
+        "wickets_remaining": 8,
+        "classification": "Reckless",
+        "run_rate": 5,
+        "bowler": "Jacob Duffy"
+      },
+      {
+        "over": 3,
+        "runs": 3,
+        "wickets": 0,
+        "wickets_remaining": 8,
+        "classification": "Conservative",
+        "run_rate": 3,
+        "bowler": "Jacob Duffy"
+      },
+      {
+        "over": 4,
+        "runs": 3,
+        "wickets": 1,
+        "wickets_remaining": 7,
+        "classification": "Efficient",
+        "run_rate": 3,
+        "bowler": "Jacob Duffy"
+      },
+      {
+        "over": 5,
+        "runs": 9,
+        "wickets": 0,
+        "wickets_remaining": 7,
+        "classification": "Efficient",
+        "run_rate": 9,
+        "bowler": "Bhuvneshwar Kumar"
+      },
+      {
+        "over": 6,
+        "runs": 11,
+        "wickets": 0,
+        "wickets_remaining": 7,
+        "classification": "Attacking",
+        "run_rate": 11,
+        "bowler": "Bhuvneshwar Kumar"
+      },
+      {
+        "over": 7,
+        "runs": 10,
+        "wickets": 0,
+        "wickets_remaining": 7,
+        "classification": "Efficient",
+        "run_rate": 10,
+        "bowler": "Suyash Sharma"
+      },
+      {
+        "over": 8,
+        "runs": 8,
+        "wickets": 0,
+        "wickets_remaining": 7,
+        "classification": "Efficient",
+        "run_rate": 8,
+        "bowler": "Krunal Pandya"
+      },
+      {
+        "over": 9,
+        "runs": 12,
+        "wickets": 0,
+        "wickets_remaining": 7,
+        "classification": "Attacking",
+        "run_rate": 12,
+        "bowler": "Abhinandan Singh"
+      },
+      {
+        "over": 10,
+        "runs": 10,
+        "wickets": 0,
+        "wickets_remaining": 7,
+        "classification": "Efficient",
+        "run_rate": 10,
+        "bowler": "Suyash Sharma"
+      },
+      {
+        "over": 11,
+        "runs": 12,
+        "wickets": 0,
+        "wickets_remaining": 7,
+        "classification": "Attacking",
+        "run_rate": 12,
+        "bowler": "Jacob Duffy"
+      },
+      {
+        "over": 12,
+        "runs": 12,
+        "wickets": 0,
+        "wickets_remaining": 7,
+        "classification": "Attacking",
+        "run_rate": 12,
+        "bowler": "Abhinandan Singh"
+      },
+      {
+        "over": 13,
+        "runs": 13,
+        "wickets": 1,
+        "wickets_remaining": 6,
+        "classification": "Attacking",
+        "run_rate": 13,
+        "bowler": "Romario Shepherd"
+      },
+      {
+        "over": 14,
+        "runs": 11,
+        "wickets": 1,
+        "wickets_remaining": 5,
+        "classification": "Attacking",
+        "run_rate": 11,
+        "bowler": "Suyash Sharma"
+      },
+      {
+        "over": 15,
+        "runs": 18,
+        "wickets": 1,
+        "wickets_remaining": 4,
+        "classification": "Attacking",
+        "run_rate": 18,
+        "bowler": "Abhinandan Singh"
+      },
+      {
+        "over": 16,
+        "runs": 12,
+        "wickets": 1,
+        "wickets_remaining": 3,
+        "classification": "Attacking",
+        "run_rate": 12,
+        "bowler": "Romario Shepherd"
+      },
+      {
+        "over": 17,
+        "runs": 7,
+        "wickets": 1,
+        "wickets_remaining": 2,
+        "classification": "Efficient",
+        "run_rate": 7,
+        "bowler": "Bhuvneshwar Kumar"
+      },
+      {
+        "over": 18,
+        "runs": 18,
+        "wickets": 1,
+        "wickets_remaining": 1,
+        "classification": "Attacking",
+        "run_rate": 18,
+        "bowler": "Suyash Sharma"
+      },
+      {
+        "over": 19,
+        "runs": 8,
+        "wickets": 0,
+        "wickets_remaining": 1,
+        "classification": "Efficient",
+        "run_rate": 8,
+        "bowler": "Romario Shepherd"
+      },
+      {
+        "over": 20,
+        "runs": 1,
+        "wickets": 0,
+        "wickets_remaining": 1,
+        "classification": "Conservative",
+        "run_rate": 1,
+        "bowler": "Romario Shepherd"
+      }
+    ],
+    "rcb": [
+      {
+        "over": 1,
+        "runs": 9,
+        "wickets": 1,
+        "wickets_remaining": 9,
+        "classification": "Efficient",
+        "run_rate": 9,
+        "bowler": "Jaydev Unadkat"
+      },
+      {
+        "over": 2,
+        "runs": 9,
+        "wickets": 0,
+        "wickets_remaining": 9,
+        "classification": "Efficient",
+        "run_rate": 9,
+        "bowler": "Nitish Kumar Reddy"
+      },
+      {
+        "over": 3,
+        "runs": 11,
+        "wickets": 0,
+        "wickets_remaining": 9,
+        "classification": "Attacking",
+        "run_rate": 11,
+        "bowler": "Jaydev Unadkat"
+      },
+      {
+        "over": 4,
+        "runs": 15,
+        "wickets": 0,
+        "wickets_remaining": 9,
+        "classification": "Attacking",
+        "run_rate": 15,
+        "bowler": "Harshal Patel"
+      },
+      {
+        "over": 5,
+        "runs": 15,
+        "wickets": 0,
+        "wickets_remaining": 9,
+        "classification": "Attacking",
+        "run_rate": 15,
+        "bowler": "Eshan Malinga"
+      },
+      {
+        "over": 6,
+        "runs": 17,
+        "wickets": 0,
+        "wickets_remaining": 9,
+        "classification": "Attacking",
+        "run_rate": 17,
+        "bowler": "Nitish Kumar Reddy"
+      },
+      {
+        "over": 7,
+        "runs": 11,
+        "wickets": 0,
+        "wickets_remaining": 9,
+        "classification": "Attacking",
+        "run_rate": 11,
+        "bowler": "Jaydev Unadkat"
+      },
+      {
+        "over": 8,
+        "runs": 23,
+        "wickets": 1,
+        "wickets_remaining": 8,
+        "classification": "Attacking",
+        "run_rate": 23,
+        "bowler": "Harsh Dubey"
+      },
+      {
+        "over": 9,
+        "runs": 12,
+        "wickets": 0,
+        "wickets_remaining": 8,
+        "classification": "Attacking",
+        "run_rate": 12,
+        "bowler": "Eshan Malinga"
+      },
+      {
+        "over": 10,
+        "runs": 15,
+        "wickets": 0,
+        "wickets_remaining": 8,
+        "classification": "Attacking",
+        "run_rate": 15,
+        "bowler": "Harsh Dubey"
+      },
+      {
+        "over": 11,
+        "runs": 14,
+        "wickets": 0,
+        "wickets_remaining": 8,
+        "classification": "Attacking",
+        "run_rate": 14,
+        "bowler": "Harshal Patel"
+      },
+      {
+        "over": 12,
+        "runs": 12,
+        "wickets": 2,
+        "wickets_remaining": 6,
+        "classification": "Efficient",
+        "run_rate": 12,
+        "bowler": "David Payne"
+      },
+      {
+        "over": 13,
+        "runs": 4,
+        "wickets": 0,
+        "wickets_remaining": 6,
+        "classification": "Conservative",
+        "run_rate": 4,
+        "bowler": "David Payne"
+      },
+      {
+        "over": 14,
+        "runs": 18,
+        "wickets": 0,
+        "wickets_remaining": 6,
+        "classification": "Attacking",
+        "run_rate": 18,
+        "bowler": "Harshal Patel"
+      },
+      {
+        "over": 15,
+        "runs": 18,
+        "wickets": 0,
+        "wickets_remaining": 6,
+        "classification": "Attacking",
+        "run_rate": 18,
+        "bowler": "Harshal Patel"
+      }
+    ]
+  },
+  "pressure_index": {
+    "srh": {
+      "per_over": [
+        {
+          "over": 1,
+          "pressure": 0.3,
+          "dot_pct": 0,
+          "wickets_this_over": 0,
+          "rr_deviation": 1.0,
+          "wickets_remaining": 10,
+          "classification": "normal"
+        },
+        {
+          "over": 2,
+          "pressure": 0.757,
+          "dot_pct": 0.167,
+          "wickets_this_over": 2,
+          "rr_deviation": 0.3,
+          "wickets_remaining": 8,
+          "classification": "extreme"
+        },
+        {
+          "over": 3,
+          "pressure": 0.35,
+          "dot_pct": 0.5,
+          "wickets_this_over": 0,
+          "rr_deviation": 0.5,
+          "wickets_remaining": 8,
+          "classification": "above_average"
+        },
+        {
+          "over": 4,
+          "pressure": 0.65,
+          "dot_pct": 0.5,
+          "wickets_this_over": 1,
+          "rr_deviation": 0.5,
+          "wickets_remaining": 7,
+          "classification": "high"
+        },
+        {
+          "over": 5,
+          "pressure": 0.03,
+          "dot_pct": 0,
+          "wickets_this_over": 0,
+          "rr_deviation": 0.1,
+          "wickets_remaining": 7,
+          "classification": "normal"
+        },
+        {
+          "over": 6,
+          "pressure": 0.09,
+          "dot_pct": 0,
+          "wickets_this_over": 0,
+          "rr_deviation": 0.3,
+          "wickets_remaining": 7,
+          "classification": "normal"
+        },
+        {
+          "over": 7,
+          "pressure": 0.06,
+          "dot_pct": 0,
+          "wickets_this_over": 0,
+          "rr_deviation": 0.2,
+          "wickets_remaining": 7,
+          "classification": "normal"
+        },
+        {
+          "over": 8,
+          "pressure": 0.0,
+          "dot_pct": 0,
+          "wickets_this_over": 0,
+          "rr_deviation": 0.0,
+          "wickets_remaining": 7,
+          "classification": "normal"
+        },
+        {
+          "over": 9,
+          "pressure": 0.12,
+          "dot_pct": 0,
+          "wickets_this_over": 0,
+          "rr_deviation": 0.4,
+          "wickets_remaining": 7,
+          "classification": "normal"
+        },
+        {
+          "over": 10,
+          "pressure": 0.06,
+          "dot_pct": 0,
+          "wickets_this_over": 0,
+          "rr_deviation": 0.2,
+          "wickets_remaining": 7,
+          "classification": "normal"
+        },
+        {
+          "over": 11,
+          "pressure": 0.12,
+          "dot_pct": 0,
+          "wickets_this_over": 0,
+          "rr_deviation": 0.4,
+          "wickets_remaining": 7,
+          "classification": "normal"
+        },
+        {
+          "over": 12,
+          "pressure": 0.12,
+          "dot_pct": 0,
+          "wickets_this_over": 0,
+          "rr_deviation": 0.4,
+          "wickets_remaining": 7,
+          "classification": "normal"
+        },
+        {
+          "over": 13,
+          "pressure": 0.45,
+          "dot_pct": 0,
+          "wickets_this_over": 1,
+          "rr_deviation": 0.5,
+          "wickets_remaining": 6,
+          "classification": "above_average"
+        },
+        {
+          "over": 14,
+          "pressure": 0.39,
+          "dot_pct": 0,
+          "wickets_this_over": 1,
+          "rr_deviation": 0.3,
+          "wickets_remaining": 5,
+          "classification": "above_average"
+        },
+        {
+          "over": 15,
+          "pressure": 0.6,
+          "dot_pct": 0,
+          "wickets_this_over": 1,
+          "rr_deviation": 1.0,
+          "wickets_remaining": 4,
+          "classification": "high"
+        },
+        {
+          "over": 16,
+          "pressure": 0.42,
+          "dot_pct": 0,
+          "wickets_this_over": 1,
+          "rr_deviation": 0.4,
+          "wickets_remaining": 3,
+          "classification": "above_average"
+        },
+        {
+          "over": 17,
+          "pressure": 0.33,
+          "dot_pct": 0,
+          "wickets_this_over": 1,
+          "rr_deviation": 0.1,
+          "wickets_remaining": 2,
+          "classification": "above_average"
+        },
+        {
+          "over": 18,
+          "pressure": 0.6,
+          "dot_pct": 0,
+          "wickets_this_over": 1,
+          "rr_deviation": 1.0,
+          "wickets_remaining": 1,
+          "classification": "high"
+        },
+        {
+          "over": 19,
+          "pressure": 0.0,
+          "dot_pct": 0,
+          "wickets_this_over": 0,
+          "rr_deviation": 0.0,
+          "wickets_remaining": 1,
+          "classification": "normal"
+        },
+        {
+          "over": 20,
+          "pressure": 0.543,
+          "dot_pct": 0.833,
+          "wickets_this_over": 0,
+          "rr_deviation": 0.7,
+          "wickets_remaining": 1,
+          "classification": "above_average"
+        }
+      ],
+      "baselines": {
+        "average": 0.299,
+        "powerplay_average": 0.363,
+        "death_average": 0.368,
+        "p75_threshold": 0.543,
+        "p90_threshold": 0.65
+      }
+    },
+    "rcb": {
+      "per_over": [
+        {
+          "over": 1,
+          "pressure": 0.335,
+          "dot_pct": 0,
+          "wickets_this_over": 1,
+          "rr_deviation": 0.116,
+          "wickets_remaining": 9,
+          "classification": "above_average"
+        },
+        {
+          "over": 2,
+          "pressure": 0.037,
+          "dot_pct": 0,
+          "wickets_this_over": 0,
+          "rr_deviation": 0.122,
+          "wickets_remaining": 9,
+          "classification": "normal"
+        },
+        {
+          "over": 3,
+          "pressure": 0.025,
+          "dot_pct": 0,
+          "wickets_this_over": 0,
+          "rr_deviation": 0.082,
+          "wickets_remaining": 9,
+          "classification": "normal"
+        },
+        {
+          "over": 4,
+          "pressure": 0.154,
+          "dot_pct": 0,
+          "wickets_this_over": 0,
+          "rr_deviation": 0.512,
+          "wickets_remaining": 9,
+          "classification": "normal"
+        },
+        {
+          "over": 5,
+          "pressure": 0.164,
+          "dot_pct": 0,
+          "wickets_this_over": 0,
+          "rr_deviation": 0.547,
+          "wickets_remaining": 9,
+          "classification": "normal"
+        },
+        {
+          "over": 6,
+          "pressure": 0.24,
+          "dot_pct": 0,
+          "wickets_this_over": 0,
+          "rr_deviation": 0.8,
+          "wickets_remaining": 9,
+          "classification": "normal"
+        },
+        {
+          "over": 7,
+          "pressure": 0.065,
+          "dot_pct": 0,
+          "wickets_this_over": 0,
+          "rr_deviation": 0.215,
+          "wickets_remaining": 9,
+          "classification": "normal"
+        },
+        {
+          "over": 8,
+          "pressure": 0.76,
+          "dot_pct": 0,
+          "wickets_this_over": 1,
+          "rr_deviation": 1.533,
+          "wickets_remaining": 8,
+          "classification": "high"
+        },
+        {
+          "over": 9,
+          "pressure": 0.142,
+          "dot_pct": 0,
+          "wickets_this_over": 0,
+          "rr_deviation": 0.473,
+          "wickets_remaining": 8,
+          "classification": "normal"
+        },
+        {
+          "over": 10,
+          "pressure": 0.255,
+          "dot_pct": 0,
+          "wickets_this_over": 0,
+          "rr_deviation": 0.85,
+          "wickets_remaining": 8,
+          "classification": "normal"
+        },
+        {
+          "over": 11,
+          "pressure": 0.25,
+          "dot_pct": 0,
+          "wickets_this_over": 0,
+          "rr_deviation": 0.833,
+          "wickets_remaining": 8,
+          "classification": "normal"
+        },
+        {
+          "over": 12,
+          "pressure": 0.814,
+          "dot_pct": 0,
+          "wickets_this_over": 2,
+          "rr_deviation": 0.713,
+          "wickets_remaining": 6,
+          "classification": "extreme"
+        },
+        {
+          "over": 13,
+          "pressure": 0.163,
+          "dot_pct": 0.333,
+          "wickets_this_over": 0,
+          "rr_deviation": 0.1,
+          "wickets_remaining": 6,
+          "classification": "normal"
+        },
+        {
+          "over": 14,
+          "pressure": 0.455,
+          "dot_pct": 0,
+          "wickets_this_over": 0,
+          "rr_deviation": 1.517,
+          "wickets_remaining": 6,
+          "classification": "above_average"
+        },
+        {
+          "over": 15,
+          "pressure": 0.546,
+          "dot_pct": 0,
+          "wickets_this_over": 0,
+          "rr_deviation": 1.82,
+          "wickets_remaining": 6,
+          "classification": "high"
+        }
+      ],
+      "baselines": {
+        "average": 0.294,
+        "powerplay_average": 0.159,
+        "death_average": 0.0,
+        "p75_threshold": 0.455,
+        "p90_threshold": 0.76
+      }
+    }
+  },
+  "partnerships": {
+    "srh": [
+      {
+        "partnership_num": 1,
+        "batsman1": "Travis Head",
+        "batsman2": "Abhishek Sharma",
+        "runs": 18,
+        "balls": 13,
+        "sr": 138.5,
+        "start_over": 0.0,
+        "end_over": 2.1,
+        "load_bearing": false
+      },
+      {
+        "partnership_num": 2,
+        "batsman1": "Travis Head",
+        "batsman2": "Ishan Kishan",
+        "runs": 5,
+        "balls": 5,
+        "sr": 100.0,
+        "start_over": 2.1,
+        "end_over": 2.6,
+        "load_bearing": false
+      },
+      {
+        "partnership_num": 3,
+        "batsman1": "Ishan Kishan",
+        "batsman2": "Nitish Kumar Reddy",
+        "runs": 6,
+        "balls": 8,
+        "sr": 75.0,
+        "start_over": 2.6,
+        "end_over": 4.2,
+        "load_bearing": false
+      },
+      {
+        "partnership_num": 4,
+        "batsman1": "Ishan Kishan",
+        "batsman2": "Heinrich Klaasen",
+        "runs": 97,
+        "balls": 53,
+        "sr": 183.0,
+        "start_over": 4.2,
+        "end_over": 13.1,
+        "load_bearing": true
+      },
+      {
+        "partnership_num": 5,
+        "batsman1": "Ishan Kishan",
+        "batsman2": "Salil Arora",
+        "runs": 11,
+        "balls": 8,
+        "sr": 137.5,
+        "start_over": 13.1,
+        "end_over": 14.3,
+        "load_bearing": false
+      },
+      {
+        "partnership_num": 6,
+        "batsman1": "Ishan Kishan",
+        "batsman2": "Aniket Verma",
+        "runs": 18,
+        "balls": 9,
+        "sr": 200.0,
+        "start_over": 14.3,
+        "end_over": 15.6,
+        "load_bearing": false
+      },
+      {
+        "partnership_num": 7,
+        "batsman1": "Aniket Verma",
+        "batsman2": "Harsh Dubey",
+        "runs": 12,
+        "balls": 6,
+        "sr": 200.0,
+        "start_over": 15.6,
+        "end_over": 16.6,
+        "load_bearing": false
+      },
+      {
+        "partnership_num": 8,
+        "batsman1": "Aniket Verma",
+        "batsman2": "Harshal Patel",
+        "runs": 7,
+        "balls": 5,
+        "sr": 140.0,
+        "start_over": 16.6,
+        "end_over": 17.5,
+        "load_bearing": false
+      },
+      {
+        "partnership_num": 9,
+        "batsman1": "Aniket Verma",
+        "batsman2": "David Payne",
+        "runs": 18,
+        "balls": 7,
+        "sr": 257.1,
+        "start_over": 17.5,
+        "end_over": 18.6,
+        "load_bearing": false
+      },
+      {
+        "partnership_num": 10,
+        "batsman1": "David Payne",
+        "batsman2": "Jaydev Unadkat",
+        "runs": 9,
+        "balls": 6,
+        "sr": 150.0,
+        "start_over": 18.6,
+        "end_over": 20.0,
+        "load_bearing": false
+      }
+    ],
+    "rcb": [
+      {
+        "partnership_num": 1,
+        "batsman1": "Phil Salt",
+        "batsman2": "Virat Kohli",
+        "runs": 9,
+        "balls": 7,
+        "sr": 128.6,
+        "start_over": 0.0,
+        "end_over": 1.1,
+        "load_bearing": false
+      },
+      {
+        "partnership_num": 2,
+        "batsman1": "Virat Kohli",
+        "batsman2": "Devdutt Padikkal",
+        "runs": 101,
+        "balls": 45,
+        "sr": 224.4,
+        "start_over": 1.1,
+        "end_over": 8.4,
+        "load_bearing": true
+      },
+      {
+        "partnership_num": 3,
+        "batsman1": "Virat Kohli",
+        "batsman2": "Rajat Patidar",
+        "runs": 53,
+        "balls": 22,
+        "sr": 240.9,
+        "start_over": 8.4,
+        "end_over": 12.2,
+        "load_bearing": false
+      },
+      {
+        "partnership_num": 4,
+        "batsman1": "Virat Kohli",
+        "batsman2": "Jitesh Sharma",
+        "runs": 0,
+        "balls": 1,
+        "sr": 0.0,
+        "start_over": 12.2,
+        "end_over": 12.3,
+        "load_bearing": false
+      },
+      {
+        "partnership_num": 5,
+        "batsman1": "Virat Kohli",
+        "batsman2": "Tim David",
+        "runs": 40,
+        "balls": 19,
+        "sr": 210.5,
+        "start_over": 12.3,
+        "end_over": 15.4,
+        "load_bearing": false
+      }
+    ]
+  },
+  "matchups": [
+    {
+      "matchup_id": 1,
+      "innings": 1,
+      "batsman": "Ishan Kishan",
+      "bowler": "Jacob Duffy",
+      "balls_faced": 8,
+      "runs_scored": 18,
+      "dismissal": false,
+      "matchup_sr": 225.0,
+      "overall_sr": 210.52,
+      "verdict": "ineffective",
+      "note": "Ishan took Duffy on before the Impact sub. Duffy left the field at over 7 as Padikkal came on."
+    },
+    {
+      "matchup_id": 2,
+      "innings": 1,
+      "batsman": "Aniket Verma",
+      "bowler": "Suyash Sharma",
+      "balls_faced": 10,
+      "runs_scored": 26,
+      "dismissal": false,
+      "matchup_sr": 260.0,
+      "overall_sr": 238.88,
+      "verdict": "ineffective",
+      "note": "Aniket murdered Suyash's leg-spin. 9 RPO against Suyash was misleading \u2014 Aniket took him apart."
+    },
+    {
+      "matchup_id": 3,
+      "innings": 2,
+      "batsman": "Virat Kohli",
+      "bowler": "Harshal Patel",
+      "balls_faced": 14,
+      "runs_scored": 32,
+      "dismissal": false,
+      "matchup_sr": 228.6,
+      "overall_sr": 181.57,
+      "verdict": "ineffective",
+      "note": "Harshal went for 39 in 2.4 overs; Kohli was his executioner. The 6,4,4,4 in over 15 says it all."
+    },
+    {
+      "matchup_id": 4,
+      "innings": 1,
+      "batsman": "Abhishek Sharma",
+      "bowler": "Jacob Duffy",
+      "balls_faced": 4,
+      "runs_scored": 1,
+      "dismissal": true,
+      "matchup_sr": 25.0,
+      "overall_sr": 147.0,
+      "verdict": "effective",
+      "note": "Duffy tested Sharma short and angling into the body \u2014 a couple of wides in the process, but the plan worked. Abhishek had no answer to the short-of-a-length delivery that nipped back."
+    }
+  ],
+  "turning_points": [
+    {
+      "rank": 1,
+      "over_ball": "2.1-2.6",
+      "description": "The Duffy Double \u2014 Abhishek and Head fall in over 2",
+      "score_before": "18/0",
+      "score_after": "23/2",
+      "pressure_impact": "Extreme",
+      "win_prob_shift": "N/A (SRH innings)",
+      "narrative": "SRH were cruising at 18/0 when Duffy produced two wickets in 5 balls in the second over. Head and Abhishek \u2014 SRH's most destructive openers \u2014 both fell to short-ball traps. Suddenly 23/2, a matchwinning platform evaporated."
+    },
+    {
+      "rank": 2,
+      "over_ball": "3.1-15.6",
+      "description": "Ishan Kishan's lone-wolf innings: 80 off 38",
+      "score_before": "23/2",
+      "score_after": "155/6",
+      "pressure_impact": "Extreme (sustained)",
+      "win_prob_shift": "N/A",
+      "narrative": "What followed was one of the great T20 captain's knocks. Ishan dragged SRH from 29/3 to 155/6, manufacturing 80 off 38 balls with eight fours and five sixes. He batted around collapses, anchored a partnership with Klaasen, and never let RCB breathe."
+    },
+    {
+      "rank": 3,
+      "over_ball": "8.4",
+      "description": "Padikkal dismissed for 61 \u2014 race back on",
+      "score_before": "76/1 (6.0 overs)",
+      "score_after": "110/2",
+      "pressure_impact": "High",
+      "win_prob_shift": "~98% \u2192 ~98%",
+      "narrative": "Devdutt Padikkal had been blinding. 61 off 26 with seven fours and four sixes, a debut-season cameo that announced his presence. His departure at 8.4 brought Patidar in but also handed SRH brief hope. They needed a collapse. They got one wicket. RCB got Kohli."
+    }
+  ],
+  "counterfactual_scenarios": [
+    {
+      "scenario_id": 1,
+      "title": "What if Ishan Kishan had been run out for 50?",
+      "change": "Ishan Kishan dismissed 30 runs earlier (at 50 instead of 80), at over 12 instead of over 15.6",
+      "original_outcome": "SRH 201/9, target 202",
+      "lola_outcome": "SRH ~170/9, target 171 \u2014 RCB wins more comfortably",
+      "key_number": 31,
+      "original_win_prob": 0.98,
+      "counterfactual_win_prob": 0.99,
+      "narrative": "Ishan Kishan's 80 wasn't just valuable \u2014 it was irreplaceable. He carried SRH from 29/3 in the 4th over to respectability, stringing together partnerships with four different batsmen and manufacturing 30 of his 80 runs in the death phase when SRH needed them most.\n\nRemove those 30 runs and SRH's total craters from 201 to approximately 170. At that target, RCB's powerplay alone (76/1) would have almost clinched it. Kohli and Padikkal would have shared a cold drink by the 10th over.\n\nThe real counterfactual isn't 'would RCB have won' \u2014 they'd have won regardless. It's 'would this match have been worth watching?' Ishan's innings converted a forgettable 170-chase into a 201-chase that at least kept score-checking fans nervous through the middle overs."
+    },
+    {
+      "scenario_id": 2,
+      "title": "What if Harshal Patel had bowled a dot-ball over to Kohli in over 15?",
+      "change": "Replace Harshal's catastrophic 15th over (6,4,4,4 = 18 runs in 4 balls) with an average T20 over (8 runs, no boundaries)",
+      "original_outcome": "RCB 203/4 in 15.4 overs, won by 6 wickets",
+      "lola_outcome": "RCB 192/4 after over 15 \u2014 need 11 more in 5 overs. Still comfortable, but match extends.",
+      "key_number": 18,
+      "original_win_prob": 0.98,
+      "counterfactual_win_prob": 0.94,
+      "narrative": "The final over of this match \u2014 Harshal's 15th \u2014 was the kind of over that makes bowlers reconsider their career. 18 runs off 4 balls. Kohli deposited the first delivery over long-on with the serenity of someone walking to the office, then carved three consecutive fours through the off side as if Harshal's field were a suggestion rather than a plan.\n\nIf Harshal had managed that over at the T20 average (8-9 runs), RCB would have needed 11 more from 30 balls: a straightforward task for Kohli (49 not out at the time) and Tim David. Win probability stays above 94%.\n\nThe match still ends the same way. What changes is the statement. Kohli's final over was a coronation \u2014 a declaration that IPL 2026 would be conducted under his terms. Harshal's plan, whatever it was, died somewhere between the pitch and the long-on boundary."
+    }
+  ],
+  "commentary_gems": [
+    {
+      "ball": "2.1",
+      "context": "Over 2, ball 1. SRH cruising at 18/0. Abhishek Sharma on strike.",
+      "text": "Straight up, Salt takes it looking back! Duffy's scrambled seam back of length just outside off, Abhishek in the crease. Bat face opened on impact and he sliced it behind. 18/1.",
+      "why": "The first sign this was Duffy's match. A ball that shouldn't trouble Abhishek \u2014 and completely does."
+    },
+    {
+      "ball": "2.6",
+      "context": "Same over, final ball. Head has just watched his partner go.",
+      "text": "Head's been snipered straight to deep square leg! The crowd erupts! Duffy turning it on at the Chinnaswamy. Salt took it with cupped hands around his chest and fell back with the momentum but held on.",
+      "why": "Two in one over. The crowd felt it. Duffy, in his first Chinnaswamy appearance, just changed the match in six balls."
+    },
+    {
+      "ball": "15.6",
+      "context": "Over 15. Ishan Kishan going for the maximum with SRH at 137/5.",
+      "text": "Hang on a minute, I need to pick up my jaw from the floor. PHIL SALT, where's your cape! Ishan Kishan lofts it deep and Salt takes a screamer running back at long-on. Mind-boggling.",
+      "why": "Phil Salt's catch to dismiss Ishan \u2014 the defining defensive moment. It simultaneously ended SRH's best hope and ended the match as a contest."
+    },
+    {
+      "ball": "15.1 (RCB innings)",
+      "context": "Over 15 of the chase. RCB need 18 from the over. Harshal Patel to Virat Kohli.",
+      "text": "On-pace 127kph ball right in his wheelhouse. Kohli gets under it and with a clean swing, sends it over long-on. IPL 2026 \u2014 Kohli is HERE.",
+      "why": "The first ball of the final over. The Chinnaswamy roar had waited 12 months for this. The commentary team knew it too."
+    },
+    {
+      "ball": "15.4 (RCB innings)",
+      "context": "Match ball. 4 needed from 1. Kohli on strike.",
+      "text": "THAT'S THAT! Defending champions start IPL 2026 with a statement win. Kohli drives through cover \u2014 four! RCB win by 6 wickets. 203/4 in 15.4 overs.",
+      "why": "Three words: Kohli drives. Cover. Four. The simplest sentence for the most inevitable conclusion."
+    }
+  ],
+  "game_changers": [
+    {
+      "player": "Jacob Duffy",
+      "team": "RCB",
+      "stat_line": "4-0-22-3, Economy 5.50, 13 dots",
+      "role": "Game Changer",
+      "reasoning": "Duffy arrived in Australia the night before and left in over 7 as Padikkal's impact sub replacement. In those seven overs he re-shaped the entire match. Three wickets in 24 balls including SRH's entire top order \u2014 Head, Abhishek, and Nitish \u2014 for 22 runs. His 5.50 economy in a Chinnaswamy game is borderline supernatural. Player of the Match. Rightfully."
+    },
+    {
+      "player": "Virat Kohli",
+      "team": "RCB",
+      "stat_line": "69* off 38 balls, SR 181.57, 5\u00d74, 5\u00d76",
+      "role": "The Closer",
+      "reasoning": "Kohli doesn't do quiet. He never has. 69 not out in 38 balls in his IPL 2026 opener \u2014 composed until he wasn't, murderous when he needed to be. The final over against Harshal (6,4,4,4) was the kind of statement only Kohli makes at Chinnaswamy. Cricket's greatest centre-forward in his home ground. Season-opening declaration."
+    },
+    {
+      "player": "Ishan Kishan",
+      "team": "SRH",
+      "stat_line": "80 off 38, SR 210.52, 8\u00d74, 5\u00d76 \u2014 captain's innings",
+      "role": "Captain's Rescue Act",
+      "reasoning": "SRH were 29/3 in the 4th over. The number wasn't there to collapse to. Ishan Kishan made himself the reason SRH got to 201. A captain's innings in every sense: he batted through chaos, preserved wickets when it mattered, and then released when the bowling got tired. His 80 built the tension that made this match watchable."
+    },
+    {
+      "player": "Devdutt Padikkal",
+      "team": "RCB",
+      "stat_line": "61 off 26, SR 234.61, 7\u00d74, 4\u00d76 \u2014 Impact sub",
+      "role": "The Detonator",
+      "reasoning": "Padikkal came on as an Impact sub at 6.6 overs and immediately changed the mathematics. By 8.4 overs he'd hit 61 from 26 deliveries including a 50 off 21 balls. He turned a competitive chase into a procession. He was dismissed chasing his 70th but his damage was done: RCB were 110/2 in 8.4 overs and Kohli was purring."
+    }
+  ],
+  "one_number": {
+    "value": "5.50",
+    "label": "Jacob Duffy's Economy",
+    "context": "In a ground where 9 RPO is par, Duffy conceded 5.50 in 4 overs. That's 14 dot balls in 24 deliveries."
+  },
+  "phase_report": {
+    "srh": {
+      "powerplay": {
+        "runs": 49,
+        "wickets": 3,
+        "rr": 8.17,
+        "dots": 4
+      },
+      "middle": {
+        "runs": 106,
+        "wickets": 3,
+        "rr": 11.78,
+        "dots": 0
+      },
+      "death": {
+        "runs": 46,
+        "wickets": 3,
+        "rr": 9.2,
+        "dots": 5
+      }
+    },
+    "rcb": {
+      "powerplay": {
+        "runs": 76,
+        "wickets": 1,
+        "rr": 12.67,
+        "dots": 0
+      },
+      "middle": {
+        "runs": 127,
+        "wickets": 3,
+        "rr": 14.11,
+        "dots": 2
+      },
+      "death": {}
+    }
+  }
+}
