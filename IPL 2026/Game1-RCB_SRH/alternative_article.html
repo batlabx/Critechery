@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ishan Kishan's Impossible Innings — Critechery, IPL 2026 Match 1</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Lora:ital,wght@0,400;0,600;1,400&display=swap');
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'Inter', -apple-system, 'Helvetica Neue', sans-serif;
+  font-size: 18px; line-height: 1.78; color: #2C2C2C;
+  background: #FAFAF8; max-width: 720px;
+  margin: 0 auto; padding: 56px 24px 100px 24px;
+}
+
+h1 {
+  font-family: 'Lora', Georgia, serif;
+  font-size: 2.4em; font-weight: 600; line-height: 1.18;
+  letter-spacing: -0.01em; color: #111111; margin-bottom: 10px;
+}
+
+.meta {
+  font-size: 0.88em; color: #AAAAAA; margin-bottom: 48px;
+  letter-spacing: 0.04em; text-transform: uppercase;
+}
+
+h2 {
+  font-size: 0.78em; font-weight: 700; text-transform: uppercase;
+  letter-spacing: 0.12em; color: #AAAAAA; margin-top: 60px;
+  margin-bottom: 18px; padding-bottom: 8px;
+  border-bottom: 1px solid #E8E8E5;
+}
+
+h3 {
+  font-size: 1.05em; font-weight: 700; color: #1A1A1A;
+  margin-top: 32px; margin-bottom: 10px;
+}
+
+p { margin-bottom: 22px; }
+
+.summary-box {
+  background: #F4F4F1; border-left: 3px solid #1A56DB;
+  padding: 18px 22px; margin: 0 0 32px 0; border-radius: 0 6px 6px 0;
+  font-family: 'Lora', Georgia, serif; font-size: 1.08em;
+  line-height: 1.65; color: #1A1A1A;
+}
+
+.one-number-value {
+  font-family: 'Inter', sans-serif; font-size: 3.2em;
+  font-weight: 800; text-align: center; color: #1A56DB;
+  letter-spacing: -0.04em; padding: 36px 0 6px 0; line-height: 1.0;
+}
+.one-number-label {
+  text-align: center; color: #AAAAAA; font-size: 0.88em;
+  font-weight: 500; letter-spacing: 0.06em;
+  text-transform: uppercase; margin-bottom: 10px;
+}
+.one-number-context {
+  text-align: center; font-style: italic;
+  color: #666; font-size: 0.95em; margin-bottom: 40px;
+}
+
+.humdinger-score {
+  font-family: 'Inter', sans-serif; font-size: 5em;
+  font-weight: 900; text-align: center; color: #F5A623;
+  letter-spacing: -0.04em; padding: 28px 0 4px 0; line-height: 1.0;
+}
+.humdinger-label {
+  text-align: center; color: #AAAAAA; font-size: 0.82em;
+  letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 16px;
+}
+.humdinger-breakdown {
+  background: #FFFDF5; border: 1px solid #F5E6C3;
+  border-radius: 8px; padding: 16px 20px; margin: 12px 0 28px 0;
+  font-size: 0.9em; line-height: 1.9; color: #555;
+}
+
+blockquote {
+  border-left: 3px solid #F5A623; padding: 14px 20px;
+  margin: 28px 0; background: #FFFBF2;
+  font-family: 'Lora', Georgia, serif; font-style: italic;
+  color: #3D3D3D; font-size: 0.97em; border-radius: 0 6px 6px 0;
+}
+blockquote .ball-ref {
+  display: block; font-family: 'Inter', sans-serif;
+  font-style: normal; font-size: 0.78em; font-weight: 600;
+  color: #F5A623; letter-spacing: 0.06em;
+  text-transform: uppercase; margin-bottom: 6px;
+}
+
+table { width: 100%; border-collapse: collapse; margin: 20px 0; font-size: 0.88em; }
+th {
+  background: #F0F0EE; text-align: left; padding: 10px 14px;
+  font-weight: 600; text-transform: uppercase;
+  font-size: 0.76em; letter-spacing: 0.07em; color: #777;
+}
+td { padding: 10px 14px; border-bottom: 1px solid #F0F0EE; }
+tr:last-child td { border-bottom: none; }
+td.highlight { font-weight: 600; color: #1A56DB; }
+
+img.chart {
+  width: 100%; margin: 28px 0; border-radius: 10px;
+  border: 1px solid #E8E8E5; display: block;
+}
+
+.cs-compare {
+  display: flex; gap: 16px; margin: 20px 0 28px 0;
+}
+.cs-team {
+  flex: 1; background: #F8F8F6; border-radius: 10px;
+  padding: 16px 18px; border: 1px solid #E8E8E5;
+}
+.cs-team-name {
+  font-weight: 700; font-size: 0.9em; text-transform: uppercase;
+  letter-spacing: 0.08em; color: #666; margin-bottom: 8px;
+}
+.cs-total {
+  font-family: 'Inter', sans-serif; font-size: 2.6em; font-weight: 800;
+  line-height: 1; margin-bottom: 12px;
+}
+.cs-srh .cs-total { color: #FF6200; }
+.cs-rcb .cs-total { color: #CC0000; }
+.cs-row { display: flex; justify-content: space-between; font-size: 0.82em; 
+          color: #555; padding: 3px 0; border-bottom: 1px solid #F0F0EE; }
+.cs-row:last-child { border-bottom: none; }
+.cs-value { font-weight: 600; color: #1A1A1A; }
+
+.lola-scenario {
+  background: #F0F4FF; border: 1px solid #C7D7FD;
+  border-radius: 10px; padding: 20px 24px; margin: 24px 0;
+}
+.lola-title {
+  font-weight: 700; font-size: 1.05em; color: #1E40AF;
+  margin-bottom: 8px;
+}
+.lola-delta {
+  display: inline-block; background: #1A56DB; color: white;
+  padding: 2px 10px; border-radius: 20px; font-size: 0.8em;
+  font-weight: 700; margin-bottom: 12px; letter-spacing: 0.04em;
+}
+.lola-outcome { font-size: 0.9em; color: #444; margin-bottom: 12px; }
+.lola-narrative { font-size: 0.92em; line-height: 1.7; color: #333; }
+
+.xi-pick-list { list-style: none; padding: 0; margin: 12px 0 20px 0; }
+.xi-pick-list li { padding: 10px 14px; border-bottom: 1px solid #F0F0EE; font-size: 0.93em; }
+.xi-pick-list li:last-child { border-bottom: none; }
+.xi-name   { font-weight: 700; color: #1A1A1A; }
+.xi-stat   { color: #1A56DB; font-weight: 600; margin: 0 8px; }
+.xi-reason { color: #666; }
+
+.poll-section { background: #F4F4F1; border-radius: 10px; padding: 20px 24px; margin: 24px 0; }
+.poll-title { font-weight: 700; font-size: 0.95em; color: #1A1A1A; margin-bottom: 12px; }
+.poll-option {
+  display: block; padding: 8px 14px; border: 1px solid #E0E0DC;
+  border-radius: 6px; margin: 6px 0; font-size: 0.88em; color: #444;
+  background: white; cursor: pointer;
+}
+
+.affiliate-cta {
+  background: #F0F9FF; border: 1px solid #BAE6FD;
+  border-radius: 8px; padding: 14px 18px; margin: 20px 0;
+  font-size: 0.9em; color: #0369A1; text-align: center;
+}
+
+.audio-section {
+  background: #F8F8F6; border: 1px solid #E4E4E0;
+  border-radius: 10px; padding: 20px 22px; margin: 40px 0;
+  text-align: center;
+}
+.audio-coming-soon {
+  color: #AAAAAA; font-size: 0.9em; font-style: italic;
+  padding: 12px 0; display: block;
+}
+.audio-sub { font-size: 0.82em; color: #AAAAAA; }
+
+hr { border: none; border-top: 1px solid #E8E8E5; margin: 52px 0; }
+
+.toss-pill {
+  display: inline-block; background: #EEF4FF; color: #1A56DB;
+  padding: 5px 14px; border-radius: 20px; font-size: 0.84em;
+  font-weight: 600; margin-bottom: 16px;
+}
+
+.tp-card {
+  border-left: 3px solid #F5A623; padding: 12px 16px; margin: 16px 0;
+  background: #FFFBF2; border-radius: 0 6px 6px 0;
+}
+.tp-label { font-size: 0.8em; font-weight: 700; text-transform: uppercase;
+            letter-spacing: 0.08em; color: #F5A623; margin-bottom: 6px; }
+
+.gc-card { padding: 14px 0; border-bottom: 1px solid #F0F0EE; }
+.gc-card:last-child { border-bottom: none; }
+.gc-player { font-weight: 700; font-size: 1.05em; color: #1A1A1A; }
+.gc-stat { color: #1A56DB; font-size: 0.85em; font-weight: 600; margin: 2px 0 6px 0; }
+.gc-reason { font-size: 0.9em; color: #444; line-height: 1.6; }
+</style>
+</head>
+<body>
+
+<h1>Ishan Kishan Gave Everything. SRH Needed Two of Him.</h1>
+<p class="meta">March 28, 2026 &nbsp;·&nbsp; SRH vs RCB &nbsp;·&nbsp; M. Chinnaswamy Stadium &nbsp;·&nbsp; IPL 2026, Match 1</p>
+
+<div class="audio-section">
+  <p style="font-weight:700;font-size:0.9em;text-transform:uppercase;letter-spacing:0.08em;color:#555;margin-bottom:12px;">5-Minute Match Brief</p>
+  <span class="audio-coming-soon">Audio episode coming soon — upload your NotebookLM sources from Output/notebooklm/ to generate it.</span>
+  <p class="audio-sub">Powered by NotebookLM | Full analysis below</p>
+</div>
+
+<h2>The Inflexion Point</h2>
+
+<p>At 29/3 in the 4th over, SRH were staring at 130. Three wickets to Duffy — Head, Abhishek, Nitish — in 25 balls of the most clinical short-ball bowling you'll see in an IPL opener. The crowd was already calculating RCB's likely winning margin.</p>
+
+<p>Then Ishan Kishan walked to the crease. And for 34 balls, he batted alone. Then for another 14, he batted with Klaasen. Then for six more, he batted through the lower order. 80 off 38. Eight fours. Five sixes. The single greatest contribution in this match, from the team that lost.</p>
+
+<p>Before Ishan's dismissal at 15.6, SRH's win probability was 18%. After: 14%. It barely moved. That is how far ahead RCB were. And yet Ishan's innings is the reason this number is 201 rather than 155 — and the reason the chase was, for exactly one hour, something other than a foregone conclusion.</p>
+
+<img class="chart" src="charts/win_probability.png" alt="Win Probability">
+
+<h2>The Humdinger Score</h2>
+
+<div class="humdinger-score">2.9</div>
+<div class="humdinger-label">out of 10</div>
+
+<p>If Ishan had been dismissed for 50 — a still-impressive score — this match ends at roughly 170, and the Humdinger drops to perhaps 1.5. His extra 30 runs built the fiction of a contest that the data never confirmed. The excitement you felt watching was largely Ishan's gift. The number tells the truth that the feeling doesn't.</p>
+
+<p>What would a version of this match where Ishan had support have looked like? If Abhishek had stayed — if he'd read Duffy's scrambled seam rather than fencing at it — we might be discussing an SRH total of 220+ and a genuine thriller. We're not. Duffy saw to that. But Ishan made it worth discussing at all.</p>
+
+<h2>The Critechery Score</h2>
+
+
+<div class="cs-compare">
+  <div class="cs-team cs-srh">
+    <div class="cs-team-name">☀️ SRH</div>
+    <div class="cs-total">52.1</div>
+    <div style="font-size:0.78em;font-weight:600;text-transform:uppercase;letter-spacing:0.07em;color:#888;margin-bottom:6px;">BATTING</div>
+    <div class="cs-row"><span>SR Dominance</span><span class="cs-value">13.3 / 25</span></div>
+    <div class="cs-row"><span>Boundary Efficiency</span><span class="cs-value">15 / 15</span></div>
+    <div class="cs-row"><span>Extras Discipline</span><span class="cs-value">1.0 / 10</span></div>
+    <div style="font-size:0.78em;font-weight:600;text-transform:uppercase;letter-spacing:0.07em;color:#888;margin:8px 0 6px;">BOWLING</div>
+    <div class="cs-row"><span>Economy Squeeze</span><span class="cs-value">0 / 15</span></div>
+    <div class="cs-row"><span>Wicket Punch</span><span class="cs-value">10.0 / 15</span></div>
+    <div class="cs-row"><span>Dot Dominance</span><span class="cs-value">7.6 / 10</span></div>
+    <div class="cs-row"><span>Bowling SR</span><span class="cs-value">5.2 / 10</span></div>
+  </div>
+  <div class="cs-team cs-rcb">
+    <div class="cs-team-name">🦁 RCB</div>
+    <div class="cs-total">75.9</div>
+    <div style="font-size:0.78em;font-weight:600;text-transform:uppercase;letter-spacing:0.07em;color:#888;margin-bottom:6px;">BATTING</div>
+    <div class="cs-row"><span>SR Dominance</span><span class="cs-value">24.0 / 25</span></div>
+    <div class="cs-row"><span>Boundary Efficiency</span><span class="cs-value">15 / 15</span></div>
+    <div class="cs-row"><span>Extras Discipline</span><span class="cs-value">0 / 10</span></div>
+    <div style="font-size:0.78em;font-weight:600;text-transform:uppercase;letter-spacing:0.07em;color:#888;margin:8px 0 6px;">BOWLING</div>
+    <div class="cs-row"><span>Economy Squeeze</span><span class="cs-value">2.8 / 15</span></div>
+    <div class="cs-row"><span>Wicket Punch</span><span class="cs-value">15 / 15</span></div>
+    <div class="cs-row"><span>Dot Dominance</span><span class="cs-value">10 / 10</span></div>
+    <div class="cs-row"><span>Bowling SR</span><span class="cs-value">9.0 / 10</span></div>
+  </div>
+</div>
+
+<p>The batting scores reflect the match's asymmetry: RCB scored at 181+ SR across their four front-line batters; SRH scored at 167 overall but with enormous variance — Ishan at 210, Aniket at 238, and Nitish at 16. The bowling scores are more damning for SRH: an Economy Squeeze of 0.0 means no RCB bowler averaged under 8 RPO, but Duffy's 5.50 is hidden inside a poor team bowling economy dragged down by Suyash (14.50) and Abhinandan (12.66).</p>
+
+<h2>The Matchup Files</h2>
+
+<h3>Matchup 1: Ishan Kishan vs Jacob Duffy</h3>
+<p>Ishan Kishan against Duffy was the one matchup SRH's captain controlled. A strike rate of 225 against Duffy — above his already-superb 210.52 overall — suggests Ishan had a plan and executed it. The tragedy is Duffy only bowled four overs. If Ishan had faced him in overs 14 or 17, who knows? Instead, Duffy was traded for Padikkal at 6.6 and the equation became academic.</p>
+<img class="chart" src="charts/matchup_1.png" alt="Matchup 1">
+
+<h3>Matchup 2: Aniket Verma vs Suyash Sharma</h3>
+<p>SRH's best batter in the death, Aniket Verma, had absolutely no trouble against Suyash Sharma. A SR of 260 against Suyash — comfortably above his already-electric 238.88 overall — shows that Aniket had read the leg-spin and leg-spin had no answer. The googly that Suyash used against Salil Arora (SR 150, then dismissed) did not work against Aniket. Different batsmen, different solutions required.</p>
+<img class="chart" src="charts/matchup_2.png" alt="Matchup 2">
+
+<h3>Matchup 3: Virat Kohli vs Harshal Patel</h3>
+<p>Harshal Patel had one job: contain Kohli at the death. He failed at a rate of 229 SR — nearly 50 points above Kohli's already-dominant 181.57 average. The over 15 — six, four, four, four — was the closing credit sequence of a film that had already ended. SRH's only realistic hope of stopping Kohli would have been Harshal bowling better slower balls. He didn't.</p>
+<img class="chart" src="charts/matchup_3.png" alt="Matchup 3">
+
+<h3>Matchup 4: Abhishek Sharma vs Jacob Duffy</h3>
+<p>Four legal balls. One run. Two wides. One wicket. This is the matchup that set SRH's innings on its course. Duffy came around the wicket and went short into the body — the line that removes the left-hander's favourite scoring arc through the on-side. The wides were collateral: Duffy was searching for the corridor, probing the hip rather than the off-stump, and occasionally missed. But the plan was clear and Abhishek had no answer. An overall IPL strike rate of 147 reduced to 25 against Duffy. The opener who should have launched the innings barely survived the second over.</p>
+<img class="chart" src="charts/matchup_4.png" alt="Matchup 4: Abhishek Sharma vs Jacob Duffy">
+
+<h2>How the Innings Burned</h2>
+
+<p>SRH's Burn Rate makes for difficult reading. The opening three overs are catastrophic: two wickets in over 2, a conservative over 3 as Ishan found his footing, and the path diving through resource-space as if falling off a cliff. Then the long plateau: seven wickets remaining for nine overs, the path staying cautiously horizontal as Ishan and Klaasen constructed their partnership. Then, at over 15, it starts moving again — the Death phase of Aniket and the tail swinging — before settling at one wicket in hand through overs 19 and 20.</p>
+
+<p>RCB's chart is the mirror image: flat, high, and attacking from over 3 onward. Nine wickets in hand at over 12. The line barely descends. It reads like a team that never felt any pressure because they never felt any pressure.</p>
+
+<img class="chart" src="charts/burn_rate.png" alt="Burn Rate">
+
+<h2>Run Lola Run</h2>
+
+<div class="lola-scenario">
+  <div class="lola-title">🎬 What if Ishan Kishan had been run out for 50?</div>
+  <div class="lola-delta">−31 runs for SRH</div>
+  <div class="lola-outcome"><strong>Original:</strong> SRH 201/9, target 202 → <strong>Lola:</strong> SRH ~170/9, target 171 — RCB wins more comfortably</div>
+  <div class="lola-narrative">Ishan Kishan's 80 wasn't just valuable — it was irreplaceable. He carried SRH from 29/3 in the 4th over to respectability, stringing together partnerships with four different batsmen and manufacturing 30 of his 80 runs in the death phase when SRH needed them most.<br><br><br><br>Remove those 30 runs and SRH's total craters from 201 to approximately 170. At that target, RCB's powerplay alone (76/1) would have almost clinched it. Kohli and Padikkal would have shared a cold drink by the 10th over.<br><br><br><br>The real counterfactual isn't 'would RCB have won' — they'd have won regardless. It's 'would this match have been worth watching?' Ishan's innings converted a forgettable 170-chase into a 201-chase that at least kept score-checking fans nervous through the middle overs.</div>
+</div>
+
+<div class="lola-scenario">
+  <div class="lola-title">🎬 What if Harshal Patel had bowled a dot-ball over to Kohli in over 15?</div>
+  <div class="lola-delta">−18 runs for RCB</div>
+  <div class="lola-outcome"><strong>Original:</strong> RCB 203/4 in 15.4 overs, won by 6 wickets → <strong>Lola:</strong> RCB 192/4 after over 15 — need 11 more in 5 overs. Still comfortable, but match extends.</div>
+  <div class="lola-narrative">The final over of this match — Harshal's 15th — was the kind of over that makes bowlers reconsider their career. 18 runs off 4 balls. Kohli deposited the first delivery over long-on with the serenity of someone walking to the office, then carved three consecutive fours through the off side as if Harshal's field were a suggestion rather than a plan.<br><br><br><br>If Harshal had managed that over at the T20 average (8-9 runs), RCB would have needed 11 more from 30 balls: a straightforward task for Kohli (49 not out at the time) and Tim David. Win probability stays above 94%.<br><br><br><br>The match still ends the same way. What changes is the statement. Kohli's final over was a coronation — a declaration that IPL 2026 would be conducted under his terms. Harshal's plan, whatever it was, died somewhere between the pitch and the long-on boundary.</div>
+</div>
+
+<h2>Game Changers</h2>
+
+<div class="gc-card">
+  <div class="gc-player">1. Ishan Kishan <span style="color:#888;font-weight:400;font-size:0.85em">(SRH)</span></div>
+  <div class="gc-stat">80 off 38, SR 210.52, 8×4, 5×6 — captain's innings</div>
+  <div class="gc-reason">SRH were 29/3 in the 4th over. The number wasn't there to collapse to. Ishan Kishan made himself the reason SRH got to 201. A captain's innings in every sense: he batted through chaos, preserved wickets when it mattered, and then released when the bowling got tired. His 80 built the tension that made this match watchable.</div>
+</div>
+<div class="gc-card">
+  <div class="gc-player">2. Jacob Duffy <span style="color:#888;font-weight:400;font-size:0.85em">(RCB)</span></div>
+  <div class="gc-stat">4-0-22-3, Economy 5.50, 13 dots</div>
+  <div class="gc-reason">Duffy arrived in Australia the night before and left in over 7 as Padikkal's impact sub replacement. In those seven overs he re-shaped the entire match. Three wickets in 24 balls including SRH's entire top order — Head, Abhishek, and Nitish — for 22 runs. His 5.50 economy in a Chinnaswamy game is borderline supernatural. Player of the Match. Rightfully.</div>
+</div>
+<div class="gc-card">
+  <div class="gc-player">3. Devdutt Padikkal <span style="color:#888;font-weight:400;font-size:0.85em">(RCB)</span></div>
+  <div class="gc-stat">61 off 26, SR 234.61, 7×4, 4×6 — Impact sub</div>
+  <div class="gc-reason">Padikkal came on as an Impact sub at 6.6 overs and immediately changed the mathematics. By 8.4 overs he'd hit 61 from 26 deliveries including a 50 off 21 balls. He turned a competitive chase into a procession. He was dismissed chasing his 70th but his damage was done: RCB were 110/2 in 8.4 overs and Kohli was purring.</div>
+</div>
+<div class="gc-card">
+  <div class="gc-player">4. Virat Kohli <span style="color:#888;font-weight:400;font-size:0.85em">(RCB)</span></div>
+  <div class="gc-stat">69* off 38 balls, SR 181.57, 5×4, 5×6</div>
+  <div class="gc-reason">Kohli doesn't do quiet. He never has. 69 not out in 38 balls in his IPL 2026 opener — composed until he wasn't, murderous when he needed to be. The final over against Harshal (6,4,4,4) was the kind of statement only Kohli makes at Chinnaswamy. Cricket's greatest centre-forward in his home ground. Season-opening declaration.</div>
+</div>
+
+<img class="chart" src="charts/partnership_flow.png" alt="Partnership Flow">
+<img class="chart" src="charts/manhattan.png" alt="Manhattan">
+
+<h2>Reader Polls</h2>
+
+<div class="poll-section">
+  <div class="poll-title">Was Ishan Kishan's 80 the greatest losing innings in an IPL opener?</div>
+  <span class="poll-option">Yes — no one else could have dragged SRH to 201 from 29/3</span>
+  <span class="poll-option">No — it was exceptional but the context was ordinary</span>
+  <span class="poll-option">Too early to say — wait for the full season</span>
+</div>
+
+<div class="poll-section">
+  <div class="poll-title">Which Critechery metric did you enjoy most in this article?</div>
+  <span class="poll-option">🔥 Burn Rate</span>
+  <span class="poll-option">📊 Pressure Heatmap</span>
+  <span class="poll-option">📈 Win Probability</span>
+  <span class="poll-option">🌊 Volatility Index</span>
+  <span class="poll-option">⚔️ Matchup Files</span>
+  <span class="poll-option">🏆 Critechery Score</span>
+  <span class="poll-option">🤩 Humdinger Score</span>
+  <span class="poll-option">🎬 Run Lola Run</span>
+</div>
+
+<hr>
+<p style="font-size:0.82em;color:#AAAAAA;text-align:center;margin-top:48px;">
+  Critechery — every match, by the numbers.<br>
+  Built by Batlab. IPL 2026, Match 1.
+</p>
+
+</body>
+</html>
