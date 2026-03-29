@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Thakur Thesis: How MI Dismantled KKR with Pace Variation and Brute Force — Critechery</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Lora:ital,wght@0,400;0,600;1,400&display=swap');
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'Inter', -apple-system, 'Helvetica Neue', sans-serif;
+  font-size: 18px; line-height: 1.78; color: #2C2C2C;
+  background: #FAFAF8; max-width: 720px;
+  margin: 0 auto; padding: 56px 24px 100px 24px;
+}
+
+h1 {
+  font-family: 'Lora', Georgia, serif;
+  font-size: 2.4em; font-weight: 600; line-height: 1.18;
+  letter-spacing: -0.01em; color: #111111; margin-bottom: 10px;
+}
+
+.meta {
+  font-size: 0.88em; color: #AAAAAA; margin-bottom: 48px;
+  letter-spacing: 0.04em; text-transform: uppercase;
+}
+
+h2 {
+  font-size: 0.78em; font-weight: 700; text-transform: uppercase;
+  letter-spacing: 0.12em; color: #AAAAAA; margin-top: 60px;
+  margin-bottom: 18px; padding-bottom: 8px;
+  border-bottom: 1px solid #E8E8E5;
+}
+
+h3 {
+  font-size: 1.05em; font-weight: 700; color: #1A1A1A;
+  margin-top: 32px; margin-bottom: 10px;
+}
+
+p { margin-bottom: 22px; }
+
+.summary-box {
+  background: #F4F4F1; border-left: 3px solid #1A56DB;
+  padding: 18px 22px; margin: 0 0 32px 0; border-radius: 0 6px 6px 0;
+  font-family: 'Lora', Georgia, serif; font-size: 1.08em;
+  line-height: 1.65; color: #1A1A1A;
+}
+
+.humdinger-score {
+  font-family: 'Inter', sans-serif; font-size: 5em;
+  font-weight: 900; text-align: center; color: #F5A623;
+  letter-spacing: -0.04em; padding: 28px 0 4px 0; line-height: 1.0;
+}
+.humdinger-label {
+  text-align: center; color: #AAAAAA; font-size: 0.82em;
+  letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 16px;
+}
+.humdinger-breakdown {
+  background: #FFFDF5; border: 1px solid #F5E6C3;
+  border-radius: 8px; padding: 16px 20px; margin: 12px 0 28px 0;
+  font-size: 0.9em; line-height: 1.9; color: #555;
+}
+
+blockquote {
+  border-left: 3px solid #F5A623; padding: 14px 20px;
+  margin: 28px 0; background: #FFFBF2;
+  font-family: 'Lora', Georgia, serif; font-style: italic;
+  color: #3D3D3D; font-size: 0.97em; border-radius: 0 6px 6px 0;
+}
+blockquote .ball-ref {
+  display: block; font-family: 'Inter', sans-serif;
+  font-style: normal; font-size: 0.78em; font-weight: 600;
+  color: #F5A623; letter-spacing: 0.06em;
+  text-transform: uppercase; margin-bottom: 6px;
+}
+
+table { width: 100%; border-collapse: collapse; margin: 20px 0; font-size: 0.88em; }
+th {
+  background: #F0F0EE; text-align: left; padding: 10px 14px;
+  font-weight: 600; text-transform: uppercase;
+  font-size: 0.76em; letter-spacing: 0.07em; color: #777;
+}
+td { padding: 10px 14px; border-bottom: 1px solid #F0F0EE; }
+tr:last-child td { border-bottom: none; }
+td.highlight { font-weight: 600; color: #1A56DB; }
+
+img.chart {
+  width: 100%; margin: 28px 0; border-radius: 10px;
+  border: 1px solid #E8E8E5; display: block;
+}
+
+.cs-compare {
+  display: flex; gap: 16px; margin: 20px 0 28px 0;
+}
+.cs-team {
+  flex: 1; background: #F8F8F6; border-radius: 10px;
+  padding: 16px 18px; border: 1px solid #E8E8E5;
+}
+.cs-team-name {
+  font-weight: 700; font-size: 0.9em; text-transform: uppercase;
+  letter-spacing: 0.08em; color: #666; margin-bottom: 8px;
+}
+.cs-total {
+  font-family: 'Inter', sans-serif; font-size: 2.6em; font-weight: 800;
+  line-height: 1; margin-bottom: 12px;
+}
+.cs-row { display: flex; justify-content: space-between; font-size: 0.82em;
+          color: #555; padding: 3px 0; border-bottom: 1px solid #F0F0EE; }
+.cs-row:last-child { border-bottom: none; }
+.cs-value { font-weight: 600; color: #1A1A1A; }
+
+.lola-scenario {
+  background: #F0F4FF; border: 1px solid #C7D7FD;
+  border-radius: 10px; padding: 20px 24px; margin: 24px 0;
+}
+.lola-title {
+  font-weight: 700; font-size: 1.05em; color: #1E40AF;
+  margin-bottom: 8px;
+}
+.lola-delta {
+  display: inline-block; background: #1A56DB; color: white;
+  padding: 2px 10px; border-radius: 20px; font-size: 0.8em;
+  font-weight: 700; margin-bottom: 12px; letter-spacing: 0.04em;
+}
+.lola-outcome { font-size: 0.9em; color: #444; margin-bottom: 12px; }
+.lola-narrative { font-size: 0.92em; line-height: 1.7; color: #333; }
+
+.tp-card {
+  border-left: 3px solid #F5A623; padding: 12px 16px; margin: 16px 0;
+  background: #FFFBF2; border-radius: 0 6px 6px 0;
+}
+.tp-label { font-size: 0.8em; font-weight: 700; text-transform: uppercase;
+            letter-spacing: 0.08em; color: #F5A623; margin-bottom: 6px; }
+
+.gc-card { padding: 14px 0; border-bottom: 1px solid #F0F0EE; }
+.gc-card:last-child { border-bottom: none; }
+.gc-player { font-weight: 700; font-size: 1.05em; color: #1A1A1A; }
+.gc-stat { color: #1A56DB; font-size: 0.85em; font-weight: 600; margin: 2px 0 6px 0; }
+.gc-reason { font-size: 0.9em; color: #444; line-height: 1.6; }
+
+.audio-section {
+  background: #F8F8F6; border: 1px solid #E4E4E0;
+  border-radius: 10px; padding: 20px 22px; margin: 40px 0;
+  text-align: center;
+}
+.audio-label {
+  font-weight: 700; font-size: 0.9em; text-transform: uppercase;
+  letter-spacing: 0.08em; color: #555; margin-bottom: 12px;
+}
+.audio-coming-soon {
+  color: #AAAAAA; font-size: 0.9em; font-style: italic;
+  padding: 12px 0; display: block;
+}
+.audio-sub { font-size: 0.82em; color: #AAAAAA; }
+
+hr { border: none; border-top: 1px solid #E8E8E5; margin: 52px 0; }
+
+.toss-pill {
+  display: inline-block; background: #EEF4FF; color: #1A56DB;
+  padding: 5px 14px; border-radius: 20px; font-size: 0.84em;
+  font-weight: 600; margin-bottom: 16px;
+}
+</style>
+</head>
+<body>
+
+<h1>The Thakur Thesis: How MI Dismantled KKR's 220 with Pace Variation and Brute Force</h1>
+<p class="meta">March 29, 2026 &nbsp;·&nbsp; KKR vs Mumbai Indians &nbsp;·&nbsp; Wankhede Stadium, Mumbai &nbsp;·&nbsp; IPL 2026, Match 2</p>
+
+<div class="toss-pill">🪙 MI won toss — chose to field</div>
+
+<p>KKR posted 220/4. On any other night at Wankhede, that's a winning score. On Sunday night, it took Mumbai Indians exactly 19.1 overs to swat it aside. The margin — six wickets with five balls to spare — flatters neither team. KKR's innings contained a collapse they never recovered from. MI's chase was built on a partnership so dominant that the target, large as it was, never quite felt like a chase at all.</p>
+
+<!-- SECTION 1: AUDIO BRIEF -->
+<h2>AUDIO BRIEF</h2>
+<div class="audio-section">
+  <p class="audio-label">Match Brief</p>
+  <span class="audio-coming-soon">Audio episode coming soon — upload your NotebookLM sources from Output/notebooklm/ to generate it.</span>
+  <p class="audio-sub">Powered by NotebookLM | Full analysis below</p>
+</div>
+
+<hr>
+
+<!-- SECTION 2: THE HUMDINGER SCORE -->
+<h2>THE HUMDINGER SCORE</h2>
+<div class="humdinger-score">4.1</div>
+<div class="humdinger-label">out of 10</div>
+<div class="humdinger-breakdown">
+  <strong>Win-Prob Closeness (0–4):</strong> 2.1 — only 10.4% of chase balls within the 40–60% zone<br>
+  <strong>Last-Over Drama (0–2):</strong> 2.0 — MI won in over 19.1, with two balls to spare from last 3-over window<br>
+  <strong>Margin (0–2):</strong> 0.0 — 6 wickets is a comfortable winning margin<br>
+  <strong>Wicket Cluster (0–1):</strong> 0.0 — no 3-wicket window in either innings<br>
+  <strong>Boundary Burst (0–1):</strong> 0.0 — death boundary % didn't spike equally across both innings
+</div>
+
+<p>A Humdinger of 4.1 tells you what the scoreline already implies: this was less a thriller than a masterclass in two very different kinds of batting excellence. The formula component that dragged the score up wasn't the margin — it was the last-ball drama score. MI won in over 19 with two balls to spare, and the final three overs contained genuine tension. KKR needed just one more wicket in that window; they got none.</p>
+
+<p>To calibrate: a last-ball decider scores 7–8 on the Humdinger. A tournament final won by one run would push 9. This match sat at 4.1 — firmly in "compelling but not tense" territory. The tension was almost entirely front-loaded, in Shardul Thakur's spell through overs 5–13. After that, the match never genuinely hung in the balance. MI lost three wickets in a seven-over window, which created an appearance of a contest; the underlying win-probability numbers tell a different story.</p>
+
+<p>A tighter Humdinger would have required one thing: KKR taking the 5th wicket at 200, not at 220. Three quick wickets from Narine in the death — say, Hardik at 190, Tilak at 195, Dhir at 205 — and you're looking at MI 215-chasing-208 off 6 balls. That match scores 7.5.</p>
+
+<!-- IMAGE 1 goes here in Substack -->
+
+<hr>
+
+<!-- SECTION 3: THE CRITECHERY SCORE -->
+<h2>The Critechery Score</h2>
+<div class="cs-compare">
+  <div class="cs-team">
+    <div class="cs-team-name">💜 KKR</div>
+    <div class="cs-total" style="color:#1A56DB">52.4</div>
+    <div class="cs-row"><span>SR Dominance</span><span class="cs-value">22.4 / 25</span></div>
+    <div class="cs-row"><span>Boundary Efficiency</span><span class="cs-value">9.3 / 15</span></div>
+    <div class="cs-row"><span>Extras Discipline</span><span class="cs-value">1.0 / 10</span></div>
+    <div class="cs-row"><span>Economy Squeeze</span><span class="cs-value">7.5 / 15</span></div>
+    <div class="cs-row"><span>Wicket Punch</span><span class="cs-value">10.0 / 15</span></div>
+    <div class="cs-row"><span>Dot Dominance</span><span class="cs-value">8.5 / 10</span></div>
+    <div class="cs-row"><span>Bowling Strike Rate</span><span class="cs-value">3.7 / 10</span></div>
+  </div>
+  <div class="cs-team">
+    <div class="cs-team-name">🔵 MI</div>
+    <div class="cs-total" style="color:#E3311D">60.9</div>
+    <div class="cs-row"><span>SR Dominance</span><span class="cs-value">24.8 / 25</span></div>
+    <div class="cs-row"><span>Boundary Efficiency</span><span class="cs-value">12.4 / 15</span></div>
+    <div class="cs-row"><span>Extras Discipline</span><span class="cs-value">5.5 / 10</span></div>
+    <div class="cs-row"><span>Economy Squeeze</span><span class="cs-value">0.0 / 15</span></div>
+    <div class="cs-row"><span>Wicket Punch</span><span class="cs-value">10.0 / 15</span></div>
+    <div class="cs-row"><span>Dot Dominance</span><span class="cs-value">6.0 / 10</span></div>
+    <div class="cs-row"><span>Bowling Strike Rate</span><span class="cs-value">2.2 / 10</span></div>
+  </div>
+</div>
+
+<p>The 8.5-point gap between MI (60.9) and KKR (52.4) is decisive but not catastrophic. The story the sub-metrics tell is more granular. MI's Batting dimension was simply dominant: 24.8/25 on SR Dominance (a weighted SR of 199.5 across their entire batting card) against KKR's 22.4. More critically, MI's Boundary Efficiency — 12.4/15 — reflects the Rohit-Rickelton blitz that converted every short ball into something expensive.</p>
+
+<p>The most striking disparity is Extras Discipline. KKR's bowling attack conceded 10 extras in MI's innings — wides, no-balls, leg-byes accumulating in a way that effectively handed MI an extra over's worth of runs without a ball needing to be hit. MI's 6 extras in KKR's innings look relatively restrained by comparison. Ten extras over 20 overs sounds small; at a chase of 221, every free delivery amplifies the required rate margin.</p>
+
+<p>KKR's Dot Dominance — 8.5/10, among the higher scores you'll see in an IPL match — tells the real story of their bowling effort. They created pressure with dot balls. They just couldn't convert that pressure into wickets when it mattered. A Wicket Punch of 10.0 on 4 wickets represents maximum value, but those 4 wickets came far too late in MI's innings to change the trajectory.</p>
+
+<!-- IMAGE 2 goes here in Substack -->
+
+<hr>
+
+<!-- SECTION 4: MATCHUP 1 -->
+<h2>Matchup 1: Ajinkya Rahane vs Shardul Thakur</h2>
+
+<p>Rahane was the match's central figure for the first thirteen overs — captain of KKR's batting effort, scorer of 67 off 40, the man whose wicket Shardul Thakur made his primary objective. The numbers say Thakur won the argument. Rahane's matchup SR against Thakur across the innings was 147.4 — compared to an overall innings average of 167.5. That 20-run SR differential sounds modest; on 19 balls faced against one specific bowler, it translates to roughly 4 fewer runs than Rahane's average pace, and — crucially — the wicket itself.</p>
+
+<p>Thakur's plan was specific and repeated: cross-seam fuller deliveries outside off-stump, varying pace between 118–125 kph, forcing Rahane into an inside-out drive that is marginally more likely to find a fielder than clear one. Over 13.3, it came off exactly as designed. Rahane had already hit 3 fours and 5 sixes — he was not being suppressed. He was being funnelled toward an error, and on his 40th ball, he obliged. Could Rahane have survived? In an alternate over, probably yes. But Thakur bowled that delivery seven times across the innings. The eighth time, the edge carried to cover.</p>
+
+<img class="chart" src="charts/matchup_1.png" alt="Matchup 1: Rahane vs Thakur">
+<!-- IMAGE 3 goes here in Substack -->
+
+<!-- SECTION 5: MATCHUP 2 -->
+<h2>Matchup 2: Finn Allen vs Shardul Thakur</h2>
+
+<p>Finn Allen at 217.64 SR in the powerplay was the most dangerous thing in Mumbai on Sunday evening. At 69/0 after 5.2 overs, KKR were tracking 250+. Then Thakur. Allen's matchup SR of 150.0 against Thakur — against an overall innings average of 217.6 — is a 67-run SR differential on 8 balls. In T20 cricket, that differential is enormous. It represents the difference between 10 balls at the Thakur-SR pace producing 12 runs and producing 22.</p>
+
+<p>The dismissal itself was a masterpiece of T20 craft. Thakur delivered it at 117 kph — 15 kph below his average pace. Allen, mid-swing for a shot over long-on, found himself hitting air on the inside and dragging toward wide long-on instead. That kind of pace variation doesn't come from bowling nets. It comes from reading the footwork of a batter who has already committed to a trajectory based on a previous delivery. Should MI persist with Thakur in the powerplay in future matches? The data says yes, emphatically, against overseas left-handers.</p>
+
+<img class="chart" src="charts/matchup_2.png" alt="Matchup 2: Allen vs Thakur">
+<!-- IMAGE 4 goes here in Substack -->
+
+<!-- SECTION 6: MATCHUP 3 -->
+<h2>Matchup 3: Angkrish Raghuvanshi vs Jasprit Bumrah</h2>
+
+<p>The matchup that nobody watching from the stands would have flagged as significant was, in fact, the innings' most tactically important subplot. Bumrah's four overs cost 35 at economy 8.75 — best of the MI bowlers. Against Raghuvanshi specifically, Bumrah delivered 10 balls for 14 runs: a matchup SR of 140.0, versus Raghuvanshi's innings SR of 175.9. A 36-point differential. No wicket, but significant containment.</p>
+
+<p>The reason this matchup mattered: Bumrah's economy held KKR's overall run rate below 11 in three of his four overs, creating a structural drag on a batting line-up otherwise operating above the required rate. In the overs Bumrah didn't bowl during the death phase, the economy spiked — Ghazanfar at 12.75, Mayank Markande at 16.0. KKR's death overs problem was partly a personnel question: they had Bumrah for four overs. When he finished, the quality dropped sharply.</p>
+
+<img class="chart" src="charts/matchup_3.png" alt="Matchup 3: Raghuvanshi vs Bumrah">
+<!-- IMAGE 5 goes here in Substack -->
+
+<!-- SECTION 7: MATCHUP 4 -->
+<h2>Matchup 4: Rohit Sharma vs Sunil Narine</h2>
+
+<p>KKR's captain's instinct would have told him to use Narine early against Rohit. The off-spinner's variations — the carrom ball, the seam-up slower one — have dismissed Rohit in previous encounters. On Sunday, that gamble failed badly. Rohit scored 22 off 8 balls against Narine: 275 SR, versus his overall innings SR of 205.3. A plus-70 differential that speaks directly to Rohit's read of Narine's lengths and his positioning going back in the crease.</p>
+
+<p>When Rohit reaches that kind of matchup-SR against a specific bowler, the tactical prescription is clear: change the matchup. Bring back the seamers, even if their economy suffers. KKR did not pivot quickly enough. By the time Narine's three overs were exhausted, Rohit had 78 off 38 — the match was functionally over. The Narine gambit cost KKR the match before over 12 had been bowled.</p>
+
+<img class="chart" src="charts/matchup_4.png" alt="Matchup 4: Rohit vs Narine">
+<!-- IMAGE 6 goes here in Substack -->
+
+<hr>
+
+<!-- SECTION 8: TURNING POINTS -->
+<h2>Turning Points</h2>
+
+<div class="tp-card">
+  <div class="tp-label">Turning Point 1 — The Thakur Triple (Overs 5–13)</div>
+  <p>At 69/0 after 5.2 overs, KKR were batting in a different dimension. Allen at 217 SR, Rahane at 45 off 27 and accelerating, the powerplay score suggesting a 250+ total. Then Thakur's first delivery to Allen — 117 kph, fourth-stump line, slower ball — changed everything. Allen dragged it to long-on. Cameron Green fell at 8.5, Rahane at 13.3. Three wickets in four overs meant KKR went from 69/0 to 145/3. The win-probability shift was approximately 12 percentage points in MI's favour across that window.</p>
+</div>
+
+<div class="tp-card">
+  <div class="tp-label">Turning Point 2 — The Rickelton-Rohit Blitz (Overs 1–12)</div>
+  <p>By over 6 of the MI chase, the target was already an abstraction. MI were 80/0. The opening stand of 148 from 71 balls — Rohit's 78, Rickelton's 81 — consumed the match before KKR's bowling attack could find a plan. The win-probability at the end of over 6 was 78% for MI. At that point, chasing 221, it should have been 58%. The powerplay was worth 20 additional percentage points on the MI probability curve. That is extraordinary batting.</p>
+</div>
+
+<div class="tp-card">
+  <div class="tp-label">Turning Point 3 — The False Scare (Overs 14–15)</div>
+  <p>MI's win probability was 96.6% at over 14.1. Then: SKY out at 14.2 (179/2), Rickelton run out at 15.2 (184/3). The probability crashed to 85.5% — not quite a scare, but a reminder that cricket doesn't close itself out automatically. KKR's Kartik Tyagi and Narine each took a wicket in that window. MI still needed 37 from 5 overs with 7 wickets in hand. The numbers never lied — but the scoreboard briefly looked interesting again.</p>
+</div>
+
+<img class="chart" src="charts/pressure_heatmap.png" alt="Pressure Heatmap">
+<!-- IMAGE 7 goes here in Substack -->
+
+<!-- SECTION 9: THE INFLEXION POINT -->
+<h2>The Inflexion Point</h2>
+
+<p>Before over 2.6 of MI's chase, the win probability stood at 71.8% for the chasing side — high, reflecting the powerplay excellence, but not yet decisive. By ball 2.6's end, it had jumped to 90.0%. The inflexion point was Rohit Sharma's over against Narine: a cover drive for four, a pulled six over midwicket, and a straight six that cleared the sightscreen by twenty yards. Eighteen runs from the over.</p>
+
+<p>That single over against Narine — the bowler KKR trusted most to contain him — did more damage to KKR's win probability than any other passage of play. The 18.2% swing in four balls was the largest single-over momentum shift of the entire match. Before it, you could construct a narrative where KKR's spinners tightened MI in the middle overs and forced the asking rate into a dangerous territory. After it, that narrative evaporated.</p>
+
+<blockquote>
+  <span class="ball-ref">Over 18.6 — The Level</span>
+  Finds the gap! Hardik Pandya levels the scores as he takes on this half-tracker. Pulls it away wide of long-off, and MI are one run away from their biggest IPL chase.
+</blockquote>
+
+<p>The final inflexion — MI's brief scare at overs 14–15, where three wickets fell within nine balls and win probability dropped from 96% to 85% — was the only moment where the scorecard's truth and the underlying data briefly diverged. The match was never as close as 184/3 chasing 221 looks in the paper. But it was, for exactly six balls in over 15, the most watchable six balls of the night.</p>
+
+<img class="chart" src="charts/win_probability.png" alt="Win Probability">
+<!-- IMAGE 8 goes here in Substack -->
+
+<hr>
+
+<!-- SECTION 10: THAT THAKUR SPELL -->
+<h2>That Thakur Spell</h2>
+
+<p>The first ball Shardul Thakur bowled to Finn Allen was unremarkable. Tailing in, Allen drove through the off-side for a single. KKR 65/0 after 5.1 overs. The second ball was 117 kph — fifteen less than the first. Allen was already mid-swing when the ball arrived, committed to the slot where a 132-kph delivery would have been. He dragged it. Wide long-on, simple catch. KKR: 69/1 after 5.2. A match that had been heading toward a completely different result shifted on the strength of a pace-variation differential that took less than half a second to execute.</p>
+
+<p>Thakur's second wicket came at 8.5 — Cameron Green, 18 off 10, trying to get on top of a back-of-length delivery and slap it through the off-side. The pace variation again: Green mistimed the shot by perhaps three centimetres of bat-face. The timing was off, the fielder at deep cover was positioned perfectly. "Green will be livid with himself," the commentator noted. He was correct. Thakur had bowled the same ball twice to two different batters and gotten the same result: a batter who committed to a shot based on the previous delivery's speed and found the ball arriving slower than expected.</p>
+
+<p>The third wicket — Rahane at 13.3, 67 off 40 — was the delivery that locked in the Humdinger's narrative. Cross-seam full ball outside off. Rahane had scored 67 runs in 40 balls; he was in control, not in crisis. But Thakur had bowled to him eleven times before that delivery, each one nudging Rahane fractionally further toward the inside-out drive that eventually came off the toe-end into Pandya's hands at cover. Three overs. Three wickets. The template — pace variation, consistent fourth-stump line, fielder at deep cover — is now KKR's problem to solve across seven more games this season.</p>
+
+<blockquote>
+  <span class="ball-ref">Over 13.3 — The Completion</span>
+  Shardul Thakur can do no wrong today! Three overs, three wickets! Rahane falls with the pressure building. Cross-seam full ball outside off. Rahane tries to go inside out but it comes off the toe end.
+</blockquote>
+
+<!-- SECTION 11: BLACK MIRROR -->
+<h2>BLACK MIRROR</h2>
+
+<p>Two scenarios. One question: what if?</p>
+
+<div class="lola-scenario">
+  <div class="lola-title">Scenario 1: What If Shardul Thakur Had Bowled Average?</div>
+  <span class="lola-delta">+17 runs | KKR 237/1</span>
+  <div class="lola-outcome">Original: KKR 220/4 → MI win by 6 wkts | Counterfactual: KKR ~237/1 → KKR win by ~13 runs</div>
+  <div class="lola-narrative">
+    <p>Shardul Thakur's first over wasn't supposed to happen like that. An average IPL replacement across those same four overs — bowling at 12 RPO and taking no wickets — adds roughly 17 extra runs and preserves all three dismissed batsmen. Finn Allen, playing at 217.64 SR when dismissed at 5.2, was just warming up. Cameron Green, caught miscuing off a pace-variation at 180 SR, had another 10 overs of batting left in him.</p>
+    <p>In the counterfactual, KKR reach the drinks break at 13 overs with Rahane still at the crease and 145/0 on the board. The Rahane-Raghuvanshi partnership that was worth 36 in reality becomes worth 60+, as Rahane no longer faces a scoring-rate imperative. With the keeper and batter cycling freely, KKR close at 237 or 238 — a target MI's top order could not have absorbed without a perfect powerplay.</p>
+    <p>The numbers quantify what the eye suspected: Thakur's three-wicket haul wasn't just match-altering, it was match-defining. Take it away, and you're looking at a 17-run swing and a KKR victory built on platform cricket rather than the collapse narrative we witnessed. This is why IPL captains save their best pace variation bowlers for the moments when the batting side is in flow — and why Hardik's decision to give Thakur the ball at 5.1 deserves more credit than it received.</p>
+  </div>
+</div>
+
+<div class="lola-scenario">
+  <div class="lola-title">Scenario 2: What If Rohit Sharma Had Been Run Out at 50?</div>
+  <span class="lola-delta">-26 runs | MI 198/5 lost</span>
+  <div class="lola-outcome">Original: MI 224/4 in 19.1 overs — won by 6 wickets | Counterfactual: MI 198/5 in 19.1 overs — lost by 22 runs</div>
+  <div class="lola-narrative">
+    <p>Rohit Sharma at his best in T20 cricket doesn't just score runs — he reframes the asking rate so aggressively that opposition bowlers lose their plans. By the end of over 6, Rohit was on 51 off 23 balls. The 50% win probability that existed at the toss had already blown out to 78% for MI.</p>
+    <p>Imagine instead a run-out at that exact moment — a direct hit from Anukul Roy that didn't bounce off his knee guard in reality. Rohit departs for 52. MI are 100/1 at over 8, with Rickelton still batting. But now the asking rate is 9.3 from 12 overs, not the 6.5 it was in reality. The Rickelton run-out that followed in reality came when MI were 184 chasing 221 with enormous cushion. In our scenario, it arrives when MI are 160 and need 61 off 7 overs — a coin-flip requiring clean hitting rather than clinical execution.</p>
+    <p>KKR win by 22 runs in a match where one direct hit changed everything. This is why Rohit's powerplay isn't just an aesthetic pleasure — it's structural insurance. Twenty-eight runs in the first three overs are worth sixty in the last three, because they don't just add to the score; they compress the required rate so fundamentally that every subsequent wicket lost costs less in probability than it otherwise would have.</p>
+  </div>
+</div>
+
+<hr>
+
+<!-- SECTION 12: BY THE NUMBERS -->
+<h2>By the numbers</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Metric</th>
+      <th>KKR</th>
+      <th>MI</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Total Runs</td><td>220/4</td><td class="highlight">224/4</td></tr>
+    <tr><td>Overs</td><td>20.0</td><td class="highlight">19.1</td></tr>
+    <tr><td>Run Rate</td><td>11.00</td><td class="highlight">11.68</td></tr>
+    <tr><td>Powerplay (1–6)</td><td>78/1</td><td class="highlight">80/0</td></tr>
+    <tr><td>Middle Overs (7–15)</td><td>93/2</td><td class="highlight">99/3</td></tr>
+    <tr><td>Death Overs (16–20)</td><td>49/1</td><td class="highlight">45/1</td></tr>
+    <tr><td>Fours / Sixes</td><td>18 / 10</td><td class="highlight">21 / 14</td></tr>
+    <tr><td>Boundaries % of runs</td><td>62.7%</td><td class="highlight">66.5%</td></tr>
+    <tr><td>Dot Ball %</td><td>–</td><td class="highlight">–</td></tr>
+    <tr><td>Extras</td><td class="highlight">6 (by KKR)</td><td>10 (by MI)</td></tr>
+    <tr><td>Highest Partnership</td><td>60* (Raghu-Rinku)</td><td class="highlight">148 (Rohit-Rickelton)</td></tr>
+    <tr><td>Top Scorer</td><td>Rahane 67(40)</td><td class="highlight">Rickelton 81(43)</td></tr>
+    <tr><td>Best Bowling</td><td class="highlight">Kartik Tyagi 4-0-43-1</td><td>Shardul Thakur 4-0-39-3</td></tr>
+    <tr><td>Critechery Score</td><td>52.4</td><td class="highlight">60.9</td></tr>
+    <tr><td>Humdinger Score</td><td colspan="2" style="text-align:center"><strong>4.1 / 10</strong></td></tr>
+  </tbody>
+</table>
+
+<p>The sharpest contrast in the numbers isn't the total or the wickets — it's the highest partnership column. KKR's best stand was 60 runs (Raghuvanshi and Rinku in the death). MI's was 148 (Rohit and Rickelton in the powerplay through middle overs). That differential of 88 runs in the key partnership effectively decided the match before over 12 had been bowled.</p>
+
+<!-- IMAGE 9 goes here in Substack -->
+
+<!-- SECTION 13: HOW THE INNINGS BURNED -->
+<h2>How the Innings Burned</h2>
+
+<p>KKR's innings burned efficiently in two phases and recklessly in none — but the Thakur wickets forced an architectural renegotiation that cost them 10–15 runs in the back half. Overs 1–5 were Attacking (Allen and Rahane operating at 230+ SR in the powerplay); overs 6–13 dropped to Efficient (the middle rebuilding phase after each wicket) and then Conservative momentarily as Raghuvanshi set himself. The critical burn-rate observation is that KKR still had six wickets in hand at the halfway mark — they burned well in the first half. The second half was a different story: a 4th wicket partnership between Raghuvanshi and Rinku that was load-bearing but couldn't replicate the Allen-Rahane SR of the powerplay. The death overs (49 runs from 5 overs) were constrained by wicket loss at 18.3.</p>
+
+<p>MI's burn rate chart is the cleanest of the season so far. Rohit and Rickelton combined to produce a powerplay that looked Attacking on the classification chart but never strayed into Reckless — zero wickets in six overs at 80 runs. The middle overs (7–15) were Efficient: MI maintained 8–10 RPO without losing wickets until over 11. When wickets did fall, they came in a burst — three in four overs — but the run requirement had already been reduced to a point where MI could afford to absorb them. The Hardik-Dhir partnership that closed the game was brief (9 from 5 balls) but classified as Attacking. MI's burn was near-optimal.</p>
+
+<img class="chart" src="charts/burn_rate.png" alt="Burn Rate">
+<!-- IMAGE 10 goes here in Substack -->
+
+<!-- SECTION 14: THE ARCHITECTURE -->
+<h2>The Architecture</h2>
+
+<p>The partnership flow chart for this match tells a one-sentence story: MI's architecture was load-bearing from ball one; KKR's was rebuilt three times. The Rohit-Rickelton opening stand of 148 from 71 balls (SR 208.5) is the single largest partnership in the match by a distance — 88 runs larger than anything KKR produced. Every subsequent MI partnership was damage-limitation by comparison: Rickelton and SKY adding 31 (SR 206.7), Rickelton and Tilak managing 5 before the run-out, and Tilak-Hardik consolidating at 155 SR. None of them needed to be brilliant. The architecture was built in the first twelve overs.</p>
+
+<p>KKR's architecture lacked a similar anchor. The Allen-Rahane opening stand (69 from 31 balls, SR 222.6) was excellent but short-lived. The Rahane-Green and Rahane-Raghuvanshi stands were productive but never reached the weight of the MI opener. The Raghuvanshi-Rinku partnership — 60 from 29 balls, load-bearing within the KKR innings by default — gave KKR their best death-overs passage but arrived too late to change the total's character. What if the opening stand had survived until over 8? Then the entire middle partnership architecture shifts: Rahane bats deeper, Raghuvanshi joins earlier, the death overs have more firepower. The run-out of the opener matters at the structural level, not just the surface level.</p>
+
+<img class="chart" src="charts/partnership_flow.png" alt="Partnership Flow">
+<!-- IMAGE 11 goes here in Substack -->
+
+<!-- SECTION 15: GAME CHANGERS -->
+<h2>Game Changers</h2>
+
+<div class="gc-card">
+  <div class="gc-player">Shardul Thakur</div>
+  <div class="gc-stat">4-0-39-3 | 3 wickets across overs 5, 8 and 13 | Player of the Match</div>
+  <div class="gc-reason">Thakur's three wickets transformed a KKR innings cruising at 69/0 into 145/3 by over 13. Allen at 217 SR, Green at 180 SR, Rahane at 167 SR — three batters in full flow, all dismissed by the same plan: 117–120 kph cross-seam deliveries timed precisely when the batter was expecting pace. The match's decisive contribution. Player of the Match, correctly awarded.</div>
+</div>
+
+<div class="gc-card">
+  <div class="gc-player">Rohit Sharma</div>
+  <div class="gc-stat">78 off 38 balls | SR 205.26 | 6 fours, 6 sixes | Dismissed at 11.5</div>
+  <div class="gc-reason">Rohit's innings wasn't won in the last over — it was won in the first six. By the end of the powerplay, MI were 80/0 and the required rate had dropped below 10 RPO. His assault on Narine in particular (275 SR, 22 off 8 balls) was the inflexion point that dismantled KKR's strategic plan. The run-out dismissal at 148 came too late to matter.</div>
+</div>
+
+<div class="gc-card">
+  <div class="gc-player">Ryan Rickelton</div>
+  <div class="gc-stat">81 off 43 balls | SR 188.37 | 8 sixes | Dismissed run out at 15.2</div>
+  <div class="gc-reason">Eight sixes from the wicketkeeper-batter announced an IPL debut with considerable force. Rickelton's contribution wasn't just runs alongside Rohit — it was sustained counter-attacking against every bowler KKR tried. His 8 sixes came off every bowler in the KKR attack. The run-out at 184 was MI's only moment of genuine worry, and it came when the chase had already been functionally won.</div>
+</div>
+
+<div class="gc-card">
+  <div class="gc-player">Angkrish Raghuvanshi</div>
+  <div class="gc-stat">51 off 29 balls | SR 175.86 | 6 fours, 2 sixes | Losing side</div>
+  <div class="gc-reason">From the losing side: Raghuvanshi's 51 off 29 is the reason KKR posted 220 rather than 190. After Rahane fell at 145/3 in over 13, Raghuvanshi absorbed the pressure phase and then detonated — scoring 38 of his 51 in the final 5 overs alongside Rinku. Without his partnership with Rinku (60 from 29), KKR's total is a chase MI handles before over 17.</div>
+</div>
+
+<!-- IMAGE 12 goes here in Substack -->
+
+</body>
+</html>
