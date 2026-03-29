@@ -1,0 +1,442 @@
+{
+  "match_info": {
+    "team1": "India",
+    "team2": "England",
+    "venue": "Mumbai",
+    "date": "2026-03-04",
+    "toss_winner": "England",
+    "toss_decision": "field",
+    "result": "India won by 7 runs",
+    "winner": "India",
+    "margin": "7 runs",
+    "player_of_match": "Sanju Samson, IND",
+    "team1_impact_player_in": null,
+    "team1_impact_player_out": null,
+    "team1_impact_player_over": null,
+    "team2_impact_player_in": null,
+    "team2_impact_player_out": null,
+    "team2_impact_player_over": null
+  },
+  "batting_innings1": [
+    {
+      "name": "Sanju Samson",
+      "runs": 89,
+      "balls": 42,
+      "fours": 8,
+      "sixes": 7,
+      "sr": 211.9,
+      "how_out": "c Salt b Jacks",
+      "bowler_dismissed_by": "Jacks"
+    },
+    {
+      "name": "Abhishek Sharma",
+      "runs": 9,
+      "balls": 7,
+      "fours": 2,
+      "sixes": 0,
+      "sr": 128.57,
+      "how_out": "c Salt b Jacks",
+      "bowler_dismissed_by": "Jacks"
+    },
+    {
+      "name": "Ishan Kishan",
+      "runs": 39,
+      "balls": 18,
+      "fours": 4,
+      "sixes": 2,
+      "sr": 216.66,
+      "how_out": "c Jacks b Rashid",
+      "bowler_dismissed_by": "Rashid"
+    },
+    {
+      "name": "Shivam Dube",
+      "runs": 43,
+      "balls": 25,
+      "fours": 1,
+      "sixes": 4,
+      "sr": 172.0,
+      "how_out": "run out (Brook)",
+      "bowler_dismissed_by": ""
+    },
+    {
+      "name": "Suryakumar Yadav\u00a0(c)",
+      "runs": 11,
+      "balls": 6,
+      "fours": 0,
+      "sixes": 1,
+      "sr": 183.33,
+      "how_out": "st \u2020Buttler b Rashid",
+      "bowler_dismissed_by": "Rashid"
+    },
+    {
+      "name": "Hardik Pandya",
+      "runs": 27,
+      "balls": 12,
+      "fours": 3,
+      "sixes": 2,
+      "sr": 225.0,
+      "how_out": "run out (Bethell/\u2020Buttler)",
+      "bowler_dismissed_by": ""
+    },
+    {
+      "name": "Tilak Varma",
+      "runs": 21,
+      "balls": 7,
+      "fours": 0,
+      "sixes": 3,
+      "sr": 300.0,
+      "how_out": "b Archer",
+      "bowler_dismissed_by": "Archer"
+    },
+    {
+      "name": "Axar Patel",
+      "runs": 2,
+      "balls": 2,
+      "fours": 0,
+      "sixes": 0,
+      "sr": 100.0,
+      "how_out": "not out",
+      "bowler_dismissed_by": ""
+    },
+    {
+      "name": "Varun Chakravarthy",
+      "runs": 0,
+      "balls": 1,
+      "fours": 0,
+      "sixes": 0,
+      "sr": 0.0,
+      "how_out": "not out",
+      "bowler_dismissed_by": ""
+    }
+  ],
+  "batting_innings2": [
+    {
+      "name": "Phil Salt",
+      "runs": 5,
+      "balls": 3,
+      "fours": 1,
+      "sixes": 0,
+      "sr": 166.66,
+      "how_out": "c Patel b Pandya",
+      "bowler_dismissed_by": "Pandya"
+    },
+    {
+      "name": "Jos Buttler",
+      "runs": 25,
+      "balls": 17,
+      "fours": 4,
+      "sixes": 1,
+      "sr": 147.05,
+      "how_out": "b Varun",
+      "bowler_dismissed_by": "Varun"
+    },
+    {
+      "name": "Harry Brook\u00a0(c)",
+      "runs": 7,
+      "balls": 6,
+      "fours": 1,
+      "sixes": 0,
+      "sr": 116.66,
+      "how_out": "c Patel b Bumrah",
+      "bowler_dismissed_by": "Bumrah"
+    },
+    {
+      "name": "Jacob Bethell",
+      "runs": 105,
+      "balls": 48,
+      "fours": 8,
+      "sixes": 7,
+      "sr": 218.75,
+      "how_out": "run out (Pandya/\u2020Samson)",
+      "bowler_dismissed_by": ""
+    },
+    {
+      "name": "Tom Banton",
+      "runs": 17,
+      "balls": 5,
+      "fours": 1,
+      "sixes": 2,
+      "sr": 340.0,
+      "how_out": "b Patel",
+      "bowler_dismissed_by": "Patel"
+    },
+    {
+      "name": "Will Jacks",
+      "runs": 35,
+      "balls": 20,
+      "fours": 4,
+      "sixes": 2,
+      "sr": 175.0,
+      "how_out": "c Dube b Arshdeep Singh",
+      "bowler_dismissed_by": "Arshdeep Singh"
+    },
+    {
+      "name": "Sam Curran",
+      "runs": 18,
+      "balls": 14,
+      "fours": 2,
+      "sixes": 0,
+      "sr": 128.57,
+      "how_out": "c Tilak Varma b Pandya",
+      "bowler_dismissed_by": "Pandya"
+    },
+    {
+      "name": "Jamie Overton",
+      "runs": 2,
+      "balls": 3,
+      "fours": 0,
+      "sixes": 0,
+      "sr": 66.66,
+      "how_out": "not out",
+      "bowler_dismissed_by": ""
+    },
+    {
+      "name": "Jofra Archer",
+      "runs": 19,
+      "balls": 4,
+      "fours": 0,
+      "sixes": 3,
+      "sr": 475.0,
+      "how_out": "not out",
+      "bowler_dismissed_by": ""
+    }
+  ],
+  "bowling_innings1": [
+    {
+      "name": "Jofra Archer",
+      "overs": 4.0,
+      "maidens": 0,
+      "runs": 61,
+      "wickets": 1,
+      "economy": 15.25,
+      "dots": 9,
+      "wides": 2,
+      "noballs": 0
+    },
+    {
+      "name": "Will Jacks",
+      "overs": 4.0,
+      "maidens": 0,
+      "runs": 40,
+      "wickets": 2,
+      "economy": 10.0,
+      "dots": 8,
+      "wides": 1,
+      "noballs": 0
+    },
+    {
+      "name": "Jamie Overton",
+      "overs": 3.0,
+      "maidens": 0,
+      "runs": 36,
+      "wickets": 0,
+      "economy": 12.0,
+      "dots": 3,
+      "wides": 1,
+      "noballs": 0
+    },
+    {
+      "name": "Sam Curran",
+      "overs": 4.0,
+      "maidens": 0,
+      "runs": 53,
+      "wickets": 0,
+      "economy": 13.25,
+      "dots": 4,
+      "wides": 4,
+      "noballs": 0
+    },
+    {
+      "name": "Adil Rashid",
+      "overs": 4.0,
+      "maidens": 0,
+      "runs": 41,
+      "wickets": 2,
+      "economy": 10.25,
+      "dots": 9,
+      "wides": 0,
+      "noballs": 0
+    },
+    {
+      "name": "Liam Dawson",
+      "overs": 1.0,
+      "maidens": 0,
+      "runs": 19,
+      "wickets": 0,
+      "economy": 19.0,
+      "dots": 0,
+      "wides": 1,
+      "noballs": 0
+    }
+  ],
+  "bowling_innings2": [
+    {
+      "name": "Arshdeep Singh",
+      "overs": 4.0,
+      "maidens": 0,
+      "runs": 51,
+      "wickets": 1,
+      "economy": 12.75,
+      "dots": 8,
+      "wides": 5,
+      "noballs": 0
+    },
+    {
+      "name": "Hardik Pandya",
+      "overs": 4.0,
+      "maidens": 0,
+      "runs": 38,
+      "wickets": 2,
+      "economy": 9.5,
+      "dots": 9,
+      "wides": 1,
+      "noballs": 0
+    },
+    {
+      "name": "Jasprit Bumrah",
+      "overs": 4.0,
+      "maidens": 0,
+      "runs": 33,
+      "wickets": 1,
+      "economy": 8.25,
+      "dots": 8,
+      "wides": 1,
+      "noballs": 0
+    },
+    {
+      "name": "Varun Chakravarthy",
+      "overs": 4.0,
+      "maidens": 0,
+      "runs": 64,
+      "wickets": 1,
+      "economy": 16.0,
+      "dots": 3,
+      "wides": 1,
+      "noballs": 0
+    },
+    {
+      "name": "Axar Patel",
+      "overs": 3.0,
+      "maidens": 0,
+      "runs": 35,
+      "wickets": 1,
+      "economy": 11.66,
+      "dots": 6,
+      "wides": 1,
+      "noballs": 0
+    },
+    {
+      "name": "Shivam Dube",
+      "overs": 1.0,
+      "maidens": 0,
+      "runs": 22,
+      "wickets": 0,
+      "economy": 22.0,
+      "dots": 0,
+      "wides": 1,
+      "noballs": 0
+    }
+  ],
+  "extras_innings1": {
+    "wides": 0,
+    "noballs": 0,
+    "byes": 0,
+    "legbyes": 0,
+    "total": 0
+  },
+  "extras_innings2": {
+    "wides": 0,
+    "noballs": 0,
+    "byes": 0,
+    "legbyes": 0,
+    "total": 0
+  },
+  "fall_of_wickets_innings1": [
+    {
+      "wicket_num": 1,
+      "score": 20,
+      "over": 1.6,
+      "batsman": "Abhishek Sharma"
+    },
+    {
+      "wicket_num": 2,
+      "score": 117,
+      "over": 9.3,
+      "batsman": "Ishan Kishan"
+    },
+    {
+      "wicket_num": 3,
+      "score": 160,
+      "over": 13.1,
+      "batsman": "Sanju Samson"
+    },
+    {
+      "wicket_num": 4,
+      "score": 190,
+      "over": 15.4,
+      "batsman": "Suryakumar Yadav"
+    },
+    {
+      "wicket_num": 5,
+      "score": 212,
+      "over": 17.3,
+      "batsman": "Shivam Dube"
+    },
+    {
+      "wicket_num": 6,
+      "score": 236,
+      "over": 18.5,
+      "batsman": "Tilak Varma"
+    },
+    {
+      "wicket_num": 7,
+      "score": 251,
+      "over": 19.5,
+      "batsman": "Hardik Pandya"
+    }
+  ],
+  "fall_of_wickets_innings2": [
+    {
+      "wicket_num": 1,
+      "score": 13,
+      "over": 1.1,
+      "batsman": "Phil Salt"
+    },
+    {
+      "wicket_num": 2,
+      "score": 38,
+      "over": 4.1,
+      "batsman": "Harry Brook"
+    },
+    {
+      "wicket_num": 3,
+      "score": 64,
+      "over": 5.5,
+      "batsman": "Jos Buttler"
+    },
+    {
+      "wicket_num": 4,
+      "score": 95,
+      "over": 7.3,
+      "batsman": "Tom Banton"
+    },
+    {
+      "wicket_num": 5,
+      "score": 172,
+      "over": 13.6,
+      "batsman": "Will Jacks"
+    },
+    {
+      "wicket_num": 6,
+      "score": 222,
+      "over": 18.3,
+      "batsman": "Sam Curran"
+    },
+    {
+      "wicket_num": 7,
+      "score": 225,
+      "over": 19.1,
+      "batsman": "Jacob Bethell"
+    }
+  ]
+}
