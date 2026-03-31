@@ -1,0 +1,410 @@
+{
+  "match_info": {
+    "team1": "Chennai Super Kings",
+    "team2": "Rajasthan Royals",
+    "team1_short": "CSK",
+    "team2_short": "RR",
+    "venue": "Barsapara Cricket Stadium, Guwahati",
+    "date": "2026-03-29",
+    "toss_winner": "Rajasthan Royals",
+    "toss_decision": "field",
+    "result": "Rajasthan Royals won by 8 wickets (with 47 balls remaining)",
+    "winner": "Rajasthan Royals",
+    "margin": "8 wickets",
+    "player_of_match": "Vaibhav Sooryavanshi",
+    "match_number": 3,
+    "tournament": "IPL 2026",
+    "team1_impact_player_in": "Sarfaraz Khan",
+    "team1_impact_player_out": "Sanju Samson",
+    "team1_impact_player_over": 4,
+    "team2_impact_player_in": null,
+    "team2_impact_player_out": null,
+    "team2_impact_player_over": null
+  },
+  "batting_innings1": [
+    {
+      "name": "Sanju Samson",
+      "runs": 6,
+      "balls": 7,
+      "fours": 1,
+      "sixes": 0,
+      "sr": 85.71,
+      "how_out": "b Burger",
+      "bowler_dismissed_by": "Nandre Burger"
+    },
+    {
+      "name": "Ruturaj Gaikwad",
+      "runs": 6,
+      "balls": 11,
+      "fours": 1,
+      "sixes": 0,
+      "sr": 54.54,
+      "how_out": "b Archer",
+      "bowler_dismissed_by": "Jofra Archer"
+    },
+    {
+      "name": "Ayush Mhatre",
+      "runs": 0,
+      "balls": 1,
+      "fours": 0,
+      "sixes": 0,
+      "sr": 0.0,
+      "how_out": "c \u2020Jurel b Burger",
+      "bowler_dismissed_by": "Nandre Burger"
+    },
+    {
+      "name": "Matthew Short",
+      "runs": 2,
+      "balls": 7,
+      "fours": 0,
+      "sixes": 0,
+      "sr": 28.57,
+      "how_out": "c Jaiswal b Sandeep Sharma",
+      "bowler_dismissed_by": "Sandeep Sharma"
+    },
+    {
+      "name": "Sarfaraz Khan",
+      "runs": 17,
+      "balls": 12,
+      "fours": 2,
+      "sixes": 1,
+      "sr": 141.66,
+      "how_out": "lbw b Jadeja",
+      "bowler_dismissed_by": "Ravindra Jadeja"
+    },
+    {
+      "name": "Kartik Sharma",
+      "runs": 18,
+      "balls": 15,
+      "fours": 0,
+      "sixes": 1,
+      "sr": 120.0,
+      "how_out": "lbw b Brijesh Sharma",
+      "bowler_dismissed_by": "Brijesh Sharma"
+    },
+    {
+      "name": "Shivam Dube",
+      "runs": 6,
+      "balls": 4,
+      "fours": 0,
+      "sixes": 1,
+      "sr": 150.0,
+      "how_out": "c Ravi Bishnoi b Jadeja",
+      "bowler_dismissed_by": "Ravindra Jadeja"
+    },
+    {
+      "name": "Jamie Overton",
+      "runs": 43,
+      "balls": 36,
+      "fours": 2,
+      "sixes": 2,
+      "sr": 119.44,
+      "how_out": "run out (Hetmyer/\u2020Jurel)",
+      "bowler_dismissed_by": null
+    },
+    {
+      "name": "Noor Ahmad",
+      "runs": 1,
+      "balls": 9,
+      "fours": 0,
+      "sixes": 0,
+      "sr": 11.11,
+      "how_out": "c \u2020Jurel b Archer",
+      "bowler_dismissed_by": "Jofra Archer"
+    },
+    {
+      "name": "Matt Henry",
+      "runs": 5,
+      "balls": 7,
+      "fours": 1,
+      "sixes": 0,
+      "sr": 71.42,
+      "how_out": "c & b Ravi Bishnoi",
+      "bowler_dismissed_by": "Ravi Bishnoi"
+    },
+    {
+      "name": "Anshul Kamboj",
+      "runs": 7,
+      "balls": 10,
+      "fours": 1,
+      "sixes": 0,
+      "sr": 70.0,
+      "how_out": "not out",
+      "bowler_dismissed_by": null
+    }
+  ],
+  "batting_innings2": [
+    {
+      "name": "Yashasvi Jaiswal",
+      "runs": 38,
+      "balls": 36,
+      "fours": 3,
+      "sixes": 1,
+      "sr": 105.55,
+      "how_out": "not out",
+      "bowler_dismissed_by": null
+    },
+    {
+      "name": "Vaibhav Sooryavanshi",
+      "runs": 52,
+      "balls": 17,
+      "fours": 4,
+      "sixes": 5,
+      "sr": 305.88,
+      "how_out": "c Sarfaraz Khan b Kamboj",
+      "bowler_dismissed_by": "Anshul Kamboj"
+    },
+    {
+      "name": "Dhruv Jurel",
+      "runs": 18,
+      "balls": 9,
+      "fours": 4,
+      "sixes": 0,
+      "sr": 200.0,
+      "how_out": "b Kamboj",
+      "bowler_dismissed_by": "Anshul Kamboj"
+    },
+    {
+      "name": "Riyan Parag",
+      "runs": 14,
+      "balls": 11,
+      "fours": 1,
+      "sixes": 1,
+      "sr": 127.27,
+      "how_out": "not out",
+      "bowler_dismissed_by": null
+    }
+  ],
+  "bowling_innings1": [
+    {
+      "name": "Jofra Archer",
+      "overs": 4.0,
+      "maidens": 0,
+      "runs": 19,
+      "wickets": 2,
+      "economy": 4.75,
+      "dots": 17,
+      "wides": 1,
+      "noballs": 0
+    },
+    {
+      "name": "Nandre Burger",
+      "overs": 4.0,
+      "maidens": 0,
+      "runs": 26,
+      "wickets": 2,
+      "economy": 6.5,
+      "dots": 14,
+      "wides": 3,
+      "noballs": 1
+    },
+    {
+      "name": "Brijesh Sharma",
+      "overs": 3.0,
+      "maidens": 0,
+      "runs": 17,
+      "wickets": 1,
+      "economy": 5.66,
+      "dots": 10,
+      "wides": 2,
+      "noballs": 0
+    },
+    {
+      "name": "Sandeep Sharma",
+      "overs": 2.4,
+      "maidens": 0,
+      "runs": 22,
+      "wickets": 1,
+      "economy": 8.25,
+      "dots": 3,
+      "wides": 0,
+      "noballs": 0
+    },
+    {
+      "name": "Ravi Bishnoi",
+      "overs": 3.0,
+      "maidens": 0,
+      "runs": 16,
+      "wickets": 1,
+      "economy": 5.33,
+      "dots": 8,
+      "wides": 0,
+      "noballs": 0
+    },
+    {
+      "name": "Ravindra Jadeja",
+      "overs": 3.0,
+      "maidens": 0,
+      "runs": 18,
+      "wickets": 2,
+      "economy": 6.0,
+      "dots": 11,
+      "wides": 0,
+      "noballs": 0
+    }
+  ],
+  "bowling_innings2": [
+    {
+      "name": "Matt Henry",
+      "overs": 3.0,
+      "maidens": 0,
+      "runs": 40,
+      "wickets": 0,
+      "economy": 13.33,
+      "dots": 2,
+      "wides": 1,
+      "noballs": 0
+    },
+    {
+      "name": "Khaleel Ahmed",
+      "overs": 3.0,
+      "maidens": 0,
+      "runs": 17,
+      "wickets": 0,
+      "economy": 5.66,
+      "dots": 10,
+      "wides": 0,
+      "noballs": 0
+    },
+    {
+      "name": "Anshul Kamboj",
+      "overs": 3.0,
+      "maidens": 0,
+      "runs": 27,
+      "wickets": 2,
+      "economy": 9.0,
+      "dots": 8,
+      "wides": 0,
+      "noballs": 0
+    },
+    {
+      "name": "Noor Ahmad",
+      "overs": 2.0,
+      "maidens": 0,
+      "runs": 24,
+      "wickets": 0,
+      "economy": 12.0,
+      "dots": 4,
+      "wides": 0,
+      "noballs": 0
+    },
+    {
+      "name": "Jamie Overton",
+      "overs": 1.0,
+      "maidens": 0,
+      "runs": 14,
+      "wickets": 0,
+      "economy": 14.0,
+      "dots": 1,
+      "wides": 0,
+      "noballs": 0
+    },
+    {
+      "name": "Matthew Short",
+      "overs": 0.1,
+      "maidens": 0,
+      "runs": 1,
+      "wickets": 0,
+      "economy": 6.0,
+      "dots": 0,
+      "wides": 0,
+      "noballs": 0
+    }
+  ],
+  "extras_innings1": {
+    "wides": 6,
+    "noballs": 1,
+    "byes": 0,
+    "legbyes": 9,
+    "total": 16
+  },
+  "extras_innings2": {
+    "wides": 1,
+    "noballs": 0,
+    "byes": 4,
+    "legbyes": 1,
+    "total": 6
+  },
+  "total_innings1": 127,
+  "total_innings2": 128,
+  "wickets_innings1": 10,
+  "wickets_innings2": 2,
+  "overs_innings1": 19.4,
+  "overs_innings2": 12.1,
+  "fall_of_wickets_innings1": [
+    {
+      "wicket_num": 1,
+      "score": 14,
+      "over": 1.6,
+      "batsman": "Sanju Samson"
+    },
+    {
+      "wicket_num": 2,
+      "score": 19,
+      "over": 2.5,
+      "batsman": "Ruturaj Gaikwad"
+    },
+    {
+      "wicket_num": 3,
+      "score": 19,
+      "over": 3.1,
+      "batsman": "Ayush Mhatre"
+    },
+    {
+      "wicket_num": 4,
+      "score": 38,
+      "over": 5.3,
+      "batsman": "Matthew Short"
+    },
+    {
+      "wicket_num": 5,
+      "score": 51,
+      "over": 7.2,
+      "batsman": "Sarfaraz Khan"
+    },
+    {
+      "wicket_num": 6,
+      "score": 57,
+      "over": 7.6,
+      "batsman": "Shivam Dube"
+    },
+    {
+      "wicket_num": 7,
+      "score": 74,
+      "over": 10.3,
+      "batsman": "Kartik Sharma"
+    },
+    {
+      "wicket_num": 8,
+      "score": 82,
+      "over": 12.5,
+      "batsman": "Noor Ahmad"
+    },
+    {
+      "wicket_num": 9,
+      "score": 94,
+      "over": 15.3,
+      "batsman": "Matt Henry"
+    },
+    {
+      "wicket_num": 10,
+      "score": 127,
+      "over": 19.4,
+      "batsman": "Jamie Overton"
+    }
+  ],
+  "fall_of_wickets_innings2": [
+    {
+      "wicket_num": 1,
+      "score": 75,
+      "over": 6.2,
+      "batsman": "Vaibhav Sooryavanshi"
+    },
+    {
+      "wicket_num": 2,
+      "score": 99,
+      "over": 8.3,
+      "batsman": "Dhruv Jurel"
+    }
+  ]
+}
