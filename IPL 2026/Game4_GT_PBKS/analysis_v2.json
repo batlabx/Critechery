@@ -1,0 +1,2192 @@
+{
+  "match_info": {
+    "team1": "Gujarat Titans",
+    "team2": "Punjab Kings",
+    "venue": "New Chandigarh (Mullanpur)",
+    "date": "2026-03-31",
+    "toss_winner": "Punjab Kings",
+    "toss_decision": "field",
+    "result": "Punjab Kings won by 3 wickets (5 balls remaining)",
+    "winner": "Punjab Kings",
+    "margin": "3 wickets",
+    "player_of_match": "Cooper Connolly"
+  },
+  "refined_critechery_score": {
+    "team1": {
+      "name": "Gujarat Titans",
+      "total": 59.2,
+      "batting": {
+        "sr_dominance": {
+          "value": 0.7,
+          "max": 25
+        },
+        "boundary_efficiency": {
+          "value": 15,
+          "max": 15
+        },
+        "extras_discipline": {
+          "value": 4.0,
+          "max": 10
+        },
+        "total": 19.7
+      },
+      "bowling": {
+        "economy_squeeze": {
+          "value": 7.2,
+          "max": 15
+        },
+        "wicket_punch": {
+          "value": 15,
+          "max": 15
+        },
+        "dot_dominance": {
+          "value": 10,
+          "max": 10
+        },
+        "bowling_sr": {
+          "value": 7.3,
+          "max": 10
+        },
+        "total": 39.5
+      },
+      "_wsr": 122.3,
+      "_eco": 8.61
+    },
+    "team2": {
+      "name": "Punjab Kings",
+      "total": 61.2,
+      "batting": {
+        "sr_dominance": {
+          "value": 6.2,
+          "max": 25
+        },
+        "boundary_efficiency": {
+          "value": 15,
+          "max": 15
+        },
+        "extras_discipline": {
+          "value": 0,
+          "max": 10
+        },
+        "total": 21.2
+      },
+      "bowling": {
+        "economy_squeeze": {
+          "value": 9.0,
+          "max": 15
+        },
+        "wicket_punch": {
+          "value": 15,
+          "max": 15
+        },
+        "dot_dominance": {
+          "value": 10,
+          "max": 10
+        },
+        "bowling_sr": {
+          "value": 6.0,
+          "max": 10
+        },
+        "total": 40.0
+      },
+      "_wsr": 140.0,
+      "_eco": 8.0
+    }
+  },
+  "humdinger_score": {
+    "score": 6.8,
+    "components": {
+      "time_near_50": {
+        "value": 2.3,
+        "pct": 11.3
+      },
+      "last_over_drama": 2.0,
+      "margin": 1.0,
+      "wicket_cluster": 1.0,
+      "boundary_burst": 0.5
+    }
+  },
+  "win_probability": [
+    {
+      "ball": 1,
+      "over": 1,
+      "ball_in_over": 1,
+      "win_prob": 0.5,
+      "cum_score": 0,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 2,
+      "over": 1,
+      "ball_in_over": 2,
+      "win_prob": 0.5167,
+      "cum_score": 1,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 3,
+      "over": 1,
+      "ball_in_over": 3,
+      "win_prob": 0.5333,
+      "cum_score": 2,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 4,
+      "over": 1,
+      "ball_in_over": 4,
+      "win_prob": 0.5498,
+      "cum_score": 3,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 5,
+      "over": 1,
+      "ball_in_over": 5,
+      "win_prob": 0.5663,
+      "cum_score": 4,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 6,
+      "over": 1,
+      "ball_in_over": 6,
+      "win_prob": 0.5826,
+      "cum_score": 5,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 7,
+      "over": 2,
+      "ball_in_over": 1,
+      "win_prob": 0.5987,
+      "cum_score": 6,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 8,
+      "over": 2,
+      "ball_in_over": 2,
+      "win_prob": 0.6146,
+      "cum_score": 7,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": true
+    },
+    {
+      "ball": 9,
+      "over": 2,
+      "ball_in_over": 3,
+      "win_prob": 0.6457,
+      "cum_score": 9,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 10,
+      "over": 2,
+      "ball_in_over": 4,
+      "win_prob": 0.6608,
+      "cum_score": 10,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 11,
+      "over": 2,
+      "ball_in_over": 5,
+      "win_prob": 0.69,
+      "cum_score": 12,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 12,
+      "over": 2,
+      "ball_in_over": 6,
+      "win_prob": 0.7041,
+      "cum_score": 13,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 13,
+      "over": 3,
+      "ball_in_over": 1,
+      "win_prob": 0.7311,
+      "cum_score": 15,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 14,
+      "over": 3,
+      "ball_in_over": 2,
+      "win_prob": 0.744,
+      "cum_score": 16,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 15,
+      "over": 3,
+      "ball_in_over": 3,
+      "win_prob": 0.7685,
+      "cum_score": 18,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 16,
+      "over": 3,
+      "ball_in_over": 4,
+      "win_prob": 0.7802,
+      "cum_score": 19,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 17,
+      "over": 3,
+      "ball_in_over": 5,
+      "win_prob": 0.8022,
+      "cum_score": 21,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 18,
+      "over": 3,
+      "ball_in_over": 6,
+      "win_prob": 0.8225,
+      "cum_score": 23,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 19,
+      "over": 4,
+      "ball_in_over": 1,
+      "win_prob": 0.832,
+      "cum_score": 24,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 20,
+      "over": 4,
+      "ball_in_over": 2,
+      "win_prob": 0.8498,
+      "cum_score": 26,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 21,
+      "over": 4,
+      "ball_in_over": 3,
+      "win_prob": 0.8581,
+      "cum_score": 27,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 22,
+      "over": 4,
+      "ball_in_over": 4,
+      "win_prob": 0.8736,
+      "cum_score": 29,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 23,
+      "over": 4,
+      "ball_in_over": 5,
+      "win_prob": 0.8808,
+      "cum_score": 30,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 24,
+      "over": 4,
+      "ball_in_over": 6,
+      "win_prob": 0.8941,
+      "cum_score": 32,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 25,
+      "over": 5,
+      "ball_in_over": 1,
+      "win_prob": 0.9002,
+      "cum_score": 33,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 26,
+      "over": 5,
+      "ball_in_over": 2,
+      "win_prob": 0.9116,
+      "cum_score": 35,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 27,
+      "over": 5,
+      "ball_in_over": 3,
+      "win_prob": 0.9168,
+      "cum_score": 36,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 28,
+      "over": 5,
+      "ball_in_over": 4,
+      "win_prob": 0.9264,
+      "cum_score": 38,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 29,
+      "over": 5,
+      "ball_in_over": 5,
+      "win_prob": 0.935,
+      "cum_score": 40,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 30,
+      "over": 5,
+      "ball_in_over": 6,
+      "win_prob": 0.939,
+      "cum_score": 41,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 31,
+      "over": 6,
+      "ball_in_over": 1,
+      "win_prob": 0.9462,
+      "cum_score": 43,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 32,
+      "over": 6,
+      "ball_in_over": 2,
+      "win_prob": 0.9495,
+      "cum_score": 44,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 33,
+      "over": 6,
+      "ball_in_over": 3,
+      "win_prob": 0.9555,
+      "cum_score": 46,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 34,
+      "over": 6,
+      "ball_in_over": 4,
+      "win_prob": 0.9582,
+      "cum_score": 47,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 35,
+      "over": 6,
+      "ball_in_over": 5,
+      "win_prob": 0.9633,
+      "cum_score": 49,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 36,
+      "over": 6,
+      "ball_in_over": 6,
+      "win_prob": 0.9656,
+      "cum_score": 50,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 37,
+      "over": 7,
+      "ball_in_over": 1,
+      "win_prob": 0.9697,
+      "cum_score": 52,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 38,
+      "over": 7,
+      "ball_in_over": 2,
+      "win_prob": 0.9734,
+      "cum_score": 54,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 39,
+      "over": 7,
+      "ball_in_over": 3,
+      "win_prob": 0.9751,
+      "cum_score": 55,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 40,
+      "over": 7,
+      "ball_in_over": 4,
+      "win_prob": 0.9781,
+      "cum_score": 57,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 41,
+      "over": 7,
+      "ball_in_over": 5,
+      "win_prob": 0.9795,
+      "cum_score": 58,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 42,
+      "over": 7,
+      "ball_in_over": 6,
+      "win_prob": 0.98,
+      "cum_score": 60,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 43,
+      "over": 8,
+      "ball_in_over": 1,
+      "win_prob": 0.98,
+      "cum_score": 61,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 44,
+      "over": 8,
+      "ball_in_over": 2,
+      "win_prob": 0.98,
+      "cum_score": 63,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 45,
+      "over": 8,
+      "ball_in_over": 3,
+      "win_prob": 0.98,
+      "cum_score": 64,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 46,
+      "over": 8,
+      "ball_in_over": 4,
+      "win_prob": 0.98,
+      "cum_score": 66,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 47,
+      "over": 8,
+      "ball_in_over": 5,
+      "win_prob": 0.98,
+      "cum_score": 67,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 48,
+      "over": 8,
+      "ball_in_over": 6,
+      "win_prob": 0.98,
+      "cum_score": 69,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 49,
+      "over": 9,
+      "ball_in_over": 1,
+      "win_prob": 0.98,
+      "cum_score": 71,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 50,
+      "over": 9,
+      "ball_in_over": 2,
+      "win_prob": 0.98,
+      "cum_score": 72,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 51,
+      "over": 9,
+      "ball_in_over": 3,
+      "win_prob": 0.98,
+      "cum_score": 74,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 52,
+      "over": 9,
+      "ball_in_over": 4,
+      "win_prob": 0.98,
+      "cum_score": 75,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 53,
+      "over": 9,
+      "ball_in_over": 5,
+      "win_prob": 0.98,
+      "cum_score": 77,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 54,
+      "over": 9,
+      "ball_in_over": 6,
+      "win_prob": 0.98,
+      "cum_score": 78,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 55,
+      "over": 10,
+      "ball_in_over": 1,
+      "win_prob": 0.98,
+      "cum_score": 80,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 56,
+      "over": 10,
+      "ball_in_over": 2,
+      "win_prob": 0.98,
+      "cum_score": 81,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 57,
+      "over": 10,
+      "ball_in_over": 3,
+      "win_prob": 0.9556,
+      "cum_score": 83,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": true
+    },
+    {
+      "ball": 58,
+      "over": 10,
+      "ball_in_over": 4,
+      "win_prob": 0.9552,
+      "cum_score": 85,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 59,
+      "over": 10,
+      "ball_in_over": 5,
+      "win_prob": 0.9517,
+      "cum_score": 86,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 60,
+      "over": 10,
+      "ball_in_over": 6,
+      "win_prob": 0.9511,
+      "cum_score": 88,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 61,
+      "over": 11,
+      "ball_in_over": 1,
+      "win_prob": 0.9474,
+      "cum_score": 89,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 62,
+      "over": 11,
+      "ball_in_over": 2,
+      "win_prob": 0.9468,
+      "cum_score": 91,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 63,
+      "over": 11,
+      "ball_in_over": 3,
+      "win_prob": 0.9462,
+      "cum_score": 93,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 64,
+      "over": 11,
+      "ball_in_over": 4,
+      "win_prob": 0.9421,
+      "cum_score": 94,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 65,
+      "over": 11,
+      "ball_in_over": 5,
+      "win_prob": 0.9415,
+      "cum_score": 96,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 66,
+      "over": 11,
+      "ball_in_over": 6,
+      "win_prob": 0.937,
+      "cum_score": 97,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 67,
+      "over": 12,
+      "ball_in_over": 1,
+      "win_prob": 0.9363,
+      "cum_score": 99,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 68,
+      "over": 12,
+      "ball_in_over": 2,
+      "win_prob": 0.9315,
+      "cum_score": 100,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 69,
+      "over": 12,
+      "ball_in_over": 3,
+      "win_prob": 0.9307,
+      "cum_score": 102,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 70,
+      "over": 12,
+      "ball_in_over": 4,
+      "win_prob": 0.93,
+      "cum_score": 104,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 71,
+      "over": 12,
+      "ball_in_over": 5,
+      "win_prob": 0.9247,
+      "cum_score": 105,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 72,
+      "over": 12,
+      "ball_in_over": 6,
+      "win_prob": 0.9239,
+      "cum_score": 107,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 73,
+      "over": 13,
+      "ball_in_over": 1,
+      "win_prob": 0.9182,
+      "cum_score": 108,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 74,
+      "over": 13,
+      "ball_in_over": 2,
+      "win_prob": 0.8408,
+      "cum_score": 110,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": true
+    },
+    {
+      "ball": 75,
+      "over": 13,
+      "ball_in_over": 3,
+      "win_prob": 0.8231,
+      "cum_score": 110,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 76,
+      "over": 13,
+      "ball_in_over": 4,
+      "win_prob": 0.8142,
+      "cum_score": 111,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 77,
+      "over": 13,
+      "ball_in_over": 5,
+      "win_prob": 0.805,
+      "cum_score": 112,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 78,
+      "over": 13,
+      "ball_in_over": 6,
+      "win_prob": 0.7843,
+      "cum_score": 112,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 79,
+      "over": 14,
+      "ball_in_over": 1,
+      "win_prob": 0.7621,
+      "cum_score": 112,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 80,
+      "over": 14,
+      "ball_in_over": 2,
+      "win_prob": 0.6154,
+      "cum_score": 113,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": true
+    },
+    {
+      "ball": 81,
+      "over": 14,
+      "ball_in_over": 3,
+      "win_prob": 0.6054,
+      "cum_score": 114,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 82,
+      "over": 14,
+      "ball_in_over": 4,
+      "win_prob": 0.5953,
+      "cum_score": 115,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 83,
+      "over": 14,
+      "ball_in_over": 5,
+      "win_prob": 0.5852,
+      "cum_score": 116,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 84,
+      "over": 14,
+      "ball_in_over": 6,
+      "win_prob": 0.5586,
+      "cum_score": 116,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 85,
+      "over": 15,
+      "ball_in_over": 1,
+      "win_prob": 0.5482,
+      "cum_score": 117,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 86,
+      "over": 15,
+      "ball_in_over": 2,
+      "win_prob": 0.4076,
+      "cum_score": 118,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": true
+    },
+    {
+      "ball": 87,
+      "over": 15,
+      "ball_in_over": 3,
+      "win_prob": 0.2746,
+      "cum_score": 118,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": true
+    },
+    {
+      "ball": 88,
+      "over": 15,
+      "ball_in_over": 4,
+      "win_prob": 0.2734,
+      "cum_score": 119,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 89,
+      "over": 15,
+      "ball_in_over": 5,
+      "win_prob": 0.2857,
+      "cum_score": 121,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 90,
+      "over": 15,
+      "ball_in_over": 6,
+      "win_prob": 0.2845,
+      "cum_score": 122,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 91,
+      "over": 16,
+      "ball_in_over": 1,
+      "win_prob": 0.2971,
+      "cum_score": 124,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 92,
+      "over": 16,
+      "ball_in_over": 2,
+      "win_prob": 0.2959,
+      "cum_score": 125,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 93,
+      "over": 16,
+      "ball_in_over": 3,
+      "win_prob": 0.3087,
+      "cum_score": 127,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 94,
+      "over": 16,
+      "ball_in_over": 4,
+      "win_prob": 0.3075,
+      "cum_score": 128,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 95,
+      "over": 16,
+      "ball_in_over": 5,
+      "win_prob": 0.3206,
+      "cum_score": 130,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 96,
+      "over": 16,
+      "ball_in_over": 6,
+      "win_prob": 0.3193,
+      "cum_score": 131,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 97,
+      "over": 17,
+      "ball_in_over": 1,
+      "win_prob": 0.3181,
+      "cum_score": 132,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 98,
+      "over": 17,
+      "ball_in_over": 2,
+      "win_prob": 0.3314,
+      "cum_score": 134,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 99,
+      "over": 17,
+      "ball_in_over": 3,
+      "win_prob": 0.3301,
+      "cum_score": 135,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 100,
+      "over": 17,
+      "ball_in_over": 4,
+      "win_prob": 0.3437,
+      "cum_score": 137,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 101,
+      "over": 17,
+      "ball_in_over": 5,
+      "win_prob": 0.3424,
+      "cum_score": 138,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 102,
+      "over": 17,
+      "ball_in_over": 6,
+      "win_prob": 0.3563,
+      "cum_score": 140,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 103,
+      "over": 18,
+      "ball_in_over": 1,
+      "win_prob": 0.355,
+      "cum_score": 141,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 104,
+      "over": 18,
+      "ball_in_over": 2,
+      "win_prob": 0.369,
+      "cum_score": 143,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 105,
+      "over": 18,
+      "ball_in_over": 3,
+      "win_prob": 0.3267,
+      "cum_score": 144,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": true
+    },
+    {
+      "ball": 106,
+      "over": 18,
+      "ball_in_over": 4,
+      "win_prob": 0.3294,
+      "cum_score": 145,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 107,
+      "over": 18,
+      "ball_in_over": 5,
+      "win_prob": 0.3471,
+      "cum_score": 147,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 108,
+      "over": 18,
+      "ball_in_over": 6,
+      "win_prob": 0.3499,
+      "cum_score": 148,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 109,
+      "over": 19,
+      "ball_in_over": 1,
+      "win_prob": 0.3527,
+      "cum_score": 149,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 110,
+      "over": 19,
+      "ball_in_over": 2,
+      "win_prob": 0.3709,
+      "cum_score": 151,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 111,
+      "over": 19,
+      "ball_in_over": 3,
+      "win_prob": 0.3738,
+      "cum_score": 152,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 112,
+      "over": 19,
+      "ball_in_over": 4,
+      "win_prob": 0.3767,
+      "cum_score": 153,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 113,
+      "over": 19,
+      "ball_in_over": 5,
+      "win_prob": 0.3796,
+      "cum_score": 154,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 114,
+      "over": 19,
+      "ball_in_over": 6,
+      "win_prob": 0.3984,
+      "cum_score": 156,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    },
+    {
+      "ball": 115,
+      "over": 20,
+      "ball_in_over": 1,
+      "win_prob": 0.4013,
+      "cum_score": 157,
+      "is_4": false,
+      "is_6": false,
+      "is_wkt": false
+    }
+  ],
+  "inflexion_points": [
+    {
+      "ball": 86,
+      "over_ball": "15.2",
+      "wp_before": 0.548,
+      "wp_after": 0.275,
+      "delta": -0.274
+    },
+    {
+      "ball": 79,
+      "over_ball": "14.1",
+      "wp_before": 0.784,
+      "wp_after": 0.615,
+      "delta": -0.169
+    },
+    {
+      "ball": 80,
+      "over_ball": "14.2",
+      "wp_before": 0.762,
+      "wp_after": 0.605,
+      "delta": -0.157
+    }
+  ],
+  "volatility_index": {
+    "value": 0.463,
+    "interpretation": "Low volatility \u2014 PBKS dominated, collapsed, then Connolly rebuilt"
+  },
+  "burn_rate": {
+    "innings1": [
+      {
+        "over": 1,
+        "runs": 9,
+        "wickets": 0,
+        "run_rate": 9.0,
+        "wickets_remaining": 10,
+        "classification": "Efficient"
+      },
+      {
+        "over": 2,
+        "runs": 9,
+        "wickets": 0,
+        "run_rate": 9.0,
+        "wickets_remaining": 10,
+        "classification": "Efficient"
+      },
+      {
+        "over": 3,
+        "runs": 9,
+        "wickets": 0,
+        "run_rate": 9.0,
+        "wickets_remaining": 10,
+        "classification": "Efficient"
+      },
+      {
+        "over": 4,
+        "runs": 8,
+        "wickets": 1,
+        "run_rate": 8.0,
+        "wickets_remaining": 9,
+        "classification": "Efficient"
+      },
+      {
+        "over": 5,
+        "runs": 6,
+        "wickets": 0,
+        "run_rate": 6.0,
+        "wickets_remaining": 9,
+        "classification": "Conservative"
+      },
+      {
+        "over": 6,
+        "runs": 6,
+        "wickets": 0,
+        "run_rate": 6.0,
+        "wickets_remaining": 9,
+        "classification": "Conservative"
+      },
+      {
+        "over": 7,
+        "runs": 7,
+        "wickets": 0,
+        "run_rate": 7.0,
+        "wickets_remaining": 9,
+        "classification": "Efficient"
+      },
+      {
+        "over": 8,
+        "runs": 7,
+        "wickets": 0,
+        "run_rate": 7.0,
+        "wickets_remaining": 9,
+        "classification": "Efficient"
+      },
+      {
+        "over": 9,
+        "runs": 6,
+        "wickets": 0,
+        "run_rate": 6.0,
+        "wickets_remaining": 9,
+        "classification": "Conservative"
+      },
+      {
+        "over": 10,
+        "runs": 7,
+        "wickets": 1,
+        "run_rate": 7.0,
+        "wickets_remaining": 8,
+        "classification": "Efficient"
+      },
+      {
+        "over": 11,
+        "runs": 6,
+        "wickets": 0,
+        "run_rate": 6.0,
+        "wickets_remaining": 8,
+        "classification": "Conservative"
+      },
+      {
+        "over": 12,
+        "runs": 7,
+        "wickets": 0,
+        "run_rate": 7.0,
+        "wickets_remaining": 8,
+        "classification": "Efficient"
+      },
+      {
+        "over": 13,
+        "runs": 7,
+        "wickets": 0,
+        "run_rate": 7.0,
+        "wickets_remaining": 8,
+        "classification": "Efficient"
+      },
+      {
+        "over": 14,
+        "runs": 7,
+        "wickets": 1,
+        "run_rate": 7.0,
+        "wickets_remaining": 7,
+        "classification": "Efficient"
+      },
+      {
+        "over": 15,
+        "runs": 5,
+        "wickets": 0,
+        "run_rate": 5.0,
+        "wickets_remaining": 7,
+        "classification": "Conservative"
+      },
+      {
+        "over": 16,
+        "runs": 5,
+        "wickets": 1,
+        "run_rate": 5.0,
+        "wickets_remaining": 6,
+        "classification": "Efficient"
+      },
+      {
+        "over": 17,
+        "runs": 4,
+        "wickets": 0,
+        "run_rate": 4.0,
+        "wickets_remaining": 6,
+        "classification": "Conservative"
+      },
+      {
+        "over": 18,
+        "runs": 4,
+        "wickets": 0,
+        "run_rate": 4.0,
+        "wickets_remaining": 6,
+        "classification": "Conservative"
+      },
+      {
+        "over": 19,
+        "runs": 9,
+        "wickets": 2,
+        "run_rate": 9.0,
+        "wickets_remaining": 4,
+        "classification": "Efficient"
+      },
+      {
+        "over": 20,
+        "runs": 7,
+        "wickets": 0,
+        "run_rate": 7.0,
+        "wickets_remaining": 4,
+        "classification": "Efficient"
+      }
+    ],
+    "innings2": [
+      {
+        "over": 1,
+        "runs": 5,
+        "wickets": 0,
+        "run_rate": 5.0,
+        "wickets_remaining": 10,
+        "classification": "Conservative"
+      },
+      {
+        "over": 2,
+        "runs": 7,
+        "wickets": 1,
+        "run_rate": 7.0,
+        "wickets_remaining": 9,
+        "classification": "Efficient"
+      },
+      {
+        "over": 3,
+        "runs": 8,
+        "wickets": 0,
+        "run_rate": 8.0,
+        "wickets_remaining": 9,
+        "classification": "Efficient"
+      },
+      {
+        "over": 4,
+        "runs": 8,
+        "wickets": 0,
+        "run_rate": 8.0,
+        "wickets_remaining": 9,
+        "classification": "Efficient"
+      },
+      {
+        "over": 5,
+        "runs": 8,
+        "wickets": 0,
+        "run_rate": 8.0,
+        "wickets_remaining": 9,
+        "classification": "Efficient"
+      },
+      {
+        "over": 6,
+        "runs": 7,
+        "wickets": 0,
+        "run_rate": 7.0,
+        "wickets_remaining": 9,
+        "classification": "Efficient"
+      },
+      {
+        "over": 7,
+        "runs": 8,
+        "wickets": 0,
+        "run_rate": 8.0,
+        "wickets_remaining": 9,
+        "classification": "Efficient"
+      },
+      {
+        "over": 8,
+        "runs": 8,
+        "wickets": 0,
+        "run_rate": 8.0,
+        "wickets_remaining": 9,
+        "classification": "Efficient"
+      },
+      {
+        "over": 9,
+        "runs": 7,
+        "wickets": 0,
+        "run_rate": 7.0,
+        "wickets_remaining": 9,
+        "classification": "Efficient"
+      },
+      {
+        "over": 10,
+        "runs": 8,
+        "wickets": 1,
+        "run_rate": 8.0,
+        "wickets_remaining": 8,
+        "classification": "Efficient"
+      },
+      {
+        "over": 11,
+        "runs": 8,
+        "wickets": 0,
+        "run_rate": 8.0,
+        "wickets_remaining": 8,
+        "classification": "Efficient"
+      },
+      {
+        "over": 12,
+        "runs": 8,
+        "wickets": 0,
+        "run_rate": 8.0,
+        "wickets_remaining": 8,
+        "classification": "Efficient"
+      },
+      {
+        "over": 13,
+        "runs": 4,
+        "wickets": 1,
+        "run_rate": 4.0,
+        "wickets_remaining": 7,
+        "classification": "Efficient"
+      },
+      {
+        "over": 14,
+        "runs": 4,
+        "wickets": 1,
+        "run_rate": 4.0,
+        "wickets_remaining": 6,
+        "classification": "Efficient"
+      },
+      {
+        "over": 15,
+        "runs": 5,
+        "wickets": 2,
+        "run_rate": 5.0,
+        "wickets_remaining": 4,
+        "classification": "Reckless"
+      },
+      {
+        "over": 16,
+        "runs": 7,
+        "wickets": 0,
+        "run_rate": 7.0,
+        "wickets_remaining": 4,
+        "classification": "Efficient"
+      },
+      {
+        "over": 17,
+        "runs": 8,
+        "wickets": 0,
+        "run_rate": 8.0,
+        "wickets_remaining": 4,
+        "classification": "Efficient"
+      },
+      {
+        "over": 18,
+        "runs": 7,
+        "wickets": 1,
+        "run_rate": 7.0,
+        "wickets_remaining": 3,
+        "classification": "Efficient"
+      },
+      {
+        "over": 19,
+        "runs": 7,
+        "wickets": 0,
+        "run_rate": 7.0,
+        "wickets_remaining": 3,
+        "classification": "Efficient"
+      },
+      {
+        "over": 20,
+        "runs": 7,
+        "wickets": 0,
+        "run_rate": 7.0,
+        "wickets_remaining": 3,
+        "classification": "Efficient"
+      }
+    ]
+  },
+  "pressure_index": {
+    "innings1": {
+      "data": [
+        {
+          "over": 1,
+          "pressure": 0.13,
+          "wickets_this_over": 0,
+          "wickets_remaining": 10,
+          "classification": "normal"
+        },
+        {
+          "over": 2,
+          "pressure": 0.13,
+          "wickets_this_over": 0,
+          "wickets_remaining": 10,
+          "classification": "normal"
+        },
+        {
+          "over": 3,
+          "pressure": 0.13,
+          "wickets_this_over": 0,
+          "wickets_remaining": 10,
+          "classification": "normal"
+        },
+        {
+          "over": 4,
+          "pressure": 0.4,
+          "wickets_this_over": 1,
+          "wickets_remaining": 9,
+          "classification": "high"
+        },
+        {
+          "over": 5,
+          "pressure": 0.16,
+          "wickets_this_over": 0,
+          "wickets_remaining": 9,
+          "classification": "normal"
+        },
+        {
+          "over": 6,
+          "pressure": 0.16,
+          "wickets_this_over": 0,
+          "wickets_remaining": 9,
+          "classification": "normal"
+        },
+        {
+          "over": 7,
+          "pressure": 0.13,
+          "wickets_this_over": 0,
+          "wickets_remaining": 9,
+          "classification": "normal"
+        },
+        {
+          "over": 8,
+          "pressure": 0.13,
+          "wickets_this_over": 0,
+          "wickets_remaining": 9,
+          "classification": "normal"
+        },
+        {
+          "over": 9,
+          "pressure": 0.16,
+          "wickets_this_over": 0,
+          "wickets_remaining": 9,
+          "classification": "normal"
+        },
+        {
+          "over": 10,
+          "pressure": 0.43,
+          "wickets_this_over": 1,
+          "wickets_remaining": 8,
+          "classification": "high"
+        },
+        {
+          "over": 11,
+          "pressure": 0.16,
+          "wickets_this_over": 0,
+          "wickets_remaining": 8,
+          "classification": "normal"
+        },
+        {
+          "over": 12,
+          "pressure": 0.13,
+          "wickets_this_over": 0,
+          "wickets_remaining": 8,
+          "classification": "normal"
+        },
+        {
+          "over": 13,
+          "pressure": 0.13,
+          "wickets_this_over": 0,
+          "wickets_remaining": 8,
+          "classification": "normal"
+        },
+        {
+          "over": 14,
+          "pressure": 0.43,
+          "wickets_this_over": 1,
+          "wickets_remaining": 7,
+          "classification": "high"
+        },
+        {
+          "over": 15,
+          "pressure": 0.25,
+          "wickets_this_over": 0,
+          "wickets_remaining": 7,
+          "classification": "normal"
+        },
+        {
+          "over": 16,
+          "pressure": 0.55,
+          "wickets_this_over": 1,
+          "wickets_remaining": 6,
+          "classification": "extreme"
+        },
+        {
+          "over": 17,
+          "pressure": 0.28,
+          "wickets_this_over": 0,
+          "wickets_remaining": 6,
+          "classification": "above_average"
+        },
+        {
+          "over": 18,
+          "pressure": 0.28,
+          "wickets_this_over": 0,
+          "wickets_remaining": 6,
+          "classification": "above_average"
+        },
+        {
+          "over": 19,
+          "pressure": 0.73,
+          "wickets_this_over": 2,
+          "wickets_remaining": 4,
+          "classification": "extreme"
+        },
+        {
+          "over": 20,
+          "pressure": 0.13,
+          "wickets_this_over": 0,
+          "wickets_remaining": 4,
+          "classification": "normal"
+        }
+      ],
+      "baselines": {
+        "avg": 0.252,
+        "p75": 0.31,
+        "p90": 0.442
+      }
+    },
+    "innings2": {
+      "data": [
+        {
+          "over": 1,
+          "pressure": 0.247,
+          "wickets_this_over": 0,
+          "wickets_remaining": 10,
+          "classification": "normal"
+        },
+        {
+          "over": 2,
+          "pressure": 0.427,
+          "wickets_this_over": 1,
+          "wickets_remaining": 9,
+          "classification": "above_average"
+        },
+        {
+          "over": 3,
+          "pressure": 0.107,
+          "wickets_this_over": 0,
+          "wickets_remaining": 9,
+          "classification": "normal"
+        },
+        {
+          "over": 4,
+          "pressure": 0.109,
+          "wickets_this_over": 0,
+          "wickets_remaining": 9,
+          "classification": "normal"
+        },
+        {
+          "over": 5,
+          "pressure": 0.111,
+          "wickets_this_over": 0,
+          "wickets_remaining": 9,
+          "classification": "normal"
+        },
+        {
+          "over": 6,
+          "pressure": 0.116,
+          "wickets_this_over": 0,
+          "wickets_remaining": 9,
+          "classification": "normal"
+        },
+        {
+          "over": 7,
+          "pressure": 0.119,
+          "wickets_this_over": 0,
+          "wickets_remaining": 9,
+          "classification": "normal"
+        },
+        {
+          "over": 8,
+          "pressure": 0.123,
+          "wickets_this_over": 0,
+          "wickets_remaining": 9,
+          "classification": "normal"
+        },
+        {
+          "over": 9,
+          "pressure": 0.102,
+          "wickets_this_over": 0,
+          "wickets_remaining": 9,
+          "classification": "normal"
+        },
+        {
+          "over": 10,
+          "pressure": 0.435,
+          "wickets_this_over": 1,
+          "wickets_remaining": 8,
+          "classification": "high"
+        },
+        {
+          "over": 11,
+          "pressure": 0.142,
+          "wickets_this_over": 0,
+          "wickets_remaining": 8,
+          "classification": "normal"
+        },
+        {
+          "over": 12,
+          "pressure": 0.153,
+          "wickets_this_over": 0,
+          "wickets_remaining": 8,
+          "classification": "normal"
+        },
+        {
+          "over": 13,
+          "pressure": 0.531,
+          "wickets_this_over": 1,
+          "wickets_remaining": 7,
+          "classification": "high"
+        },
+        {
+          "over": 14,
+          "pressure": 0.541,
+          "wickets_this_over": 1,
+          "wickets_remaining": 6,
+          "classification": "extreme"
+        },
+        {
+          "over": 15,
+          "pressure": 0.815,
+          "wickets_this_over": 2,
+          "wickets_remaining": 4,
+          "classification": "extreme"
+        },
+        {
+          "over": 16,
+          "pressure": 0.118,
+          "wickets_this_over": 0,
+          "wickets_remaining": 4,
+          "classification": "normal"
+        },
+        {
+          "over": 17,
+          "pressure": 0.168,
+          "wickets_this_over": 0,
+          "wickets_remaining": 4,
+          "classification": "normal"
+        },
+        {
+          "over": 18,
+          "pressure": 0.46,
+          "wickets_this_over": 1,
+          "wickets_remaining": 3,
+          "classification": "high"
+        },
+        {
+          "over": 19,
+          "pressure": 0.205,
+          "wickets_this_over": 0,
+          "wickets_remaining": 3,
+          "classification": "normal"
+        },
+        {
+          "over": 20,
+          "pressure": 0.34,
+          "wickets_this_over": 0,
+          "wickets_remaining": 3,
+          "classification": "above_average"
+        }
+      ],
+      "baselines": {
+        "avg": 0.268,
+        "p75": 0.429,
+        "p90": 0.532
+      }
+    }
+  },
+  "partnerships": {
+    "innings1": [
+      {
+        "batsman1": "Sai Sudharsan",
+        "batsman2": "Shubman Gill",
+        "runs": 37,
+        "balls": 20,
+        "sr": 185.0,
+        "load_bearing": false
+      },
+      {
+        "batsman1": "Shubman Gill",
+        "batsman2": "Jos Buttler",
+        "runs": 46,
+        "balls": 35,
+        "sr": 131.4,
+        "load_bearing": true
+      },
+      {
+        "batsman1": "Jos Buttler",
+        "batsman2": "Glenn Phillips",
+        "runs": 36,
+        "balls": 26,
+        "sr": 138.5,
+        "load_bearing": false
+      },
+      {
+        "batsman1": "Glenn Phillips",
+        "batsman2": "Washington Sundar",
+        "runs": 10,
+        "balls": 11,
+        "sr": 90.9,
+        "load_bearing": false
+      },
+      {
+        "batsman1": "Washington Sundar",
+        "batsman2": "M Shahrukh Khan",
+        "runs": 15,
+        "balls": 16,
+        "sr": 93.8,
+        "load_bearing": false
+      },
+      {
+        "batsman1": "M Shahrukh Khan",
+        "batsman2": "Rahul Tewatia",
+        "runs": 6,
+        "balls": 6,
+        "sr": 100.0,
+        "load_bearing": false
+      },
+      {
+        "batsman1": "Rahul Tewatia",
+        "batsman2": "Rashid Khan",
+        "runs": 12,
+        "balls": 8,
+        "sr": 150.0,
+        "load_bearing": false
+      }
+    ],
+    "innings2": [
+      {
+        "batsman1": "Priyansh Arya",
+        "batsman2": "Prabhsimran Singh",
+        "runs": 7,
+        "balls": 7,
+        "sr": 100.0,
+        "load_bearing": false
+      },
+      {
+        "batsman1": "Prabhsimran Singh",
+        "batsman2": "Cooper Connolly",
+        "runs": 76,
+        "balls": 49,
+        "sr": 155.1,
+        "load_bearing": true
+      },
+      {
+        "batsman1": "Cooper Connolly",
+        "batsman2": "Shreyas Iyer",
+        "runs": 27,
+        "balls": 17,
+        "sr": 158.8,
+        "load_bearing": false
+      },
+      {
+        "batsman1": "Shreyas Iyer",
+        "batsman2": "Nehal Wadhera",
+        "runs": 3,
+        "balls": 6,
+        "sr": 50.0,
+        "load_bearing": false
+      },
+      {
+        "batsman1": "Nehal Wadhera",
+        "batsman2": "Shashank Singh",
+        "runs": 5,
+        "balls": 7,
+        "sr": 71.4,
+        "load_bearing": false
+      },
+      {
+        "batsman1": "Shashank Singh",
+        "batsman2": "Marcus Stoinis",
+        "runs": 0,
+        "balls": 6,
+        "sr": 0.0,
+        "load_bearing": false
+      },
+      {
+        "batsman1": "Marcus Stoinis",
+        "batsman2": "Marco Jansen",
+        "runs": 26,
+        "balls": 18,
+        "sr": 144.4,
+        "load_bearing": false
+      },
+      {
+        "batsman1": "Marco Jansen",
+        "batsman2": "Xavier Bartlett",
+        "runs": 21,
+        "balls": 16,
+        "sr": 131.2,
+        "load_bearing": false
+      }
+    ]
+  },
+  "matchups": {
+    "top_3": [
+      {
+        "batsman": "Prabhsimran Singh",
+        "bowler": "Rashid Khan",
+        "balls": 8,
+        "runs_scored": 4,
+        "dismissed": true,
+        "matchup_sr": 50.0,
+        "overall_sr": 154.16,
+        "effectiveness": "effective",
+        "context": "Rashid choked PBKS's opener"
+      },
+      {
+        "batsman": "Shubman Gill",
+        "bowler": "Yuzvendra Chahal",
+        "balls": 9,
+        "runs_scored": 8,
+        "dismissed": true,
+        "matchup_sr": 88.9,
+        "overall_sr": 144.44,
+        "effectiveness": "effective",
+        "context": "Chahal's loop troubled GT's captain throughout"
+      },
+      {
+        "batsman": "Cooper Connolly",
+        "bowler": "Prasidh Krishna",
+        "balls": 10,
+        "runs_scored": 18,
+        "dismissed": false,
+        "matchup_sr": 180.0,
+        "overall_sr": 163.63,
+        "effectiveness": "ineffective",
+        "context": "Prasidh got everyone but Connolly"
+      }
+    ]
+  },
+  "turning_points": [
+    {
+      "title": "The Collapse \u2014 Overs 12-15",
+      "score_before": "83/1",
+      "score_after": "118/6",
+      "description": "Prasidh Krishna, Washington Sundar, and Prasidh again \u2014 four wickets in three overs. The PBKS middle order disintegrated as Iyer, Wadhera, Shashank, and Stoinis all fell. From a chase in hand to 45 needed off 36 with the tail.",
+      "wp_shift": "-0.38"
+    },
+    {
+      "title": "Connolly-Prabhsimran: the 76-run stand",
+      "score_before": "7/1",
+      "score_after": "83/2",
+      "description": "Prabhsimran attacked with four sixes; Connolly found gaps. The stand stretched from over 1.3 to 9.3 and transformed a nervous chase into a comfortable one \u2014 before GT seized it back.",
+      "wp_shift": "+0.35"
+    },
+    {
+      "title": "Connolly and Bartlett seal it",
+      "score_before": "144/7 (needed 19 off 14)",
+      "score_after": "165/7",
+      "description": "After Jansen fell, Bartlett hit a six off ball one. Connolly added fours. GT's bowling was exhausted. What looked like a GT win became a PBKS coronation inside four deliveries.",
+      "wp_shift": "+0.45"
+    }
+  ],
+  "counterfactual_scenarios": [
+    {
+      "scenario_id": 1,
+      "title": "What if Arshdeep Singh had been economical?",
+      "change": "Arshdeep's 42 runs (inc. 11 wides, 1 nb) replaced with economy 7.5 (28 runs)",
+      "original_outcome": "GT 162/6 \u2014 PBKS chase 163",
+      "mirror_outcome": "GT 148/6 \u2014 PBKS chase 149, win by 6 wickets",
+      "key_number": -14,
+      "narrative": "Arshdeep Singh conceded 42 runs in 4 overs \u2014 12 of them gifted in wides and no-balls. Remove that waste and GT score 148, the target drops to 149. At 149, PBKS's collapse between overs 12 and 15 \u2014 five wickets for 35 runs \u2014 becomes irrelevant. They'd win comfortably before ever needing Connolly to play hero. Arshdeep's 11 wides were not incidental. They were the match."
+    },
+    {
+      "scenario_id": 2,
+      "title": "What if Prasidh had dismissed Connolly?",
+      "change": "Connolly dismissed at 38 runs \u2014 PBKS fall to 118/7",
+      "original_outcome": "PBKS won by 3 wickets \u2014 Connolly 72* (44)",
+      "mirror_outcome": "GT win by ~12 runs \u2014 PBKS all out for ~150",
+      "key_number": 12,
+      "narrative": "Prasidh removed Iyer, Shashank, and Stoinis in quick succession. In the real match, Connolly survived. In this mirror, he doesn't. PBKS are 118/7 \u2014 Jansen and Bartlett need 45 off 33 balls against Rashid and Prasidh. They reach 150. GT win by 12. Prasidh wins Player of the Match. And Connolly goes back to the pavilion having made 38 \u2014 an innings no one remembers two weeks later."
+    }
+  ],
+  "game_changers": [
+    {
+      "name": "Cooper Connolly",
+      "team": "PBKS",
+      "key_stat": "72* (44b) SR 163.63 \u2014 5\u00d74, 5\u00d76",
+      "description": "Won the match single-handedly. When PBKS collapsed to 118/6, Connolly was the only reason the chase remained alive. He scored 54 of PBKS's final 47 runs. The partnership with Bartlett \u2014 21 off 11 \u2014 sealed it when no one thought it possible."
+    },
+    {
+      "name": "Prasidh Krishna",
+      "team": "GT",
+      "key_stat": "4-0-29-3, Econ 7.25 \u2014 wkts at 12.1, 14.2, 14.4",
+      "description": "Took three wickets in the window that almost won GT the match. Iyer, Shashank, Stoinis \u2014 four balls apart. That 118/6 scoreline was his creation. The economy was tidy. He got everyone except the one batsman who mattered."
+    },
+    {
+      "name": "Prabhsimran Singh",
+      "team": "PBKS",
+      "key_stat": "37 (24b) SR 154.16 \u2014 1\u00d74, 4\u00d76",
+      "description": "Four sixes against Rabada and Ashok gave PBKS the foundation that mattered. The 76-run stand with Connolly was the platform of the chase. Without it, the collapse would have been terminal."
+    },
+    {
+      "name": "Vijaykumar Vyshak",
+      "team": "GT",
+      "key_stat": "4-0-34-3, Econ 8.50 \u2014 wkts at 13.6, 18.1, 18.6",
+      "description": "Three death-over wickets held GT to 162 when 175+ looked inevitable. The pace-off ball that beat Washington Sundar at 18.1 was one of the deliveries of the match."
+    }
+  ],
+  "by_the_numbers": {
+    "GT": {
+      "total_runs": 162,
+      "wickets": 6,
+      "overs": 20.0,
+      "run_rate": 8.1,
+      "fours": 16,
+      "sixes": 4,
+      "dot_pct": 43.3,
+      "extras": 14,
+      "top_scorer": "Shubman Gill 39*(27)"
+    },
+    "PBKS": {
+      "total_runs": 165,
+      "wickets": 7,
+      "overs": 19.1,
+      "run_rate": 8.6,
+      "fours": 6,
+      "sixes": 14,
+      "dot_pct": 41.7,
+      "extras": 4,
+      "top_scorer": "Cooper Connolly 72*(44)"
+    }
+  },
+  "commentary_gems": [
+    {
+      "over": "9.3",
+      "text": "Chahal gave that ball air on middle stump. Gill got down on one knee and attempted the big slog sweep \u2014 he didn't hit it far enough and Connolly settled under the catch on the deep midwicket boundary. 83/2",
+      "type": "wicket"
+    },
+    {
+      "over": "14.4",
+      "text": "What on earth is happening, Punjab! Finding fielders with laser-guided precision! Stoinis leans back and ramps it straight to Rashid Khan. 118/6",
+      "type": "wicket"
+    },
+    {
+      "over": "15.4",
+      "text": "Buttler stepped out of his crease... Bartlett positioned himself on the edge of the boundary and jumped up to take the catch over his head. Buttler can't quite believe it. 129/4",
+      "type": "wicket"
+    },
+    {
+      "over": "12.1",
+      "text": "Prasidh strikes first ball! Shreyas has simply clipped a friendly half-volley off his pads straight to deep midwicket. 110/3",
+      "type": "wicket"
+    }
+  ]
+}
