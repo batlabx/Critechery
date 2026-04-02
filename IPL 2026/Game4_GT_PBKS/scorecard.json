@@ -1,0 +1,31 @@
+{
+  "match_info": {
+    "match_id": "IPL2026_Game4",
+    "match_name": "Gujarat Titans vs Punjab Kings",
+    "tournament": "IPL 2026",
+    "date": "2026-03-31",
+    "venue": "New Chandigarh (Mullanpur)",
+    "result": "Punjab Kings won by 3 wickets",
+    "winner": "Punjab Kings"
+  },
+  "innings": [
+    {
+      "innings_num": 1,
+      "batting_team": "Gujarat Titans",
+      "bowling_team": "Punjab Kings",
+      "total_runs": 162,
+      "total_wickets": 6,
+      "overs": 20,
+      "run_rate": 8.1
+    },
+    {
+      "innings_num": 2,
+      "batting_team": "Punjab Kings",
+      "bowling_team": "Gujarat Titans",
+      "total_runs": 165,
+      "total_wickets": 7,
+      "overs": 19.1,
+      "run_rate": 8.6
+    }
+  ]
+}
