@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Connolly Protocol — GT vs PBKS, IPL 2026 Match 4</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Lora:ital,wght@0,400;0,600;1,400&display=swap');
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'Inter', -apple-system, 'Helvetica Neue', sans-serif;
+  font-size: 18px; line-height: 1.78; color: #2C2C2C;
+  background: #FAFAF8; max-width: 720px;
+  margin: 0 auto; padding: 56px 24px 100px 24px;
+}
+
+h1 {
+  font-family: 'Lora', Georgia, serif;
+  font-size: 2.4em; font-weight: 600; line-height: 1.18;
+  letter-spacing: -0.01em; color: #111111; margin-bottom: 10px;
+}
+
+.meta {
+  font-size: 0.88em; color: #AAAAAA; margin-bottom: 48px;
+  letter-spacing: 0.04em; text-transform: uppercase;
+}
+
+h2 {
+  font-size: 0.78em; font-weight: 700; text-transform: uppercase;
+  letter-spacing: 0.12em; color: #AAAAAA; margin-top: 60px;
+  margin-bottom: 18px; padding-bottom: 8px;
+  border-bottom: 1px solid #E8E8E5;
+}
+
+h3 {
+  font-size: 1.05em; font-weight: 700; color: #1A1A1A;
+  margin-top: 32px; margin-bottom: 10px;
+}
+
+p { margin-bottom: 22px; }
+
+.summary-box {
+  background: #F4F4F1; border-left: 3px solid #1A56DB;
+  padding: 18px 22px; margin: 0 0 32px 0; border-radius: 0 6px 6px 0;
+  font-family: 'Lora', Georgia, serif; font-size: 1.08em;
+  line-height: 1.65; color: #1A1A1A;
+}
+
+.humdinger-score {
+  font-family: 'Inter', sans-serif; font-size: 5em;
+  font-weight: 900; text-align: center; color: #F5A623;
+  letter-spacing: -0.04em; padding: 28px 0 4px 0; line-height: 1.0;
+}
+.humdinger-label {
+  text-align: center; color: #AAAAAA; font-size: 0.82em;
+  letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 16px;
+}
+.humdinger-breakdown {
+  background: #FFFDF5; border: 1px solid #F5E6C3;
+  border-radius: 8px; padding: 16px 20px; margin: 12px 0 28px 0;
+  font-size: 0.9em; line-height: 1.9; color: #555;
+}
+
+blockquote {
+  border-left: 3px solid #F5A623; padding: 14px 20px;
+  margin: 28px 0; background: #FFFBF2;
+  font-family: 'Lora', Georgia, serif; font-style: italic;
+  color: #3D3D3D; font-size: 0.97em; border-radius: 0 6px 6px 0;
+}
+blockquote .ball-ref {
+  display: block; font-family: 'Inter', sans-serif;
+  font-style: normal; font-size: 0.78em; font-weight: 600;
+  color: #F5A623; letter-spacing: 0.06em;
+  text-transform: uppercase; margin-bottom: 6px;
+}
+
+table { width: 100%; border-collapse: collapse; margin: 20px 0; font-size: 0.88em; }
+th {
+  background: #F0F0EE; text-align: left; padding: 10px 14px;
+  font-weight: 600; text-transform: uppercase;
+  font-size: 0.76em; letter-spacing: 0.07em; color: #777;
+}
+td { padding: 10px 14px; border-bottom: 1px solid #F0F0EE; }
+tr:last-child td { border-bottom: none; }
+td.highlight { font-weight: 600; color: #1A56DB; }
+
+img.chart {
+  width: 100%; margin: 28px 0; border-radius: 10px;
+  border: 1px solid #E8E8E5; display: block;
+}
+
+.cs-compare {
+  display: flex; gap: 16px; margin: 20px 0 28px 0;
+}
+.cs-team {
+  flex: 1; background: #F8F8F6; border-radius: 10px;
+  padding: 16px 18px; border: 1px solid #E8E8E5;
+}
+.cs-team-name {
+  font-weight: 700; font-size: 0.9em; text-transform: uppercase;
+  letter-spacing: 0.08em; color: #666; margin-bottom: 8px;
+}
+.cs-total {
+  font-family: 'Inter', sans-serif; font-size: 2.6em; font-weight: 800;
+  line-height: 1; margin-bottom: 12px;
+}
+.cs-row { display: flex; justify-content: space-between; font-size: 0.82em;
+          color: #555; padding: 3px 0; border-bottom: 1px solid #F0F0EE; }
+.cs-row:last-child { border-bottom: none; }
+.cs-value { font-weight: 600; color: #1A1A1A; }
+
+.lola-scenario {
+  background: #F0F4FF; border: 1px solid #C7D7FD;
+  border-radius: 10px; padding: 20px 24px; margin: 24px 0;
+}
+.lola-title {
+  font-weight: 700; font-size: 1.05em; color: #1E40AF;
+  margin-bottom: 8px;
+}
+.lola-delta {
+  display: inline-block; background: #1A56DB; color: white;
+  padding: 2px 10px; border-radius: 20px; font-size: 0.8em;
+  font-weight: 700; margin-bottom: 12px; letter-spacing: 0.04em;
+}
+.lola-outcome { font-size: 0.9em; color: #444; margin-bottom: 12px; }
+.lola-narrative { font-size: 0.92em; line-height: 1.7; color: #333; }
+
+.tp-card {
+  border-left: 3px solid #F5A623; padding: 12px 16px; margin: 16px 0;
+  background: #FFFBF2; border-radius: 0 6px 6px 0;
+}
+.tp-label { font-size: 0.8em; font-weight: 700; text-transform: uppercase;
+            letter-spacing: 0.08em; color: #F5A623; margin-bottom: 6px; }
+
+.gc-card { padding: 14px 0; border-bottom: 1px solid #F0F0EE; }
+.gc-card:last-child { border-bottom: none; }
+.gc-player { font-weight: 700; font-size: 1.05em; color: #1A1A1A; }
+.gc-stat { color: #1A56DB; font-size: 0.85em; font-weight: 600; margin: 2px 0 6px 0; }
+.gc-reason { font-size: 0.9em; color: #444; line-height: 1.6; }
+
+.audio-section {
+  background: #F8F8F6; border: 1px solid #E4E4E0;
+  border-radius: 10px; padding: 20px 22px; margin: 40px 0;
+  text-align: center;
+}
+.audio-label {
+  font-weight: 700; font-size: 0.9em; text-transform: uppercase;
+  letter-spacing: 0.08em; color: #555; margin-bottom: 12px;
+}
+.audio-coming-soon {
+  color: #AAAAAA; font-size: 0.9em; font-style: italic;
+  padding: 12px 0; display: block;
+}
+.audio-sub { font-size: 0.82em; color: #AAAAAA; }
+
+hr { border: none; border-top: 1px solid #E8E8E5; margin: 52px 0; }
+
+.toss-pill {
+  display: inline-block; background: #EEF4FF; color: #1A56DB;
+  padding: 5px 14px; border-radius: 20px; font-size: 0.84em;
+  font-weight: 600; margin-bottom: 16px;
+}
+
+.result-banner {
+  background: #F0F4FF; border: 1px solid #C7D7FD; border-radius: 8px;
+  padding: 14px 18px; margin-bottom: 32px; font-size: 0.92em;
+  color: #1E40AF; font-weight: 600;
+}
+</style>
+</head>
+<body>
+
+<h1>The Connolly Protocol</h1>
+<p class="meta">March 31, 2026 &nbsp;·&nbsp; Gujarat Titans vs Punjab Kings &nbsp;·&nbsp; New Chandigarh (Mullanpur) &nbsp;·&nbsp; IPL 2026, Match 4</p>
+
+<div class="result-banner">
+  🏆 Punjab Kings won by 3 wickets (5 balls remaining) &nbsp;·&nbsp; GT: 162/6 (20 ov) &nbsp;·&nbsp; PBKS: 165/7 (19.1 ov) &nbsp;·&nbsp; POM: Cooper Connolly 72* (44)
+</div>
+
+<div class="summary-box">
+  They collapsed to 118/6, needing 45 off 30. Five wickets had fallen in 27 balls. Gujarat Titans were winning this match. Then Cooper Connolly decided they weren't.
+</div>
+
+<!-- SECTION 1: AUDIO BRIEF -->
+<h2>AUDIO BRIEF</h2>
+<div class="audio-section">
+  <p class="audio-label">Match Brief</p>
+  <span class="audio-coming-soon">Audio episode coming soon — upload your NotebookLM sources from Output/notebooklm/ to generate it.</span>
+  <p class="audio-sub">Powered by NotebookLM | Full analysis below</p>
+</div>
+
+<hr>
+
+<!-- SECTION 2: THE HUMDINGER SCORE -->
+<h2>THE HUMDINGER SCORE</h2>
+<div class="humdinger-score">6.8</div>
+<div class="humdinger-label">out of 10</div>
+<div class="humdinger-breakdown">
+  ⏱ Time near 50/50: <strong>2.3 / 4.0</strong> (11.3% of chase balls in toss-up territory)<br>
+  🎭 Last-over drama: <strong>+2.0</strong> (result sealed in over 19)<br>
+  📏 Margin: <strong>+1.0</strong> (3 wickets — close but not terminal)<br>
+  🎯 Wicket cluster: <strong>+1.0</strong> (4 wickets in overs 12–15)<br>
+  💥 Boundary burst: <strong>+0.5</strong> (death scoring elevated, not quite both innings above threshold)<br>
+  <strong>Total: 6.8 / 10</strong>
+</div>
+
+<p>The Humdinger Score captures something this game delivered in compressed bursts rather than sustained tension. Most of the match played out on rails — GT made a decent total, PBKS looked comfortable, PBKS looked doomed — with the genuine drama concentrated into roughly 25 balls between overs 12 and 19.</p>
+
+<p>A 6.8 is accurate. This was a genuinely exciting cricket match, not a classic. The drama was real, but it lived in the second half of the chase, and the resolution was swift once Connolly found his range. The win-probability line tells a story of a match where PBKS were comfortably ahead, then suddenly behind, then ahead again — each swing violent but brief. Volatility Index: 0.46. Not a seesaw. A trap door that opened, swallowed five batsmen, and then closed again.</p>
+
+<!-- IMAGE 1: Humdinger Score component -->
+<img class="chart" src="charts/win_probability.png" alt="Win Probability — GT vs PBKS">
+
+<hr>
+
+<!-- SECTION 3: THE CRITECHERY SCORE -->
+<h2>The Critechery Score</h2>
+
+<div class="cs-compare">
+  <div class="cs-team">
+    <div class="cs-team-name">🔵 Gujarat Titans</div>
+    <div class="cs-total" style="color:#1A56DB">59.2</div>
+    <div class="cs-row"><span>SR Dominance</span><span class="cs-value">0.7 / 25</span></div>
+    <div class="cs-row"><span>Boundary Efficiency</span><span class="cs-value">15.0 / 15</span></div>
+    <div class="cs-row"><span>Extras Discipline</span><span class="cs-value">4.0 / 10</span></div>
+    <div class="cs-row"><span>Economy Squeeze</span><span class="cs-value">7.2 / 15</span></div>
+    <div class="cs-row"><span>Wicket Punch</span><span class="cs-value">15.0 / 15</span></div>
+    <div class="cs-row"><span>Dot Dominance</span><span class="cs-value">10.0 / 10</span></div>
+    <div class="cs-row"><span>Bowling Strike Rate</span><span class="cs-value">7.3 / 10</span></div>
+  </div>
+  <div class="cs-team">
+    <div class="cs-team-name">🔴 Punjab Kings</div>
+    <div class="cs-total" style="color:#E3311D">61.2</div>
+    <div class="cs-row"><span>SR Dominance</span><span class="cs-value">6.2 / 25</span></div>
+    <div class="cs-row"><span>Boundary Efficiency</span><span class="cs-value">15.0 / 15</span></div>
+    <div class="cs-row"><span>Extras Discipline</span><span class="cs-value">0.0 / 10</span></div>
+    <div class="cs-row"><span>Economy Squeeze</span><span class="cs-value">9.0 / 15</span></div>
+    <div class="cs-row"><span>Wicket Punch</span><span class="cs-value">15.0 / 15</span></div>
+    <div class="cs-row"><span>Dot Dominance</span><span class="cs-value">10.0 / 10</span></div>
+    <div class="cs-row"><span>Bowling Strike Rate</span><span class="cs-value">6.0 / 10</span></div>
+  </div>
+</div>
+
+<!-- IMAGE 2: Critechery Score component -->
+
+<p>A 2-point gap on 100 — that's how close this match was, numerically. But the Critechery Score surfaces something more revealing than the final margin: where each team's advantage sat, and how fragile it was.</p>
+
+<p>GT's batting score of 19.7/50 is poor. A weighted strike rate of 122.3 — barely above the 120 baseline — tells you GT's batsmen ground rather than accelerated. They scored efficiently in boundaries (15/15 — the maximum, 16 fours and 4 sixes from 120 balls) but never quite found the gear that separates a par score from a winning one. The Extras Discipline score of 4.0/10 is damning: GT's own bowlers gifted PBKS extras earlier, but PBKS's bowlers in the first innings conceded 14 extras — Arshdeep alone accounting for 11 wides and a no-ball. That's 12 free deliveries. That's the difference between 162 and 150.</p>
+
+<p>PBKS's bowling Extras Discipline of 0.0/10 reflects those same wides. Their Economy Squeeze of 9.0/15 — economy of 8.0 RPO — looks better than GT's 7.2, but neither bowling attack dominated. Both sides' maximum scores came in Wicket Punch (15/15) and Dot Dominance (10/10): wickets fell, dots accumulated. This was a wicket-taking contest. Runs came in bursts.</p>
+
+<hr>
+
+<!-- SECTION 4: MATCHUP 1 -->
+<h2>Matchup 1: Prabhsimran Singh vs Rashid Khan</h2>
+
+<img class="chart" src="charts/matchup_1.png" alt="Prabhsimran Singh vs Rashid Khan">
+
+<p>Prabhsimran Singh arrived at the crease with four sixes already in the scorebook — three of them dispatched over the leg side with that low-grip, high-swing signature of his. Rashid Khan had watched that from the other end. He did not bowl the same ball twice.</p>
+
+<p>Over 8 deliveries against Rashid, Prabhsimran scored 4 runs and was dismissed. Strike rate: 50.0 against a bowler he usually attacks at 154. The difference was control — Rashid's googly consistently landed in the zone that forced Prabhsimran either to defend or mistime, and at over 8.3, he chose wrong. The catch was clean. The over ended with Punjab at 83/2 instead of 83/1 and accelerating.</p>
+
+<p>This dismissal matters because of what it denied. Prabhsimran at 154 SR would have taken PBKS to 110–120/1 by over 12. Instead, Connolly inherited a shakier scaffold. The collapse that followed was seeded here — not in Prasidh's ferocity, but in Rashid's quiet accumulation of pressure two overs earlier.</p>
+
+<hr>
+
+<!-- SECTION 5: MATCHUP 2 -->
+<h2>Matchup 2: Shubman Gill vs Yuzvendra Chahal</h2>
+
+<img class="chart" src="charts/matchup_2.png" alt="Shubman Gill vs Yuzvendra Chahal">
+
+<p>Shubman Gill had already played a captain's innings — GT's top scorer, holding the middle together as wickets fell around him at both ends. He'd survived the powerplay, navigated the middle overs, and was seeing the ball well. Then Chahal got him.</p>
+
+<p>9 balls against Chahal: 8 runs, dismissed. SR 88.9 vs his seasonal 144. The loop that Chahal imparted on that delivery — middle stump, over-spun, dipping — was the product of field placement as much as trajectory. Gill committed to the slog-sweep, didn't quite time it, and Cooper Connolly (standing at deep midwicket — the same Connolly who would later win the match from the other side of it) took the catch without fuss. Score: GT 83/2.</p>
+
+<p>The wicket capped a second innings of careful construction. Gill's dismissal by Chahal was not one ball he misjudged — it was the culmination of Chahal repeatedly working that zone, over by over, until Gill's patience ran out. Good captaincy by Shreyas Iyer, who set the trap. Good execution by Chahal, who baited it perfectly.</p>
+
+<hr>
+
+<!-- SECTION 6: MATCHUP 3 -->
+<h2>Matchup 3: Cooper Connolly vs Prasidh Krishna</h2>
+
+<img class="chart" src="charts/matchup_3.png" alt="Cooper Connolly vs Prasidh Krishna">
+
+<p>Prasidh Krishna was devastating. In the passage from over 12 to over 15, he dismissed Shreyas Iyer, Shashank Singh, and Marcus Stoinis — reducing PBKS from 110/2 to 118/6. His economy was 7.25 across four overs. He bowled to everyone who came in and took their wicket.</p>
+
+<p>Everyone except Cooper Connolly.</p>
+
+<p>Against Prasidh, Connolly faced 10 balls and scored 18 — SR 180.0 vs his match SR of 163.6. Prasidh's length was wrong for him. The fuller balls that curved back to dismiss right-handers were sitting up for Connolly's powerful arc through mid-on. Connolly drove three of them. He was seeing it like a football.</p>
+
+<p>This matchup is the fulcrum of the entire match. Had Prasidh gotten Connolly — who was at 38 when Stoinis fell — PBKS would have been 118/7 with Jansen and Bartlett needing 45 from 33 balls. Instead, Connolly survived. And then he didn't just survive. He launched.</p>
+
+<hr>
+
+<!-- SECTION 7: TURNING POINTS -->
+<h2>Turning Points</h2>
+
+<img class="chart" src="charts/pressure_heatmap.png" alt="Pressure Index Heatmap — GT vs PBKS">
+
+<div class="tp-card">
+  <div class="tp-label">Turning Point 1 — Overs 1–9: The Platform</div>
+  <p style="margin:0; font-size:0.95em;">Connolly and Prabhsimran put on 76 runs in 49 balls — SR 155.1. From 7/1 (Priyansh gone early), they rebuilt the chase methodically, with Prabhsimran taking boundaries and Connolly rotating and timing. Win probability climbed from 40% to 75%. This was PBKS's match to lose.</p>
+</div>
+
+<div class="tp-card">
+  <div class="tp-label">Turning Point 2 — Overs 12–15: The Collapse</div>
+  <p style="margin:0; font-size:0.95em;">Prasidh Krishna took three wickets in 14 balls. Rashid took one. Iyer clipped to midwicket at 110. Shashank ramp-mishit to slip at 118. Stoinis mistimed straight to Rashid at 118. The scoreboard froze. Win probability: 54.8% → 27.5%. GT were winning this match.</p>
+</div>
+
+<blockquote>
+  <span class="ball-ref">Over 14.4 — Commentary</span>
+  "What on earth is happening, Punjab! Finding fielders with laser-guided precision! Stoinis leans back and ramps it straight to Rashid Khan. 118/6"
+</blockquote>
+
+<div class="tp-card">
+  <div class="tp-label">Turning Point 3 — Overs 18–19: The Reversal</div>
+  <p style="margin:0; font-size:0.95em;">Jansen and Bartlett arrived. Connolly was still there. He'd been there all along. Over 18: Connolly hit two boundaries. Over 19.1: he found the gap. 165/7. PBKS won with 5 balls remaining. Win probability surged from 27% back to 100% inside 24 deliveries.</p>
+</div>
+
+<hr>
+
+<!-- SECTION 8: THE INFLEXION POINT -->
+<h2>The Inflexion Point</h2>
+
+<img class="chart" src="charts/win_probability.png" alt="Win Probability Chart">
+
+<p>Ball 86. Over 15.2. PBKS 118/6, needing 45 from 29 balls.</p>
+
+<p>The win probability needle hit 27.5% for PBKS — the match's low-water mark. Marcus Stoinis had just been caught by Rashid Khan off a ramp that didn't quite clear the infield. Shashank had gone two balls earlier. In the space of a single over, PBKS lost the match they were winning.</p>
+
+<p>And yet Cooper Connolly was still at the crease. He'd been there since the second over of the chase. He'd watched Prabhsimran fall to Rashid. He'd watched Iyer chipped to midwicket by Prasidh. He'd watched Shashank and Stoinis both find fielders from shots that should have found rope. He had 38 runs from 26 balls. He needed 45 more, with three wickets left.</p>
+
+<p>The inflexion — the moment the match truly pivoted — wasn't ball 86. It was the moment Connolly decided he was going to bat on regardless. Every ball after that was a consequence of that decision.</p>
+
+<hr>
+
+<!-- SECTION 9: THAT PRASIDH OVER -->
+<h2>That Prasidh Over</h2>
+
+<p>Over 14. Prasidh Krishna, running in from the New Chandigarh end. PBKS 110/3. Still 52 needed. Still winnable.</p>
+
+<p>Ball 14.2: Shreyas Iyer. Half-volley, angled in. Iyer attempted the flick — mistimed it — straight to deep midwicket. 110/3 becomes 110/4 with no extra runs scored. Prasidh pumps his fist. The over hasn't ended.</p>
+
+<p>Ball 14.4: Shashank Singh. Three balls later. The same angle, the same seam position. Shashank sees the swing and goes for the ramp over third man — but the ball doesn't move as late as he expects, and it goes straight to slip instead of over it. 113/5.</p>
+
+<p>Two deliveries. Two wickets. The crowd, which had been building for Connolly and Prabhsimran's partnership, went quiet. GT's players converged in the outfield. Prasidh walked back to his mark with the kind of unhurried confidence that only comes from knowing exactly what you're doing.</p>
+
+<p>Those two balls at 14.2 and 14.4 are why this match had a last-over finish instead of a PBKS canter. Prasidh got everyone. He just couldn't get Connolly.</p>
+
+<hr>
+
+<!-- SECTION 10: BLACK MIRROR -->
+<h2>BLACK MIRROR</h2>
+
+<div class="lola-scenario">
+  <div class="lola-title">🪞 Scenario 1: What if Arshdeep Singh had been economical?</div>
+  <div class="lola-delta">−14 runs gifted</div>
+  <div class="lola-outcome">
+    <strong>Reality:</strong> GT 162/6 → PBKS chase 163, win by 3 wkts<br>
+    <strong>Mirror:</strong> GT 148/6 → PBKS chase 149, win by 6 wkts
+  </div>
+  <div class="lola-narrative">
+    <p>Arshdeep Singh conceded 42 runs across 4 overs — 11 wides and a no-ball included, gifting GT 12 free deliveries. Replace that with economy-rate 7.5 and GT's total drops to 148. The target becomes 149.</p>
+    <p>At 149, PBKS's collapse between overs 12 and 15 — five wickets for 35 runs — becomes largely irrelevant. They reach the target before ever needing Connolly to play the innings of his life. Jansen never faces a ball under pressure. Bartlett never needs to hit a six.</p>
+    <p>Arshdeep's 11 wides weren't incidental. They were, in the most literal sense, the match. Each one added a run and consumed no resources. Each one said: we'll still be here to be caught. Those 11 ovals of leather in the dust were worth more than any six Connolly hit.</p>
+  </div>
+</div>
+
+<div class="lola-scenario">
+  <div class="lola-title">🪞 Scenario 2: What if Prasidh had dismissed Connolly?</div>
+  <div class="lola-delta">Connolly out at 38</div>
+  <div class="lola-outcome">
+    <strong>Reality:</strong> PBKS won by 3 wkts — Connolly 72* (44)<br>
+    <strong>Mirror:</strong> GT win by ~12 runs — PBKS all out ~150
+  </div>
+  <div class="lola-narrative">
+    <p>In this mirror, Connolly gets a faint edge off Prasidh at over 15.3, caught behind. PBKS are 118/7. Marco Jansen and Xavier Bartlett need 45 from 27 balls against Rashid Khan and Prasidh. Possible. Unlikely.</p>
+    <p>They reach 150 — Bartlett hits one six, Jansen finds the gap twice — but the asking rate spirals beyond them. GT win by 12 runs. Prasidh takes Player of the Match with 4 wickets. Connolly goes back to the pavilion having made 38, which is a fine cameo no one remembers two weeks later.</p>
+    <p>One ball. One edge. One catch behind the wicket. That's the distance between two entirely different narratives — between a hero's innings and a footnote. Prasidh was a millimetre away.</p>
+  </div>
+</div>
+
+<hr>
+
+<!-- SECTION 11: BY THE NUMBERS -->
+<h2>By the Numbers</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Metric</th>
+      <th>Gujarat Titans</th>
+      <th>Punjab Kings</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Total Runs</td><td>162/6 (20 ov)</td><td class="highlight">165/7 (19.1 ov)</td></tr>
+    <tr><td>Run Rate</td><td>8.10</td><td class="highlight">8.61</td></tr>
+    <tr><td>Fours</td><td class="highlight">16</td><td>6</td></tr>
+    <tr><td>Sixes</td><td>4</td><td class="highlight">14</td></tr>
+    <tr><td>Dot Ball %</td><td>43.3%</td><td>41.7%</td></tr>
+    <tr><td>Extras</td><td>4</td><td>14</td></tr>
+    <tr><td>Top Scorer</td><td>Shubman Gill 39 (27)</td><td class="highlight">Cooper Connolly 72* (44)</td></tr>
+    <tr><td>Best Bowling</td><td class="highlight">Prasidh Krishna 3/29 (4)</td><td>Vyshak 3/34 (4)</td></tr>
+    <tr><td>Critechery Score</td><td>59.2 / 100</td><td class="highlight">61.2 / 100</td></tr>
+    <tr><td>Humdinger Score</td><td colspan="2" style="text-align:center; font-weight:600; color:#F5A623;">6.8 / 10</td></tr>
+  </tbody>
+</table>
+
+<p>The numbers that don't fit neatly in a table: PBKS hit 14 sixes to GT's 4. That ratio — 3.5:1 — is extraordinary. GT scored their boundaries almost entirely through timing and placement; PBKS scored them through power. Different methods, nearly identical outcomes. The 14 sixes include Connolly's five in the second half of the chase and Prabhsimran's four in the first. Without those 18 balls producing 108 runs, this match isn't close.</p>
+
+<hr>
+
+<!-- SECTION 12: HOW THE INNINGS BURNED -->
+<h2>How the Innings Burned</h2>
+
+<img class="chart" src="charts/burn_rate.png" alt="Burn Rate Chart — Both Innings">
+
+<p>Gujarat Titans burned efficiently. A weighted SR of 122.3 — barely above baseline — might sound underwhelming, but the burn rate chart shows something more nuanced: a team that moved through resource space without ever panicking, without gambling wickets they couldn't afford.</p>
+
+<p>The Sai-Gill opening stand (37 in 20 balls, SR 185) set up a trajectory that was never quite matched again. From over 4 onwards, GT settled into a 7-8 RPO rhythm, losing wickets at calculated intervals. Buttler's contribution through the middle — batting from the fall of the first wicket to the fourth — was the innings's spine. When he went at 129/4, GT were in their death overs with four wickets in hand. It looked comfortable. It wasn't quite enough.</p>
+
+<p>Punjab Kings burned recklessly, then desperately, then brilliantly. The Prabhsimran-Connolly stand traced a steep descent through resource space — trading deliveries for boundaries at SR 155. Then the wickets cluster inverted the curve entirely. Three wickets in 14 balls at the same run rate means the path drops sharply downward on the resource axis without moving forward on the score axis. And then, from 118/6 with 11 balls used and the gap looming, Connolly rewrote the final third.</p>
+
+<hr>
+
+<!-- SECTION 13: THE ARCHITECTURE -->
+<h2>The Architecture</h2>
+
+<img class="chart" src="charts/partnership_flow.png" alt="Partnership Flow — Both Innings">
+
+<p>GT's architecture was a classical T20 build: a fast opening stand, a long middle partnership, then a gradual tail-off into the death. The Gill-Buttler second-wicket stand (46 runs in 35 balls) was the load-bearing wall — not spectacular, but structural. When it ended, GT's middle order ground through the overs rather than accelerated. Washington Sundar and Shahrukh contributed 15 between them. Tewatia and Rashid added 12 at the death. It was functional rather than fearsome.</p>
+
+<p>PBKS's architecture was entirely different — and far more dramatic. One load-bearing partnership (Prabhsimran-Connolly, 76 in 49 balls) propped up one end while five wickets fell in a rapid cascade through the middle. Then an improbable late partnership (Connolly-Bartlett, 21 in 11 balls) rescued what the collapse had seemingly destroyed.</p>
+
+<p>The Shashank-Stoinis partnership produced exactly 0 runs in 6 balls. A zero-run stand in a run-chase. That's how completely GT's bowling suffocated the PBKS middle order during those three overs. It was a period of match-winning pressure that Connolly — and only Connolly — survived.</p>
+
+<hr>
+
+<!-- SECTION 14: GAME CHANGERS -->
+<h2>Game Changers</h2>
+
+<div class="gc-card">
+  <div class="gc-player">Cooper Connolly</div>
+  <div class="gc-stat">72* (44b) · SR 163.63 · 5×4, 5×6 · Punjab Kings</div>
+  <div class="gc-reason">Won the match single-handedly. When PBKS collapsed to 118/6, Connolly was the only reason the chase remained alive. He scored 54 of PBKS's final 47 runs — 115 SR from those balls alone, while his tail-end partners found boundaries they had no right to find. The partnership with Bartlett (21 off 11) sealed a match that should have been GT's. Connolly's innings will be referenced for the rest of this IPL season.</div>
+</div>
+
+<div class="gc-card">
+  <div class="gc-player">Prasidh Krishna</div>
+  <div class="gc-stat">4-0-29-3 · Economy 7.25 · Wickets at 12.1, 14.2, 14.4 · Gujarat Titans</div>
+  <div class="gc-reason">Took three wickets in the window that almost won GT the match. Iyer, Shashank, Stoinis — the 3rd, 5th, and 6th wickets — fell in the space of 14 balls. His economy of 7.25 in a 165-run chase was exemplary. He got everyone except the one batsman who mattered. In a different match, his spell wins Player of the Match. He got a runner-up prize in a losing cause.</div>
+</div>
+
+<div class="gc-card">
+  <div class="gc-player">Prabhsimran Singh</div>
+  <div class="gc-stat">37 (24b) · SR 154.16 · 1×4, 4×6 · Punjab Kings</div>
+  <div class="gc-reason">Four sixes in his 24 balls — three of them dispatched over the leg side with casual violence — gave PBKS the foundation that made the chase manageable. The 76-run stand he constructed with Connolly was the platform everything else rested on. Without it, the collapse would have been from a worse position, and Connolly would have needed to hit 90 instead of 72. Prabhsimran's aggression made Connolly's heroics possible.</div>
+</div>
+
+<div class="gc-card">
+  <div class="gc-player">Vijaykumar Vyshak</div>
+  <div class="gc-stat">4-0-34-3 · Economy 8.50 · Death wickets at 13.6, 18.1, 18.6 · Punjab Kings</div>
+  <div class="gc-reason">Three death-over wickets in the GT innings kept the target at 162 when 175+ looked inevitable after the powerplay. The pace-off ball that beat Washington Sundar at 18.1 was one of the deliveries of the match. Vyshak's hold on the GT death overs was why PBKS had a realistic target to chase.</div>
+</div>
+
+<hr>
+
+<p style="text-align:center; font-size:0.82em; color:#AAAAAA; letter-spacing:0.06em; margin-top:40px;">
+  CRITECHERY · IPL 2026 · GAME 4 · GT vs PBKS · MARCH 31 2026<br>
+  Built by Batlab · v2.2 · every match, by the numbers
+</p>
+
+</body>
+</html>
