@@ -1,0 +1,458 @@
+{
+  "match_info": {
+    "team1": "Mumbai Indians",
+    "team2": "Delhi Capitals",
+    "venue": "Arun Jaitley Stadium, Delhi",
+    "date": "April 04, 2026",
+    "toss_winner": "Delhi Capitals",
+    "toss_decision": "field",
+    "result": "Delhi Capitals won by 6 wickets (with 11 balls remaining)",
+    "winner": "Delhi Capitals",
+    "margin": "6 wickets",
+    "player_of_match": "Sameer Rizvi",
+    "team1_impact_player_in": "Mayank Markande",
+    "team1_impact_player_out": "Rohit Sharma",
+    "team1_impact_player_over": 5,
+    "team2_impact_player_in": "Sameer Rizvi",
+    "team2_impact_player_out": "Mukesh Kumar",
+    "team2_impact_player_over": 2
+  },
+  "batting_innings1": [
+    {
+      "name": "Ryan Rickelton",
+      "runs": 9,
+      "balls": 11,
+      "fours": 2,
+      "sixes": 0,
+      "sr": 81.81,
+      "how_out": "c Patel b Mukesh Kumar",
+      "bowler_dismissed_by": "Mukesh Kumar"
+    },
+    {
+      "name": "Rohit Sharma",
+      "runs": 35,
+      "balls": 26,
+      "fours": 5,
+      "sixes": 1,
+      "sr": 134.61,
+      "how_out": "c Rana b Patel",
+      "bowler_dismissed_by": "Axar Patel"
+    },
+    {
+      "name": "Tilak Varma",
+      "runs": 0,
+      "balls": 2,
+      "fours": 0,
+      "sixes": 0,
+      "sr": 0.0,
+      "how_out": "c&b Mukesh Kumar",
+      "bowler_dismissed_by": "Mukesh Kumar"
+    },
+    {
+      "name": "Suryakumar Yadav",
+      "runs": 51,
+      "balls": 36,
+      "fours": 3,
+      "sixes": 2,
+      "sr": 141.66,
+      "how_out": "lbw b Ngidi",
+      "bowler_dismissed_by": "Lungi Ngidi"
+    },
+    {
+      "name": "Sherfane Rutherford",
+      "runs": 5,
+      "balls": 7,
+      "fours": 1,
+      "sixes": 0,
+      "sr": 71.42,
+      "how_out": "c Mukesh Kumar b Nigam",
+      "bowler_dismissed_by": "Vipraj Nigam"
+    },
+    {
+      "name": "Naman Dhir",
+      "runs": 28,
+      "balls": 21,
+      "fours": 2,
+      "sixes": 1,
+      "sr": 133.33,
+      "how_out": "c Stubbs b Natarajan",
+      "bowler_dismissed_by": "T Natarajan"
+    },
+    {
+      "name": "Mitchell Santner",
+      "runs": 18,
+      "balls": 13,
+      "fours": 2,
+      "sixes": 0,
+      "sr": 138.46,
+      "how_out": "not out",
+      "bowler_dismissed_by": null
+    },
+    {
+      "name": "Corbin Bosch",
+      "runs": 11,
+      "balls": 4,
+      "fours": 2,
+      "sixes": 0,
+      "sr": 275.0,
+      "how_out": "not out",
+      "bowler_dismissed_by": null
+    },
+    {
+      "name": "Shardul Thakur",
+      "runs": 0,
+      "balls": 0,
+      "fours": 0,
+      "sixes": 0,
+      "sr": 0.0,
+      "how_out": "did not bat",
+      "bowler_dismissed_by": null
+    },
+    {
+      "name": "Deepak Chahar",
+      "runs": 0,
+      "balls": 0,
+      "fours": 0,
+      "sixes": 0,
+      "sr": 0.0,
+      "how_out": "did not bat",
+      "bowler_dismissed_by": null
+    },
+    {
+      "name": "Jasprit Bumrah",
+      "runs": 0,
+      "balls": 0,
+      "fours": 0,
+      "sixes": 0,
+      "sr": 0.0,
+      "how_out": "did not bat",
+      "bowler_dismissed_by": null
+    }
+  ],
+  "batting_innings2": [
+    {
+      "name": "KL Rahul",
+      "runs": 1,
+      "balls": 3,
+      "fours": 0,
+      "sixes": 0,
+      "sr": 33.33,
+      "how_out": "c Rickelton b Chahar",
+      "bowler_dismissed_by": "Deepak Chahar"
+    },
+    {
+      "name": "Pathum Nissanka",
+      "runs": 44,
+      "balls": 30,
+      "fours": 6,
+      "sixes": 1,
+      "sr": 146.66,
+      "how_out": "c Markande b Santner",
+      "bowler_dismissed_by": "Mitchell Santner"
+    },
+    {
+      "name": "Nitish Rana",
+      "runs": 0,
+      "balls": 3,
+      "fours": 0,
+      "sixes": 0,
+      "sr": 0.0,
+      "how_out": "run out (Bumrah)",
+      "bowler_dismissed_by": null
+    },
+    {
+      "name": "Sameer Rizvi",
+      "runs": 90,
+      "balls": 51,
+      "fours": 7,
+      "sixes": 7,
+      "sr": 176.47,
+      "how_out": "c Tilak Varma b Bosch",
+      "bowler_dismissed_by": "Corbin Bosch"
+    },
+    {
+      "name": "David Miller",
+      "runs": 21,
+      "balls": 18,
+      "fours": 4,
+      "sixes": 0,
+      "sr": 116.66,
+      "how_out": "not out",
+      "bowler_dismissed_by": null
+    },
+    {
+      "name": "Tristan Stubbs",
+      "runs": 3,
+      "balls": 4,
+      "fours": 0,
+      "sixes": 0,
+      "sr": 75.0,
+      "how_out": "not out",
+      "bowler_dismissed_by": null
+    },
+    {
+      "name": "Vipraj Nigam",
+      "runs": 0,
+      "balls": 0,
+      "fours": 0,
+      "sixes": 0,
+      "sr": 0.0,
+      "how_out": "did not bat",
+      "bowler_dismissed_by": null
+    },
+    {
+      "name": "Axar Patel",
+      "runs": 0,
+      "balls": 0,
+      "fours": 0,
+      "sixes": 0,
+      "sr": 0.0,
+      "how_out": "did not bat",
+      "bowler_dismissed_by": null
+    },
+    {
+      "name": "Kuldeep Yadav",
+      "runs": 0,
+      "balls": 0,
+      "fours": 0,
+      "sixes": 0,
+      "sr": 0.0,
+      "how_out": "did not bat",
+      "bowler_dismissed_by": null
+    },
+    {
+      "name": "Lungi Ngidi",
+      "runs": 0,
+      "balls": 0,
+      "fours": 0,
+      "sixes": 0,
+      "sr": 0.0,
+      "how_out": "did not bat",
+      "bowler_dismissed_by": null
+    },
+    {
+      "name": "T Natarajan",
+      "runs": 0,
+      "balls": 0,
+      "fours": 0,
+      "sixes": 0,
+      "sr": 0.0,
+      "how_out": "did not bat",
+      "bowler_dismissed_by": null
+    }
+  ],
+  "bowling_innings1": [
+    {
+      "name": "Mukesh Kumar",
+      "overs": 3.0,
+      "maidens": 0,
+      "runs": 26,
+      "wickets": 2,
+      "economy": 8.66,
+      "dots": 10,
+      "wides": 1,
+      "noballs": 0
+    },
+    {
+      "name": "Lungi Ngidi",
+      "overs": 4.0,
+      "maidens": 0,
+      "runs": 34,
+      "wickets": 1,
+      "economy": 8.5,
+      "dots": 8,
+      "wides": 1,
+      "noballs": 0
+    },
+    {
+      "name": "Axar Patel",
+      "overs": 4.0,
+      "maidens": 0,
+      "runs": 22,
+      "wickets": 1,
+      "economy": 5.5,
+      "dots": 8,
+      "wides": 1,
+      "noballs": 0
+    },
+    {
+      "name": "Vipraj Nigam",
+      "overs": 3.0,
+      "maidens": 0,
+      "runs": 24,
+      "wickets": 1,
+      "economy": 8.0,
+      "dots": 7,
+      "wides": 1,
+      "noballs": 0
+    },
+    {
+      "name": "Kuldeep Yadav",
+      "overs": 3.0,
+      "maidens": 0,
+      "runs": 31,
+      "wickets": 0,
+      "economy": 10.33,
+      "dots": 4,
+      "wides": 0,
+      "noballs": 0
+    },
+    {
+      "name": "T Natarajan",
+      "overs": 3.0,
+      "maidens": 0,
+      "runs": 24,
+      "wickets": 1,
+      "economy": 8.0,
+      "dots": 4,
+      "wides": 0,
+      "noballs": 0
+    }
+  ],
+  "bowling_innings2": [
+    {
+      "name": "Deepak Chahar",
+      "overs": 3.0,
+      "maidens": 0,
+      "runs": 20,
+      "wickets": 1,
+      "economy": 6.66,
+      "dots": 10,
+      "wides": 0,
+      "noballs": 0
+    },
+    {
+      "name": "Jasprit Bumrah",
+      "overs": 4.0,
+      "maidens": 0,
+      "runs": 21,
+      "wickets": 0,
+      "economy": 5.25,
+      "dots": 13,
+      "wides": 1,
+      "noballs": 0
+    },
+    {
+      "name": "Mitchell Santner",
+      "overs": 3.0,
+      "maidens": 0,
+      "runs": 22,
+      "wickets": 1,
+      "economy": 7.33,
+      "dots": 8,
+      "wides": 0,
+      "noballs": 0
+    },
+    {
+      "name": "Shardul Thakur",
+      "overs": 3.0,
+      "maidens": 0,
+      "runs": 41,
+      "wickets": 0,
+      "economy": 13.66,
+      "dots": 3,
+      "wides": 1,
+      "noballs": 0
+    },
+    {
+      "name": "Mayank Markande",
+      "overs": 2.0,
+      "maidens": 0,
+      "runs": 20,
+      "wickets": 0,
+      "economy": 10.0,
+      "dots": 3,
+      "wides": 1,
+      "noballs": 0
+    },
+    {
+      "name": "Corbin Bosch",
+      "overs": 3.1,
+      "maidens": 0,
+      "runs": 39,
+      "wickets": 1,
+      "economy": 12.31,
+      "dots": 6,
+      "wides": 1,
+      "noballs": 0
+    }
+  ],
+  "extras_innings1": {
+    "wides": 4,
+    "noballs": 0,
+    "byes": 0,
+    "legbyes": 1,
+    "total": 5
+  },
+  "extras_innings2": {
+    "wides": 4,
+    "noballs": 0,
+    "byes": 0,
+    "legbyes": 1,
+    "total": 5
+  },
+  "fall_of_wickets_innings1": [
+    {
+      "wicket_num": 1,
+      "score": 18,
+      "over": 2.3,
+      "batsman": "Ryan Rickelton"
+    },
+    {
+      "wicket_num": 2,
+      "score": 18,
+      "over": 2.5,
+      "batsman": "Tilak Varma"
+    },
+    {
+      "wicket_num": 3,
+      "score": 71,
+      "over": 9.3,
+      "batsman": "Rohit Sharma"
+    },
+    {
+      "wicket_num": 4,
+      "score": 85,
+      "over": 11.5,
+      "batsman": "Sherfane Rutherford"
+    },
+    {
+      "wicket_num": 5,
+      "score": 122,
+      "over": 15.3,
+      "batsman": "Suryakumar Yadav"
+    },
+    {
+      "wicket_num": 6,
+      "score": 146,
+      "over": 18.4,
+      "batsman": "Naman Dhir"
+    }
+  ],
+  "fall_of_wickets_innings2": [
+    {
+      "wicket_num": 1,
+      "score": 2,
+      "over": 0.4,
+      "batsman": "KL Rahul"
+    },
+    {
+      "wicket_num": 2,
+      "score": 7,
+      "over": 1.4,
+      "batsman": "Nitish Rana"
+    },
+    {
+      "wicket_num": 3,
+      "score": 73,
+      "over": 9.5,
+      "batsman": "Pathum Nissanka"
+    },
+    {
+      "wicket_num": 4,
+      "score": 151,
+      "over": 16.2,
+      "batsman": "Sameer Rizvi"
+    }
+  ]
+}
