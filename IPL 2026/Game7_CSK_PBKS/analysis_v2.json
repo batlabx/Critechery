@@ -1,0 +1,129 @@
+{
+  "match_info": {
+    "match_number": 7,
+    "team1": "Chennai Super Kings",
+    "team2": "Punjab Kings",
+    "team1_short": "CSK",
+    "team2_short": "PBKS",
+    "venue": "MA Chidambaram Stadium, Chepauk, Chennai",
+    "date": "April 3, 2026",
+    "toss_winner": "Punjab Kings",
+    "toss_decision": "field",
+    "result": "Punjab Kings won by 5 wickets (with 8 balls remaining)",
+    "winner": "Punjab Kings",
+    "margin": "5 wickets (8 balls remaining)",
+    "player_of_match": "Priyansh Arya",
+    "team2_impact_player_in": "Priyansh Arya",
+    "team2_impact_player_out": "Yuzvendra Chahal",
+    "team1_impact_player_in": "Rahul Chahar",
+    "team1_impact_player_out": "Kartik Sharma"
+  },
+  "refined_critechery_score": {
+    "team1_csk": {
+      "total": 51.3,
+      "batting": {
+        "sr_dominance": {
+          "value": 12.1,
+          "max": 25
+        },
+        "boundary_efficiency": {
+          "value": 15.0,
+          "max": 15
+        },
+        "extras_discipline": {
+          "value": 0.0,
+          "max": 10
+        }
+      },
+      "bowling": {
+        "economy_squeeze": {
+          "value": 0.0,
+          "max": 15
+        },
+        "wicket_punch": {
+          "value": 10.0,
+          "max": 15
+        },
+        "dot_dominance": {
+          "value": 9.9,
+          "max": 10
+        },
+        "bowling_sr": {
+          "value": 4.3,
+          "max": 10
+        }
+      }
+    },
+    "team2_pbks": {
+      "total": 61.9,
+      "batting": {
+        "sr_dominance": {
+          "value": 17.6,
+          "max": 25
+        },
+        "boundary_efficiency": {
+          "value": 15.0,
+          "max": 15
+        },
+        "extras_discipline": {
+          "value": 0.0,
+          "max": 10
+        }
+      },
+      "bowling": {
+        "economy_squeeze": {
+          "value": 1.8,
+          "max": 15
+        },
+        "wicket_punch": {
+          "value": 12.5,
+          "max": 15
+        },
+        "dot_dominance": {
+          "value": 10.0,
+          "max": 10
+        },
+        "bowling_sr": {
+          "value": 5.0,
+          "max": 10
+        }
+      }
+    }
+  },
+  "humdinger_score": {
+    "total": 4.4,
+    "components": {
+      "time_near_50": 0.36,
+      "last_over_drama": 2.0,
+      "margin": 1.0,
+      "wicket_cluster": 1.0,
+      "boundary_burst": 0.0
+    }
+  },
+  "game_changers": [
+    {
+      "player": "Priyansh Arya",
+      "team": "PBKS",
+      "stat": "39(11) SR 354.55",
+      "reason": "Impact player innings that eliminated match drama within 4 overs"
+    },
+    {
+      "player": "Ayush Mhatre",
+      "team": "CSK",
+      "stat": "73(43) SR 169.8",
+      "reason": "Load-bearing innings that made 209 possible"
+    },
+    {
+      "player": "Shreyas Iyer",
+      "team": "PBKS",
+      "stat": "50(29) SR 172.4",
+      "reason": "Captain's innings that kept the chase on rails"
+    },
+    {
+      "player": "Vijaykumar Vyshak",
+      "team": "PBKS",
+      "stat": "4-0-38-2 Econ 9.5",
+      "reason": "Best bowling figures; dismissed Mhatre and Sarfaraz at crucial moments"
+    }
+  ]
+}
