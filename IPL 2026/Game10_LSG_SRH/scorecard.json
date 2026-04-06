@@ -1,0 +1,589 @@
+{
+  "match": {
+    "title": "SRH vs LSG, IPL 2026 - 10th Match",
+    "date": "April 5, 2026",
+    "venue": "Rajiv Gandhi International Stadium, Uppal, Hyderabad",
+    "toss": "Lucknow Super Giants elected to field first",
+    "result": "LSG won by 5 wickets (with 1 ball remaining)",
+    "player_of_match": "Mohammed Shami (LSG)",
+    "srh_total": "156/9 in 20 overs (RR: 7.80)",
+    "lsg_total": "160/5 in 19.5 overs (RR: 8.06)"
+  },
+  "innings1": {
+    "team": "Sunrisers Hyderabad",
+    "batting": [
+      {
+        "name": "Travis Head",
+        "dismissal": "c Markram b Mohammed Shami",
+        "runs": 7,
+        "balls": 8,
+        "fours": 1,
+        "sixes": 0,
+        "sr": 87.5
+      },
+      {
+        "name": "Abhishek Sharma",
+        "dismissal": "c Siddharth b Mohammed Shami",
+        "runs": 0,
+        "balls": 2,
+        "fours": 0,
+        "sixes": 0,
+        "sr": 0.0
+      },
+      {
+        "name": "Ishan Kishan",
+        "dismissal": "b Prince Yadav",
+        "runs": 1,
+        "balls": 4,
+        "fours": 0,
+        "sixes": 0,
+        "sr": 25.0,
+        "captain": true,
+        "keeper": true
+      },
+      {
+        "name": "Liam Livingstone",
+        "dismissal": "c \u2020Pant b Rathi",
+        "runs": 14,
+        "balls": 20,
+        "fours": 0,
+        "sixes": 1,
+        "sr": 70.0
+      },
+      {
+        "name": "Heinrich Klaasen",
+        "dismissal": "c \u2020Pant b Avesh Khan",
+        "runs": 62,
+        "balls": 41,
+        "fours": 5,
+        "sixes": 2,
+        "sr": 151.21
+      },
+      {
+        "name": "Nitish Kumar Reddy",
+        "dismissal": "c Prince Yadav b Siddharth",
+        "runs": 56,
+        "balls": 33,
+        "fours": 3,
+        "sixes": 5,
+        "sr": 169.69
+      },
+      {
+        "name": "Aniket Verma",
+        "dismissal": "not out",
+        "runs": 2,
+        "balls": 5,
+        "fours": 0,
+        "sixes": 0,
+        "sr": 40.0
+      },
+      {
+        "name": "Harsh Dubey",
+        "dismissal": "b Avesh Khan",
+        "runs": 0,
+        "balls": 1,
+        "fours": 0,
+        "sixes": 0,
+        "sr": 0.0
+      },
+      {
+        "name": "Shivang Kumar",
+        "dismissal": "b Prince Yadav",
+        "runs": 5,
+        "balls": 4,
+        "fours": 1,
+        "sixes": 0,
+        "sr": 125.0
+      },
+      {
+        "name": "Harshal Patel",
+        "dismissal": "run out (\u2020Pant)",
+        "runs": 4,
+        "balls": 2,
+        "fours": 1,
+        "sixes": 0,
+        "sr": 200.0
+      },
+      {
+        "name": "Jaydev Unadkat",
+        "dismissal": "did not bat",
+        "runs": 0,
+        "balls": 0,
+        "fours": 0,
+        "sixes": 0,
+        "sr": 0.0
+      }
+    ],
+    "extras": {
+      "byes": 1,
+      "leg_byes": 1,
+      "wides": 3,
+      "no_balls": 0,
+      "total": 5
+    },
+    "total": {
+      "runs": 156,
+      "wickets": 9,
+      "overs": 20.0,
+      "rr": 7.8
+    },
+    "fall_of_wickets": [
+      {
+        "wicket": 1,
+        "score": 1,
+        "batsman": "Abhishek Sharma",
+        "over": 0.6
+      },
+      {
+        "wicket": 2,
+        "score": 8,
+        "batsman": "Travis Head",
+        "over": 2.1
+      },
+      {
+        "wicket": 3,
+        "score": 11,
+        "batsman": "Ishan Kishan",
+        "over": 3.3
+      },
+      {
+        "wicket": 4,
+        "score": 26,
+        "batsman": "Liam Livingstone",
+        "over": 7.1
+      },
+      {
+        "wicket": 5,
+        "score": 142,
+        "batsman": "Nitish Kumar Reddy",
+        "over": 17.4
+      },
+      {
+        "wicket": 6,
+        "score": 144,
+        "batsman": "Heinrich Klaasen",
+        "over": 18.1
+      },
+      {
+        "wicket": 7,
+        "score": 144,
+        "batsman": "Harsh Dubey",
+        "over": 18.2
+      },
+      {
+        "wicket": 8,
+        "score": 151,
+        "batsman": "Shivang Kumar",
+        "over": 19.3
+      },
+      {
+        "wicket": 9,
+        "score": 156,
+        "batsman": "Harshal Patel",
+        "over": 19.6
+      }
+    ],
+    "bowling": [
+      {
+        "name": "Mohammed Shami",
+        "overs": 4,
+        "maidens": 0,
+        "runs": 9,
+        "wickets": 2,
+        "economy": 2.25,
+        "dots": 18,
+        "wides": 1,
+        "no_balls": 0
+      },
+      {
+        "name": "Digvesh Rathi",
+        "overs": 4,
+        "maidens": 0,
+        "runs": 46,
+        "wickets": 1,
+        "economy": 11.5,
+        "dots": 5,
+        "wides": 1,
+        "no_balls": 0
+      },
+      {
+        "name": "Prince Yadav",
+        "overs": 4,
+        "maidens": 0,
+        "runs": 34,
+        "wickets": 2,
+        "economy": 8.5,
+        "dots": 11,
+        "wides": 0,
+        "no_balls": 0
+      },
+      {
+        "name": "Manimaran Siddharth",
+        "overs": 4,
+        "maidens": 0,
+        "runs": 29,
+        "wickets": 1,
+        "economy": 7.25,
+        "dots": 10,
+        "wides": 1,
+        "no_balls": 0
+      },
+      {
+        "name": "Avesh Khan",
+        "overs": 4,
+        "maidens": 0,
+        "runs": 36,
+        "wickets": 2,
+        "economy": 9.0,
+        "dots": 7,
+        "wides": 0,
+        "no_balls": 0
+      }
+    ],
+    "partnerships": [
+      {
+        "wicket": 1,
+        "batsmen": [
+          "Travis Head",
+          "Abhishek Sharma"
+        ],
+        "runs": 1,
+        "balls": 6
+      },
+      {
+        "wicket": 2,
+        "batsmen": [
+          "Travis Head",
+          "Ishan Kishan"
+        ],
+        "runs": 7,
+        "balls": 9
+      },
+      {
+        "wicket": 3,
+        "batsmen": [
+          "Ishan Kishan",
+          "Liam Livingstone"
+        ],
+        "runs": 3,
+        "balls": 9
+      },
+      {
+        "wicket": 4,
+        "batsmen": [
+          "Liam Livingstone",
+          "Heinrich Klaasen"
+        ],
+        "runs": 15,
+        "balls": 21
+      },
+      {
+        "wicket": 5,
+        "batsmen": [
+          "Heinrich Klaasen",
+          "Nitish Kumar Reddy"
+        ],
+        "runs": 116,
+        "balls": 56,
+        "load_bearing": true
+      },
+      {
+        "wicket": 6,
+        "batsmen": [
+          "Heinrich Klaasen",
+          "Harsh Dubey"
+        ],
+        "runs": 2,
+        "balls": 2
+      },
+      {
+        "wicket": 7,
+        "batsmen": [
+          "Aniket Verma",
+          "Harsh Dubey"
+        ],
+        "runs": 0,
+        "balls": 1
+      },
+      {
+        "wicket": 8,
+        "batsmen": [
+          "Aniket Verma",
+          "Shivang Kumar"
+        ],
+        "runs": 7,
+        "balls": 5
+      },
+      {
+        "wicket": 9,
+        "batsmen": [
+          "Aniket Verma",
+          "Harshal Patel"
+        ],
+        "runs": 5,
+        "balls": 3
+      }
+    ],
+    "milestones": [
+      "Powerplay: 22/3 in 6 overs",
+      "Strategic Timeout: 31/4 in 9 overs (Klaasen 5, Reddy 3)",
+      "50 in 10.5 overs (65 balls)",
+      "100 in 14.3 overs (87 balls)",
+      "Impact Sub: Ayush Badoni in for Shami at 11.6 overs",
+      "Strategic Timeout: 123/4 in 16 overs (Klaasen 50, Reddy 49)",
+      "5th wicket 100 in 56 balls",
+      "150 in 19.2 overs"
+    ]
+  },
+  "innings2": {
+    "team": "Lucknow Super Giants",
+    "target": 157,
+    "batting": [
+      {
+        "name": "Aiden Markram",
+        "dismissal": "c Livingstone b Shivang Kumar",
+        "runs": 45,
+        "balls": 27,
+        "fours": 6,
+        "sixes": 2,
+        "sr": 166.66
+      },
+      {
+        "name": "Mitchell Marsh",
+        "dismissal": "c Nitish Kumar Reddy b Malinga",
+        "runs": 14,
+        "balls": 12,
+        "fours": 2,
+        "sixes": 0,
+        "sr": 116.66
+      },
+      {
+        "name": "Rishabh Pant",
+        "dismissal": "not out",
+        "runs": 68,
+        "balls": 50,
+        "fours": 9,
+        "sixes": 0,
+        "sr": 136.0,
+        "captain": true,
+        "keeper": true
+      },
+      {
+        "name": "Ayush Badoni",
+        "dismissal": "st \u2020Ishan Kishan b Dubey",
+        "runs": 12,
+        "balls": 9,
+        "fours": 1,
+        "sixes": 0,
+        "sr": 133.33,
+        "impact_player": true
+      },
+      {
+        "name": "Nicholas Pooran",
+        "dismissal": "run out (\u2020Ishan Kishan)",
+        "runs": 1,
+        "balls": 4,
+        "fours": 0,
+        "sixes": 0,
+        "sr": 25.0
+      },
+      {
+        "name": "Abdul Samad",
+        "dismissal": "c Livingstone b Dubey",
+        "runs": 16,
+        "balls": 12,
+        "fours": 2,
+        "sixes": 0,
+        "sr": 133.33
+      },
+      {
+        "name": "Mukul Choudhary",
+        "dismissal": "not out",
+        "runs": 2,
+        "balls": 5,
+        "fours": 0,
+        "sixes": 0,
+        "sr": 40.0
+      }
+    ],
+    "extras": {
+      "byes": 1,
+      "leg_byes": 1,
+      "wides": 0,
+      "no_balls": 0,
+      "total": 2
+    },
+    "total": {
+      "runs": 160,
+      "wickets": 5,
+      "overs": 19.5,
+      "rr": 8.06
+    },
+    "fall_of_wickets": [
+      {
+        "wicket": 1,
+        "score": 37,
+        "batsman": "Mitchell Marsh",
+        "over": 4.4
+      },
+      {
+        "wicket": 2,
+        "score": 77,
+        "batsman": "Aiden Markram",
+        "over": 9.2
+      },
+      {
+        "wicket": 3,
+        "score": 102,
+        "batsman": "Ayush Badoni",
+        "over": 12.1
+      },
+      {
+        "wicket": 4,
+        "score": 105,
+        "batsman": "Nicholas Pooran",
+        "over": 13.1
+      },
+      {
+        "wicket": 5,
+        "score": 139,
+        "batsman": "Abdul Samad",
+        "over": 17.4
+      }
+    ],
+    "bowling": [
+      {
+        "name": "Harsh Dubey",
+        "overs": 4,
+        "maidens": 0,
+        "runs": 18,
+        "wickets": 2,
+        "economy": 4.5,
+        "dots": 12,
+        "wides": 0,
+        "no_balls": 0
+      },
+      {
+        "name": "Nitish Kumar Reddy",
+        "overs": 1,
+        "maidens": 0,
+        "runs": 14,
+        "wickets": 0,
+        "economy": 14.0,
+        "dots": 1,
+        "wides": 0,
+        "no_balls": 0
+      },
+      {
+        "name": "Jaydev Unadkat",
+        "overs": 3.5,
+        "maidens": 0,
+        "runs": 50,
+        "wickets": 0,
+        "economy": 13.04,
+        "dots": 6,
+        "wides": 0,
+        "no_balls": 0
+      },
+      {
+        "name": "Eshan Malinga",
+        "overs": 4,
+        "maidens": 0,
+        "runs": 30,
+        "wickets": 1,
+        "economy": 7.5,
+        "dots": 9,
+        "wides": 0,
+        "no_balls": 0
+      },
+      {
+        "name": "Harshal Patel",
+        "overs": 3,
+        "maidens": 0,
+        "runs": 16,
+        "wickets": 0,
+        "economy": 5.33,
+        "dots": 6,
+        "wides": 0,
+        "no_balls": 0
+      },
+      {
+        "name": "Shivang Kumar",
+        "overs": 4,
+        "maidens": 0,
+        "runs": 30,
+        "wickets": 1,
+        "economy": 7.5,
+        "dots": 5,
+        "wides": 0,
+        "no_balls": 0
+      }
+    ],
+    "partnerships": [
+      {
+        "wicket": 1,
+        "batsmen": [
+          "Aiden Markram",
+          "Mitchell Marsh"
+        ],
+        "runs": 37,
+        "balls": 28
+      },
+      {
+        "wicket": 2,
+        "batsmen": [
+          "Aiden Markram",
+          "Rishabh Pant"
+        ],
+        "runs": 40,
+        "balls": 28
+      },
+      {
+        "wicket": 3,
+        "batsmen": [
+          "Rishabh Pant",
+          "Ayush Badoni"
+        ],
+        "runs": 25,
+        "balls": 15
+      },
+      {
+        "wicket": 4,
+        "batsmen": [
+          "Rishabh Pant",
+          "Nicholas Pooran"
+        ],
+        "runs": 3,
+        "balls": 6
+      },
+      {
+        "wicket": 5,
+        "batsmen": [
+          "Rishabh Pant",
+          "Abdul Samad"
+        ],
+        "runs": 34,
+        "balls": 27
+      },
+      {
+        "wicket": 6,
+        "batsmen": [
+          "Rishabh Pant",
+          "Mukul Choudhary"
+        ],
+        "runs": 21,
+        "balls": 15,
+        "load_bearing": true
+      }
+    ],
+    "milestones": [
+      "Powerplay: 53/1 in 6 overs",
+      "50 in 5.6 overs (36 balls)",
+      "Strategic Timeout: 67/1 in 8 overs (Markram 45, Pant 7)",
+      "100 in 11.6 overs (72 balls)",
+      "Strategic Timeout: 114/4 in 15 overs (Pant 34, Samad 6)",
+      "Pant 50 off 43 balls",
+      "150 in 19.1 overs"
+    ]
+  }
+}
