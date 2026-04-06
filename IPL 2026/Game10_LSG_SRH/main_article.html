@@ -1,0 +1,903 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>From the Ashes: Klaasen, Reddy, and a Rescue Act for the Ages | Critechery</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:ital,wght@0,400;0,600;1,400&display=swap');
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Inter', sans-serif;
+    background: #FAFAF8;
+    color: #1A1A1A;
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 40px 24px 80px;
+    line-height: 1.75;
+    font-size: 17px;
+  }
+
+  h1 {
+    font-family: 'Lora', serif;
+    font-size: 2.1rem;
+    line-height: 1.25;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: #111;
+  }
+
+  .subtitle {
+    font-size: 1.1rem;
+    color: #555;
+    font-style: italic;
+    margin-bottom: 1.5rem;
+    font-family: 'Lora', serif;
+  }
+
+  .byline {
+    font-size: 0.85rem;
+    color: #888;
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 2px solid #E8E6E1;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+
+  h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.35rem;
+    font-weight: 700;
+    margin-top: 2.5rem;
+    margin-bottom: 0.75rem;
+    color: #111;
+    letter-spacing: -0.01em;
+  }
+
+  p {
+    margin-bottom: 1.1rem;
+    color: #2A2A2A;
+  }
+
+  .chart-container {
+    margin: 1.8rem 0;
+    text-align: center;
+  }
+
+  .chart-container img {
+    max-width: 100%;
+    border-radius: 8px;
+    border: 1px solid #E0DDD6;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  }
+
+  .chart-caption {
+    font-size: 0.82rem;
+    color: #888;
+    margin-top: 0.5rem;
+    text-align: center;
+    font-style: italic;
+  }
+
+  /* ── Humdinger Score ─────────────────────────────────────── */
+  .humdinger-score {
+    background: linear-gradient(135deg, #1A1A2E 0%, #16213E 100%);
+    color: #fff;
+    border-radius: 12px;
+    padding: 28px 32px;
+    margin: 1.8rem 0;
+    display: flex;
+    align-items: center;
+    gap: 28px;
+  }
+  .humdinger-number {
+    font-size: 4rem;
+    font-weight: 800;
+    font-family: 'Inter', sans-serif;
+    color: #F5A623;
+    min-width: 90px;
+    text-align: center;
+    line-height: 1;
+  }
+  .humdinger-label {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: #F5A623;
+    margin-bottom: 2px;
+  }
+  .humdinger-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+  .humdinger-bars {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    width: 100%;
+  }
+  .hbar-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.82rem;
+  }
+  .hbar-label { width: 150px; color: #CCC; }
+  .hbar-track {
+    flex: 1;
+    height: 6px;
+    background: rgba(255,255,255,0.15);
+    border-radius: 3px;
+    overflow: hidden;
+  }
+  .hbar-fill {
+    height: 100%;
+    background: #F5A623;
+    border-radius: 3px;
+  }
+  .hbar-val { color: #F5A623; font-weight: 600; font-size: 0.78rem; }
+
+  /* ── Critechery Score ────────────────────────────────────── */
+  .cs-compare {
+    background: #fff;
+    border: 1px solid #E0DDD6;
+    border-radius: 12px;
+    padding: 24px;
+    margin: 1.8rem 0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  }
+  .cs-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #E0DDD6;
+  }
+  .cs-team {
+    font-size: 1.25rem;
+    font-weight: 700;
+  }
+  .cs-total {
+    font-size: 2.2rem;
+    font-weight: 800;
+    font-family: 'Inter', sans-serif;
+  }
+  .cs-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    gap: 12px;
+  }
+  .cs-metric { flex: 1; font-size: 0.88rem; color: #555; }
+  .cs-bar-wrap {
+    width: 200px;
+    height: 8px;
+    background: #F0EEE9;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  .cs-bar { height: 100%; border-radius: 4px; }
+  .cs-val { font-size: 0.88rem; font-weight: 600; width: 55px; text-align: right; }
+  .cs-section-title {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #888;
+    margin: 16px 0 8px;
+    font-weight: 600;
+  }
+
+  /* ── BLACK MIRROR ────────────────────────────────────────── */
+  .lola-scenario {
+    background: #0F0F0F;
+    color: #E8E8E8;
+    border-radius: 12px;
+    padding: 24px 28px;
+    margin: 1.2rem 0;
+    border-left: 4px solid #F5A623;
+  }
+  .lola-scenario h3 {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: #F5A623;
+    margin-bottom: 12px;
+    font-family: 'Inter', sans-serif;
+  }
+  .lola-compare {
+    display: flex;
+    gap: 16px;
+    margin: 12px 0;
+  }
+  .lola-box {
+    flex: 1;
+    background: rgba(255,255,255,0.06);
+    border-radius: 8px;
+    padding: 12px 16px;
+  }
+  .lola-box-label {
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #888;
+    margin-bottom: 4px;
+  }
+  .lola-box-val {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #F5A623;
+  }
+  .lola-narrative { font-size: 0.92rem; line-height: 1.7; color: #CCCCCC; margin-top: 12px; }
+
+  /* ── Summary Table ───────────────────────────────────────── */
+  .summary-box {
+    background: #fff;
+    border: 1px solid #E0DDD6;
+    border-radius: 10px;
+    padding: 20px 24px;
+    margin: 1.8rem 0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  }
+  .summary-box table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.92rem;
+  }
+  .summary-box th {
+    text-align: left;
+    color: #888;
+    font-weight: 600;
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    padding: 6px 10px 12px;
+    border-bottom: 2px solid #E0DDD6;
+  }
+  .summary-box td {
+    padding: 8px 10px;
+    border-bottom: 1px solid #F0EEE9;
+    color: #2A2A2A;
+  }
+  .summary-box tr:last-child td { border-bottom: none; }
+  .stat-highlight { font-weight: 700; color: #111; }
+
+  /* ── Turning Points ──────────────────────────────────────── */
+  .tp-card {
+    background: #fff;
+    border: 1px solid #E0DDD6;
+    border-radius: 10px;
+    padding: 18px 22px;
+    margin: 1rem 0;
+    border-left: 4px solid #F5A623;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+  }
+  .tp-card h4 {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 6px;
+    color: #111;
+  }
+  .tp-meta {
+    font-size: 0.82rem;
+    color: #888;
+    margin-bottom: 8px;
+  }
+
+  /* ── Game Changers ───────────────────────────────────────── */
+  .gc-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    background: #fff;
+    border: 1px solid #E0DDD6;
+    border-radius: 10px;
+    padding: 18px 22px;
+    margin: 1rem 0;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+  }
+  .gc-rank {
+    font-size: 2rem;
+    font-weight: 800;
+    color: #F5A623;
+    min-width: 40px;
+    line-height: 1;
+    font-family: 'Inter', sans-serif;
+  }
+  .gc-player { font-size: 1.05rem; font-weight: 700; margin-bottom: 2px; }
+  .gc-team { font-size: 0.78rem; color: #888; text-transform: uppercase; letter-spacing: 0.1em; }
+  .gc-stats { font-size: 0.9rem; color: #444; margin: 6px 0; font-family: 'Courier New', monospace; }
+  .gc-reason { font-size: 0.9rem; line-height: 1.65; color: #333; }
+
+  /* ── Audio Brief ─────────────────────────────────────────── */
+  .audio-brief {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border-radius: 12px;
+    padding: 22px 28px;
+    margin: 1.5rem 0;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  .audio-icon { font-size: 2rem; }
+  .audio-text { font-size: 0.9rem; line-height: 1.6; opacity: 0.92; }
+
+  /* ── Meta tags ───────────────────────────────────────────── */
+  .match-meta {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    font-size: 0.83rem;
+    color: #888;
+    margin-bottom: 2rem;
+    padding: 12px 0;
+    border-top: 1px solid #E8E6E1;
+    border-bottom: 1px solid #E8E6E1;
+  }
+  .meta-item strong { color: #333; }
+
+  blockquote {
+    border-left: 3px solid #F5A623;
+    padding-left: 16px;
+    margin: 1.5rem 0;
+    color: #555;
+    font-style: italic;
+    font-family: 'Lora', serif;
+    font-size: 1.05rem;
+    line-height: 1.7;
+  }
+
+  .tag {
+    display: inline-block;
+    background: #F0EEE9;
+    color: #555;
+    font-size: 0.75rem;
+    padding: 3px 10px;
+    border-radius: 20px;
+    margin-right: 6px;
+    margin-top: 2rem;
+  }
+
+  hr {
+    border: none;
+    border-top: 1px solid #E0DDD6;
+    margin: 2.5rem 0;
+  }
+
+  .critechery-footer {
+    font-size: 0.8rem;
+    color: #AAA;
+    text-align: center;
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid #E0DDD6;
+    font-style: italic;
+  }
+</style>
+</head>
+<body>
+
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+<!-- HEADER                                                                   -->
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+
+<h1>From the Ashes: Klaasen, Reddy, and a Rescue Act for the Ages</h1>
+<p class="subtitle">How SRH rebuilt from 26/4 to 156 — and why it still wasn't enough</p>
+<p class="byline">Critechery · IPL 2026 · Game 10 · Batlab</p>
+
+<div class="match-meta">
+  <span class="meta-item"><strong>SRH</strong> 156/9 in 20 ov</span>
+  <span class="meta-item"><strong>LSG</strong> 160/5 in 19.5 ov</span>
+  <span class="meta-item"><strong>Result:</strong> LSG won by 5 wickets (1 ball remaining)</span>
+  <span class="meta-item"><strong>Venue:</strong> Hyderabad · April 5, 2026</span>
+  <span class="meta-item"><strong>Toss:</strong> LSG elected to field</span>
+</div>
+
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+<!-- 1. AUDIO BRIEF                                                           -->
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+
+<div class="audio-brief">
+  <div class="audio-icon">🎙️</div>
+  <div class="audio-text">
+    <strong>Audio Brief</strong> — The NotebookLM podcast for this match is available in the <code>notebooklm/</code> folder. Upload all 10 source files to NotebookLM to generate the full audio discussion. Topics: Shami's historic economy, the Klaasen-Reddy rescue, Pant's zero-six fifty, and SRH's record-setting first-to-last-over ratio.
+  </div>
+</div>
+
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+<!-- 2. THE HUMDINGER SCORE                                                   -->
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+
+<h2>THE HUMDINGER SCORE</h2>
+
+<div class="humdinger-score">
+  <div>
+    <div class="humdinger-label">Humdinger Score</div>
+    <div class="humdinger-number">5.0</div>
+    <div style="font-size:0.7rem;color:#888;text-align:center;">/ 10</div>
+  </div>
+  <div style="flex:1">
+    <div class="humdinger-title">LSG vs SRH — A Match of Two Halves</div>
+    <div class="humdinger-bars">
+      <div class="hbar-row">
+        <span class="hbar-label">Win Prob Near 50-50</span>
+        <div class="hbar-track"><div class="hbar-fill" style="width:25%"></div></div>
+        <span class="hbar-val">1.0/4</span>
+      </div>
+      <div class="hbar-row">
+        <span class="hbar-label">Last-Over Drama</span>
+        <div class="hbar-track"><div class="hbar-fill" style="width:100%"></div></div>
+        <span class="hbar-val">2.0/2</span>
+      </div>
+      <div class="hbar-row">
+        <span class="hbar-label">Margin of Victory</span>
+        <div class="hbar-track"><div class="hbar-fill" style="width:50%"></div></div>
+        <span class="hbar-val">1.0/2</span>
+      </div>
+      <div class="hbar-row">
+        <span class="hbar-label">Wicket Clusters</span>
+        <div class="hbar-track"><div class="hbar-fill" style="width:100%"></div></div>
+        <span class="hbar-val">1.0/1</span>
+      </div>
+      <div class="hbar-row">
+        <span class="hbar-label">Boundary Burst</span>
+        <div class="hbar-track"><div class="hbar-fill" style="width:0%"></div></div>
+        <span class="hbar-val">0.0/1</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<p>A 5 out of 10 is the honest verdict. This match never lived in the knife-edge territory that sends blood pressure spiralling — for most of the chase, LSG were either comfortably ahead or in controlled distress. What earns the full two points for last-over drama is simple: Rishabh Pant, needing 13 from the final over, finding the boundary with one ball to spare. That's a cinema finish grafted onto what had been a fairly procedural afternoon.</p>
+
+<p>The wicket cluster points are earned by SRH's implosion: four wickets in 7.1 overs, including three in the powerplay. This match's real drama lived entirely in overs 11 through 18, when Klaasen and Reddy conjured 116 runs from a position most teams would write off. That partnership is the story of this game. Everything else is context.</p>
+
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+<!-- 3. THE CRITECHERY SCORE                                                  -->
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+
+<h2>The Critechery Score</h2>
+
+<div class="cs-compare">
+  <!-- LSG -->
+  <div class="cs-header" style="border-bottom:2px solid #0050A2">
+    <div>
+      <div class="cs-team" style="color:#0050A2">Lucknow Super Giants</div>
+      <div class="cs-section-title">Winners</div>
+    </div>
+    <div class="cs-total" style="color:#0050A2">68.9</div>
+  </div>
+
+  <div class="cs-section-title">Batting (26.0 / 50)</div>
+  <div class="cs-row">
+    <span class="cs-metric">SR Dominance</span>
+    <div class="cs-bar-wrap"><div class="cs-bar" style="width:16%;background:#0050A2"></div></div>
+    <span class="cs-val" style="color:#0050A2">4.0 / 25</span>
+  </div>
+  <div class="cs-row">
+    <span class="cs-metric">Boundary Efficiency</span>
+    <div class="cs-bar-wrap"><div class="cs-bar" style="width:100%;background:#0050A2"></div></div>
+    <span class="cs-val" style="color:#0050A2">15.0 / 15</span>
+  </div>
+  <div class="cs-row">
+    <span class="cs-metric">Extras Discipline</span>
+    <div class="cs-bar-wrap"><div class="cs-bar" style="width:70%;background:#0050A2"></div></div>
+    <span class="cs-val" style="color:#0050A2">7.0 / 10</span>
+  </div>
+
+  <div class="cs-section-title">Bowling (42.9 / 50)</div>
+  <div class="cs-row">
+    <span class="cs-metric">Economy Squeeze</span>
+    <div class="cs-bar-wrap"><div class="cs-bar" style="width:66%;background:#0050A2"></div></div>
+    <span class="cs-val" style="color:#0050A2">9.9 / 15</span>
+  </div>
+  <div class="cs-row">
+    <span class="cs-metric">Wicket Punch</span>
+    <div class="cs-bar-wrap"><div class="cs-bar" style="width:100%;background:#0050A2"></div></div>
+    <span class="cs-val" style="color:#0050A2">15.0 / 15</span>
+  </div>
+  <div class="cs-row">
+    <span class="cs-metric">Dot Dominance</span>
+    <div class="cs-bar-wrap"><div class="cs-bar" style="width:100%;background:#0050A2"></div></div>
+    <span class="cs-val" style="color:#0050A2">10.0 / 10</span>
+  </div>
+  <div class="cs-row">
+    <span class="cs-metric">Bowling Strike Rate</span>
+    <div class="cs-bar-wrap"><div class="cs-bar" style="width:80%;background:#0050A2"></div></div>
+    <span class="cs-val" style="color:#0050A2">8.0 / 10</span>
+  </div>
+
+  <hr style="margin:20px 0;border-color:#E0DDD6">
+
+  <!-- SRH -->
+  <div class="cs-header" style="border-bottom:2px solid #FF6B2B">
+    <div>
+      <div class="cs-team" style="color:#FF6B2B">Sunrisers Hyderabad</div>
+      <div class="cs-section-title">Runners-Up</div>
+    </div>
+    <div class="cs-total" style="color:#FF6B2B">52.5</div>
+  </div>
+
+  <div class="cs-section-title">Batting (19.3 / 50)</div>
+  <div class="cs-row">
+    <span class="cs-metric">SR Dominance</span>
+    <div class="cs-bar-wrap"><div class="cs-bar" style="width:7%;background:#FF6B2B"></div></div>
+    <span class="cs-val" style="color:#FF6B2B">1.8 / 25</span>
+  </div>
+  <div class="cs-row">
+    <span class="cs-metric">Boundary Efficiency</span>
+    <div class="cs-bar-wrap"><div class="cs-bar" style="width:100%;background:#FF6B2B"></div></div>
+    <span class="cs-val" style="color:#FF6B2B">15.0 / 15</span>
+  </div>
+  <div class="cs-row">
+    <span class="cs-metric">Extras Discipline</span>
+    <div class="cs-bar-wrap"><div class="cs-bar" style="width:25%;background:#FF6B2B"></div></div>
+    <span class="cs-val" style="color:#FF6B2B">2.5 / 10</span>
+  </div>
+
+  <div class="cs-section-title">Bowling (33.1 / 50)</div>
+  <div class="cs-row">
+    <span class="cs-metric">Economy Squeeze</span>
+    <div class="cs-bar-wrap"><div class="cs-bar" style="width:60%;background:#FF6B2B"></div></div>
+    <span class="cs-val" style="color:#FF6B2B">9.1 / 15</span>
+  </div>
+  <div class="cs-row">
+    <span class="cs-metric">Wicket Punch</span>
+    <div class="cs-bar-wrap"><div class="cs-bar" style="width:67%;background:#FF6B2B"></div></div>
+    <span class="cs-val" style="color:#FF6B2B">10.0 / 15</span>
+  </div>
+  <div class="cs-row">
+    <span class="cs-metric">Dot Dominance</span>
+    <div class="cs-bar-wrap"><div class="cs-bar" style="width:100%;background:#FF6B2B"></div></div>
+    <span class="cs-val" style="color:#FF6B2B">10.0 / 10</span>
+  </div>
+  <div class="cs-row">
+    <span class="cs-metric">Bowling Strike Rate</span>
+    <div class="cs-bar-wrap"><div class="cs-bar" style="width:40%;background:#FF6B2B"></div></div>
+    <span class="cs-val" style="color:#FF6B2B">4.0 / 10</span>
+  </div>
+</div>
+
+<p>A 16.4-point gap separates winner from loser, and the gap is justified. LSG's bowling was historically good — a 15/15 full score on Wicket Punch tells you they took wickets throughout, not just in clusters. Their 10/10 on Dot Dominance reflects a bowling attack that made SRH work for every run, even as Klaasen and Reddy eventually overpowered them.</p>
+
+<p>SRH's batting score of 19.3 out of 50 is brutal, and misleading. The Boundary Efficiency max score (15/15) shows they hit plenty of fours and sixes — just that the first 10 overs were so dreadful (35 runs) that the overall weighted strike rate barely climbs above the 120 baseline. The Extras Discipline score of 2.5/10 reflects three wides conceded, which matters more than it looks when you're defending 157.</p>
+
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+<!-- 4. MATCHUP 1                                                             -->
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+
+<h2>Matchup 1: Nitish Kumar Reddy vs Digvesh Rathi</h2>
+
+<div class="chart-container">
+  <img src="charts/matchup_1.png" alt="Nitish Kumar Reddy vs Digvesh Rathi matchup chart">
+  <p class="chart-caption">Reddy's SR against Rathi vs his overall innings SR — a 97-point gulf</p>
+</div>
+
+<p>Thirty-two runs from 12 balls. A strike rate of 266.7. Three sixes against a single bowler. Digvesh Rathi's four-over spell cost 46 runs at an economy of 11.50 — and Nitish Kumar Reddy was the reason why.</p>
+
+<p>Rathi bowled his first over in the sixth, when SRH were teetering at 22/3. He gave 7. Then he came back in the 12th over, by which point Klaasen and Reddy had already begun their rescue act, and something had changed in Reddy's approach. The premeditation was gone. He was reading the ball early and just hitting. Rathi's wristy, flighty leg-spin — the type that draws false shots from batsmen trying to guess — found no purchase against someone who had stopped guessing entirely.</p>
+
+<p>The tactical question LSG never answered: why did Rathi bowl the 12th, 14th, and 16th overs, the exact phase where Reddy was at his most destructive? Four overs with a boundary in 7 of 12 balls from this matchup feels less like misfortune and more like a plan that existed only in theory.</p>
+
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+<!-- 5. MATCHUP 2                                                             -->
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+
+<h2>Matchup 2: Heinrich Klaasen vs Avesh Khan</h2>
+
+<div class="chart-container">
+  <img src="charts/matchup_2.png" alt="Heinrich Klaasen vs Avesh Khan matchup chart">
+  <p class="chart-caption">192.3 SR from Klaasen against Avesh — until the reverse lap went wrong</p>
+</div>
+
+<p>Twenty-five runs from 13 balls, SR 192.3. Klaasen dominated Avesh Khan in the middle overs the way a left-hand-right-hand combination is supposed to work — he milked the angle, hit the length ball through mid-wicket, and kept the pressure on. Then at 18.1, having shaped to play the reverse lap before Avesh had even released the ball, Klaasen executed the premeditation too slowly. The ball was full around off. He lobbed it straight to Pant's right. Pant dived, collected.</p>
+
+<p>Avesh's patience was the story here, not his wicket count. He stuck to the plan — full, angled in — and waited. Klaasen had been averaging north of 200 against him in the partnership. The last ball of their head-to-head shifted the balance completely: Avesh's 2/36 from 4 overs actually underrepresents what he was being asked to do and how well he did it until the 18th over.</p>
+
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+<!-- 6. MATCHUP 3                                                             -->
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+
+<h2>Matchup 3: Rishabh Pant vs Jaydev Unadkat</h2>
+
+<div class="chart-container">
+  <img src="charts/matchup_3.png" alt="Rishabh Pant vs Jaydev Unadkat matchup chart">
+  <p class="chart-caption">Pant's SR of 236.4 against Unadkat — the match's decisive exploitation</p>
+</div>
+
+<p>Twenty-six runs from 11 balls. The winning boundary in over 20. Jaydev Unadkat was SRH's bowling problem articulated most clearly — a left-arm seamer whose back-of-a-length deliveries swung just enough to be awkward in theory but sat up just enough in practice that Pant treated them as net balls.</p>
+
+<p>Unadkat's 3.5-over spell cost 50 runs at an economy of 13.04. Only 6 dots from 23 legal balls. Pant's 9 fours — and notably, zero sixes — tell you something about how this innings was constructed. He wasn't slogging. He was placing. Unadkat's full deliveries outside off were wide enough and full enough that Pant simply drove them into the gap or mid-off region without needing to go aerial. The winning shot — one knee down, bat nearly horizontal, slapping it over mid-off — was almost insolently controlled.</p>
+
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+<!-- 7. MATCHUP 4                                                             -->
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+
+<h2>Matchup 4: Liam Livingstone vs Mohammed Shami</h2>
+
+<div class="chart-container">
+  <img src="charts/matchup_4.png" alt="Liam Livingstone vs Mohammed Shami matchup chart">
+  <p class="chart-caption">Six runs from 12 balls — Shami's mastery reduces Livingstone to a spectator</p>
+</div>
+
+<p>Six runs from 12 balls. A strike rate of 50. Eight dot balls. Against Liam Livingstone, a player whose entire value proposition in T20 cricket is that he makes bowlers regret their lengths. Shami made him regret turning up.</p>
+
+<p>The mechanics: Shami came in and immediately bowled at 118–122kph, a full 15–18kph below his maximum. Scrambled seams. Slight angles across. Livingstone, one of the best readers of pace change in the game, simply could not pick it — in part because Shami was doing something he rarely does: using the slower ball as his primary, not secondary, weapon. Livingstone's dismissal at 7.1 — top-edging a lap sweep off a ball that popped off his shoulder onto Pant's glove — was almost deserved.</p>
+
+<p>Shami bowled his four overs across two spells: overs 1-2, then again in overs 5-6. He conceded 9 runs total. Economy 2.25. For context: that is the economy of a Test-match seamer on a green pitch.</p>
+
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+<!-- 8. TURNING POINTS                                                        -->
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+
+<h2>Turning Points</h2>
+
+<div class="chart-container">
+  <img src="charts/pressure_heatmap.png" alt="Pressure heatmap for both innings">
+  <p class="chart-caption">Pressure Index heatmap — darker cells indicate extreme pressure concentration in resource-space</p>
+</div>
+
+<div class="tp-card">
+  <h4>1. Abhishek Sharma, Ball 1 — SRH 1/1 after 0.6 overs</h4>
+  <p class="tp-meta">Pressure Index spike: Over 1 (0.72, extreme)</p>
+  <p>The slip was just removed. Siddharth at short third. Shami bowled a slower ball outside off — the delivery he'd spend the whole evening making look like his stock ball. Abhishek drove, got the outside edge, and Siddharth dived to his right, catching it an inch off the grass. One ball in. One wicket down. The match's trajectory was set in the first legal delivery.</p>
+</div>
+
+<div class="tp-card">
+  <h4>2. Klaasen-Reddy Partnership — SRH 35/4 → 142/4 in 56 balls</h4>
+  <p class="tp-meta">Pressure Index crater: Overs 11-17 (SRH batting pressure drops to near-zero)</p>
+  <p>What makes the 116-run partnership extraordinary is not the volume — it's the context. SRH had scored 35 in 10 overs. The Klaasen-Reddy stand added 107 in 7 overs before that, and 116 in total across 56 deliveries. The third-highest first-to-last 10-over run ratio in T20 history (3.457: 35 in the first half, 121 in the second) was born entirely in this partnership.</p>
+</div>
+
+<div class="tp-card">
+  <h4>3. 5 Wickets Fall in 18 Balls — SRH 142/4 → 156/9</h4>
+  <p class="tp-meta">Pressure Index spike: Overs 18-20 (death over collapse)</p>
+  <p>The partnership that looked like it would push SRH to 170 ended at 18.1. Then five wickets fell in 18 balls — Klaasen (18.1), Dubey (18.2), Shivang (19.3), run-out (19.6) — leaving the final score at 156/9. SRH left at least 15 runs on the table. LSG knew it.</p>
+</div>
+
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+<!-- 9. THE INFLEXION POINT                                                   -->
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+
+<h2>The Inflexion Point</h2>
+
+<div class="chart-container">
+  <img src="charts/win_probability.png" alt="Win probability chart — LSG chase">
+  <p class="chart-caption">Ball-by-ball win probability for LSG's chase. The final over's swing is visible on the right edge.</p>
+</div>
+
+<p>Ball 114. Over 19.1. Unadkat to Pant. Four runs. Win probability leap: +35 percentage points.</p>
+
+<p>LSG needed 13 from 6 balls. Mukul Choudhary at the other end had scored 2 off 5 balls — a passenger, not a partner. Pant needed to do this mostly himself. Unadkat came in wide and full. Pant drove through the off side. Four. 9 from 5. Then another four off the next ball. 5 from 4. LSG won the next ball after that — the third of the over — when Choudhary reviewed a caught behind decision and got it overturned. They ran two.</p>
+
+<p>At that point, needing 3 from 2 balls, with Pant on strike, SRH had nothing. Pant hit the winning boundary with one ball remaining. The match was decided not at the fall of a wicket or the end of an over, but in a single wide, full ball that Pant deposited over mid-off.</p>
+
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+<!-- 10. THAT SHAMI OVER                                                      -->
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+
+<h2>That Shami Spell</h2>
+
+<p>Mohammed Shami bowled overs 1, 2, 5, and 6. He conceded 1, 7, 0, and 1 run respectively. Economy 2.25. Strike rate 12. Dots: 18 of 24 deliveries. Two wickets. One wide.</p>
+
+<p>In over 1, he took Abhishek Sharma with the very first ball — an outside edge off a slower ball angled across. In over 2, he got Travis Head with the same delivery blueprint: scrambled seam at 121kph, short of a length on off, Head pushing forward without the bottom hand and popping it to Markram at mid-off, who dived low and forward. Twenty-one dots in his first three overs. Then Shami bowled overs 5 and 6 — just 1 run conceded.</p>
+
+<p>The tactical pivot is what makes this exceptional: Shami is a swing bowler. His stock deliveries in most T20 matches are 135–140kph inducers and outducers. Here, he reprogrammed. Slower balls as the primary weapon. Scrambled seams. No conventional swing at all. Against a batting lineup that destroys pace, he brought a different pace entirely. SRH were 22/3 in the powerplay — the lowest powerplay score they'd recorded against LSG in two seasons — and it was almost entirely Shami's doing.</p>
+
+<blockquote>"'Swinging Shami' turns 'slower-ball Shami' to rewrite T20 fast bowling playbook" — ESPNcricinfo match report headline</blockquote>
+
+<p>He was then subbed out as LSG's impact player at 11.6 overs of SRH's innings, replaced by Ayush Badoni for the batting innings. Shami came in at No. 4 in the chase and scored 0 — but the 4 overs he'd already bowled were worth three times any contribution he'd have made with the bat.</p>
+
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+<!-- 11. BLACK MIRROR                                                         -->
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+
+<h2>BLACK MIRROR</h2>
+
+<div class="lola-scenario">
+  <h3>Scenario I: What if Rathi had bowled to his average?</h3>
+  <div class="lola-compare">
+    <div class="lola-box">
+      <div class="lola-box-label">Original</div>
+      <div class="lola-box-val">156/9</div>
+      <div style="font-size:0.82rem;color:#aaa;margin-top:4px">Rathi: 4-0-46-1, Econ 11.5</div>
+    </div>
+    <div class="lola-box">
+      <div class="lola-box-label">Counterfactual</div>
+      <div class="lola-box-val">~144</div>
+      <div style="font-size:0.82rem;color:#aaa;margin-top:4px">Rathi: 4-0-34-1, Econ 8.5</div>
+    </div>
+  </div>
+  <p class="lola-narrative">
+    Twelve runs saved from Rathi's spell alone — and those 12 runs matter. With a target of 145 instead of 157, LSG's powerplay 53/1 puts them 8 runs ahead of par before the seventh over. The pressure on Pant and Markram evaporates. The chase becomes a procession. The final-over drama never exists. Nitish Kumar Reddy's 56 still happens, but with nothing to defend, it becomes a footnote rather than a headline. The margin of victory becomes 8 wickets with 4 overs remaining. This is what one spinner conceding 12 extra runs can do in a 4-run game: erase all of its drama.
+  </p>
+</div>
+
+<div class="lola-scenario">
+  <h3>Scenario II: What if Shami hadn't been introduced as impact sub?</h3>
+  <div class="lola-compare">
+    <div class="lola-box">
+      <div class="lola-box-label">Original</div>
+      <div class="lola-box-val">SRH 22/3 PP</div>
+      <div style="font-size:0.82rem;color:#aaa;margin-top:4px">Shami: 2/9 in 4 overs, Econ 2.25</div>
+    </div>
+    <div class="lola-box">
+      <div class="lola-box-label">Counterfactual</div>
+      <div class="lola-box-val">SRH ~40/1 PP</div>
+      <div style="font-size:0.82rem;color:#aaa;margin-top:4px">Without Shami: +18 runs, -2 wickets in PP</div>
+    </div>
+  </div>
+  <p class="lola-narrative">
+    Remove Shami's spell and substitute an average powerplay bowler — say, a fifth option who averages 8.5 RPO in the powerplay. SRH score 40/1 instead of 22/3. Head and Abhishek bat through to over 6. The Klaasen-Reddy partnership still happens, but from a base of 70-odd rather than 26. Final SRH score: 175-180. Now LSG need 176. Markram's 45 off 27 gets them to 53/1 at the powerplay — but 120+ off the remaining 84 balls, with 4 wickets falling in overs 9-13, is a different proposition entirely. LSG win probability at the midpoint drops from 72% to roughly 40%. Two wickets at 2.25 RPO across 4 overs. That's what an impact player substitution is supposed to deliver.
+  </p>
+</div>
+
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+<!-- 12. BY THE NUMBERS                                                       -->
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+
+<h2>By the numbers</h2>
+
+<div class="summary-box">
+  <table>
+    <thead>
+      <tr>
+        <th>Metric</th>
+        <th>Value</th>
+        <th>Context</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>SRH first 10 overs</td>
+        <td class="stat-highlight">35 runs</td>
+        <td>3 wickets, RR 3.5</td>
+      </tr>
+      <tr>
+        <td>SRH last 10 overs</td>
+        <td class="stat-highlight">121 runs</td>
+        <td>6 wickets, RR 12.1</td>
+      </tr>
+      <tr>
+        <td>First:last 10-over ratio</td>
+        <td class="stat-highlight">3.457</td>
+        <td>3rd highest in T20 history (130+ total)</td>
+      </tr>
+      <tr>
+        <td>Klaasen-Reddy 5th wkt stand</td>
+        <td class="stat-highlight">116 off 56b</td>
+        <td>RR 12.43 from position 26/4</td>
+      </tr>
+      <tr>
+        <td>Shami economy</td>
+        <td class="stat-highlight">2.25</td>
+        <td>18 dots in 24 balls (75% dot rate)</td>
+      </tr>
+      <tr>
+        <td>LSG powerplay</td>
+        <td class="stat-highlight">53/1 in 6 ov</td>
+        <td>Best of IPL 2026 season to that point</td>
+      </tr>
+      <tr>
+        <td>SRH powerplay</td>
+        <td class="stat-highlight">22/3 in 6 ov</td>
+        <td>3 wkts, including 2 to Shami</td>
+      </tr>
+      <tr>
+        <td>Pant innings</td>
+        <td class="stat-highlight">68* (50b)</td>
+        <td>9 fours, 0 sixes — unusual profile for Pant</td>
+      </tr>
+      <tr>
+        <td>Unadkat economy</td>
+        <td class="stat-highlight">13.04</td>
+        <td>50 runs in 3.5 overs; SRH's bowling weak link</td>
+      </tr>
+      <tr>
+        <td>Margin of victory</td>
+        <td class="stat-highlight">5 wkts, 1 ball</td>
+        <td>Pant boundary in over 20 to seal it</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+<!-- 13. HOW THE INNINGS BURNED                                               -->
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+
+<h2>How the Innings Burned</h2>
+
+<div class="chart-container">
+  <img src="charts/burn_rate.png" alt="Burn Rate chart for both innings">
+  <p class="chart-caption">The path through resource-space: overs completed vs wickets remaining. Phase colour indicates approach per over.</p>
+</div>
+
+<p>SRH's Burn Rate chart is two completely different innings stitched together at the equator. The left panel — the first 10 overs — shows a team burning Conservative through every single one: 1, 7, 2, 1, 4, 7, 4, 3, 2, 4. Ten overs. Zero attacking overs. In a format that demands 8+ from over 11 onward just to reach a competitive total. The path through resource-space shows a team barely moving on the horizontal axis while hemorrhaging wickets.</p>
+
+<p>Then the right panel: overs 11 through 17 register as Attacking, with over 15 (22 runs) classified Reckless by rate alone. What saved SRH was that over 15's 22 runs came with wickets remaining — Klaasen and Reddy were still batting. The Reckless classification in overs 18 and 20 tells the tail story: boundaries hit but wickets lost faster than runs could compensate.</p>
+
+<p>LSG's chase is almost textbook. Conservative in over 1 (Dubey was tight), then Attacking through the powerplay, then a controlled dip in the middle overs where 3 wickets fell, then Attacking again in the death as Pant found his range against Unadkat. The final over classified Attacking with 12 runs — exactly what was needed.</p>
+
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+<!-- 14. THE ARCHITECTURE                                                     -->
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+
+<h2>The Architecture</h2>
+
+<div class="chart-container">
+  <img src="charts/partnership_flow.png" alt="Partnership Flow chart for both innings">
+  <p class="chart-caption">Partnership architecture: bar width = runs, annotation = balls and run rate. ★ marks load-bearing partnerships.</p>
+</div>
+
+<p>SRH's partnership architecture is a barbell: catastrophic at the top, extraordinary in the middle, catastrophic at the end. Four partnerships of 1, 7, 3, and 15 runs gave way to a load-bearing 116-run fifth-wicket stand between Klaasen and Reddy — 116 runs that represented 74% of SRH's total. Without it, SRH finish somewhere between 80 and 100. With it, they finish 156.</p>
+
+<p>LSG's architecture is more balanced: three partnerships in the 25-40 range (Markram-Marsh 37, Markram-Pant 40, Pant-Samad 34), then the load-bearing final stand of Pant-Choudhary adding 21 from 15 balls to see it home. The 37-run opening stand gave LSG the platform; the 21-run last stand gave them the match. In between, Pant was the constant — batting through every partnership, never the man dismissed.</p>
+
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+<!-- 15. GAME CHANGERS                                                        -->
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+
+<h2>Game Changers</h2>
+
+<div class="gc-card">
+  <div class="gc-rank">1</div>
+  <div>
+    <div class="gc-player">Mohammed Shami</div>
+    <div class="gc-team">Lucknow Super Giants · Bowler</div>
+    <div class="gc-stats">4-0-9-2 | Econ 2.25 | 18 dots | SR 12</div>
+    <p class="gc-reason">Set the match on its axis before over 7. SRH were 26/4 in 7.1 overs; without Shami's slower-ball masterclass, they likely post 40-45/2 and reach 170+. The impact sub decision to use him in the powerplay was the single best tactical call of the match. Won LSG the game in overs 1-6.</p>
+  </div>
+</div>
+
+<div class="gc-card">
+  <div class="gc-rank">2</div>
+  <div>
+    <div class="gc-player">Nitish Kumar Reddy</div>
+    <div class="gc-team">Sunrisers Hyderabad · Batsman</div>
+    <div class="gc-stats">56 (33b) | SR 169.69 | 3×4, 5×6</div>
+    <p class="gc-reason">The innings that made 156 more than a formality. From 26/4, Reddy treated the match as a franchise he had to rebuild from scratch. Five sixes against four bowlers. His decimation of Rathi (32 from 12 balls) was the partnership's accelerant. Without Reddy, SRH post 110 and LSG win in 12 overs.</p>
+  </div>
+</div>
+
+<div class="gc-card">
+  <div class="gc-rank">3</div>
+  <div>
+    <div class="gc-player">Rishabh Pant</div>
+    <div class="gc-team">Lucknow Super Giants · Batsman / Captain</div>
+    <div class="gc-stats">68* (50b) | SR 136.00 | 9×4, 0×6</div>
+    <p class="gc-reason">The methodical anchor where everyone expected the adventurer. Fifty balls. Nine fours. Zero sixes. Every boundary was placed, not muscled. Pant batted through the collapse of four wickets (overs 9-13) without being rattled, then held his nerve to win it with one ball remaining. This was leadership through batting, not through noise.</p>
+  </div>
+</div>
+
+<div class="gc-card">
+  <div class="gc-rank">4</div>
+  <div>
+    <div class="gc-player">Heinrich Klaasen</div>
+    <div class="gc-team">Sunrisers Hyderabad · Batsman</div>
+    <div class="gc-stats">62 (41b) | SR 151.21 | 5×4, 2×6</div>
+    <p class="gc-reason">More controlled than Reddy's 56, but equally load-bearing. Klaasen rotated strike intelligently throughout the partnership — keeping Reddy on strike against the weaker bowlers, then accelerating himself against Avesh and Prince in the 14th-17th overs. His dismissal at 18.1 triggered the collapse that cost SRH 15-20 runs.</p>
+  </div>
+</div>
+
+<hr>
+
+<div class="critechery-footer">
+  <p>Critechery — every match, by the numbers.</p>
+  <p>Built by Batlab · IPL 2026 · Game 10 · SRH vs LSG</p>
+  <p style="margin-top:6px">Humdinger: 5.0/10 · Critechery Score: LSG 68.9, SRH 52.5 · Volatility Index: 0.55</p>
+</div>
+
+<span class="tag">IPL 2026</span>
+<span class="tag">SRH</span>
+<span class="tag">LSG</span>
+<span class="tag">Mohammed Shami</span>
+<span class="tag">Rishabh Pant</span>
+<span class="tag">Critechery</span>
+
+</body>
+</html>
