@@ -1,0 +1,307 @@
+{
+  "match": {
+    "title": "SRH vs LSG, IPL 2026 \u2014 10th Match",
+    "date": "April 5, 2026",
+    "venue": "Rajiv Gandhi International Stadium, Hyderabad",
+    "result": "LSG won by 5 wickets (with 1 ball remaining)",
+    "srh_score": "156/9 in 20 overs",
+    "lsg_score": "160/5 in 19.5 overs",
+    "toss": "LSG elected to field",
+    "player_of_match": "Mohammed Shami"
+  },
+  "humdinger": {
+    "total": 5.0,
+    "components": {
+      "near_50_time": 1.0,
+      "last_over_drama": 2.0,
+      "margin": 1.0,
+      "wicket_cluster": 1.0,
+      "boundary_burst": 0.0
+    },
+    "narrative": "A match of two halves and one remarkable rescue. SRH's collapse to 26/4 made this look a foregone conclusion, but Klaasen and Reddy's 116-run 5th-wicket partnership created real tension. The chase was controlled until a nervy final over \u2014 Pant's boundary with one ball remaining sealing it."
+  },
+  "critechery_score": {
+    "SRH": {
+      "total": 52.5,
+      "batting": {
+        "total": 19.3,
+        "sr_dominance": {
+          "score": 1.8,
+          "max": 25
+        },
+        "boundary_efficiency": {
+          "score": 15.0,
+          "max": 15
+        },
+        "extras_discipline": {
+          "score": 2.5,
+          "max": 10
+        }
+      },
+      "bowling": {
+        "total": 33.1,
+        "economy_squeeze": {
+          "score": 9.1,
+          "max": 15
+        },
+        "wicket_punch": {
+          "score": 10.0,
+          "max": 15
+        },
+        "dot_dominance": {
+          "score": 10.0,
+          "max": 10
+        },
+        "bowling_sr": {
+          "score": 4.0,
+          "max": 10
+        }
+      }
+    },
+    "LSG": {
+      "total": 68.9,
+      "batting": {
+        "total": 26.0,
+        "sr_dominance": {
+          "score": 4.0,
+          "max": 25
+        },
+        "boundary_efficiency": {
+          "score": 15.0,
+          "max": 15
+        },
+        "extras_discipline": {
+          "score": 7.0,
+          "max": 10
+        }
+      },
+      "bowling": {
+        "total": 42.9,
+        "economy_squeeze": {
+          "score": 9.9,
+          "max": 15
+        },
+        "wicket_punch": {
+          "score": 15.0,
+          "max": 15
+        },
+        "dot_dominance": {
+          "score": 10.0,
+          "max": 10
+        },
+        "bowling_sr": {
+          "score": 8.0,
+          "max": 10
+        }
+      }
+    }
+  },
+  "matchups": [
+    {
+      "id": 1,
+      "batsman": "Nitish Kumar Reddy",
+      "bowler": "Digvesh Rathi",
+      "balls": 12,
+      "runs": 32,
+      "wickets": 0,
+      "sr": 266.7,
+      "dot_pct": 16.7,
+      "fours": 2,
+      "sixes": 3,
+      "narrative": "The defining exploitation. Reddy went after Rathi from over 11 with a ferocity that reframed the innings. Every over Rathi bowled at Reddy felt like a transaction with a predetermined winner."
+    },
+    {
+      "id": 2,
+      "batsman": "Heinrich Klaasen",
+      "bowler": "Avesh Khan",
+      "balls": 13,
+      "runs": 25,
+      "wickets": 1,
+      "sr": 192.3,
+      "dot_pct": 15.4,
+      "fours": 3,
+      "sixes": 1,
+      "narrative": "Klaasen dominated Avesh in the middle but was finally snared at 18.1 \u2014 a classic case of a bowler staying patient and collecting the wicket when the batsman overcommitted to a premeditated shot."
+    },
+    {
+      "id": 3,
+      "batsman": "Rishabh Pant",
+      "bowler": "Jaydev Unadkat",
+      "balls": 11,
+      "runs": 26,
+      "wickets": 0,
+      "sr": 236.4,
+      "dot_pct": 18.2,
+      "fours": 4,
+      "sixes": 0,
+      "narrative": "Pant identified Unadkat as the bowling's weak link and milked him accordingly. The winning boundary in the final over came off Unadkat's delivery \u2014 a full ball outside off that Pant slapped over mid-off."
+    },
+    {
+      "id": 4,
+      "batsman": "Liam Livingstone",
+      "bowler": "Mohammed Shami",
+      "balls": 12,
+      "runs": 6,
+      "wickets": 0,
+      "sr": 50.0,
+      "dot_pct": 66.7,
+      "fours": 0,
+      "sixes": 0,
+      "narrative": "The mismatch in reverse. Shami's slower-ball mastery reduced Livingstone \u2014 ordinarily a destroyer of T20 attacks \u2014 to a passenger. Eight dots from 12 balls. That's not containment; that's domination."
+    }
+  ],
+  "turning_points": [
+    {
+      "over": 0,
+      "description": "Shami removes Abhishek first ball \u2014 1/1",
+      "pressure_shift": "SRH in immediate crisis. A slower ball outside off. Abhishek drives, edges, Siddharth dives at short third and takes it inches off the ground.",
+      "score_at_event": "1/1 after 0.6"
+    },
+    {
+      "over": 10,
+      "description": "Klaasen-Reddy 5th wicket partnership ignites \u2014 35/4 becomes 156/9",
+      "pressure_shift": "The single biggest momentum shift: from hopeless to competitive. The partnership would yield 116 off 56 balls.",
+      "score_at_event": "35/4 at end of over 10"
+    },
+    {
+      "over": 19,
+      "description": "LSG need 13 from last over with Pant and Choudhary \u2014 5 wickets down",
+      "pressure_shift": "From comfortable coasting to genuine nerves. SRH had a sniff. Pant's 50-ball 68* needed to reach the boundary one more time.",
+      "score_at_event": "148/5 after over 19"
+    }
+  ],
+  "inflection_point": {
+    "over": 19,
+    "ball": "19.5",
+    "description": "Unadkat to Pant, FOUR runs \u2014 LSG win with 1 ball remaining",
+    "narrative": "Third time's the charm. Wide, full ball, Pant on one knee, bat nearly horizontal, slaps it over mid-off. A boundary that felt like it had been building for 50 balls."
+  },
+  "black_mirror": [
+    {
+      "id": 1,
+      "title": "What if Rathi had bowled to his IPL average?",
+      "variable": "Digvesh Rathi economy: 11.5 \u2192 8.5",
+      "original": {
+        "runs": 46,
+        "economy": 11.5
+      },
+      "counterfactual": {
+        "runs_saved": 12,
+        "projected_srh_total": 144
+      },
+      "outcome": "SRH likely finish 144-148. With a target of 145, LSG's powerplay 53 already has them halfway there with 9 wickets in hand. Margin of victory: 6-7 wickets instead of 5. Klaasen-Reddy partnership still remarkable but context shifts dramatically.",
+      "probability_shift": "LSG win probability at fall of 4th wicket: 72% vs original 58%"
+    },
+    {
+      "id": 2,
+      "title": "What if Shami hadn't been used as impact sub?",
+      "variable": "Shami stays for LSG's batting innings (doesn't come on as impact sub)",
+      "original": {
+        "shami_bowling": "4-0-9-2, econ 2.25",
+        "srh_powerplay": "22/3"
+      },
+      "counterfactual": {
+        "projected_srh_powerplay": "35-40 runs, 1-2 wickets",
+        "projected_srh_total": "175-180"
+      },
+      "outcome": "Without Shami's 18 dots and 2 wickets in 4 overs, SRH likely post 175+. Now LSG need 176 \u2014 a completely different game. Markram's 45 off 27 gets them to 53/1 at the powerplay, but 120+ off the remaining 84 balls is another story entirely.",
+      "probability_shift": "LSG win probability drops from 72% to approximately 40%"
+    }
+  ],
+  "by_the_numbers": {
+    "srh_first_10_overs": 35,
+    "srh_last_10_overs": 121,
+    "first_to_last_ratio": 3.457,
+    "ratio_context": "3rd highest first:last 10-over ratio in T20 history (teams 130+)",
+    "klaasen_reddy_partnership": {
+      "runs": 116,
+      "balls": 56,
+      "rr": 12.43
+    },
+    "shami_economy": 2.25,
+    "shami_dots": 18,
+    "lsg_powerplay": "53/1 in 6 overs",
+    "srh_powerplay": "22/3 in 6 overs",
+    "pant_innings": {
+      "runs": 68,
+      "balls": 50,
+      "fours": 9,
+      "sixes": 0,
+      "sr": 136.0
+    },
+    "note_pant": "Pant's 68* had 9 fours, 0 sixes \u2014 unusual for a player known for aerial hitting"
+  },
+  "game_changers": [
+    {
+      "rank": 1,
+      "player": "Mohammed Shami",
+      "team": "LSG",
+      "stats": "2/9 in 4 overs, Econ 2.25, 18 dots",
+      "reasoning": "Set the match on its axis in overs 1-4. SRH were 26/4 after 7.1 overs; without Shami's devastating slower-ball spell, they likely reach 40-45/2 instead. The difference between a competitive 170 and a capped 156."
+    },
+    {
+      "rank": 2,
+      "player": "Nitish Kumar Reddy",
+      "team": "SRH",
+      "stats": "56 off 33 balls (3x4, 5x6), SR 169.69",
+      "reasoning": "The innings that made 156 respectable from 26/4. Five sixes against four different bowlers. His 116-run 5th-wicket stand with Klaasen is what gave SRH's bowling attack something to defend."
+    },
+    {
+      "rank": 3,
+      "player": "Rishabh Pant",
+      "team": "LSG",
+      "stats": "68* off 50 balls (9x4, 0x6), SR 136.0",
+      "reasoning": "The methodical anchor where you'd normally expect the adventurer. Pant played 50 balls \u2014 his longest T20 innings of the season \u2014 and hit 0 sixes. Every boundary was timed, not muscled. The winning shot was a one-knee slap, not a slog sweep."
+    },
+    {
+      "rank": 4,
+      "player": "Heinrich Klaasen",
+      "team": "SRH",
+      "stats": "62 off 41 balls (5x4, 2x6), SR 151.21",
+      "reasoning": "Klaasen's 50 was more controlled than Reddy's but equally crucial. He rotated strike intelligently during the partnership, keeping Reddy on strike against weaker bowlers, then accelerating himself in the 14th-17th overs."
+    }
+  ],
+  "commentary_gems": [
+    "'Shami sets up LSG victory before Pant fifty takes them home' \u2014 the article that wrote itself",
+    "SRH vs LSG, Hyderabad 2026: 3rd highest first:last 10-over run ratio in T20 history (35 & 121)",
+    "Pant's 68* had 9 fours, 0 sixes. The most methodical innings of his IPL career?",
+    "'Swing and a miss, Pant throws down the striker's stumps. Harshal well short' \u2014 the last wicket, ball 123",
+    "'Third time's the charm and Pant wins it for LSG! Gentle tap of the glove to the partner'"
+  ],
+  "phase_report": {
+    "srh_powerplay": {
+      "runs": 22,
+      "wickets": 3,
+      "note": "Shami 2/5 in his first 3 overs"
+    },
+    "srh_middle": {
+      "overs": "7-15",
+      "runs": 57,
+      "wickets": 1,
+      "note": "SRH at 31/4 after 9, Klaasen-Reddy rebuild begins"
+    },
+    "srh_death": {
+      "overs": "16-20",
+      "runs": 77,
+      "wickets": 5,
+      "note": "116-run partnership broken at 18.1; SRH add 14 more with tail"
+    },
+    "lsg_powerplay": {
+      "runs": 53,
+      "wickets": 1,
+      "note": "Best powerplay of the season for LSG at that point"
+    },
+    "lsg_middle": {
+      "overs": "7-15",
+      "runs": 61,
+      "wickets": 4,
+      "note": "Three quick wickets 9.2-13.1; Pant holds firm"
+    },
+    "lsg_death": {
+      "overs": "16-20",
+      "runs": 46,
+      "wickets": 0,
+      "note": "Pant needs 21 from last 2.5 overs; delivers"
+    }
+  }
+}
