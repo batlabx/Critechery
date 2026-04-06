@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rizvi's Blitz: How One Impact Sub Settled a 163-Run Chase | Critechery</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Lora:ital,wght@0,400;0,600;1,400&display=swap');
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: 'Inter', -apple-system, 'Helvetica Neue', sans-serif;
+  font-size: 18px; line-height: 1.78; color: #2C2C2C;
+  background: #FAFAF8; max-width: 720px;
+  margin: 0 auto; padding: 56px 24px 100px 24px;
+}
+h1 { font-family: 'Lora', Georgia, serif; font-size: 2.4em; font-weight: 600; line-height: 1.18;
+     letter-spacing: -0.01em; color: #111111; margin-bottom: 10px; }
+.meta { font-size: 0.88em; color: #AAAAAA; margin-bottom: 48px;
+        letter-spacing: 0.04em; text-transform: uppercase; }
+h2 { font-size: 0.78em; font-weight: 700; text-transform: uppercase;
+     letter-spacing: 0.12em; color: #AAAAAA; margin-top: 60px;
+     margin-bottom: 18px; padding-bottom: 8px; border-bottom: 1px solid #E8E8E5; }
+h3 { font-size: 1.05em; font-weight: 700; color: #1A1A1A; margin-top: 32px; margin-bottom: 10px; }
+p { margin-bottom: 22px; }
+.summary-box { background: #F4F4F1; border-left: 3px solid #1A56DB;
+               padding: 18px 22px; margin: 0 0 32px 0; border-radius: 0 6px 6px 0;
+               font-family: 'Lora', Georgia, serif; font-size: 1.08em; line-height: 1.65; color: #1A1A1A; }
+.humdinger-score { font-family: 'Inter', sans-serif; font-size: 5em; font-weight: 900;
+                   text-align: center; color: #F5A623; letter-spacing: -0.04em;
+                   padding: 28px 0 4px 0; line-height: 1.0; }
+.humdinger-label { text-align: center; color: #AAAAAA; font-size: 0.82em;
+                   letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 16px; }
+.humdinger-breakdown { background: #FFFDF5; border: 1px solid #F5E6C3;
+                       border-radius: 8px; padding: 16px 20px; margin: 12px 0 28px 0;
+                       font-size: 0.9em; line-height: 1.9; color: #555; }
+blockquote { border-left: 3px solid #F5A623; padding: 14px 20px; margin: 28px 0;
+             background: #FFFBF2; font-family: 'Lora', Georgia, serif; font-style: italic;
+             color: #3D3D3D; font-size: 0.97em; border-radius: 0 6px 6px 0; }
+blockquote .ball-ref { display: block; font-family: 'Inter', sans-serif; font-style: normal;
+                        font-size: 0.78em; font-weight: 600; color: #F5A623;
+                        letter-spacing: 0.06em; text-transform: uppercase; margin-bottom: 6px; }
+table { width: 100%; border-collapse: collapse; margin: 20px 0; font-size: 0.88em; }
+th { background: #F0F0EE; text-align: left; padding: 10px 14px; font-weight: 600;
+     text-transform: uppercase; font-size: 0.76em; letter-spacing: 0.07em; color: #777; }
+td { padding: 10px 14px; border-bottom: 1px solid #F0F0EE; }
+tr:last-child td { border-bottom: none; }
+td.highlight { font-weight: 600; color: #1A56DB; }
+img.chart { width: 100%; margin: 28px 0; border-radius: 10px;
+            border: 1px solid #E8E8E5; display: block; }
+.cs-compare { display: flex; gap: 16px; margin: 20px 0 28px 0; }
+.cs-team { flex: 1; background: #F8F8F6; border-radius: 10px; padding: 16px 18px; border: 1px solid #E8E8E5; }
+.cs-team-name { font-weight: 700; font-size: 0.9em; text-transform: uppercase;
+                letter-spacing: 0.08em; color: #666; margin-bottom: 8px; }
+.cs-total { font-family: 'Inter', sans-serif; font-size: 2.6em; font-weight: 800;
+            line-height: 1; margin-bottom: 12px; }
+.cs-row { display: flex; justify-content: space-between; font-size: 0.82em;
+          color: #555; padding: 3px 0; border-bottom: 1px solid #F0F0EE; }
+.cs-row:last-child { border-bottom: none; }
+.cs-value { font-weight: 600; color: #1A1A1A; }
+.lola-scenario { background: #F0F4FF; border: 1px solid #C7D7FD;
+                 border-radius: 10px; padding: 20px 24px; margin: 24px 0; }
+.lola-title { font-weight: 700; font-size: 1.05em; color: #1E40AF; margin-bottom: 8px; }
+.lola-delta { display: inline-block; background: #1A56DB; color: white;
+              padding: 2px 10px; border-radius: 20px; font-size: 0.8em;
+              font-weight: 700; margin-bottom: 12px; letter-spacing: 0.04em; }
+.lola-outcome { font-size: 0.9em; color: #444; margin-bottom: 12px; }
+.lola-narrative { font-size: 0.92em; line-height: 1.7; color: #333; }
+.tp-card { border-left: 3px solid #F5A623; padding: 12px 16px; margin: 16px 0;
+           background: #FFFBF2; border-radius: 0 6px 6px 0; }
+.tp-label { font-size: 0.8em; font-weight: 700; text-transform: uppercase;
+            letter-spacing: 0.08em; color: #F5A623; margin-bottom: 6px; }
+.gc-card { padding: 14px 0; border-bottom: 1px solid #F0F0EE; }
+.gc-card:last-child { border-bottom: none; }
+.gc-player { font-weight: 700; font-size: 1.05em; color: #1A1A1A; }
+.gc-stat { color: #1A56DB; font-size: 0.85em; font-weight: 600; margin: 2px 0 6px 0; }
+.gc-reason { font-size: 0.9em; color: #444; line-height: 1.6; }
+.audio-section { background: #F8F8F6; border: 1px solid #E4E4E0;
+                 border-radius: 10px; padding: 20px 22px; margin: 40px 0; text-align: center; }
+.audio-label { font-weight: 700; font-size: 0.9em; text-transform: uppercase;
+               letter-spacing: 0.08em; color: #555; margin-bottom: 12px; }
+.audio-coming-soon { color: #AAAAAA; font-size: 0.9em; font-style: italic;
+                     padding: 12px 0; display: block; }
+.audio-sub { font-size: 0.82em; color: #AAAAAA; }
+.toss-pill { display: inline-block; background: #EEF4FF; color: #1A56DB;
+             padding: 5px 14px; border-radius: 20px; font-size: 0.84em;
+             font-weight: 600; margin-bottom: 16px; }
+hr { border: none; border-top: 1px solid #E8E8E5; margin: 52px 0; }
+</style>
+</head>
+<body>
+
+<h1>The Rickelton Domino: How MI's Top-Order Collapse Made a Chase Look Easy</h1>
+<p class="meta">April 04, 2026 &nbsp;·&nbsp; Delhi Capitals vs Mumbai Indians &nbsp;·&nbsp; Arun Jaitley Stadium, Delhi &nbsp;·&nbsp; IPL 2026, Match 8</p>
+
+<div class="summary-box">
+Mumbai Indians had the ingredients for 180-plus. They set 162. They were 73 for 3 in the 10th over, the required rate creeping past 9. Then Sameer Rizvi — an impact sub who hadn't faced a ball yet — walked out and proceeded to dismantle the MI attack with 90 off 51, including a passage of play that rendered the last four overs academic. Bumrah's 4-0-21-0 was a masterclass in containment. It wasn't enough.
+</div>
+
+<!-- SECTION 1: AUDIO BRIEF -->
+<h2>AUDIO BRIEF</h2>
+<div class="audio-section">
+  <p class="audio-label">Match Brief</p>
+  <span class="audio-coming-soon">Audio episode coming soon — upload your NotebookLM sources from Output/notebooklm/ to generate it.</span>
+  <p class="audio-sub">Powered by NotebookLM | Full analysis below</p>
+</div>
+
+<hr>
+
+<!-- SECTION 2: THE HUMDINGER SCORE -->
+<h2>THE HUMDINGER SCORE</h2>
+<div class="humdinger-score">3.2</div>
+<div class="humdinger-label">out of 10</div>
+<div class="humdinger-breakdown">
+  <strong>a. Time near 50% win prob:</strong> 6.2% of balls → 1.2 / 4.0<br>
+  <strong>b. Last-over drama</strong> (result within final 3 overs): +2.0 / 2.0<br>
+  <strong>c. Margin</strong> (6 wickets, 11 balls remaining): +0.0 / 2.0<br>
+  <strong>d. Wicket cluster</strong> (≥3 wickets in any 3-over window): +0.0 / 1.0<br>
+  <strong>e. Boundary burst</strong> (Inn1 death: 11%, Inn2 death: 24%): +0.0 / 1.0
+</div>
+
+<p>A Humdinger of 3.2 reflects the match's fundamental dynamic: this was never genuinely close after the 15th over. The formula's components tell a precise story. Only 6.2% of DC's chase balls landed in the 40–60% probability zone — meaning the game spent almost no time in genuine equipoise. DC were either slightly behind (the rocky powerplay, 2 wickets in 4 balls) or comfortably ahead once Rizvi settled.</p>
+
+<p>A Humdinger of 3.2 means this was an outcome match, not a contest match. For context, a last-ball tie would score 8–9. A comfortable 6-wicket chase with one dominant partnership registers around 3. What elevated it marginally above a 1.0 was the last-over-drama component — DC technically won in over 18.1, which qualifies — and the brief nerves at 73/3 in over 10.</p>
+
+<p>For MI fans hoping the match might turn, the moment that foreclosed that possibility wasn't the end — it was the 11th over, when Rizvi deposited Shardul Thakur's first two balls into the stands. Once that happened, the required rate dropped to a pace where DC's batting depth made a collapse mathematically implausible.</p>
+
+<!-- Image 1: Humdinger Score display -->
+
+<hr>
+
+<!-- SECTION 3: THE CRITECHERY SCORE -->
+<h2>The Critechery Score</h2>
+<div class="cs-compare">
+  <div class="cs-team">
+    <div class="cs-team-name">🟦 Mumbai Indians</div>
+    <div class="cs-total" style="color:#1A56DB">47.7</div>
+    <div class="cs-row"><span>SR Dominance</span><span class="cs-value">3.4 / 25</span></div>
+    <div class="cs-row"><span>Boundary Efficiency</span><span class="cs-value">15 / 15</span></div>
+    <div class="cs-row"><span>Extras Discipline</span><span class="cs-value">2.5 / 10</span></div>
+    <div class="cs-row" style="margin-top:8px"><span><em>Economy Squeeze</em></span><span class="cs-value">6.0 / 15</span></div>
+    <div class="cs-row"><span>Wicket Punch</span><span class="cs-value">7.5 / 15</span></div>
+    <div class="cs-row"><span>Dot Dominance</span><span class="cs-value">10 / 10</span></div>
+    <div class="cs-row"><span>Bowling SR</span><span class="cs-value">3.3 / 10</span></div>
+  </div>
+  <div class="cs-team">
+    <div class="cs-team-name">🔴 Delhi Capitals</div>
+    <div class="cs-total" style="color:#E3311D">65.4</div>
+    <div class="cs-row"><span>SR Dominance</span><span class="cs-value">8.1 / 25</span></div>
+    <div class="cs-row"><span>Boundary Efficiency</span><span class="cs-value">15 / 15</span></div>
+    <div class="cs-row"><span>Extras Discipline</span><span class="cs-value">2.5 / 10</span></div>
+    <div class="cs-row" style="margin-top:8px"><span><em>Economy Squeeze</em></span><span class="cs-value">8.8 / 15</span></div>
+    <div class="cs-row"><span>Wicket Punch</span><span class="cs-value">15 / 15</span></div>
+    <div class="cs-row"><span>Dot Dominance</span><span class="cs-value">10 / 10</span></div>
+    <div class="cs-row"><span>Bowling SR</span><span class="cs-value">6.0 / 10</span></div>
+  </div>
+</div>
+
+<p>Delhi Capitals outscored Mumbai Indians by 17.7 points — a gap that accurately reflects the match's competitive lopsidedness. DC's bowling component (39.8 / 50) was the headline: economy of 9.02 in the MI innings earned a solid Economy Squeeze score, while 6 wickets taken generated a Wicket Punch of 15 / 15. The Dot Dominance figure reflects DC's willingness to create wicket-taking opportunities rather than defend, which is exactly what winning teams do.</p>
+
+<p>The most revealing sub-metric is MI's Batting SR Dominance: 3.4 / 25. MI's weighted strike rate of 130.8 — only marginally above the 120 baseline — indicates that outside of Suryakumar Yadav's cameo and Bosch's final-over explosion, MI's batters never genuinely accelerated. The top-order collapse (18/2 after 3 overs) permanently constrained MI's ceiling.</p>
+
+<p>DC's bowling Extras Discipline score deserves a mention in the opposite direction: 2.5 / 10 reflects that MI conceded 5 extras in their bowling innings — including 4 wides from Bumrah. A tight bowling side can't afford to donate runs in a low-scoring match, and while 5 extras sounds small, at this target size every run counted.</p>
+
+<!-- Image 2: Critechery Score comparison -->
+
+<hr>
+
+<!-- MATCHUPS -->
+<h2>Matchup 1: Sameer Rizvi vs Jasprit Bumrah</h2>
+<p>The most decisive tactical battle of the match. Bumrah conceded just 3 runs from 8 balls to Rizvi — a strike rate of 37.5 against a batsman whose overall SR was 176.47. That 79% SR suppression is the highest effective ratio in the match. Bumrah's lines were relentlessly off-stump at yorker length or back-of-a-length: nothing short enough to cut, nothing full enough to drive with authority. Rizvi, who savaged every other bowler in the attack, simply couldn't get to him.</p>
+<p>The tactical question is whether Axar Patel should have bowled more through Bumrah-esque plans. He didn't — and the match showed why: Rizvi attacked the non-Bumrah overs with a SR of 266 vs Thakur and 258 vs Bosch. The captain's lesson is to find your Bumrah and bowl him at Rizvi early and often. MI didn't have a second premium bowler to create that sustained pressure.</p>
+<img class="chart" src="charts/matchup_1.png" alt="Matchup 1: Sameer Rizvi vs Jasprit Bumrah">
+
+<!-- Image 3 -->
+
+<h2>Matchup 2: Rohit Sharma vs Axar Patel</h2>
+<p>Rohit Sharma against Axar Patel is one of the most data-consistent matchups in Indian cricket. Axar's disciplined left-arm orthodox — flatter trajectory, sharp turn — has historically troubled Rohit's tendency to come hard down the wicket. Here, Rohit scored just 4 runs from 8 balls (SR: 50) against Axar, compared to his overall innings SR of 134.6. That's a 63% suppression — exactly the kind of matchup a captain engineers in the middle overs.</p>
+<p>Axar's record against Rohit across formats makes this a planned dismissal. The ball in the 9th over — Rohit smashed hard to cover where Nitish Rana took a brilliant diving catch — was precisely the trap set: flatten the trajectory, force the hard drive, position the cover fielder. The captain persisted. Three of Axar's 4 overs targeted this window. Keep this plan. It works.</p>
+<img class="chart" src="charts/matchup_2.png" alt="Matchup 2: Rohit Sharma vs Axar Patel">
+
+<!-- Image 4 -->
+
+<h2>Matchup 3: Sameer Rizvi vs Shardul Thakur</h2>
+<p>If Matchup 1 was where MI's best bowler dominated, this was its mirror. Rizvi scored 16 from just 6 balls against Thakur — a SR of 266.7, or 51% above his overall rate. Two sixes in the first over Thakur bowled to Rizvi set the psychological tone for what followed. Thakur's leaking death over — tight lines abandoned in desperation — turned a 9-runs-per-over required rate into something DC could run down with overs to spare.</p>
+<p>What made this particularly damaging: Thakur's 3-over spell cost 41 runs (13.66 economy). In a chase of 163, DC needed to find a combined 41 runs from sources beyond Rizvi — and Thakur essentially donated them. The tactical call here is clear: bowl Thakur at overs 7-12 where he generates movement, not against a set Rizvi at death. MI's death bowling rotation cost them the match.</p>
+<img class="chart" src="charts/matchup_3.png" alt="Matchup 3: Sameer Rizvi vs Shardul Thakur">
+
+<!-- Image 5 -->
+
+<h2>Matchup 4: Sameer Rizvi vs Corbin Bosch</h2>
+<p>Bosch's 3.1 overs at 39 runs (12.31 economy) compounded MI's bowling woes. Rizvi scored 31 off 12 balls against him — SR 258 — primarily through powerful bottom-hand hitting that Bosch's fuller lengths invited. This matchup encapsulates the broader DC bowling problem MI created for themselves: two of their three death bowlers bled at economy rates above 12, while Bumrah's efficiency (5.25) was lost in the noise.</p>
+<p>Bosch did take the pivotal Rizvi wicket in over 16.2 when the match was already beyond MI's reach. The final outs rarely change scorelines in cricket; it's the accumulation period where damage is done. Against a free-hitting impact sub with 7 sixes to his name by the end, this matchup confirmed that DC's second phase (overs 11-16) was simply unwinnable for MI's bowling attack.</p>
+<img class="chart" src="charts/matchup_4.png" alt="Matchup 4: Sameer Rizvi vs Corbin Bosch">
+
+<!-- Image 6 -->
+
+<hr>
+
+<!-- SECTION 8: TURNING POINTS -->
+<h2>Turning Points</h2>
+
+<div class="tp-card">
+  <div class="tp-label">Turning Point 1 — The Double Strike in Over 3</div>
+  <p>MI were 9/0 after 2 overs — modest but functional. Then Mukesh Kumar arrived for over 3. Two deliveries later, MI were 18/2: Rickelton caught at mid-off for 9, Tilak Varma chipped back to Mukesh himself for a golden duck off consecutive deliveries. The over finished with MI scoring just 0 runs from those two balls, and a lineup that included Rohit Sharma, Suryakumar Yadav, and Naman Dhir was suddenly playing damage control rather than platform-building. The long partnership between Rohit and SKY that followed (53 in 7 overs) never felt dominant — partly because MI began it with the weight of 18/2 already on their ledger.</p>
+</div>
+
+<div class="tp-card">
+  <div class="tp-label">Turning Point 2 — Nissanka's Top-Edge, Over 9.5</div>
+  <p>DC's powerplay had been worrying (42 in 6, but 2 wickets) and the 7th-9th overs had restored calm: Nissanka and Rizvi (impact sub, in since over 1.4) built a 74-run partnership that put DC back in command. At the start of over 10, DC needed 90 from 60 balls with 7 wickets in hand — a manageable proposition. Santner's drag-down in over 9.5 produced a top-edge from Nissanka that Markande chased from short fine leg. Score: 73/3. Required rate: 9.0. Miller walked in. The contest, briefly, was alive again.</p>
+</div>
+
+<div class="tp-card">
+  <div class="tp-label">Turning Point 3 — The Rizvi-Miller Partnership, Overs 10-16</div>
+  <p>What followed was a 70-run partnership between Rizvi and David Miller in just 34 balls — a SR of 205.9. The match's tipping point wasn't a single ball; it was a 6-over passage where the required rate became irrelevant. By over 16, DC needed 13 off 24 balls. The contest had ended several overs earlier. Both MI's death bowling options — Thakur (41 runs in 3 overs) and Bosch (39 in 3.1) — had been dismantled systematically. Bumrah's 21 in 4 overs was irrelevant by then: you can't save a match alone.</p>
+</div>
+
+<img class="chart" src="charts/pressure_heatmap.png" alt="Pressure Heatmap">
+<!-- Image 7 -->
+
+<!-- SECTION 9: THE INFLEXION POINT -->
+<h2>The Inflexion Point</h2>
+
+<p>Before over 10, DC held a win probability that had seesawed between 45% and 65% as wickets fell and partnerships formed. At 73/3 — after Nissanka's dismissal off Santner — it sat at approximately 47%. Sameer Rizvi had already batted 23 balls for 25 runs. What happened next was not so much an inflexion as a detonation.</p>
+
+<p>In his next 28 balls, Rizvi scored 65 more runs. He found the boundary 10 times. The first two balls of Thakur's 11th over were dispatched into the stands — sixes that set the power dynamics for everything that followed. By the end of that over, DC's win probability had surged past 72%. By over 15, it touched 88%. The formula's steepest gradient — the point where win probability moved most per ball — occurred in overs 10-12, exactly the passage when Rizvi went from settled to savage.</p>
+
+<blockquote>
+  <span class="ball-ref">Over 16.2 — Bosch to Rizvi</span>
+  "Rizvi show ends and he falls looking for a six. Gets a handshake from Miller and a couple of MI players too. Was a 133ks slot ball canting into middle and leg. Rizvi bent his back leg just a bit too much and drove hard. Got it a too low, he knew he'd mistimed it right away. Long-off takes it."
+</blockquote>
+
+<p>By the time Rizvi departed for 90 in over 16.2, the target was 13 from 22 balls. Even his dismissal was academic. What his 51-ball innings had done was compress the entire competitive uncertainty of the match into a 28-ball window. Outside that window, this match was always going one way.</p>
+
+<img class="chart" src="charts/win_probability.png" alt="Win Probability">
+<!-- Image 8 -->
+
+<hr>
+
+<!-- SECTION 10: THAT RIZVI OVER (decisive spell) -->
+<h2>That Rizvi Over — Over 11, Shardul Thakur</h2>
+
+<p>At the start of over 11, DC needed 77 from 54 balls — a required rate of 8.56. Manageable, but requiring control. Shardul Thakur had the ball. Rizvi was on 33 off 26 balls. What followed was the match's definitive passage.</p>
+
+<p>Ball 1: Thakur tried a length ball outside off. Rizvi carved it over extra cover for six. Required rate: still 8.56, but the psychological grip had shifted. Ball 2: Another six, this one deposited over mid-wicket. MI's bowling plan — such as it was — had already collapsed. By ball 4, Thakur had conceded 18 runs from the over and Axar Patel was in a conversation at mid-off about what was happening.</p>
+
+<p>Thakur's problem wasn't pace — it was predictability. His length ball to Rizvi kept arriving at the same spot, and Rizvi's bottom-hand-dominant hitting could reach that zone against any pace. By the end of the over, DC needed 59 from 48 balls. Not a cruise, but well within reach. The match had effectively been decided by the 59th ball of the chase.</p>
+
+<p>The captain's question: why was Thakur bowling here at all? With Bumrah already through 3 of his 4 overs, the death period needed to be protected with MI's most reliable operator. Instead, Bumrah came in over 15-17 with the match already gone. Bowling management — when you deploy your premium bowler — matters as much as having one.</p>
+
+<hr>
+
+<!-- SECTION 11: BLACK MIRROR -->
+<h2>BLACK MIRROR</h2>
+<p>Two scenarios. One question: what if?</p>
+
+<div class="lola-scenario">
+  <div class="lola-title">Scenario 1: What If Shardul Thakur Had Bowled at His Average?</div>
+  <span class="lola-delta">+16 runs to target</span>
+  <div class="lola-outcome">Delhi Capitals won by 6 wickets with 11 balls remaining → Delhi Capitals would still win but need ~148 off 20 overs — making it far tighter</div>
+  <div class="lola-narrative">
+    <p>Shardul Thakur conceded 41 runs from 3 overs at an economy of 13.66. His IPL career average is closer to 8.5 runs per over. Had Thakur bowled at 8.5 economy, he would have conceded roughly 25 runs — saving DC 16 runs. In this scenario, DC need 180 to win, not 163.</p>
+    <p>With a target of 180, DC's required rate when Rizvi arrived at 73/3 in over 10 would have been 10.7 runs per over, not 9.0. That changes the risk-reward calculation fundamentally — Rizvi would need to attack from ball one against better-set fields, taking risks that might have cost DC an early wicket. Miller's conservative 21 off 18 balls wouldn't have been an option; he would have needed to score at 11+ with Rizvi.</p>
+    <p>The revised win probability for DC in this scenario: approximately 68%, down from 95%. Not a guaranteed MI victory — Rizvi's ability was real — but a genuine contest rather than a formality. This scenario confirms how much Thakur's performance gift-wrapped the chase.</p>
+  </div>
+</div>
+
+<div class="lola-scenario">
+  <div class="lola-title">Scenario 2: What If Rickelton Had Converted That Start?</div>
+  <span class="lola-delta">+31 runs to MI total</span>
+  <div class="lola-outcome">MI set 162. DC won by 6 wickets with 11 balls remaining. → MI set ~193. DC need 194. Required rate for Rizvi's partnership becomes 12.2 — a different chase.</div>
+  <div class="lola-narrative">
+    <p>Ryan Rickelton walked in with MI at 0/0 in over 1. He hit 2 fours and a dot before Mukesh Kumar removed him for 9 off 11 balls. In this scenario, Rickelton converts: he bats until over 8, scoring 40 runs off 32 balls — consistent with his recent form. MI's score at the fall of that wicket goes from 71/3 (Rohit out in over 9) to approximately 102/2.</p>
+    <p>The platform changes everything downstream. With more runs in the bank by over 10, MI's tail doesn't need to manufacture 50 from the final 5 overs under pressure. Instead, a healthy 110/3 at the halfway mark leads to a total in the 185-195 range. MI set 193. DC need 194.</p>
+    <p>At 194, DC's required rate when Rizvi arrived at 73/3 in over 10 would have been 12.1 runs per over for the remaining 60 balls. Even Rizvi's extraordinary 90 off 51 wouldn't be enough — DC would have needed the impossible from Miller and Stubbs in the final 4 overs. The revised DC win probability: approximately 35%. One missed conversion at the top of the MI order might have swung a match that ended as a 6-wicket stroll.</p>
+  </div>
+</div>
+
+<hr>
+
+<!-- SECTION 12: BY THE NUMBERS -->
+<h2>By the numbers</h2>
+
+<table>
+  <tr><th>Metric</th><th>Mumbai Indians</th><th>Delhi Capitals</th></tr>
+  <tr><td>Total Score</td><td>162/6 (20 ov)</td><td class="highlight">164/4 (18.1 ov)</td></tr>
+  <tr><td>Run Rate</td><td>8.10</td><td class="highlight">9.02</td></tr>
+  <tr><td>Powerplay (0-6)</td><td>36/2 @ 6.97</td><td>41/2 @ 7.24</td></tr>
+  <tr><td>Middle (7-15)</td><td>92/2 @ 8.36</td><td class="highlight">97/1 @ 9.39</td></tr>
+  <tr><td>Death (16-20)</td><td>34/2 @ 7.56</td><td class="highlight">26/1 @ 9.18</td></tr>
+  <tr><td>Fours</td><td>17</td><td class="highlight">17</td></tr>
+  <tr><td>Sixes</td><td>4</td><td class="highlight">8</td></tr>
+  <tr><td>Dot Ball %</td><td>~42%</td><td>~40%</td></tr>
+  <tr><td>Extras</td><td>5 (lb1 w4)</td><td>5 (lb1 w4)</td></tr>
+  <tr><td>Top Scorer</td><td>SK Yadav: 51 (36)</td><td class="highlight">S Rizvi: 90 (51)</td></tr>
+  <tr><td>Best Bowling</td><td>J Bumrah: 4-0-21-0</td><td>Mukesh Kumar: 3-0-26-2</td></tr>
+  <tr><td>Critechery Score</td><td>47.7 / 100</td><td class="highlight">65.4 / 100</td></tr>
+</table>
+
+<p>The sixes column tells the match's story in one number: DC hit 8 sixes to MI's 4, almost entirely off Rizvi's blade. Combined with the middle-overs run rate advantage (DC 9.39 vs MI 8.36), DC's batters simply scored faster when resources were most plentiful.</p>
+
+<!-- Image 9: By the numbers table -->
+
+<!-- SECTION 13: HOW THE INNINGS BURNED -->
+<h2>How the Innings Burned</h2>
+
+<p>Mumbai Indians burned their resources irrationally in the powerplay — not by scoring too slowly but by losing 2 wickets for only 18 runs in the first three overs. The Burn Rate chart shows MI entering the green zone (>6 wickets, <12 overs) with a depleted top order that never recovered its footing. Rohit and Suryakumar subsequently built the match's best MI partnership — 53 runs in 7 overs — but it was at a conservative pace that a target of 163 can't afford. By the death (overs 16-20), MI had only 4 wickets in hand and scored 34 runs. The path through resource space was efficient where it needed to be reckless: MI's death burn rate of 7.56 was below par for a 160+ total.</p>
+
+<p>Delhi Capitals' burn path was sharper than the scoreline suggests. The 2 wickets lost in the powerplay (Rahul at 0.4, Rana at 1.4) looked catastrophic early, but Nissanka steadied the ship before Rizvi turned conservative resource management into an assault. DC's middle-overs burn (97/1 in 9 overs at 9.39) was the most devastating phase in the match — a team that had wickets banked and was spending runs ruthlessly. DC's death burn (26/1 in 3.1 overs) reflected a game already won, not a team under pressure.</p>
+
+<img class="chart" src="charts/burn_rate.png" alt="Burn Rate">
+<!-- Image 10 -->
+
+<!-- SECTION 14: THE ARCHITECTURE -->
+<h2>The Architecture</h2>
+
+<p>MI's load-bearing partnership was the Rohit–SKY stand: 74 runs in 53 balls (SR 139.6). Everything else was either repair work (the 17-run Rickelton–Rohit opening stand in 13 balls before the collapse) or late-order acceleration (Bosch's 11 off 4 at the death). Had the SKY–Dhir partnership (33 in 18, SR 183.3) been built at a less advanced score — say, at 90/3 rather than 122/5 — MI might have found the depth to threaten 175. As it was, the architecture resembled a building with a solid middle floor but no foundation and a patchy roof.</p>
+
+<p>DC's architecture was more structurally coherent. The Nissanka–Rizvi partnership of 74 runs in 57 balls provided the platform; the Rizvi–Miller stand of 70 in 34 balls (SR 205.9) was the load-bearing wall. What if Nissanka had fallen 20 balls earlier? The Nissanka–Rizvi stand was the longest in the DC innings. Without it, Rizvi faces a higher required rate earlier, with Miller needed from over 7, not over 10. That changes the risk profile of every subsequent over.</p>
+
+<img class="chart" src="charts/partnership_flow.png" alt="Partnership Flow">
+<!-- Image 11 -->
+
+<!-- SECTION 15: GAME CHANGERS -->
+<h2>Game Changers</h2>
+
+
+<div class="gc-card">
+  <div class="gc-player">Sameer Rizvi 🏆</div>
+  <div class="gc-stat">90 off 51 balls (7 fours, 7 sixes) SR: 176.47</div>
+  <div class="gc-reason">Rizvi, DC's impact sub, turned a nervy chase into a one-sided exercise in authority. Joining at 73/3 with DC needing 90 from 60 balls, he dismantled Shardul Thakur and Corbin Bosch to score 78 of his 90 off just 45 balls after his arrival. His partnership of 78 with Miller in 43 balls made the match safe before over 17.</div>
+</div>
+
+<div class="gc-card">
+  <div class="gc-player">Mukesh Kumar 🏆</div>
+  <div class="gc-stat">3-0-26-2, destroyed MI top order in overs 2-3</div>
+  <div class="gc-reason">Mukesh Kumar's dismissals of Rickelton (9) and Tilak Varma (0) off consecutive balls in the third over effectively ended MI's innings as a contest. MI at 18/2 in 2.5 overs never recovered the platform that their batting depth needed.</div>
+</div>
+
+<div class="gc-card">
+  <div class="gc-player">Suryakumar Yadav </div>
+  <div class="gc-stat">51 off 36 balls (3 fours, 2 sixes) SR: 141.66</div>
+  <div class="gc-reason">SKY's 51 off 36 balls was the only innings that genuinely challenged DC's attack, and his partnership with Rohit — 53 runs in 41 balls — was MI's only sustained attacking phase. His dismissal to Ngidi's lbw in over 16 at 122/5 immediately made the target look below-par.</div>
+</div>
+
+<div class="gc-card">
+  <div class="gc-player">Jasprit Bumrah </div>
+  <div class="gc-stat">4-0-21-0, 13 dots, economy 5.25</div>
+  <div class="gc-reason">Despite going wicketless, Bumrah conceded just 21 off 4 overs (5.25 economy, 13 dots) and was DC's one phase of sustained pressure. The problem: DC scored so freely off the other bowlers — Thakur went for 41 and Bosch for 39 — that Bumrah's excellence was offset. A study in how one elite bowler cannot win a T20 alone.</div>
+</div>
+
+<!-- Image 12 -->
+
+<hr>
+<p style="text-align:center; color:#AAAAAA; font-size:0.82em; margin-top:60px">
+  <em>Critechery — every match, by the numbers. Built by Batlab. v2.2 — 2026.</em>
+</p>
+
+</body>
+</html>
