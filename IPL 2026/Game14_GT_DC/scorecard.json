@@ -1,0 +1,386 @@
+{
+  "match_info": {
+    "team1": "Gujarat Titans",
+    "team2": "Delhi Capitals",
+    "team1_short": "GT",
+    "team2_short": "DC",
+    "venue": "Arun Jaitley Stadium, Delhi",
+    "date": "April 7, 2026",
+    "toss_winner": "Delhi Capitals",
+    "toss_decision": "field",
+    "result": "Gujarat Titans won by 1 run",
+    "winner": "Gujarat Titans",
+    "margin": "1 run",
+    "player_of_match": "Prasidh Krishna",
+    "match_number": 14,
+    "tournament": "IPL 2026"
+  },
+  "batting_innings1": [
+    {
+      "name": "Sai Sudharsan",
+      "runs": 12,
+      "balls": 7,
+      "fours": 1,
+      "sixes": 2,
+      "sr": 171.42,
+      "how_out": "b Mukesh Kumar"
+    },
+    {
+      "name": "Shubman Gill",
+      "runs": 70,
+      "balls": 45,
+      "fours": 9,
+      "sixes": 3,
+      "sr": 155.55,
+      "how_out": "c Rana b Ngidi"
+    },
+    {
+      "name": "Jos Buttler",
+      "runs": 52,
+      "balls": 27,
+      "fours": 3,
+      "sixes": 5,
+      "sr": 192.59,
+      "how_out": "b Kuldeep Yadav"
+    },
+    {
+      "name": "Washington Sundar",
+      "runs": 55,
+      "balls": 32,
+      "fours": 6,
+      "sixes": 3,
+      "sr": 171.87,
+      "how_out": "c Rana b Mukesh Kumar"
+    },
+    {
+      "name": "Glenn Phillips",
+      "runs": 14,
+      "balls": 9,
+      "fours": 1,
+      "sixes": 1,
+      "sr": 155.55,
+      "how_out": "not out"
+    },
+    {
+      "name": "Rahul Tewatia",
+      "runs": 1,
+      "balls": 1,
+      "fours": 0,
+      "sixes": 0,
+      "sr": 100.0,
+      "how_out": "not out"
+    }
+  ],
+  "batting_innings2": [
+    {
+      "name": "Pathum Nissanka",
+      "runs": 41,
+      "balls": 24,
+      "fours": 4,
+      "sixes": 1,
+      "sr": 170.83,
+      "how_out": "c Tewatia b Prasidh Krishna"
+    },
+    {
+      "name": "KL Rahul",
+      "runs": 92,
+      "balls": 52,
+      "fours": 11,
+      "sixes": 4,
+      "sr": 176.92,
+      "how_out": "c Buttler b Mohammed Siraj"
+    },
+    {
+      "name": "Nitish Rana",
+      "runs": 5,
+      "balls": 6,
+      "fours": 1,
+      "sixes": 0,
+      "sr": 83.33,
+      "how_out": "c Sai Sudharsan b Rashid Khan"
+    },
+    {
+      "name": "Sameer Rizvi",
+      "runs": 0,
+      "balls": 1,
+      "fours": 0,
+      "sixes": 0,
+      "sr": 0.0,
+      "how_out": "b Rashid Khan"
+    },
+    {
+      "name": "David Miller",
+      "runs": 41,
+      "balls": 20,
+      "fours": 3,
+      "sixes": 3,
+      "sr": 205.0,
+      "how_out": "run out (Buttler)"
+    },
+    {
+      "name": "Axar Patel",
+      "runs": 2,
+      "balls": 3,
+      "fours": 0,
+      "sixes": 0,
+      "sr": 66.66,
+      "how_out": "c Phillips b Rashid Khan"
+    },
+    {
+      "name": "Tristan Stubbs",
+      "runs": 7,
+      "balls": 6,
+      "fours": 0,
+      "sixes": 0,
+      "sr": 116.66,
+      "how_out": "run out (Sai Sudharsan)"
+    },
+    {
+      "name": "Vipraj Nigam",
+      "runs": 12,
+      "balls": 7,
+      "fours": 2,
+      "sixes": 0,
+      "sr": 171.42,
+      "how_out": "c Shubman Gill b Prasidh Krishna"
+    },
+    {
+      "name": "Kuldeep Yadav",
+      "runs": 1,
+      "balls": 1,
+      "fours": 0,
+      "sixes": 0,
+      "sr": 100.0,
+      "how_out": "run out (Buttler)"
+    }
+  ],
+  "bowling_innings1": [
+    {
+      "name": "Mukesh Kumar",
+      "overs": 4.0,
+      "runs": 55,
+      "wickets": 2,
+      "economy": 13.75,
+      "dots": 8,
+      "wides": 2,
+      "noballs": 0
+    },
+    {
+      "name": "Lungi Ngidi",
+      "overs": 4.0,
+      "runs": 24,
+      "wickets": 1,
+      "economy": 6.0,
+      "dots": 11,
+      "wides": 2,
+      "noballs": 0
+    },
+    {
+      "name": "Kuldeep Yadav",
+      "overs": 4.0,
+      "runs": 48,
+      "wickets": 1,
+      "economy": 12.0,
+      "dots": 5,
+      "wides": 1,
+      "noballs": 1
+    },
+    {
+      "name": "Axar Patel",
+      "overs": 4.0,
+      "runs": 38,
+      "wickets": 0,
+      "economy": 9.5,
+      "dots": 7,
+      "wides": 0,
+      "noballs": 0
+    },
+    {
+      "name": "Vipraj Nigam",
+      "overs": 2.0,
+      "runs": 27,
+      "wickets": 0,
+      "economy": 13.5,
+      "dots": 2,
+      "wides": 0,
+      "noballs": 0
+    },
+    {
+      "name": "T Natarajan",
+      "overs": 2.0,
+      "runs": 18,
+      "wickets": 0,
+      "economy": 9.0,
+      "dots": 3,
+      "wides": 0,
+      "noballs": 0
+    }
+  ],
+  "bowling_innings2": [
+    {
+      "name": "Mohammed Siraj",
+      "overs": 4.0,
+      "runs": 52,
+      "wickets": 1,
+      "economy": 13.0,
+      "dots": 8,
+      "wides": 4,
+      "noballs": 0
+    },
+    {
+      "name": "Kagiso Rabada",
+      "overs": 4.0,
+      "runs": 32,
+      "wickets": 0,
+      "economy": 8.0,
+      "dots": 9,
+      "wides": 2,
+      "noballs": 0
+    },
+    {
+      "name": "Rashid Khan",
+      "overs": 4.0,
+      "runs": 17,
+      "wickets": 3,
+      "economy": 4.25,
+      "dots": 10,
+      "wides": 0,
+      "noballs": 0
+    },
+    {
+      "name": "Prasidh Krishna",
+      "overs": 4.0,
+      "runs": 42,
+      "wickets": 2,
+      "economy": 10.5,
+      "dots": 9,
+      "wides": 2,
+      "noballs": 0
+    },
+    {
+      "name": "Ashok Sharma",
+      "overs": 2.0,
+      "runs": 28,
+      "wickets": 0,
+      "economy": 14.0,
+      "dots": 3,
+      "wides": 0,
+      "noballs": 0
+    },
+    {
+      "name": "Washington Sundar",
+      "overs": 2.0,
+      "runs": 38,
+      "wickets": 0,
+      "economy": 19.0,
+      "dots": 2,
+      "wides": 0,
+      "noballs": 0
+    }
+  ],
+  "extras_innings1": {
+    "wides": 5,
+    "noballs": 1,
+    "byes": 0,
+    "legbyes": 0,
+    "total": 6
+  },
+  "extras_innings2": {
+    "wides": 8,
+    "noballs": 0,
+    "byes": 0,
+    "legbyes": 0,
+    "total": 8
+  },
+  "fall_of_wickets_innings1": [
+    {
+      "wicket_num": 1,
+      "score": 19,
+      "over": 2.1,
+      "batsman": "Sai Sudharsan"
+    },
+    {
+      "wicket_num": 2,
+      "score": 79,
+      "over": 7.3,
+      "batsman": "Jos Buttler"
+    },
+    {
+      "wicket_num": 3,
+      "score": 183,
+      "over": 17.3,
+      "batsman": "Shubman Gill"
+    },
+    {
+      "wicket_num": 4,
+      "score": 205,
+      "over": 19.3,
+      "batsman": "Washington Sundar"
+    }
+  ],
+  "fall_of_wickets_innings2": [
+    {
+      "wicket_num": 1,
+      "score": 76,
+      "over": 8.1,
+      "batsman": "Pathum Nissanka"
+    },
+    {
+      "wicket_num": 2,
+      "score": 101,
+      "over": 9.5,
+      "batsman": "Nitish Rana"
+    },
+    {
+      "wicket_num": 3,
+      "score": 101,
+      "over": 9.6,
+      "batsman": "Sameer Rizvi"
+    },
+    {
+      "wicket_num": 4,
+      "score": 134,
+      "over": 13.6,
+      "batsman": "Axar Patel"
+    },
+    {
+      "wicket_num": 5,
+      "score": 160,
+      "over": 16.4,
+      "batsman": "Tristan Stubbs"
+    },
+    {
+      "wicket_num": 6,
+      "score": 166,
+      "over": 16.6,
+      "batsman": "KL Rahul"
+    },
+    {
+      "wicket_num": 7,
+      "score": 202,
+      "over": 19.2,
+      "batsman": "Vipraj Nigam"
+    },
+    {
+      "wicket_num": 8,
+      "score": 209,
+      "over": 19.6,
+      "batsman": "Kuldeep Yadav"
+    }
+  ],
+  "totals": {
+    "innings1": {
+      "runs": 210,
+      "wickets": 4,
+      "overs": 20.0,
+      "rr": 10.5
+    },
+    "innings2": {
+      "runs": 209,
+      "wickets": 8,
+      "overs": 20.0,
+      "rr": 10.45
+    },
+    "target": 211
+  }
+}
