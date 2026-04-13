@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Iyer's Masterclass Chases Down 220 as Shivang's Heroics Fall Short | Critechery</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Lora:ital,wght@0,400;0,600;1,400&display=swap');
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Inter', -apple-system, 'Helvetica Neue', sans-serif;
+      font-size: 18px; line-height: 1.78; color: #2C2C2C;
+      background: #FAFAF8; max-width: 720px;
+      margin: 0 auto; padding: 56px 24px 100px 24px;
+    }
+
+    h1 {
+      font-family: 'Lora', Georgia, serif;
+      font-size: 2.4em; font-weight: 600; line-height: 1.18;
+      letter-spacing: -0.01em; color: #111111; margin-bottom: 10px;
+    }
+
+    .meta {
+      font-size: 0.88em; color: #AAAAAA; margin-bottom: 48px;
+      letter-spacing: 0.04em; text-transform: uppercase;
+    }
+
+    h2 {
+      font-size: 0.78em; font-weight: 700; text-transform: uppercase;
+      letter-spacing: 0.12em; color: #AAAAAA; margin-top: 60px;
+      margin-bottom: 18px; padding-bottom: 8px;
+      border-bottom: 1px solid #E8E8E5;
+    }
+
+    h3 {
+      font-size: 1.05em; font-weight: 700; color: #1A1A1A;
+      margin-top: 32px; margin-bottom: 10px;
+    }
+
+    p { margin-bottom: 22px; }
+
+    .summary-box {
+      background: #F4F4F1; border-left: 3px solid #1A56DB;
+      padding: 18px 22px; margin: 0 0 32px 0; border-radius: 0 6px 6px 0;
+      font-family: 'Lora', Georgia, serif; font-size: 1.08em;
+      line-height: 1.65; color: #1A1A1A;
+    }
+
+    .humdinger-score {
+      font-family: 'Inter', sans-serif; font-size: 5em;
+      font-weight: 900; text-align: center; color: #F5A623;
+      letter-spacing: -0.04em; padding: 28px 0 4px 0; line-height: 1.0;
+    }
+    .humdinger-label {
+      text-align: center; color: #AAAAAA; font-size: 0.82em;
+      letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 16px;
+    }
+    .humdinger-breakdown {
+      background: #FFFDF5; border: 1px solid #F5E6C3;
+      border-radius: 8px; padding: 16px 20px; margin: 12px 0 28px 0;
+      font-size: 0.9em; line-height: 1.9; color: #555;
+    }
+
+    blockquote {
+      border-left: 3px solid #F5A623; padding: 14px 20px;
+      margin: 28px 0; background: #FFFBF2;
+      font-family: 'Lora', Georgia, serif; font-style: italic;
+      color: #3D3D3D; font-size: 0.97em; border-radius: 0 6px 6px 0;
+    }
+    blockquote .ball-ref {
+      display: block; font-family: 'Inter', sans-serif;
+      font-style: normal; font-size: 0.78em; font-weight: 600;
+      color: #F5A623; letter-spacing: 0.06em;
+      text-transform: uppercase; margin-bottom: 6px;
+    }
+
+    table { width: 100%; border-collapse: collapse; margin: 20px 0; font-size: 0.88em; }
+    th {
+      background: #F0F0EE; text-align: left; padding: 10px 14px;
+      font-weight: 600; text-transform: uppercase;
+      font-size: 0.76em; letter-spacing: 0.07em; color: #777;
+    }
+    td { padding: 10px 14px; border-bottom: 1px solid #F0F0EE; }
+    tr:last-child td { border-bottom: none; }
+    td.highlight { font-weight: 600; color: #1A56DB; }
+
+    img.chart {
+      width: 100%; margin: 28px 0; border-radius: 10px;
+      border: 1px solid #E8E8E5; display: block;
+    }
+
+    .cs-compare {
+      display: flex; gap: 16px; margin: 20px 0 28px 0;
+    }
+    .cs-team {
+      flex: 1; background: #F8F8F6; border-radius: 10px;
+      padding: 16px 18px; border: 1px solid #E8E8E5;
+    }
+    .cs-team-name {
+      font-weight: 700; font-size: 0.9em; text-transform: uppercase;
+      letter-spacing: 0.08em; color: #666; margin-bottom: 8px;
+    }
+    .cs-total {
+      font-family: 'Inter', sans-serif; font-size: 2.6em; font-weight: 800;
+      line-height: 1; margin-bottom: 12px;
+    }
+    .cs-row { display: flex; justify-content: space-between; font-size: 0.82em;
+              color: #555; padding: 3px 0; border-bottom: 1px solid #F0F0EE; }
+    .cs-row:last-child { border-bottom: none; }
+    .cs-value { font-weight: 600; color: #1A1A1A; }
+
+    .lola-scenario {
+      background: #F0F4FF; border: 1px solid #C7D7FD;
+      border-radius: 10px; padding: 20px 24px; margin: 24px 0;
+    }
+    .lola-title {
+      font-weight: 700; font-size: 1.05em; color: #1E40AF;
+      margin-bottom: 8px;
+    }
+    .lola-delta {
+      display: inline-block; background: #1A56DB; color: white;
+      padding: 2px 10px; border-radius: 20px; font-size: 0.8em;
+      font-weight: 700; margin-bottom: 12px; letter-spacing: 0.04em;
+    }
+    .lola-outcome { font-size: 0.9em; color: #444; margin-bottom: 12px; }
+    .lola-narrative { font-size: 0.92em; line-height: 1.7; color: #333; }
+
+    .tp-card {
+      border-left: 3px solid #F5A623; padding: 12px 16px; margin: 16px 0;
+      background: #FFFBF2; border-radius: 0 6px 6px 0;
+    }
+    .tp-label { font-size: 0.8em; font-weight: 700; text-transform: uppercase;
+                letter-spacing: 0.08em; color: #F5A623; margin-bottom: 6px; }
+
+    .gc-card { padding: 14px 0; border-bottom: 1px solid #F0F0EE; }
+    .gc-card:last-child { border-bottom: none; }
+    .gc-player { font-weight: 700; font-size: 1.05em; color: #1A1A1A; }
+    .gc-stat { color: #1A56DB; font-size: 0.85em; font-weight: 600; margin: 2px 0 6px 0; }
+    .gc-reason { font-size: 0.9em; color: #444; line-height: 1.6; }
+
+    .audio-section {
+      background: #F8F8F6; border: 1px solid #E4E4E0;
+      border-radius: 10px; padding: 20px 22px; margin: 40px 0;
+      text-align: center;
+    }
+    .audio-label {
+      font-weight: 700; font-size: 0.9em; text-transform: uppercase;
+      letter-spacing: 0.08em; color: #555; margin-bottom: 12px;
+    }
+    .audio-section audio { width: 100%; margin-bottom: 8px; }
+    .audio-coming-soon {
+      color: #AAAAAA; font-size: 0.9em; font-style: italic;
+      padding: 12px 0; display: block;
+    }
+    .audio-sub { font-size: 0.82em; color: #AAAAAA; }
+
+    hr { border: none; border-top: 1px solid #E8E8E5; margin: 52px 0; }
+
+    .toss-pill {
+      display: inline-block; background: #EEF4FF; color: #1A56DB;
+      padding: 5px 14px; border-radius: 20px; font-size: 0.84em;
+      font-weight: 600; margin-bottom: 16px;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Iyer's Masterclass Chases Down 220 as Shivang's Heroics Fall Short</h1>
+<p class="meta">April 11, 2026 &nbsp;·&nbsp; Sunrisers Hyderabad vs Punjab Kings &nbsp;·&nbsp; New Chandigarh &nbsp;·&nbsp; IPL 2026, Match 17</p>
+
+<h2>AUDIO BRIEF</h2>
+<div class="audio-section">
+  <p class="audio-label">Match Brief</p>
+  <span class="audio-coming-soon">Audio episode coming soon — upload your NotebookLM sources from Output/notebooklm/ to generate it.</span>
+  <p class="audio-sub">Powered by NotebookLM | Full analysis below</p>
+</div>
+
+<hr>
+
+<h2>THE HUMDINGER SCORE</h2>
+<div class="humdinger-score">5.2</div>
+<div class="humdinger-label">out of 10</div>
+<div class="humdinger-breakdown">
+<strong>Time near 50-50:</strong> 2.2/4 (11% of balls in margin of error)<br>
+<strong>Last-over drama:</strong> 2.0/2 (Decided by over 18.5)<br>
+<strong>Margin:</strong> 1.0/2 (6-wicket victory)<br>
+<strong>Wicket cluster:</strong> 0.0/1 (No 3+ wickets in 3-over window)<br>
+<strong>Boundary burst:</strong> 0.0/1 (Both innings under 40% boundaries)<br>
+<strong>Total: 5.2/10</strong> — A competitive match with excellent batting, but the chase was never genuinely in jeopardy after the powerplay.
+</div>
+
+<p>This was a match of contrasts: electric batting on both sides, but a chase that was resolved by skill rather than tension. Abhishek Sharma's opening blitz set SRH up for 219—a formidable total. But PBKS' Priyansh Arya and Prabhsimran Singh answered with equal ferocity, posting 99 in the powerplay and taking the chase well in hand. Shivang Kumar's three-wicket spell created a momentary panic, but it came too late in the sequence to threaten the outcome. Shreyas Iyer's composed unbeaten 69 finished the job with a full over to spare.</p>
+
+<p>For a match of such high-quality cricket, there was little genuine doubt. Both teams traded punches, but Punjab's foundation was built faster, deeper, and more durable. The Humdinger rating reflects what the data confirms: this was very good cricket, not a thriller.</p>
+
+<hr>
+
+<h2>The Critechery Score</h2>
+<div class="cs-compare">
+  <div class="cs-team cs-srh">
+    <div class="cs-team-name">⬆️ SRH (Batting)</div>
+    <div class="cs-total" style="color: #F59E0B;">61.33</div>
+    <div class="cs-row"><span>SR Dominance</span><span class="cs-value">15.7/25</span></div>
+    <div class="cs-row"><span>Boundary Efficiency</span><span class="cs-value">15.0/15</span></div>
+    <div class="cs-row"><span>Extras Discipline</span><span class="cs-value">2.5/10</span></div>
+    <div class="cs-row"><span>Economy Squeeze</span><span class="cs-value">0.0/15</span></div>
+    <div class="cs-row"><span>Wicket Punch</span><span class="cs-value">15.0/15</span></div>
+    <div class="cs-row"><span>Dot Dominance</span><span class="cs-value">9.62/10</span></div>
+  </div>
+  <div class="cs-team cs-pbks">
+    <div class="cs-team-name">⬇️ PBKS (Batting)</div>
+    <div class="cs-total" style="color: #059669;">67.90</div>
+    <div class="cs-row"><span>SR Dominance</span><span class="cs-value">22.79/25</span></div>
+    <div class="cs-row"><span>Boundary Efficiency</span><span class="cs-value">15.0/15</span></div>
+    <div class="cs-row"><span>Extras Discipline</span><span class="cs-value">2.5/10</span></div>
+    <div class="cs-row"><span>Economy Squeeze</span><span class="cs-value">0.0/15</span></div>
+    <div class="cs-row"><span>Wicket Punch</span><span class="cs-value">10.0/15</span></div>
+    <div class="cs-row"><span>Dot Dominance</span><span class="cs-value">8.36/10</span></div>
+  </div>
+</div>
+
+<p>PBKS won this match because they batted with greater strike-rotation and less middling resistance. SRH's 61.33 score was respectable—Abhishek Sharma's 264 SR and Klaasen's middle-order stability got them to 219. But Punjab's chasing innings earned the higher Critechery mark (67.90) by a decisive margin. The critical difference: weighted strike rate. PBKS accumulated at 192.92 effective SR during the chase, compared to SRH's 170.24 in the first innings. More strikes, fewer dot balls, and—crucially—zero hesitation about the target.</p>
+
+<p>The winner's bonus (5.0 points) reflects PBKS' ability to convert intent into closure. They seized the initiative in the powerplay, maintained it through Shivang's spell, and finished when it mattered. That is superior cricket.</p>
+
+<hr>
+
+<h2>Matchup 1: Abhishek Sharma vs Vijaykumar Vyshak</h2>
+
+<p>This was not a matchup—it was a demolition. Vyshak brought death-bowling norms to Abhishek's opening assault and paid for it with 24 runs from 6 balls (SR 400). Abhishek faced him early in the powerplay when he was already in full flow, having already struck four boundaries. Vyshak's lengths were short of yorker and full of pace—but without the guile to counter a batter who was reading the line from the crease. By the time Vyshak's spell ended, the damage was done: Abhishek had his foundation to go on and make 74 from 28 balls.</p>
+
+<p>This is what happens when bowlers import T20 death templates to the powerplay. Vyshak bowled at match economy (11.0 RPO, extrapolated). Against Abhishek at 264 SR, even that was not enough.</p>
+
+<img class="chart" src="charts/matchup_1.png" alt="Abhishek Sharma vs Vijaykumar Vyshak">
+
+<hr>
+
+<h2>Matchup 2: Shreyas Iyer vs Harshal Patel</h2>
+
+<p>This is Iyer at his best: a study in controlled aggression against premium pace. Patel is no death bowler—he is a yorker specialist, operating in the 140s with late swing and relentless short-pitched accuracy. Against such discipline, Iyer's unbeaten 69 from 33 balls (209 SR) included a 17-run spell off Patel from 5 balls (340 SR). How? Iyer reads Patel's length variations and converts short balls into scoring opportunities. He doesn't over-commit; he rotates his approach based on length. A fuller delivery becomes a drive down the ground. A short ball becomes a pull or cut.</p>
+
+<p>This matchup is the story of why Iyer won Player of the Match. Against SRH's premium pace (Unadkat at 133 economy, Harshal at 195 economy), he accelerated without recklessness. He is a different beast in white-ball cricket to the Test batsman who struggles with short-ball theory.</p>
+
+<img class="chart" src="charts/matchup_2.png" alt="Shreyas Iyer vs Harshal Patel">
+
+<hr>
+
+<h2>Matchup 3: Shreyas Iyer vs Shivang Kumar</h2>
+
+<p>Shivang Kumar took Iyer on in the middle overs—and Iyer had a day off. From 5 balls, Iyer scored 8 runs (160 SR)—not attacking, not defensive, just economical. Shivang maintained tight lines with 8 dots in 4 overs and a 8.25 economy. The number tells the real story: Shivang bowled at second-lowest economy on the day (after Nitish Kumar at 10.0). Against a strike-rotation bowling plan, Iyer adapted. He didn't hoist; he rolled his wrists and nudged singles. It was Shivang who blinked first, trying to create pressure with short balls that Iyer handled comfortably.</p>
+
+<p>If this matchup has a verdict, it is narrow to Shivang—he was bowling under control against an aggressive chaser. But Iyer's SR remained above par, and Punjab won. Shivang's 3-wicket spell took PBKS from 99/0 to 128/3. Without those wickets, the match would have been over by over 15. But without Iyer, they wouldn't have got home at all.</p>
+
+<img class="chart" src="charts/matchup_3.png" alt="Shreyas Iyer vs Shivang Kumar">
+
+<hr>
+
+<h2>Turning Points</h2>
+
+<p>Three moments shifted the plot. Each arrived at a critical junction—each was an answer to the moment before.</p>
+
+<div class="tp-card">
+  <div class="tp-label">Turning Point 1: The Powerplay Explosion (Overs 1-6)</div>
+  <p>Abhishek Sharma and Travis Head put on 105 from the first 6 overs—exactly par to par-plus cricket. The innings could have been a measured 180. Instead, this partnership said: we're chasing 220 with intent, not respect. By the end of their stand (120 runs, 56 balls, 214 SR), SRH were no longer building; they were commanding. When Abhishek fell at 120/1 in over 9, the foundation was already set.</p>
+</div>
+
+<div class="tp-card">
+  <div class="tp-label">Turning Point 2: Shivang's Cluster (Overs 7-11)</div>
+  <p>PBKS went 99/0, then 128/3 in 11 overs. Shivang Kumar took Priyansh Arya, Prabhsimran Singh, and Cooper Connolly—three of the four batters who'd been handling SRH's pace. The win probability dropped from 98% to 18% in four balls. This was the moment when SRH fans allowed themselves to believe. But it was also the moment when Shreyas Iyer walked in. Iyer's next 69 runs across 33 balls did the job alone.</p>
+</div>
+
+<div class="tp-card">
+  <div class="tp-label">Turning Point 3: The Iyer-Wadhera Bridge (Overs 9.6-17.1)</div>
+  <p>After Shivang's spell, PBKS were 128/3 needing 92 from 67 balls. Iyer and debutant Nehal Wadhera added 69 runs in 36 balls (192 SR). This partnership rebuilt the chase without hysteria. Iyer took on the best bowlers (Harshal, Unadkat). Wadhera took what the bowlers gave. By over 17, it was a formality. The pressure was gone.</p>
+</div>
+
+<img class="chart" src="charts/pressure_heatmap.png" alt="Pressure Heatmap">
+
+<hr>
+
+<h2>The Inflexion Point</h2>
+
+<p>Shivang Kumar's spell in overs 7-11 is the single moment when the match could have swung. PBKS entered this sequence at 99/0 in 6.2 overs—needing 120 from 13.3 overs, with 10 wickets in hand. By over 11.2, they were 128/3, needing 92 from 62 balls with 7 wickets left. The win probability moved from 98.1% (after Arya fell) to 29.0% (after Prabhsimran fell) to 18.2% (after Connolly fell).</p>
+
+<p>But here is the crucial fact: Shreyas Iyer was not yet at the crease when this spell began. By the time it ended, he was. Iyer's entry was the counter-spell that made Shivang's spell irrelevant. PBKS won because they had two world-class batters (Arya and Prabhsimran) who burned through the powerplay, and one (Iyer) who closed when the fire went out.</p>
+
+<img class="chart" src="charts/win_probability.png" alt="Win Probability">
+
+<hr>
+
+<h2>That Shivang Over</h2>
+
+<p>Shivang Kumar's spell (overs 7, 9, 10, 11) was the most impactful four-over burst of the match. He took 3/33—the only bowler on either side to break the 40-run barrier down to the 30s. His economy of 8.25 was the third-best in the innings (after Nitish Kumar's 10.0 and Dubey's 9.5, both under-bowled). But the sequencing of his wickets tells a different story than his final figures.</p>
+
+<p>Over 7: Shivang to Priyansh Arya. Arya was hitting everything—98 off 19 balls at this point (510 SR). A caught dismissal, breakthrough, but PBKS still 99/0 with no dent in the scoring rate.</p>
+
+<p>Over 9: Shivang to Prabhsimran Singh. Prabhsimran had 47 from 23 balls (204 SR), in full flow. Shivang forced an error—a caught dismissal that turned the match momentum. PBKS now had questions.</p>
+
+<p>Over 10: Shivang to Cooper Connolly. Connolly had just come in as impact player, replacing Yuzvendra Chahal. Shivang had his third. Three quality batters, three defensive errors, all in the same spell. It looked like Shivang had the match in his hands.</p>
+
+<p>But it was an illusion born of timing. Arya and Prabhsimran had already posted 108 in 45 balls (240 SR). By the time Shivang dismissed them, the job was 60% done. Iyer's 69 from 33 was the final 30%. The spell was excellent bowling at a moment when SRH needed one. It just happened to arrive when PBKS had already done the hard work.</p>
+
+<hr>
+
+<h2>BLACK MIRROR</h2>
+
+<p>Two scenarios. One question: what if?</p>
+
+<div class="lola-scenario">
+  <div class="lola-title">Scenario 1: What if Shivang Kumar had bowled at match average economy?</div>
+  <span class="lola-delta">+11 runs vs PBKS</span>
+  <div class="lola-outcome">Original: 223/4 in 18.5 overs → Counterfactual: 234/4 in 17.5 overs</div>
+  <div class="lola-narrative">
+    <p>Shivang's 8.25 economy was anomalously tight. The match average for both teams combined was 10.92 RPO. If Shivang had bowled at 11.0, he would have conceded 44 runs instead of 33—a difference of 11 runs. PBKS' final score would have been 234 instead of 223.</p>
+    <p>But here is the counterfactual: the margin of victory would not have changed. PBKS would still have won by a wider margin (wickets preserved), with the chase finishing in 17.5 overs instead of 18.5. Shivang's spell was disciplined, not decisive. It created a window—but the window was already closing. SRH needed Shivang to bowl a 6-RPO spell. He bowled an 8.25 spell. That's heroic. It's just not enough when your team is chasing a 220 with the powerplay already behind you by a run-a-ball.</p>
+  </div>
+</div>
+
+<div class="lola-scenario">
+  <div class="lola-title">Scenario 2: What if the Abhishek-Head partnership had broken at 60?</div>
+  <span class="lola-delta">-60 runs, SRH finish at 159</span>
+  <div class="lola-outcome">Original: SRH 219/6 → Counterfactual: SRH 159/2 (at over 9)</div>
+  <div class="lola-narrative">
+    <p>The opening partnership (120 in 56 balls) was SRH's entire margin of victory. If it had been broken at 60 (still a strong start), SRH would have been 60/1 in 6 overs and forced to recalibrate. Ishan Kishan, Klaasen, and Aniket Verma would have had to build a total from a foundation of 60/1 at over 6—not the ideal start, but not a collapse. Assume the middle order contributes as they did (66, 39, 18 respectively). SRH's final score would be approximately 180.</p>
+    <p>Against 180, PBKS' powerplay aggression (93/0 in 6) becomes overkill. Priyansh Arya and Prabhsimran Singh would have been free to attack without pressure. They would have finished the chase in 14-15 overs by 4-5 wickets. The match result stays the same—Punjab wins. But the narrative shifts entirely. Instead of a powerplay duel, it becomes a conventional chase. Instead of Shivang's spell creating drama, it becomes a footnote. PBKS would have won because they chased better, not because SRH self-sabotaged with middle-order collapses.</p>
+  </div>
+</div>
+
+<hr>
+
+<h2>By the numbers</h2>
+
+<table>
+  <tr>
+    <th>Metric</th>
+    <th class="highlight">SRH (Batting)</th>
+    <th class="highlight">PBKS (Batting)</th>
+  </tr>
+  <tr>
+    <td>Final Score</td>
+    <td class="highlight">219/6</td>
+    <td class="highlight">223/4</td>
+  </tr>
+  <tr>
+    <td>Overs Faced</td>
+    <td class="highlight">20.0</td>
+    <td class="highlight">18.5</td>
+  </tr>
+  <tr>
+    <td>Powerplay Runs</td>
+    <td class="highlight">105/0</td>
+    <td class="highlight">93/0</td>
+  </tr>
+  <tr>
+    <td>Powerplay SR</td>
+    <td class="highlight">175.0</td>
+    <td class="highlight">155.0</td>
+  </tr>
+  <tr>
+    <td>Best Batsman SR</td>
+    <td class="highlight">Abhishek 264.28</td>
+    <td class="highlight">Priyansh 285.00</td>
+  </tr>
+  <tr>
+    <td>Opening Partnership</td>
+    <td class="highlight">120 (56 balls)</td>
+    <td class="highlight">99 (45 balls)</td>
+  </tr>
+  <tr>
+    <td>Middle-Order Contribution</td>
+    <td class="highlight">94 (remaining batters)</td>
+    <td class="highlight">112 (Iyer 69, Wadhera 14, Shashank 16)</td>
+  </tr>
+  <tr>
+    <td>Boundaries Hit</td>
+    <td class="highlight">30 (5+25)</td>
+    <td class="highlight">34 (10+24)</td>
+  </tr>
+  <tr>
+    <td>Best Bowling Economy</td>
+    <td class="highlight">Shashank 6.66</td>
+    <td class="highlight">Nitish 10.0</td>
+  </tr>
+  <tr>
+    <td>Extras Conceded</td>
+    <td class="highlight">13 (wides 11)</td>
+    <td class="highlight">5</td>
+  </tr>
+</table>
+
+<hr>
+
+<h2>How the Innings Burned</h2>
+
+<p>The Burn Rate measures the trade-off between aggression and preservation. SRH's innings was front-loaded: 4 attacking overs in the first 7, then a consolidation phase of 12 efficient overs (overs 8-19), then 1 reckless over (the run-out in the 19th). PBKS turned up the heat differently—8 attacking overs sustained across their entire 18.5-over chase. They never eased off. When pressure came (Shivang's spell), they had already put enough runs on the board to absorb it.</p>
+
+<img class="chart" src="charts/burn_rate.png" alt="Burn Rate">
+
+<hr>
+
+<h2>The Architecture</h2>
+
+<p>SRH built their total on the shoulders of two partnerships: Abhishek-Head (120, establishing a 2.14 RPO platform) and Klaasen-Ishan (66, accelerating to 1.89 RPO in the middle). The issue was not the partnerships themselves—they were both strong. The issue was the gaps between them. After Abhishek fell at 120, there was only 2 runs added before Ishan came in. After Ishan fell at 169, there was a 26-run gap until the final wickets. SRH's architecture was feast-or-famine.</p>
+
+<p>PBKS' architecture told a different story. The opening partnership (99) was strong. But its dissolution (overs 7-11) was where PBKS separated themselves. Rather than collapse, they shifted the load to Shreyas Iyer, who alone added 69 from 33. In cricket terms, this is a team batting. In architecture terms, this is load balancing. Three batters (Arya 57, Prabhsimran 51, Iyer 69) all contributed meaningfully. SRH relied on Abhishek's 74 and then hope.</p>
+
+<img class="chart" src="charts/partnership_flow.png" alt="Partnership Flow">
+
+<hr>
+
+<h2>Game Changers</h2>
+
+<div class="gc-card">
+  <div class="gc-player">Abhishek Sharma</div>
+  <div class="gc-stat">74 (28) | SR 264.28 | 5×4, 8×6</div>
+  <div class="gc-reason">Set the tone for SRH's entire innings. His powerplay assault (120 off 56 with Head) established a par-or-higher run rate that made 219 possible. Without his 74, SRH finishes closer to 180.</div>
+</div>
+
+<div class="gc-card">
+  <div class="gc-player">Shreyas Iyer</div>
+  <div class="gc-stat">69* (33) | SR 209.09 | 5×4, 5×6 | Player of Match</div>
+  <div class="gc-reason">Iyer's composure in the middle overs—especially after Shivang's spell—was the difference. He did not panic when PBKS were 128/3. He did not force. He rotated his strike and brought Wadhera along. His unbeaten 69 was the match.</div>
+</div>
+
+<div class="gc-card">
+  <div class="gc-player">Priyansh Arya</div>
+  <div class="gc-stat">57 (20) | SR 285.0 | 5×4, 5×6</div>
+  <div class="gc-reason">Arya's 20-ball blitz (99 off 39 with Prabhsimran) gave PBKS an eight-run head start in effective score. He died trying, but by then the innings was already won. His aggression set the tone for Punjab's chase.</div>
+</div>
+
+<div class="gc-card">
+  <div class="gc-player">Shivang Kumar</div>
+  <div class="gc-stat">3-33 | Economy 8.25 | 8 dots</div>
+  <div class="gc-reason">Shivang's spell (overs 7-11) momentarily swung the match. He dismissed three in-form batters and made the chase look vulnerable. But Iyer's response negated his impact. Shivang bowled one of the best spells of the day—it just wasn't enough.</div>
+</div>
+
+</body>
+</html>
