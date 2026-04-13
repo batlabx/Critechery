@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Boy Who Stopped Bumrah — Critechery, IPL 2026 Game 13</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Lora:ital,wght@0,400;0,600;1,400&display=swap');
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: 'Inter', -apple-system, 'Helvetica Neue', sans-serif;
+  font-size: 18px; line-height: 1.78; color: #2C2C2C;
+  background: #FAFAF8; max-width: 720px;
+  margin: 0 auto; padding: 56px 24px 100px 24px;
+}
+h1 {
+  font-family: 'Lora', Georgia, serif;
+  font-size: 2.4em; font-weight: 600; line-height: 1.18;
+  letter-spacing: -0.01em; color: #111111; margin-bottom: 10px;
+}
+.meta { font-size: 0.88em; color: #AAAAAA; margin-bottom: 48px;
+        letter-spacing: 0.04em; text-transform: uppercase; }
+h2 { font-size: 0.78em; font-weight: 700; text-transform: uppercase;
+     letter-spacing: 0.12em; color: #AAAAAA; margin-top: 60px;
+     margin-bottom: 18px; padding-bottom: 8px; border-bottom: 1px solid #E8E8E5; }
+h3 { font-size: 1.05em; font-weight: 700; color: #1A1A1A; margin-top: 32px; margin-bottom: 10px; }
+p { margin-bottom: 22px; }
+.humdinger-score {
+  font-family: 'Inter', sans-serif; font-size: 5em;
+  font-weight: 900; text-align: center; color: #F5A623;
+  letter-spacing: -0.04em; padding: 28px 0 4px 0; line-height: 1.0;
+}
+.humdinger-label { text-align: center; color: #AAAAAA; font-size: 0.82em;
+                   letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 16px; }
+.humdinger-breakdown {
+  background: #FFFDF5; border: 1px solid #F5E6C3;
+  border-radius: 8px; padding: 16px 20px; margin: 12px 0 28px 0;
+  font-size: 0.9em; line-height: 1.9; color: #555;
+}
+blockquote {
+  border-left: 3px solid #F5A623; padding: 14px 20px; margin: 28px 0;
+  background: #FFFBF2; font-family: 'Lora', Georgia, serif; font-style: italic;
+  color: #3D3D3D; font-size: 0.97em; border-radius: 0 6px 6px 0;
+}
+blockquote .ball-ref {
+  display: block; font-family: 'Inter', sans-serif; font-style: normal;
+  font-size: 0.78em; font-weight: 600; color: #F5A623; letter-spacing: 0.06em;
+  text-transform: uppercase; margin-bottom: 6px;
+}
+table { width: 100%; border-collapse: collapse; margin: 20px 0; font-size: 0.88em; }
+th { background: #F0F0EE; text-align: left; padding: 10px 14px;
+     font-weight: 600; text-transform: uppercase; font-size: 0.76em; letter-spacing: 0.07em; color: #777; }
+td { padding: 10px 14px; border-bottom: 1px solid #F0F0EE; }
+tr:last-child td { border-bottom: none; }
+td.highlight { font-weight: 600; color: #1A56DB; }
+img.chart { width: 100%; margin: 28px 0; border-radius: 10px;
+            border: 1px solid #E8E8E5; display: block; }
+.cs-compare { display: flex; gap: 16px; margin: 20px 0 28px 0; }
+.cs-team { flex: 1; background: #F8F8F6; border-radius: 10px; padding: 16px 18px; border: 1px solid #E8E8E5; }
+.cs-team-name { font-weight: 700; font-size: 0.9em; text-transform: uppercase;
+                letter-spacing: 0.08em; color: #666; margin-bottom: 8px; }
+.cs-total { font-family: 'Inter', sans-serif; font-size: 2.6em; font-weight: 800;
+            line-height: 1; margin-bottom: 12px; }
+.cs-row { display: flex; justify-content: space-between; font-size: 0.82em;
+          color: #555; padding: 3px 0; border-bottom: 1px solid #F0F0EE; }
+.cs-row:last-child { border-bottom: none; }
+.cs-value { font-weight: 600; color: #1A1A1A; }
+.lola-scenario { background: #F0F4FF; border: 1px solid #C7D7FD;
+                 border-radius: 10px; padding: 20px 24px; margin: 24px 0; }
+.lola-title { font-weight: 700; font-size: 1.05em; color: #1E40AF; margin-bottom: 8px; }
+.lola-delta { display: inline-block; background: #1A56DB; color: white;
+              padding: 2px 10px; border-radius: 20px; font-size: 0.8em;
+              font-weight: 700; margin-bottom: 12px; letter-spacing: 0.04em; }
+.lola-outcome { font-size: 0.9em; color: #444; margin-bottom: 12px; }
+.lola-narrative { font-size: 0.92em; line-height: 1.7; color: #333; }
+.tp-card { border-left: 3px solid #F5A623; padding: 12px 16px; margin: 16px 0;
+           background: #FFFBF2; border-radius: 0 6px 6px 0; }
+.tp-label { font-size: 0.8em; font-weight: 700; text-transform: uppercase;
+            letter-spacing: 0.08em; color: #F5A623; margin-bottom: 6px; }
+.gc-card { padding: 14px 0; border-bottom: 1px solid #F0F0EE; }
+.gc-card:last-child { border-bottom: none; }
+.gc-player { font-weight: 700; font-size: 1.05em; color: #1A1A1A; }
+.gc-stat { color: #1A56DB; font-size: 0.85em; font-weight: 600; margin: 2px 0 6px 0; }
+.gc-reason { font-size: 0.9em; color: #444; line-height: 1.6; }
+.audio-section { background: #F8F8F6; border: 1px solid #E4E4E0;
+                 border-radius: 10px; padding: 20px 22px; margin: 40px 0; text-align: center; }
+.audio-label { font-weight: 700; font-size: 0.9em; text-transform: uppercase;
+               letter-spacing: 0.08em; color: #555; margin-bottom: 12px; }
+.audio-coming-soon { color: #AAAAAA; font-size: 0.9em; font-style: italic;
+                     padding: 12px 0; display: block; }
+.audio-sub { font-size: 0.82em; color: #AAAAAA; }
+hr { border: none; border-top: 1px solid #E8E8E5; margin: 52px 0; }
+.toss-pill { display: inline-block; background: #EEF4FF; color: #1A56DB;
+             padding: 5px 14px; border-radius: 20px; font-size: 0.84em;
+             font-weight: 600; margin-bottom: 16px; }
+</style>
+</head>
+<body>
+
+<h1>The Boy Who Stopped Bumrah — And the One Who Didn't</h1>
+<p class="meta">April 7, 2026 &nbsp;·&nbsp; Rajasthan Royals vs Mumbai Indians &nbsp;·&nbsp; Barsapara, Guwahati &nbsp;·&nbsp; IPL 2026, Match 13</p>
+<span class="toss-pill">🪙 MI won toss, chose to field | Rain-affected — 11 overs per side</span>
+
+<hr>
+
+<!-- SECTION 1: AUDIO BRIEF -->
+<h2>AUDIO BRIEF</h2>
+<div class="audio-section">
+  <p class="audio-label">Match Brief</p>
+  <span class="audio-coming-soon">Audio episode coming soon — upload your NotebookLM sources from Output/notebooklm/ to generate it.</span>
+  <p class="audio-sub">Powered by NotebookLM | Full analysis below</p>
+</div>
+
+<hr>
+
+<!-- SECTION 2: THE HUMDINGER SCORE -->
+<h2>THE HUMDINGER SCORE</h2>
+<div class="humdinger-score">5.9</div>
+<div class="humdinger-label">out of 10</div>
+<div class="humdinger-breakdown">
+  a. Time near 50% win-prob (MI chase): 9.7% of balls → <strong>1.9/4.0</strong><br>
+  b. Last-over drama (MI 9 down, game alive through over 7): <strong>2.0/2.0</strong><br>
+  c. Margin: RR won by 27 runs → <strong>1.0/2.0</strong><br>
+  d. Wicket cluster: 5 wickets in 5 overs (MI overs 0-4) → <strong>1.0/1.0</strong><br>
+  e. Boundary burst (death overs): Below 40% threshold → <strong>0.0/1.0</strong>
+</div>
+
+<p>A score of 5.9 reflects what this match was: more spectacle than contest, but spectacular enough. The Humdinger formula rewards two things above all — prolonged uncertainty and death-overs carnage. This game had the latter in the first innings, but the chase never really held genuine 50-50 tension for more than a handful of balls. The time-near-50-percent metric — which tracks what proportion of the chase MI were in genuine striking range — came in at under 10%. MI were behind par from the moment Rickelton holed out in over 1.</p>
+
+<p>What inflates the score is the drama in the first innings. Sooryavanshi's assault on Bumrah, Jaiswal's controlled mayhem, and Ghazanfar's surgical double strike — all packed into eleven overs — generated the kind of tension that makes a Humdinger score feel inadequate. A 5.9 for a match with two of cricket's most entertaining batsmen in full cry feels like an undercount, but the formula doesn't lie: the chase was never truly alive after over 4.</p>
+
+<p>For calibration: a last-ball six-to-win scores 8.5-9.0. A match where the chasing team stays within 20 runs until the penultimate over scores 6.5-7.0. This was something else — a one-sided display dressed up in electric batting. The Humdinger rewards the uncertainty, not the entertainment. Both can coexist. Tonight they separated.</p>
+
+<!-- IMAGE 1 goes here in Substack -->
+
+<hr>
+
+<!-- SECTION 3: THE CRITECHERY SCORE -->
+<h2>The Critechery Score</h2>
+<div class="cs-compare">
+  <div class="cs-team">
+    <div class="cs-team-name">🔵 RAJASTHAN ROYALS</div>
+    <div class="cs-total" style="color:#1A56DB">77.1</div>
+    <div class="cs-row"><span>SR Dominance</span><span class="cs-value">25 / 25</span></div>
+    <div class="cs-row"><span>Boundary Efficiency</span><span class="cs-value">15 / 15</span></div>
+    <div class="cs-row"><span>Extras Discipline</span><span class="cs-value">1.0 / 10</span></div>
+    <div class="cs-row"><span>Economy Squeeze</span><span class="cs-value">1.1 / 15</span></div>
+    <div class="cs-row"><span>Wicket Punch</span><span class="cs-value">15 / 15</span></div>
+    <div class="cs-row"><span>Dot Dominance</span><span class="cs-value">10 / 10</span></div>
+    <div class="cs-row"><span>Bowling Strike Rate</span><span class="cs-value">10 / 10</span></div>
+  </div>
+  <div class="cs-team">
+    <div class="cs-team-name">🔴 MUMBAI INDIANS</div>
+    <div class="cs-total" style="color:#E3311D">51.0</div>
+    <div class="cs-row"><span>SR Dominance</span><span class="cs-value">12.9 / 25</span></div>
+    <div class="cs-row"><span>Boundary Efficiency</span><span class="cs-value">15 / 15</span></div>
+    <div class="cs-row"><span>Extras Discipline</span><span class="cs-value">1.0 / 10</span></div>
+    <div class="cs-row"><span>Economy Squeeze</span><span class="cs-value">0 / 15</span></div>
+    <div class="cs-row"><span>Wicket Punch</span><span class="cs-value">7.5 / 15</span></div>
+    <div class="cs-row"><span>Dot Dominance</span><span class="cs-value">10 / 10</span></div>
+    <div class="cs-row"><span>Bowling Strike Rate</span><span class="cs-value">4.6 / 10</span></div>
+  </div>
+</div>
+
+<p>A 26.1-point gap — RR 77.1 to MI's 51.0 — tells the story of total domination across every dimension except one. In the batting column, RR maxed out both SR Dominance (25/25) and Boundary Efficiency (15/15): their weighted strike rate of 136.4 ran far past the 120 baseline, and their boundary-to-ball ratio made them near-perfect in short-format execution. MI's batting was not without merit — their Boundary Efficiency also hit 15/15, driven by Rutherford and Dhir's brief explosion — but the SR gap was substantial. RR batted at 178 SR as a team; MI managed 143.</p>
+
+<p>The most revealing sub-metric is Extras Discipline — and both teams scored identically poorly at 1.0/10. This match, shortened by rain and played on an unfamiliar surface, produced extras on an almost every-over basis. RR's bowlers gave away 7 extras (wides and no-balls); MI's bowlers gifted 11. In a game decided by 27 runs in 11 overs, extras cost MI almost as much as Bumrah gave away in his 3 overs.</p>
+
+<p>The bowling split is the clearest gap. RR's bowlers took 9 wickets across 11 overs and restricted MI to 11.2 RPO — delivering maximum Wicket Punch (15/15) and maximum Bowling Strike Rate (10/10). MI's bowlers took just 3 wickets and conceded at 13.6 RPO against RR's batting order. In an 11-over game where wickets are exponentially more valuable than in a full T20 — because there's no time to rebuild — RR's bowling devastated MI's resource space in the first six overs and never let go.</p>
+
+<!-- IMAGE 2 goes here in Substack -->
+
+<hr>
+
+<!-- SECTION 4: MATCHUP 1 -->
+<h2>Matchup 1: Vaibhav Sooryavanshi vs Jasprit Bumrah</h2>
+
+<p>Hardik Pandya handed Bumrah the ball in over 2, setting up what was billed as the marquee duel of the evening: the 15-year-old phenomenon against the world's best T20 bowler. What followed did not disappoint. Sooryavanshi faced Bumrah with RR already at 22/0 — Jaiswal had bludgeoned 22 off Chahar's first over — and the Royals had earned the right to be aggressive. What nobody expected was quite how aggressive.</p>
+
+<p>Bumrah's first delivery was a slower bumper, wide outside off. Sooryavanshi walked into it and swung hard to leg — the ball went fine, past the fielder, for six. Ball two was a Bumrah trademark: back of a length, rising sharply. Sooryavanshi had his cover drive ready. Four through extra cover. By ball four, Bumrah had adjusted — a fuller delivery, searching for the yorker. Sooryavanshi read it, got inside the line, and pulled it over deep square. Six. The crowd at Barsapara, already at full volume, went airborne.</p>
+
+<p>Bumrah finished his first over for 20 runs. Over 6, he went for 22. He bowled his second — yes, Riyan Parag chose to bring him back — and conceded 10 more. Three overs, 32 runs, 0 wickets. Economy: 10.67. Against a 15-year-old who weighs less than most Test match pitches. There is no statistical framing that softens this: Sooryavanshi's audacity against Bumrah was the moment of the match, and possibly one of the moments of the season.</p>
+
+<img class="chart" src="charts/matchup_1.png" alt="Matchup 1: Sooryavanshi vs Bumrah">
+<!-- IMAGE 3 goes here in Substack -->
+
+<!-- SECTION 5: MATCHUP 2 -->
+<h2>Matchup 2: Naman Dhir vs Sandeep Sharma</h2>
+
+<p>In a chase that was rapidly collapsing — MI were 45/5 after 5 overs — Naman Dhir became the only MI batsman willing to take the game on against RR's quality bowling. He faced Sandeep Sharma for a full over in over 5 and scored 14 off those 6 balls: two, six, dot, four, two. That sequence — punctuated by a muscled six over deep mid wicket — was Dhir attempting to reset MI's run rate single-handedly.</p>
+
+<p>Sandeep, though, came back in over 9 (the 10th over), by which point Naman Dhir was long gone. His final figures — 3-0-26-2, economy 8.67 — make him the most economical RR bowler across both spells. Against Dhir specifically, his record was competitive: 14 runs from 6 balls (SR 233.3) with no wicket, but that disguises Sandeep's ability to arrest the flow with dot balls at crucial moments. Dhir's SR of 200.0 overall dropped to 233.3 against Sandeep — the bowler actually went at above his overall rate here, which suggests the matchup worked against the bowler. The verdict: Dhir exploited a mid-over Sandeep delivery, but the context matters. When it genuinely mattered — Sandeep's third over with the game already gone — he was metronomic.</p>
+
+<img class="chart" src="charts/matchup_2.png" alt="Matchup 2: Dhir vs Sandeep">
+<!-- IMAGE 4 goes here in Substack -->
+
+<!-- SECTION 6: MATCHUP 3 -->
+<h2>Matchup 3: Rohit Sharma vs Nandre Burger</h2>
+
+<p>MI needed their captain to set the chase up. In a game reduced to 11 overs, the first three balls of an innings can set the tempo for everything that follows. Rohit Sharma faced Burger in over 2 (RR's second bowling change) with MI already at 22/2 — Rickelton and Suryakumar both dismissed — and needing Rohit to anchor while someone else swung. He managed three deliveries, scoring 0 runs. Then Sandeep had him caught in the field. SR in this matchup: 0. Overall Rohit SR this innings: 50.</p>
+
+<p>Burger's figures for the chase — 2-0-21-2, economy 10.5 — were the most destructive in terms of match context. His two wickets fell in overs 1 and 8 respectively: Rickelton and Naman Dhir. The Rickelton ball (over 0.6) was a good-length delivery that caught the opener going hard. The Dhir ball (over 8.5) was a full toss that Dhir tried to hit too hard and miscued. Both wickets came at critical junctures: one ending MI's only opening partnership, one killing the Rutherford-Dhir revival. The runs against him look expensive; the wickets were the expensive kind for MI.</p>
+
+<img class="chart" src="charts/matchup_3.png" alt="Matchup 3: Rohit vs Burger">
+<!-- IMAGE 5 goes here in Substack -->
+
+<hr>
+
+<!-- SECTION 7: TURNING POINTS -->
+<h2>Turning Points</h2>
+
+<div class="tp-card">
+  <div class="tp-label">Turning Point 1 — The Sooryavanshi Statement</div>
+  <p>At 22/0 after 1 over, RR had already made a statement. Bumrah came on in over 2 to arrest the momentum. Sooryavanshi hit him for 20 in that over. RR were 47/0 after 3 overs in an 11-over game. The required run rate for MI — already challenging at 13.7 per over — had effectively become unreachable against this particular bowling attack. The damage was psychological as much as numerical.</p>
+</div>
+
+<div class="tp-card">
+  <div class="tp-label">Turning Point 2 — The Five-Wicket Burial (Overs 1-5)</div>
+  <p>MI needed to be 60-65 for 1 wicket after 4 overs to have a chance. They were 45/5. Five wickets in 4.6 overs — each dismissal closing another door. Rickelton bowled by Archer (0.6). Suryakumar caught off Burger (1.4). Rohit caught off Sandeep (2.3). Hardik lbw to Bishnoi (4.3). Tilak lbw to Bishnoi (4.6). Two of those five dismissals came in the same over. The required rate after 5 overs stood at 21.2 RPO from 45 runs in 6 overs. Every Indian schoolboy who follows cricket knows: you cannot score at 21 RPO in a professional game. The match was decided in over 5.</p>
+</div>
+
+<div class="tp-card">
+  <div class="tp-label">Turning Point 3 — Rutherford's Brief Revolt (Overs 5-7)</div>
+  <p>For 17 balls — Rutherford's brief tenure alongside Naman Dhir — MI seemed to remember what a T20 batting order was supposed to look like. Two sixes off Deshpande in over 7. Back-to-back boundaries. 47 runs in 17 balls for the sixth-wicket stand. RR's win probability never dipped below 70% during this period, but the scoreboard pressure was real enough. Then Deshpande returned the wicket of Rutherford in over 7.5, and the brief hope expired.</p>
+</div>
+
+<img class="chart" src="charts/pressure_heatmap.png" alt="Pressure Heatmap">
+<!-- IMAGE 7 goes here in Substack -->
+
+<!-- SECTION 8: THE INFLEXION POINT -->
+<h2>The Inflexion Point</h2>
+
+<p>Before over 4, Mumbai Indians held a 43% chance of winning this chase. Optimistic — given they were 35/3 — but not irrational. They had Hardik Pandya and Tilak Varma at the crease, both experienced match-winners, and the format compressed enough that a partnership of 50 in 4 overs was theoretically achievable. Then Ravi Bishnoi, RR's impact substitute, bowled the fourth over.</p>
+
+<p>Ball 4.3: Hardik Pandya, backing away to free his arms, is plumb lbw for 9. Win probability for MI drops from 76% to 44%. That single delivery — a Bishnoi googly or flipper that skidded through — represented a 32-percentage-point collapse in probability. Ball 4.6, the same over: Tilak Varma goes for 9, caught at cover trying to manufacture something from nothing. Win probability collapses further to 17%. Two balls, same over, two wickets, same bowler. A 59-point combined swing in a single six-ball over. MI went from theoretical contenders to statistical make-weights in four deliveries.</p>
+
+<blockquote>
+  <span class="ball-ref">Ball 4.3 — Bishnoi to Hardik</span>
+  "Hardik walks down the track — this is pressure batting — and he's caught plumb in front! Bishnoi has done it. The impact player has arrived."
+</blockquote>
+
+<p>The inflexion point wasn't one ball — it was an over. Bishnoi's fourth over transformed the match's probability landscape more drastically than any other sequence in the game. The win probability chart shows a cliff at over 5; that cliff has Bishnoi's name on it.</p>
+
+<img class="chart" src="charts/win_probability.png" alt="Win Probability Chart">
+<!-- IMAGE 8 goes here in Substack -->
+
+<hr>
+
+<!-- SECTION 9: THAT BISHNOI OVER -->
+<h2>That Bishnoi Over</h2>
+
+<p>Ravi Bishnoi was the difference between a competitive chase and a foregone conclusion. When Parag brought him on in over 4, MI were 35/3 — Rohit and both openers gone, but Hardik and Tilak at the crease. Two proven T20 batsmen, 35 balls to get 116 runs. The math was brutal but not impossible. Then Bishnoi arrived.</p>
+
+<p>His first ball to Tilak (4.1) extracted an awkward single that barely preserved strike for Hardik. His second (4.2): a full toss to Hardik, who backed away and swatted a four — a brief moment of relief for MI. Then 4.3. The googly or the flipper — Bishnoi's variations are notoriously difficult to read off the hand — and Hardik was early into his drive, got hit on the pad in front of all three stumps. Three reds on review. The DRS queue barely had time to form before it confirmed what everyone in the stadium already knew.</p>
+
+<p>Tilak faced 4.5, a quicker delivery on the stumps, and couldn't get it away. Then 4.6: a looped delivery, full, outside off. Tilak tried to go over the top and found cover's safe hands. Bishnoi: 2-0-24-2 in his two overs combined, but those two wickets in a single over changed the match's shape irreversibly. His bowling strike rate over the match was 6 balls per wicket. In an 11-over game, that is elite. His captain — Riyan Parag, in just his second season as RR captain — trusted his impact player at exactly the right moment.</p>
+
+<hr>
+
+<!-- SECTION 10: BLACK MIRROR -->
+<h2>BLACK MIRROR</h2>
+
+<p>Two scenarios. One question: what if?</p>
+
+<div class="lola-scenario">
+  <div class="lola-title">Scenario 1: What If Sooryavanshi Had Faced Bumrah From Ball 1?</div>
+  <span class="lola-delta">−15 runs from RR total</span>
+  <div class="lola-outcome">RR 150/3 → RR ~135/3 | MI chasing 136 | Match probability: much more even</div>
+  <div class="lola-narrative">
+    <p>Hardik Pandya gave Sooryavanshi the free over from Deepak Chahar to open. A tactical decision that turned spectacularly wrong: Chahar conceded 22. But what if Bumrah had opened the bowling against Sooryavanshi instead? The 15-year-old's audacity was extraordinary — in the actual match, he found Bumrah for 20 in over 2 regardless. But over 1, facing a fresh Bumrah with his full repertoire, without a warm-up delivery from Chahar to calibrate pace? The probability of Sooryavanshi's first six drops meaningfully. Assuming Bumrah keeps it to 10-12 in over 1, and Chahar replaces Thakur to go for his usual 14, RR's total drops by roughly 15 runs. Target 136. MI's collapse looks similar — but Bishnoi, Sandeep and Burger bowl against a less destructive chase target. The match becomes genuinely alive. This is the decision MI's think tank will replay through the night.</p>
+  </div>
+</div>
+
+<div class="lola-scenario">
+  <div class="lola-title">Scenario 2: What If Rutherford Had Been Impact Player From the First Ball?</div>
+  <span class="lola-delta">+25 runs for MI | Match goes to last over</span>
+  <div class="lola-outcome">MI 123/9 → MI ~148/7 | Match decided by last ball or Super Over</div>
+  <div class="lola-narrative">
+    <p>The impact substitution rule is there precisely for moments of crisis — and MI's crisis arrived with the very first wicket (Rickelton, over 0.6). Rutherford wasn't brought on until over 6, by which point MI were 45/5 and the math had become merciless. What if he had replaced Rickelton immediately? Rutherford batting with Suryakumar against Burger and Archer in the powerplay, with nine wickets still in hand, versus batting with Naman Dhir with five wickets gone? The resource advantage is enormous. Rutherford's actual SR of 312 in his brief cameo suggests he was ready to destroy; the question was only who was at the other end. A Rutherford-SKY opening (in this counterfactual, SKY stays in longer) could produce 50+ in 4 overs instead of MI's actual 22/2. From 75/2 after 5 overs, chasing 151 in 6 overs at 12.7 RPO — that is entirely doable. The impact substitution that might have won MI the match was instead deployed when the match was already lost.</p>
+  </div>
+</div>
+
+<hr>
+
+<!-- SECTION 11: BY THE NUMBERS -->
+<h2>By the numbers</h2>
+
+<table>
+  <tr><th>Metric</th><th>Rajasthan Royals</th><th>Mumbai Indians</th></tr>
+  <tr><td>Total Runs</td><td class="highlight">150/3</td><td>123/9</td></tr>
+  <tr><td>Overs</td><td>11</td><td>11</td></tr>
+  <tr><td>Run Rate</td><td class="highlight">13.64</td><td>11.18</td></tr>
+  <tr><td>Boundaries (4s/6s)</td><td class="highlight">12 fours / 11 sixes</td><td>12 fours / 5 sixes</td></tr>
+  <tr><td>Dot Ball %</td><td>35%</td><td class="highlight">38%</td></tr>
+  <tr><td>Extras</td><td>5</td><td>11</td></tr>
+  <tr><td>Powerplay (Ov 1-4) Score</td><td class="highlight">62/2</td><td>45/5</td></tr>
+  <tr><td>Middle Overs (5-8) Score</td><td class="highlight">63/1</td><td>58/3</td></tr>
+  <tr><td>Death Overs (9-11) Score</td><td class="highlight">25/0</td><td>20/1</td></tr>
+  <tr><td>Highest Partnership</td><td class="highlight">80 (Jaiswal &amp; Sooryavanshi)</td><td>47 (Rutherford &amp; Dhir)</td></tr>
+  <tr><td>Top Scorer</td><td class="highlight">Jaiswal 77* (32)</td><td>Dhir 28 (14)</td></tr>
+  <tr><td>Best Bowling</td><td class="highlight">Sandeep 3-0-26-2</td><td>Ghazanfar 2-0-21-2</td></tr>
+  <tr><td>Critechery Score</td><td class="highlight">77.1</td><td>51.0</td></tr>
+</table>
+
+<p>The most striking contrast sits in the powerplay. RR's 62/2 versus MI's 45/5 — an 17-run difference with three fewer wickets — represents the entire match compressed into one number. In an 11-over format, your powerplay IS your innings. RR emerged from it with a platform; MI emerged from it on life support.</p>
+
+<!-- IMAGE 9 goes here in Substack -->
+
+<!-- SECTION 12: HOW THE INNINGS BURNED -->
+<h2>How the Innings Burned</h2>
+
+<p>RR's burn rate tells the story of a team executing an 11-over chase template with near-perfect resource management. The opening stand — Jaiswal and Sooryavanshi blazing to 80 in 4.6 overs — consumed wickets at the right rate while generating runs above par. Two wickets fell close together (Sooryavanshi in over 5, Jurel in over 5), but the key insight is that Jaiswal was still there: RR traded two wickets but never lost their primary resource. Parag and Hetmyer provided solid support without ever needing to bat recklessly, because the score was already set at a winning total. The burn rate chart shows RR's path as predominantly "Attacking" in the early phases — the right classification for an 11-over game where every ball that isn't scoring is a ball wasted.</p>
+
+<p>MI's burn rate is a tragedy of exponential decline. The wicket-resource axis shows MI arriving at over 5 with five wickets already gone — into territory where the probability math becomes unworkable. Rutherford's arrival briefly made MI's path look aggressive, but it was too deep into the resource space to matter. By over 8, MI were attacking with only three wickets remaining and needing 50 from 18 balls. The burn was reckless only in the final two overs — before that, MI had simply been outgunned.</p>
+
+<img class="chart" src="charts/burn_rate.png" alt="Burn Rate Chart">
+<!-- IMAGE 10 goes here in Substack -->
+
+<!-- SECTION 13: THE ARCHITECTURE -->
+<h2>The Architecture</h2>
+
+<p>The load-bearing partnership of RR's innings was the Jaiswal-Sooryavanshi opening stand: 80 runs from 30 balls at a strike rate of 266.7. It wasn't just the runs — it was the psychological blueprint it established. When Sooryavanshi departed for 39, RR were already 80/1 in an 11-over game. That is a position of strength most sides dream of reaching at the equivalent point of a full T20. The subsequent partnerships — Jaiswal-Jurel (4), Parag-Jaiswal (37), Hetmyer-Jaiswal (29) — were acts of maintenance, not construction. Jaiswal was the constant at one end; everyone else was the variable. What if Jurel had survived? RR's architecture doesn't need to answer that question — they got to 150 regardless.</p>
+
+<p>MI's architecture was shattered from the first over. No partnership exceeded 47, and the two most substantial ones — Rutherford-Dhir (47, SR 276.5) and Hardik-Tilak (19, SR 158.3) — were either too brief or too late. The only innings-saving partnership that could have changed things was a substantial Rohit-Tilak or Hardik-Tilak stand in the first five overs. Those partnerships totalled 21 runs. From 21 in the middle period to 151 with five wickets gone: no architecture can overcome that foundation.</p>
+
+<img class="chart" src="charts/partnership_flow.png" alt="Partnership Flow Chart">
+<!-- IMAGE 11 goes here in Substack -->
+
+<!-- SECTION 14: GAME CHANGERS -->
+<h2>Game Changers</h2>
+
+<div class="gc-card">
+  <div class="gc-player">Yashasvi Jaiswal <span style="font-weight:400; font-size:0.85em; color:#888">(RR)</span></div>
+  <div class="gc-stat">77* (32) — 240.6 SR, 10 fours, 4 sixes</div>
+  <div class="gc-reason">The anchor who also accelerated. Jaiswal faced every single delivery from over 1 through to the last ball of the innings. He absorbed two wickets at the other end (Jurel at 84, Parag at 121) without breaking stride — going from 53 at the end of over 7 to 77 when the last ball was bowled. This wasn't just run-scoring; it was architecture.</div>
+</div>
+<div class="gc-card">
+  <div class="gc-player">Vaibhav Sooryavanshi <span style="font-weight:400; font-size:0.85em; color:#888">(RR)</span></div>
+  <div class="gc-stat">39 (14) — 278.6 SR, 1 four, 5 sixes</div>
+  <div class="gc-reason">The 15-year-old hit Bumrah for two sixes in a single over. That sentence still doesn't get easier to write. Sooryavanshi's audacity — specifically his willingness to go over the top against the world's best death bowler in the second over of a short innings — changed the match's psychological fabric. MI never recovered their natural swagger.</div>
+</div>
+<div class="gc-card">
+  <div class="gc-player">Sandeep Sharma <span style="font-weight:400; font-size:0.85em; color:#888">(RR)</span></div>
+  <div class="gc-stat">3-0-26-2 (Eco: 8.67) — dismissed Rohit and Thakur</div>
+  <div class="gc-reason">In an 11-over game where every over matters doubly, Sandeep's three overs were the most economical from any RR bowler. He bowled the decisive 10th over, picking up Thakur and conceding just 9 runs after Rutherford's carnage had made the match seem like it was coming alive. His wicket-taking in the chase's crucial phase — when MI were hunting the big partnership — was worth far more than the scorecard shows.</div>
+</div>
+<div class="gc-card">
+  <div class="gc-player">Sherfane Rutherford <span style="font-weight:400; font-size:0.85em; color:#888">(MI)</span></div>
+  <div class="gc-stat">25 (8) — 312.5 SR, 2 fours, 2 sixes</div>
+  <div class="gc-reason">The losing side's game changer. Rutherford arrived at 45/5 needing 106 from 30 balls and immediately launched two maximums off Deshpande. He and Dhir put on 47 in 17 balls — the only period of the chase where MI's RR was near par. The impact substitution was brilliant in execution; the tragedy was it came four wickets too late.</div>
+</div>
+<!-- IMAGE 12 goes here in Substack -->
+
+</body>
+</html>
