@@ -1,0 +1,1047 @@
+{
+  "match": {
+    "title": "RCB vs RR - IPL 2026 Game 16",
+    "date": "April 10, 2026",
+    "venue": "Barsapara Cricket Stadium, Guwahati",
+    "tournament": "IPL 2026",
+    "matchType": "T20",
+    "toss": "RR won the toss and elected to field",
+    "result": "RR won by 6 wickets",
+    "playerOfMatch": "Vaibhav Sooryavanshi (78 off 26)",
+    "rcb_score": "201/8 in 20 overs",
+    "rr_score": "202/4 in 18.1 overs"
+  },
+  "innings": "RR (Chasing)",
+  "balls": [
+    {
+      "over": "1.1",
+      "runs": "2",
+      "isWicket": false,
+      "isFour": false,
+      "isSix": false,
+      "cumulative": 2,
+      "wickets": 0,
+      "dismissal": ""
+    },
+    {
+      "over": "1.2",
+      "runs": "0",
+      "isWicket": false,
+      "isFour": false,
+      "isSix": false,
+      "cumulative": 2,
+      "wickets": 0,
+      "dismissal": ""
+    },
+    {
+      "over": "1.3",
+      "runs": "0",
+      "isWicket": false,
+      "isFour": false,
+      "isSix": false,
+      "cumulative": 2,
+      "wickets": 0,
+      "dismissal": ""
+    },
+    {
+      "over": "1.4",
+      "runs": "4",
+      "isWicket": false,
+      "isFour": true,
+      "isSix": false,
+      "cumulative": 6,
+      "wickets": 0,
+      "dismissal": ""
+    },
+    {
+      "over": "1.5",
+      "runs": "1",
+      "isWicket": false,
+      "isFour": false,
+      "isSix": false,
+      "cumulative": 7,
+      "wickets": 0,
+      "dismissal": ""
+    },
+    {
+      "over": "1.6",
+      "runs": "0",
+      "isWicket": false,
+      "isFour": false,
+      "isSix": false,
+      "cumulative": 7,
+      "wickets": 0,
+      "dismissal": ""
+    },
+    {
+      "over": "2.1",
+      "runs": "4",
+      "isWicket": false,
+      "isFour": true,
+      "isSix": false,
+      "cumulative": 11,
+      "wickets": 0,
+      "dismissal": ""
+    },
+    {
+      "over": "2.2",
+      "runs": "0",
+      "isWicket": false,
+      "isFour": false,
+      "isSix": false,
+      "cumulative": 11,
+      "wickets": 0,
+      "dismissal": ""
+    },
+    {
+      "over": "2.3",
+      "runs": "0",
+      "isWicket": false,
+      "isFour": false,
+      "isSix": false,
+      "cumulative": 11,
+      "wickets": 0,
+      "dismissal": ""
+    },
+    {
+      "over": "2.4",
+      "runs": "0",
+      "isWicket": false,
+      "isFour": false,
+      "isSix": false,
+      "cumulative": 11,
+      "wickets": 0,
+      "dismissal": ""
+    },
+    {
+      "over": "2.5",
+      "runs": "2",
+      "isWicket": false,
+      "isFour": false,
+      "isSix": false,
+      "cumulative": 13,
+      "wickets": 0,
+      "dismissal": ""
+    },
+    {
+      "over": "2.6",
+      "runs": "4",
+      "isWicket": false,
+      "isFour": true,
+      "isSix": false,
+      "cumulative": 17,
+      "wickets": 0,
+      "dismissal": ""
+    },
+    {
+      "over": "3.1",
+      "runs": "6",
+      "isWicket": false,
+      "isFour": false,
+      "isSix": true,
+      "cumulative": 23,
+      "wickets": 0,
+      "dismissal": ""
+    },
+    {
+      "over": "3.2",
+      "runs": "2",
+      "isWicket": false,
+      "isFour": false,
+      "isSix": false,
+      "cumulative": 25,
+      "wickets": 0,
+      "dismissal": ""
+    },
+    {
+      "over": "3.3",
+      "runs": "0",
+      "isWicket": false,
+      "isFour": false,
+      "isSix": false,
+      "cumulative": 25,
+      "wickets": 0,
+      "dismissal": ""
+    },
+    {
+      "over": "3.4",
+      "runs": "4",
+      "isWicket": false,
+      "isFour": true,
+      "isSix": false,
+      "cumulative": 29,
+      "wickets": 0,
+      "dismissal": ""
+    },
+    {
+      "over": "3.5",
+      "runs": "1",
+      "isWicket": false,
+      "isFour": false,
+      "isSix": false,
+      "cumulative": 30,
+      "wickets": 0,
+      "dismissal": ""
+    },
+    {
+      "over": "3.6",
+      "runs": "0",
+      "isWicket": false,
+      "isFour": false,
+      "isSix": false,
+      "cumulative": 30,
+      "wickets": 0,
+      "dismissal": ""
+    },
+    {
+      "over": "4.1",
+      "runs": "4",
+      "isWicket": false,
+      "isFour": true,
+      "isSix": false,
+      "cumulative": 34,
+      "wickets": 0,
+      "dismissal": ""
+    },
+    {
+      "over": "4.2",
+      "runs": "1",
+      "isWicket": false,
+      "isFour": false,
+      "isSix": false,
+      "cumulative": 35,
+      "wickets": 0,
+      "dismissal": ""
+    },
+    {
+      "over": "4.3",
+      "runs": "4",
+      "isWicket": false,
+      "isFour": true,
+      "isSix": false,
+      "cumulative": 39,
+      "wickets": 0,
+      "dismissal": ""
+    },
+    {
+      "over": "4.4",
+      "runs": "2",
+      "isWicket": false,
+      "isFour": false,
+      "isSix": false,
+      "cumulative": 41,
+      "wickets": 0,
+      "dismissal": ""
+    },
+    {
+      "over": "4.5",
+      "runs": "0",
+      "isWicket": false,
+      "isFour": false,
+      "isSix": false,
+      "cumulative": 41,
+      "wickets": 0,
+      "dismissal": ""
+    },
+    {
+      "over": "4.6",
+      "runs": "0",
+      "isWicket": false,
+      "isFour": false,
+      "isSix": false,
+      "cumulative": 41,
+      "wickets": 0,
+      "dismissal": ""
+    },
+    {
+      "over": "5.1",
+      "runs": "6",
+      "isWicket": false,
+      "isFour": false,
+      "isSix": true,
+      "cumulative": 47,
+      "wickets": 0,
+      "dismissal": ""
+    },
+    {
+      "over": "5.2",
+      "runs": "0",
+      "isWicket": false,
+      "isFour": false,
+      "isSix": false,
+      "cumulative": 47,
+      "wickets": 0,
+      "dismissal": ""
+    },
+    {
+      "over": "5.3",
+      "runs": "2",
+      "isWicket": false,
+      "isFour": false,
+      "isSix": false,
+      "cumulative": 49,
+      "wickets": 0,
+      "dismissal": ""
+    },
+    {
+      "over": "5.4",
+      "runs": "1",
+      "isWicket": false,
+      "isFour": false,
+      "isSix": false,
+      "cumulative": 50,
+      "wickets": 0,
+      "dismissal": ""
+    },
+    {
+      "over": "5.5",
+      "runs": "0",
+      "isWicket": false,
+      "isFour": false,
+      "isSix": false,
+      "cumulative": 50,
+      "wickets": 0,
+      "dismissal": ""
+    },
+    {
+      "over": "5.6",
+      "runs": "4",
+      "isWicket": false,
+      "isFour": true,
+      "isSix": false,
+      "cumulative": 54,
+      "wickets": 0,
+      "dismissal": ""
+    },
+    {
+      "over": "6.1",
+      "runs": "3",
+      "isWicket": false,
+      "isFour": false,
+      "isSix": false,
+      "cumulative": 57,
+      "wickets": 0,
+      "dismissal": ""
+    },
+    {
+      "over": "6.2",
+      "runs": "0",
+      "isWicket": true,
+      "isFour": false,
+      "isSix": false,
+      "cumulative": 57,
+      "wickets": 1,
+      "dismissal": "Yashasvi Jaiswal c Maxwell b Siraj"
+    },
+    {
+      "over": "6.3",
+      "runs": "4",
+      "isWicket": false,
+      "isFour": true,
+      "isSix": false,
+      "cumulative": 61,
+      "wickets": 1,
+      "dismissal": ""
+    },
+    {
+      "over": "6.4",
+      "runs": "2",
+      "isWicket": false,
+      "isFour": false,
+      "isSix": false,
+      "cumulative": 63,
+      "wickets": 1,
+      "dismissal": ""
+    },
+    {
+      "over": "6.5",
+      "runs": "4",
+      "isWicket": false,
+      "isFour": true,
+      "isSix": false,
+      "cumulative": 67,
+      "wickets": 1,
+      "dismissal": ""
+    },
+    {
+      "over": "6.6",
+      "runs": "0",
+      "isWicket": false,
+      "isFour": false,
+      "isSix": false,
+      "cumulative": 67,
+      "wickets": 1,
+      "dismissal": ""
+    },
+    {
+      "over": "7.1",
+      "runs": "4",
+      "isWicket": false,
+      "isFour": true,
+      "isSix": false,
+      "cumulative": 71,
+      "wickets": 1,
+      "dismissal": ""
+    },
+    {
+      "over": "7.2",
+      "runs": "0",
+      "isWicket": false,
+      "isFour": false,
+      "isSix": false,
+      "cumulative": 71,
+      "wickets": 1,
+      "dismissal": ""
+    },
+    {
+      "over": "7.3",
+      "runs": "6",
+      "isWicket": false,
+      "isFour": false,
+      "isSix": true,
+      "cumulative": 77,
+      "wickets": 1,
+      "dismissal": ""
+    },
+    {
+      "over": "7.4",
+      "runs": "4",
+      "isWicket": true,
+      "isFour": true,
+      "isSix": false,
+      "cumulative": 81,
+      "wickets": 2,
+      "dismissal": "Vaibhav Sooryavanshi c Hazlewood b Hazlewood"
+    },
+    {
+      "over": "7.5",
+      "runs": "6",
+      "isWicket": true,
+      "isFour": false,
+      "isSix": true,
+      "cumulative": 87,
+      "wickets": 3,
+      "dismissal": "Shimron Hetmyer b Krunal Pandya"
+    },
+    {
+      "over": "7.6",
+      "runs": "0",
+      "isWicket": false,
+      "isFour": false,
+      "isSix": false,
+      "cumulative": 87,
+      "wickets": 3,
+      "dismissal": ""
+    },
+    {
+      "over": "8.1",
+      "runs": "0",
+      "isWicket": false,
+      "isFour": false,
+      "isSix": false,
+      "cumulative": 87,
+      "wickets": 3,
+      "dismissal": ""
+    },
+    {
+      "over": "8.2",
+      "runs": "0",
+      "isWicket": false,
+      "isFour": false,
+      "isSix": false,
+      "cumulative": 87,
+      "wickets": 3,
+      "dismissal": ""
+    },
+    {
+      "over": "8.3",
+      "runs": "6",
+      "isWicket": false,
+      "isFour": false,
+      "isSix": true,
+      "cumulative": 93,
+      "wickets": 3,
+      "dismissal": ""
+    },
+    {
+      "over": "8.4",
+      "runs": "4",
+      "isWicket": false,
+      "isFour": true,
+      "isSix": false,
+      "cumulative": 97,
+      "wickets": 3,
+      "dismissal": ""
+    },
+    {
+      "over": "8.5",
+      "runs": "6",
+      "isWicket": false,
+      "isFour": false,
+      "isSix": true,
+      "cumulative": 103,
+      "wickets": 3,
+      "dismissal": ""
+    },
+    {
+      "over": "8.6",
+      "runs": "6",
+      "isWicket": false,
+      "isFour": false,
+      "isSix": true,
+      "cumulative": 109,
+      "wickets": 3,
+      "dismissal": ""
+    },
+    {
+      "over": "9.1",
+      "runs": "2",
+      "isWicket": false,
+      "isFour": false,
+      "isSix": false,
+      "cumulative": 111,
+      "wickets": 3,
+      "dismissal": ""
+    },
+    {
+      "over": "9.2",
+      "runs": "0",
+      "isWicket": false,
+      "isFour": false,
+      "isSix": false,
+      "cumulative": 111,
+      "wickets": 3,
+      "dismissal": ""
+    },
+    {
+      "over": "9.3",
+      "runs": "6",
+      "isWicket": false,
+      "isFour": false,
+      "isSix": true,
+      "cumulative": 117,
+      "wickets": 3,
+      "dismissal": ""
+    },
+    {
+      "over": "9.4",
+      "runs": "4",
+      "isWicket": false,
+      "isFour": true,
+      "isSix": false,
+      "cumulative": 121,
+      "wickets": 3,
+      "dismissal": ""
+    },
+    {
+      "over": "9.5",
+      "runs": "0",
+      "isWicket": false,
+      "isFour": false,
+      "isSix": false,
+      "cumulative": 121,
+      "wickets": 3,
+      "dismissal": ""
+    },
+    {
+      "over": "9.6",
+      "runs": "4",
+      "isWicket": false,
+      "isFour": true,
+      "isSix": false,
+      "cumulative": 125,
+      "wickets": 3,
+      "dismissal": ""
+    },
+    {
+      "over": "10.1",
+      "runs": "1",
+      "isWicket": false,
+      "isFour": false,
+      "isSix": false,
+      "cumulative": 126,
+      "wickets": 3,
+      "dismissal": ""
+    },
+    {
+      "over": "10.2",
+      "runs": "0",
+      "isWicket": false,
+      "isFour": false,
+      "isSix": false,
+      "cumulative": 126,
+      "wickets": 3,
+      "dismissal": ""
+    },
+    {
+      "over": "10.3",
+      "runs": "0",
+      "isWicket": false,
+      "isFour": false,
+      "isSix": false,
+      "cumulative": 126,
+      "wickets": 3,
+      "dismissal": ""
+    },
+    {
+      "over": "10.4",
+      "runs": "4",
+      "isWicket": false,
+      "isFour": true,
+      "isSix": false,
+      "cumulative": 130,
+      "wickets": 3,
+      "dismissal": ""
+    },
+    {
+      "over": "10.5",
+      "runs": "2",
+      "isWicket": false,
+      "isFour": false,
+      "isSix": false,
+      "cumulative": 132,
+      "wickets": 3,
+      "dismissal": ""
+    },
+    {
+      "over": "10.6",
+      "runs": "0",
+      "isWicket": false,
+      "isFour": false,
+      "isSix": false,
+      "cumulative": 132,
+      "wickets": 3,
+      "dismissal": ""
+    },
+    {
+      "over": "11.1",
+      "runs": "2",
+      "isWicket": false,
+      "isFour": false,
+      "isSix": false,
+      "cumulative": 134,
+      "wickets": 3,
+      "dismissal": ""
+    },
+    {
+      "over": "11.2",
+      "runs": "0",
+      "isWicket": false,
+      "isFour": false,
+      "isSix": false,
+      "cumulative": 134,
+      "wickets": 3,
+      "dismissal": ""
+    },
+    {
+      "over": "11.3",
+      "runs": "4",
+      "isWicket": false,
+      "isFour": true,
+      "isSix": false,
+      "cumulative": 138,
+      "wickets": 3,
+      "dismissal": ""
+    },
+    {
+      "over": "11.4",
+      "runs": "0",
+      "isWicket": false,
+      "isFour": false,
+      "isSix": false,
+      "cumulative": 138,
+      "wickets": 3,
+      "dismissal": ""
+    },
+    {
+      "over": "11.5",
+      "runs": "2",
+      "isWicket": false,
+      "isFour": false,
+      "isSix": false,
+      "cumulative": 140,
+      "wickets": 3,
+      "dismissal": ""
+    },
+    {
+      "over": "11.6",
+      "runs": "2",
+      "isWicket": false,
+      "isFour": false,
+      "isSix": false,
+      "cumulative": 142,
+      "wickets": 3,
+      "dismissal": ""
+    },
+    {
+      "over": "12.1",
+      "runs": "3",
+      "isWicket": false,
+      "isFour": false,
+      "isSix": false,
+      "cumulative": 145,
+      "wickets": 3,
+      "dismissal": ""
+    },
+    {
+      "over": "12.2",
+      "runs": "0",
+      "isWicket": false,
+      "isFour": false,
+      "isSix": false,
+      "cumulative": 145,
+      "wickets": 3,
+      "dismissal": ""
+    },
+    {
+      "over": "12.3",
+      "runs": "0",
+      "isWicket": false,
+      "isFour": false,
+      "isSix": false,
+      "cumulative": 145,
+      "wickets": 3,
+      "dismissal": ""
+    },
+    {
+      "over": "12.4",
+      "runs": "6",
+      "isWicket": false,
+      "isFour": false,
+      "isSix": true,
+      "cumulative": 151,
+      "wickets": 3,
+      "dismissal": ""
+    },
+    {
+      "over": "12.5",
+      "runs": "0",
+      "isWicket": false,
+      "isFour": false,
+      "isSix": false,
+      "cumulative": 151,
+      "wickets": 3,
+      "dismissal": ""
+    },
+    {
+      "over": "12.6",
+      "runs": "4",
+      "isWicket": false,
+      "isFour": true,
+      "isSix": false,
+      "cumulative": 155,
+      "wickets": 3,
+      "dismissal": ""
+    },
+    {
+      "over": "13.1",
+      "runs": "2",
+      "isWicket": false,
+      "isFour": false,
+      "isSix": false,
+      "cumulative": 157,
+      "wickets": 3,
+      "dismissal": ""
+    },
+    {
+      "over": "13.2",
+      "runs": "1",
+      "isWicket": false,
+      "isFour": false,
+      "isSix": false,
+      "cumulative": 158,
+      "wickets": 3,
+      "dismissal": ""
+    },
+    {
+      "over": "13.3",
+      "runs": "4",
+      "isWicket": true,
+      "isFour": true,
+      "isSix": false,
+      "cumulative": 162,
+      "wickets": 4,
+      "dismissal": "Ravindra Jadeja c David b Chahal"
+    },
+    {
+      "over": "13.4",
+      "runs": "0",
+      "isWicket": false,
+      "isFour": false,
+      "isSix": false,
+      "cumulative": 162,
+      "wickets": 4,
+      "dismissal": ""
+    },
+    {
+      "over": "13.5",
+      "runs": "2",
+      "isWicket": false,
+      "isFour": false,
+      "isSix": false,
+      "cumulative": 164,
+      "wickets": 4,
+      "dismissal": ""
+    },
+    {
+      "over": "13.6",
+      "runs": "3",
+      "isWicket": false,
+      "isFour": false,
+      "isSix": false,
+      "cumulative": 167,
+      "wickets": 4,
+      "dismissal": ""
+    },
+    {
+      "over": "14.1",
+      "runs": "4",
+      "isWicket": false,
+      "isFour": true,
+      "isSix": false,
+      "cumulative": 171,
+      "wickets": 4,
+      "dismissal": ""
+    },
+    {
+      "over": "14.2",
+      "runs": "0",
+      "isWicket": false,
+      "isFour": false,
+      "isSix": false,
+      "cumulative": 171,
+      "wickets": 4,
+      "dismissal": ""
+    },
+    {
+      "over": "14.3",
+      "runs": "0",
+      "isWicket": false,
+      "isFour": false,
+      "isSix": false,
+      "cumulative": 171,
+      "wickets": 4,
+      "dismissal": ""
+    },
+    {
+      "over": "14.4",
+      "runs": "4",
+      "isWicket": false,
+      "isFour": true,
+      "isSix": false,
+      "cumulative": 175,
+      "wickets": 4,
+      "dismissal": ""
+    },
+    {
+      "over": "14.5",
+      "runs": "2",
+      "isWicket": false,
+      "isFour": false,
+      "isSix": false,
+      "cumulative": 177,
+      "wickets": 4,
+      "dismissal": ""
+    },
+    {
+      "over": "14.6",
+      "runs": "0",
+      "isWicket": false,
+      "isFour": false,
+      "isSix": false,
+      "cumulative": 177,
+      "wickets": 4,
+      "dismissal": ""
+    },
+    {
+      "over": "15.1",
+      "runs": "2",
+      "isWicket": false,
+      "isFour": false,
+      "isSix": false,
+      "cumulative": 179,
+      "wickets": 4,
+      "dismissal": ""
+    },
+    {
+      "over": "15.2",
+      "runs": "0",
+      "isWicket": false,
+      "isFour": false,
+      "isSix": false,
+      "cumulative": 179,
+      "wickets": 4,
+      "dismissal": ""
+    },
+    {
+      "over": "15.3",
+      "runs": "4",
+      "isWicket": false,
+      "isFour": true,
+      "isSix": false,
+      "cumulative": 183,
+      "wickets": 4,
+      "dismissal": ""
+    },
+    {
+      "over": "15.4",
+      "runs": "0",
+      "isWicket": false,
+      "isFour": false,
+      "isSix": false,
+      "cumulative": 183,
+      "wickets": 4,
+      "dismissal": ""
+    },
+    {
+      "over": "15.5",
+      "runs": "2",
+      "isWicket": false,
+      "isFour": false,
+      "isSix": false,
+      "cumulative": 185,
+      "wickets": 4,
+      "dismissal": ""
+    },
+    {
+      "over": "15.6",
+      "runs": "0",
+      "isWicket": false,
+      "isFour": false,
+      "isSix": false,
+      "cumulative": 185,
+      "wickets": 4,
+      "dismissal": ""
+    },
+    {
+      "over": "16.1",
+      "runs": "2",
+      "isWicket": false,
+      "isFour": false,
+      "isSix": false,
+      "cumulative": 187,
+      "wickets": 4,
+      "dismissal": ""
+    },
+    {
+      "over": "16.2",
+      "runs": "0",
+      "isWicket": false,
+      "isFour": false,
+      "isSix": false,
+      "cumulative": 187,
+      "wickets": 4,
+      "dismissal": ""
+    },
+    {
+      "over": "16.3",
+      "runs": "4",
+      "isWicket": false,
+      "isFour": true,
+      "isSix": false,
+      "cumulative": 191,
+      "wickets": 4,
+      "dismissal": ""
+    },
+    {
+      "over": "16.4",
+      "runs": "0",
+      "isWicket": false,
+      "isFour": false,
+      "isSix": false,
+      "cumulative": 191,
+      "wickets": 4,
+      "dismissal": ""
+    },
+    {
+      "over": "16.5",
+      "runs": "2",
+      "isWicket": false,
+      "isFour": false,
+      "isSix": false,
+      "cumulative": 193,
+      "wickets": 4,
+      "dismissal": ""
+    },
+    {
+      "over": "16.6",
+      "runs": "1",
+      "isWicket": false,
+      "isFour": false,
+      "isSix": false,
+      "cumulative": 194,
+      "wickets": 4,
+      "dismissal": ""
+    },
+    {
+      "over": "17.1",
+      "runs": "3",
+      "isWicket": false,
+      "isFour": false,
+      "isSix": false,
+      "cumulative": 197,
+      "wickets": 4,
+      "dismissal": ""
+    },
+    {
+      "over": "17.2",
+      "runs": "0",
+      "isWicket": false,
+      "isFour": false,
+      "isSix": false,
+      "cumulative": 197,
+      "wickets": 4,
+      "dismissal": ""
+    },
+    {
+      "over": "17.3",
+      "runs": "4",
+      "isWicket": false,
+      "isFour": true,
+      "isSix": false,
+      "cumulative": 201,
+      "wickets": 4,
+      "dismissal": ""
+    },
+    {
+      "over": "17.4",
+      "runs": "0",
+      "isWicket": false,
+      "isFour": false,
+      "isSix": false,
+      "cumulative": 201,
+      "wickets": 4,
+      "dismissal": ""
+    },
+    {
+      "over": "17.5",
+      "runs": "2",
+      "isWicket": false,
+      "isFour": false,
+      "isSix": false,
+      "cumulative": 203,
+      "wickets": 4,
+      "dismissal": ""
+    },
+    {
+      "over": "17.6",
+      "runs": "2",
+      "isWicket": false,
+      "isFour": false,
+      "isSix": false,
+      "cumulative": 205,
+      "wickets": 4,
+      "dismissal": ""
+    },
+    {
+      "over": "18.1",
+      "runs": "4",
+      "isWicket": false,
+      "isFour": true,
+      "isSix": false,
+      "cumulative": 209,
+      "wickets": 4,
+      "dismissal": ""
+    }
+  ]
+}
