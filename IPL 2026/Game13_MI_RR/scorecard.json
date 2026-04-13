@@ -1,0 +1,424 @@
+{
+  "match_info": {
+    "match_num": 13,
+    "team1": "Rajasthan Royals",
+    "team2": "Mumbai Indians",
+    "team1_short": "RR",
+    "team2_short": "MI",
+    "venue": "Barsapara Cricket Stadium, Guwahati",
+    "date": "April 7, 2026",
+    "toss_winner": "Mumbai Indians",
+    "toss_decision": "field",
+    "result": "RR won by 27 runs (D/L method, 11 overs per side)",
+    "winner": "Rajasthan Royals",
+    "margin": "27 runs",
+    "player_of_match": "Yashasvi Jaiswal",
+    "notes": "Rain affected match. 11 overs per side.",
+    "team1_impact_player_in": "Ravi Bishnoi",
+    "team1_impact_player_out": "Dhruv Jurel",
+    "team1_impact_player_over": 5,
+    "team2_impact_player_in": "Sherfane Rutherford",
+    "team2_impact_player_out": "AM Ghazanfar",
+    "team2_impact_player_over": 6,
+    "inn1_score": "150/3",
+    "inn2_score": "123/9",
+    "inn1_overs": 11,
+    "inn2_overs": 11,
+    "inn2_target": 151
+  },
+  "batting_innings1": [
+    {
+      "name": "Vaibhav Sooryavanshi",
+      "runs": 39,
+      "balls": 14,
+      "fours": 1,
+      "sixes": 5,
+      "sr": 278.6,
+      "how_out": "caught",
+      "bowler_dismissed_by": "Shardul Thakur",
+      "out": true
+    },
+    {
+      "name": "Yashasvi Jaiswal",
+      "runs": 77,
+      "balls": 32,
+      "fours": 10,
+      "sixes": 4,
+      "sr": 240.6,
+      "how_out": "not out",
+      "bowler_dismissed_by": "",
+      "out": false
+    },
+    {
+      "name": "Dhruv Jurel",
+      "runs": 2,
+      "balls": 3,
+      "fours": 0,
+      "sixes": 0,
+      "sr": 66.7,
+      "how_out": "lbw",
+      "bowler_dismissed_by": "AM Ghazanfar",
+      "out": true
+    },
+    {
+      "name": "Riyan Parag",
+      "runs": 20,
+      "balls": 10,
+      "fours": 1,
+      "sixes": 2,
+      "sr": 200.0,
+      "how_out": "caught",
+      "bowler_dismissed_by": "AM Ghazanfar",
+      "out": true
+    },
+    {
+      "name": "Shimron Hetmyer",
+      "runs": 6,
+      "balls": 7,
+      "fours": 0,
+      "sixes": 0,
+      "sr": 85.7,
+      "how_out": "not out",
+      "bowler_dismissed_by": "",
+      "out": false
+    }
+  ],
+  "batting_innings2": [
+    {
+      "name": "Rohit Sharma",
+      "runs": 3,
+      "balls": 6,
+      "fours": 0,
+      "sixes": 0,
+      "sr": 50.0,
+      "how_out": "caught",
+      "bowler_dismissed_by": "Sandeep Sharma",
+      "out": true
+    },
+    {
+      "name": "Ryan Rickelton",
+      "runs": 8,
+      "balls": 5,
+      "fours": 0,
+      "sixes": 1,
+      "sr": 160.0,
+      "how_out": "bowled",
+      "bowler_dismissed_by": "Jofra Archer",
+      "out": true
+    },
+    {
+      "name": "Suryakumar Yadav",
+      "runs": 6,
+      "balls": 2,
+      "fours": 0,
+      "sixes": 1,
+      "sr": 300.0,
+      "how_out": "caught",
+      "bowler_dismissed_by": "Nandre Burger",
+      "out": true
+    },
+    {
+      "name": "Tilak Varma",
+      "runs": 9,
+      "balls": 8,
+      "fours": 1,
+      "sixes": 0,
+      "sr": 112.5,
+      "how_out": "caught",
+      "bowler_dismissed_by": "Ravi Bishnoi",
+      "out": true
+    },
+    {
+      "name": "Hardik Pandya",
+      "runs": 9,
+      "balls": 7,
+      "fours": 1,
+      "sixes": 0,
+      "sr": 128.6,
+      "how_out": "lbw",
+      "bowler_dismissed_by": "Ravi Bishnoi",
+      "out": true
+    },
+    {
+      "name": "Naman Dhir",
+      "runs": 28,
+      "balls": 14,
+      "fours": 2,
+      "sixes": 2,
+      "sr": 200.0,
+      "how_out": "caught",
+      "bowler_dismissed_by": "Nandre Burger",
+      "out": true
+    },
+    {
+      "name": "Sherfane Rutherford",
+      "runs": 25,
+      "balls": 8,
+      "fours": 2,
+      "sixes": 2,
+      "sr": 312.5,
+      "how_out": "caught",
+      "bowler_dismissed_by": "Tushar Deshpande",
+      "out": true
+    },
+    {
+      "name": "Shardul Thakur",
+      "runs": 10,
+      "balls": 7,
+      "fours": 1,
+      "sixes": 0,
+      "sr": 142.9,
+      "how_out": "lbw",
+      "bowler_dismissed_by": "Sandeep Sharma",
+      "out": true
+    },
+    {
+      "name": "Deepak Chahar",
+      "runs": 2,
+      "balls": 3,
+      "fours": 0,
+      "sixes": 0,
+      "sr": 66.7,
+      "how_out": "not out",
+      "bowler_dismissed_by": "",
+      "out": false
+    },
+    {
+      "name": "Trent Boult",
+      "runs": 1,
+      "balls": 2,
+      "fours": 0,
+      "sixes": 0,
+      "sr": 50.0,
+      "how_out": "run out",
+      "bowler_dismissed_by": "Jofra Archer",
+      "out": true
+    },
+    {
+      "name": "Jasprit Bumrah",
+      "runs": 7,
+      "balls": 5,
+      "fours": 1,
+      "sixes": 0,
+      "sr": 140.0,
+      "how_out": "not out",
+      "bowler_dismissed_by": "",
+      "out": false
+    }
+  ],
+  "bowling_innings1": [
+    {
+      "name": "Deepak Chahar",
+      "overs": 2,
+      "balls": 12,
+      "runs": 22,
+      "wickets": 0,
+      "economy": 11.0,
+      "dots": 4,
+      "wides": 1,
+      "noballs": 0
+    },
+    {
+      "name": "Trent Boult",
+      "overs": 2,
+      "balls": 12,
+      "runs": 17,
+      "wickets": 0,
+      "economy": 8.5,
+      "dots": 5,
+      "wides": 0,
+      "noballs": 0
+    },
+    {
+      "name": "Jasprit Bumrah",
+      "overs": 3,
+      "balls": 18,
+      "runs": 32,
+      "wickets": 0,
+      "economy": 10.67,
+      "dots": 6,
+      "wides": 1,
+      "noballs": 0
+    },
+    {
+      "name": "AM Ghazanfar",
+      "overs": 2,
+      "balls": 12,
+      "runs": 21,
+      "wickets": 2,
+      "economy": 10.5,
+      "dots": 4,
+      "wides": 1,
+      "noballs": 0
+    },
+    {
+      "name": "Hardik Pandya",
+      "overs": 2,
+      "balls": 12,
+      "runs": 17,
+      "wickets": 0,
+      "economy": 8.5,
+      "dots": 4,
+      "wides": 0,
+      "noballs": 0
+    },
+    {
+      "name": "Shardul Thakur",
+      "overs": 2,
+      "balls": 12,
+      "runs": 36,
+      "wickets": 1,
+      "economy": 18.0,
+      "dots": 2,
+      "wides": 2,
+      "noballs": 0
+    }
+  ],
+  "bowling_innings2": [
+    {
+      "name": "Jofra Archer",
+      "overs": 2,
+      "balls": 12,
+      "runs": 17,
+      "wickets": 1,
+      "economy": 8.5,
+      "dots": 4,
+      "wides": 0,
+      "noballs": 0
+    },
+    {
+      "name": "Nandre Burger",
+      "overs": 2,
+      "balls": 12,
+      "runs": 21,
+      "wickets": 2,
+      "economy": 10.5,
+      "dots": 4,
+      "wides": 1,
+      "noballs": 0
+    },
+    {
+      "name": "Tushar Deshpande",
+      "overs": 2,
+      "balls": 12,
+      "runs": 29,
+      "wickets": 1,
+      "economy": 14.5,
+      "dots": 2,
+      "wides": 1,
+      "noballs": 1
+    },
+    {
+      "name": "Ravi Bishnoi",
+      "overs": 2,
+      "balls": 12,
+      "runs": 24,
+      "wickets": 2,
+      "economy": 12.0,
+      "dots": 3,
+      "wides": 1,
+      "noballs": 0
+    },
+    {
+      "name": "Sandeep Sharma",
+      "overs": 3,
+      "balls": 18,
+      "runs": 26,
+      "wickets": 2,
+      "economy": 8.67,
+      "dots": 6,
+      "wides": 1,
+      "noballs": 1
+    }
+  ],
+  "extras_innings1": {
+    "wides": 6,
+    "noballs": 0,
+    "byes": 0,
+    "legbyes": 0,
+    "total": 6
+  },
+  "extras_innings2": {
+    "wides": 6,
+    "noballs": 0,
+    "byes": 0,
+    "legbyes": 0,
+    "total": 6
+  },
+  "fall_of_wickets_innings1": [
+    {
+      "wicket_num": 1,
+      "score": 80,
+      "over": 4.6,
+      "batsman": "Sooryavanshi"
+    },
+    {
+      "wicket_num": 2,
+      "score": 84,
+      "over": 5.4,
+      "batsman": "Jurel"
+    },
+    {
+      "wicket_num": 3,
+      "score": 121,
+      "over": 8.5,
+      "batsman": "Parag"
+    }
+  ],
+  "fall_of_wickets_innings2": [
+    {
+      "wicket_num": 1,
+      "score": 10,
+      "over": 0.6,
+      "batsman": "Rickelton"
+    },
+    {
+      "wicket_num": 2,
+      "score": 20,
+      "over": 1.4,
+      "batsman": "Suryakumar"
+    },
+    {
+      "wicket_num": 3,
+      "score": 22,
+      "over": 2.3,
+      "batsman": "Rohit Sharma"
+    },
+    {
+      "wicket_num": 4,
+      "score": 40,
+      "over": 4.3,
+      "batsman": "Hardik"
+    },
+    {
+      "wicket_num": 5,
+      "score": 45,
+      "over": 4.6,
+      "batsman": "Tilak Varma"
+    },
+    {
+      "wicket_num": 6,
+      "score": 92,
+      "over": 7.5,
+      "batsman": "Rutherford"
+    },
+    {
+      "wicket_num": 7,
+      "score": 102,
+      "over": 8.5,
+      "batsman": "Naman Dhir"
+    },
+    {
+      "wicket_num": 8,
+      "score": 105,
+      "over": 9.4,
+      "batsman": "Thakur"
+    },
+    {
+      "wicket_num": 9,
+      "score": 111,
+      "over": 10.1,
+      "batsman": "Boult"
+    }
+  ]
+}
