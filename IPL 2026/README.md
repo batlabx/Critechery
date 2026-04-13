@@ -13,6 +13,11 @@
 | [Game1 RCB SRH](./Game1-RCB_SRH/README.md) |
 | [Game10 LSG SRH](./Game10_LSG_SRH/README.md) |
 | [Game11 RCB CSK](./Game11_RCB_CSK/README.md) |
+| [Game13 MI RR](./Game13_MI_RR/README.md) |
+| [Game14 GT DC](./Game14_GT_DC/README.md) |
+| [Game15 LSG KKR](./Game15_LSG_KKR/README.md) |
+| [Game16 RCB RR](./Game16_RCB_RR/README.md) |
+| [Game17 SRH PBKS](./Game17_SRH_PBKS/README.md) |
 | [Game2 MI KKR](./Game2-MI_KKR/README.md) |
 | [Game3 CSK RR](./Game3-CSK_RR/README.md) |
 | [Game4 GT PBKS](./Game4_GT_PBKS/README.md) |
