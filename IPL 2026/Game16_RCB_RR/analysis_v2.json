@@ -1,0 +1,1032 @@
+{
+  "match": {
+    "title": "RCB vs RR - IPL 2026 Game 16",
+    "date": "April 10, 2026",
+    "venue": "Barsapara Cricket Stadium, Guwahati",
+    "result": "RR won by 6 wickets",
+    "rcb_score": "201/8",
+    "rr_score": "202/4",
+    "player_of_match": "Vaibhav Sooryavanshi (78)"
+  },
+  "critechery_scores": {
+    "RCB": {
+      "team": "RCB",
+      "batting": {
+        "sr": 15.032327586206895,
+        "boundaries": 15,
+        "discipline": 1.0,
+        "total": 31.032327586206897
+      },
+      "bowling": {
+        "economy": 4.000000000000002,
+        "wickets": 10.0,
+        "dots": 10,
+        "bsr": 4.444444444444445,
+        "total": 28.444444444444443
+      },
+      "total": 59.47677203065134,
+      "stats": {
+        "sr": 168.10344827586206,
+        "boundaries": 27,
+        "economy": 9.666666666666666,
+        "wickets": 4
+      }
+    },
+    "RR": {
+      "team": "RR",
+      "batting": {
+        "sr": 16.57608695652174,
+        "boundaries": 15,
+        "discipline": 1.0,
+        "total": 32.576086956521735
+      },
+      "bowling": {
+        "economy": 3.75,
+        "wickets": 12.5,
+        "dots": 10,
+        "bsr": 5.0,
+        "total": 31.25
+      },
+      "total": 63.826086956521735,
+      "stats": {
+        "sr": 173.04347826086956,
+        "boundaries": 26,
+        "economy": 9.75,
+        "wickets": 5
+      }
+    }
+  },
+  "humdinger_score": {
+    "total": 7.8,
+    "components": {
+      "time_near_50": 1.5,
+      "last_over_drama": 2.0,
+      "margin": 0.0,
+      "wicket_cluster": 1.0,
+      "boundary_burst": 0.8,
+      "momentum_swings": 2.5
+    }
+  },
+  "win_probability": [
+    {
+      "ball": 1,
+      "over": "1.1",
+      "score": 2,
+      "wickets": 0,
+      "win_prob": 0.5332840382511314
+    },
+    {
+      "ball": 2,
+      "over": "1.2",
+      "score": 2,
+      "wickets": 0,
+      "win_prob": 0.5332840382511314
+    },
+    {
+      "ball": 3,
+      "over": "1.3",
+      "score": 2,
+      "wickets": 0,
+      "win_prob": 0.5332840382511314
+    },
+    {
+      "ball": 4,
+      "over": "1.4",
+      "score": 6,
+      "wickets": 0,
+      "win_prob": 0.598687660112452
+    },
+    {
+      "ball": 5,
+      "over": "1.5",
+      "score": 7,
+      "wickets": 0,
+      "win_prob": 0.6145944982675495
+    },
+    {
+      "ball": 6,
+      "over": "1.6",
+      "score": 7,
+      "wickets": 0,
+      "win_prob": 0.6145944982675495
+    },
+    {
+      "ball": 7,
+      "over": "2.1",
+      "score": 11,
+      "wickets": 0,
+      "win_prob": 0.6755363229894543
+    },
+    {
+      "ball": 8,
+      "over": "2.2",
+      "score": 11,
+      "wickets": 0,
+      "win_prob": 0.6755363229894543
+    },
+    {
+      "ball": 9,
+      "over": "2.3",
+      "score": 11,
+      "wickets": 0,
+      "win_prob": 0.6755363229894543
+    },
+    {
+      "ball": 10,
+      "over": "2.4",
+      "score": 11,
+      "wickets": 0,
+      "win_prob": 0.6755363229894543
+    },
+    {
+      "ball": 11,
+      "over": "2.5",
+      "score": 13,
+      "wickets": 0,
+      "win_prob": 0.7040516276171624
+    },
+    {
+      "ball": 12,
+      "over": "2.6",
+      "score": 17,
+      "wickets": 0,
+      "win_prob": 0.7564535292304043
+    },
+    {
+      "ball": 13,
+      "over": "3.1",
+      "score": 23,
+      "wickets": 0,
+      "win_prob": 0.8224934972879262
+    },
+    {
+      "ball": 14,
+      "over": "3.2",
+      "score": 25,
+      "wickets": 0,
+      "win_prob": 0.8411308951190849
+    },
+    {
+      "ball": 15,
+      "over": "3.3",
+      "score": 25,
+      "wickets": 0,
+      "win_prob": 0.8411308951190849
+    },
+    {
+      "ball": 16,
+      "over": "3.4",
+      "score": 29,
+      "wickets": 0,
+      "win_prob": 0.8736179106419871
+    },
+    {
+      "ball": 17,
+      "over": "3.5",
+      "score": 30,
+      "wickets": 0,
+      "win_prob": 0.8807970779778823
+    },
+    {
+      "ball": 18,
+      "over": "3.6",
+      "score": 30,
+      "wickets": 0,
+      "win_prob": 0.8807970779778823
+    },
+    {
+      "ball": 19,
+      "over": "4.1",
+      "score": 34,
+      "wickets": 0,
+      "win_prob": 0.9060785039807289
+    },
+    {
+      "ball": 20,
+      "over": "4.2",
+      "score": 35,
+      "wickets": 0,
+      "win_prob": 0.9116003227929417
+    },
+    {
+      "ball": 21,
+      "over": "4.3",
+      "score": 39,
+      "wickets": 0,
+      "win_prob": 0.9308615796566533
+    },
+    {
+      "ball": 22,
+      "over": "4.4",
+      "score": 41,
+      "wickets": 0,
+      "win_prob": 0.938965148927008
+    },
+    {
+      "ball": 23,
+      "over": "4.5",
+      "score": 41,
+      "wickets": 0,
+      "win_prob": 0.938965148927008
+    },
+    {
+      "ball": 24,
+      "over": "4.6",
+      "score": 41,
+      "wickets": 0,
+      "win_prob": 0.938965148927008
+    },
+    {
+      "ball": 25,
+      "over": "5.1",
+      "score": 47,
+      "wickets": 0,
+      "win_prob": 0.958246962582418
+    },
+    {
+      "ball": 26,
+      "over": "5.2",
+      "score": 47,
+      "wickets": 0,
+      "win_prob": 0.958246962582418
+    },
+    {
+      "ball": 27,
+      "over": "5.3",
+      "score": 49,
+      "wickets": 0,
+      "win_prob": 0.9632674093279703
+    },
+    {
+      "ball": 28,
+      "over": "5.4",
+      "score": 50,
+      "wickets": 0,
+      "win_prob": 0.9655548043337889
+    },
+    {
+      "ball": 29,
+      "over": "5.5",
+      "score": 50,
+      "wickets": 0,
+      "win_prob": 0.9655548043337889
+    },
+    {
+      "ball": 30,
+      "over": "5.6",
+      "score": 54,
+      "wickets": 0,
+      "win_prob": 0.973403006423134
+    },
+    {
+      "ball": 31,
+      "over": "6.1",
+      "score": 57,
+      "wickets": 0,
+      "win_prob": 0.9781187290638694
+    },
+    {
+      "ball": 32,
+      "over": "6.2",
+      "score": 57,
+      "wickets": 1,
+      "win_prob": 0.9781187290638694
+    },
+    {
+      "ball": 33,
+      "over": "6.3",
+      "score": 61,
+      "wickets": 1,
+      "win_prob": 0.98
+    },
+    {
+      "ball": 34,
+      "over": "6.4",
+      "score": 63,
+      "wickets": 1,
+      "win_prob": 0.98
+    },
+    {
+      "ball": 35,
+      "over": "6.5",
+      "score": 67,
+      "wickets": 1,
+      "win_prob": 0.98
+    },
+    {
+      "ball": 36,
+      "over": "6.6",
+      "score": 67,
+      "wickets": 1,
+      "win_prob": 0.98
+    },
+    {
+      "ball": 37,
+      "over": "7.1",
+      "score": 71,
+      "wickets": 1,
+      "win_prob": 0.98
+    },
+    {
+      "ball": 38,
+      "over": "7.2",
+      "score": 71,
+      "wickets": 1,
+      "win_prob": 0.98
+    },
+    {
+      "ball": 39,
+      "over": "7.3",
+      "score": 77,
+      "wickets": 1,
+      "win_prob": 0.98
+    },
+    {
+      "ball": 40,
+      "over": "7.4",
+      "score": 81,
+      "wickets": 2,
+      "win_prob": 0.98
+    },
+    {
+      "ball": 41,
+      "over": "7.5",
+      "score": 87,
+      "wickets": 3,
+      "win_prob": 0.98
+    },
+    {
+      "ball": 42,
+      "over": "7.6",
+      "score": 87,
+      "wickets": 3,
+      "win_prob": 0.98
+    },
+    {
+      "ball": 43,
+      "over": "8.1",
+      "score": 87,
+      "wickets": 3,
+      "win_prob": 0.98
+    },
+    {
+      "ball": 44,
+      "over": "8.2",
+      "score": 87,
+      "wickets": 3,
+      "win_prob": 0.98
+    },
+    {
+      "ball": 45,
+      "over": "8.3",
+      "score": 93,
+      "wickets": 3,
+      "win_prob": 0.98
+    },
+    {
+      "ball": 46,
+      "over": "8.4",
+      "score": 97,
+      "wickets": 3,
+      "win_prob": 0.98
+    },
+    {
+      "ball": 47,
+      "over": "8.5",
+      "score": 103,
+      "wickets": 3,
+      "win_prob": 0.98
+    },
+    {
+      "ball": 48,
+      "over": "8.6",
+      "score": 109,
+      "wickets": 3,
+      "win_prob": 0.98
+    },
+    {
+      "ball": 49,
+      "over": "9.1",
+      "score": 111,
+      "wickets": 3,
+      "win_prob": 0.98
+    },
+    {
+      "ball": 50,
+      "over": "9.2",
+      "score": 111,
+      "wickets": 3,
+      "win_prob": 0.98
+    },
+    {
+      "ball": 51,
+      "over": "9.3",
+      "score": 117,
+      "wickets": 3,
+      "win_prob": 0.98
+    },
+    {
+      "ball": 52,
+      "over": "9.4",
+      "score": 121,
+      "wickets": 3,
+      "win_prob": 0.98
+    },
+    {
+      "ball": 53,
+      "over": "9.5",
+      "score": 121,
+      "wickets": 3,
+      "win_prob": 0.98
+    },
+    {
+      "ball": 54,
+      "over": "9.6",
+      "score": 125,
+      "wickets": 3,
+      "win_prob": 0.98
+    },
+    {
+      "ball": 55,
+      "over": "10.1",
+      "score": 126,
+      "wickets": 3,
+      "win_prob": 0.98
+    },
+    {
+      "ball": 56,
+      "over": "10.2",
+      "score": 126,
+      "wickets": 3,
+      "win_prob": 0.98
+    },
+    {
+      "ball": 57,
+      "over": "10.3",
+      "score": 126,
+      "wickets": 3,
+      "win_prob": 0.98
+    },
+    {
+      "ball": 58,
+      "over": "10.4",
+      "score": 130,
+      "wickets": 3,
+      "win_prob": 0.98
+    },
+    {
+      "ball": 59,
+      "over": "10.5",
+      "score": 132,
+      "wickets": 3,
+      "win_prob": 0.98
+    },
+    {
+      "ball": 60,
+      "over": "10.6",
+      "score": 132,
+      "wickets": 3,
+      "win_prob": 0.98
+    },
+    {
+      "ball": 61,
+      "over": "11.1",
+      "score": 134,
+      "wickets": 3,
+      "win_prob": 0.98
+    },
+    {
+      "ball": 62,
+      "over": "11.2",
+      "score": 134,
+      "wickets": 3,
+      "win_prob": 0.98
+    },
+    {
+      "ball": 63,
+      "over": "11.3",
+      "score": 138,
+      "wickets": 3,
+      "win_prob": 0.98
+    },
+    {
+      "ball": 64,
+      "over": "11.4",
+      "score": 138,
+      "wickets": 3,
+      "win_prob": 0.98
+    },
+    {
+      "ball": 65,
+      "over": "11.5",
+      "score": 140,
+      "wickets": 3,
+      "win_prob": 0.98
+    },
+    {
+      "ball": 66,
+      "over": "11.6",
+      "score": 142,
+      "wickets": 3,
+      "win_prob": 0.98
+    },
+    {
+      "ball": 67,
+      "over": "12.1",
+      "score": 145,
+      "wickets": 3,
+      "win_prob": 0.98
+    },
+    {
+      "ball": 68,
+      "over": "12.2",
+      "score": 145,
+      "wickets": 3,
+      "win_prob": 0.98
+    },
+    {
+      "ball": 69,
+      "over": "12.3",
+      "score": 145,
+      "wickets": 3,
+      "win_prob": 0.98
+    },
+    {
+      "ball": 70,
+      "over": "12.4",
+      "score": 151,
+      "wickets": 3,
+      "win_prob": 0.98
+    },
+    {
+      "ball": 71,
+      "over": "12.5",
+      "score": 151,
+      "wickets": 3,
+      "win_prob": 0.98
+    },
+    {
+      "ball": 72,
+      "over": "12.6",
+      "score": 155,
+      "wickets": 3,
+      "win_prob": 0.98
+    },
+    {
+      "ball": 73,
+      "over": "13.1",
+      "score": 157,
+      "wickets": 3,
+      "win_prob": 0.98
+    },
+    {
+      "ball": 74,
+      "over": "13.2",
+      "score": 158,
+      "wickets": 3,
+      "win_prob": 0.98
+    },
+    {
+      "ball": 75,
+      "over": "13.3",
+      "score": 162,
+      "wickets": 4,
+      "win_prob": 0.9674955346207947
+    },
+    {
+      "ball": 76,
+      "over": "13.4",
+      "score": 162,
+      "wickets": 4,
+      "win_prob": 0.9629832914030276
+    },
+    {
+      "ball": 77,
+      "over": "13.5",
+      "score": 164,
+      "wickets": 4,
+      "win_prob": 0.9629357334228308
+    },
+    {
+      "ball": 78,
+      "over": "13.6",
+      "score": 167,
+      "wickets": 4,
+      "win_prob": 0.9651982775068367
+    },
+    {
+      "ball": 79,
+      "over": "14.1",
+      "score": 171,
+      "wickets": 4,
+      "win_prob": 0.969370006281492
+    },
+    {
+      "ball": 80,
+      "over": "14.2",
+      "score": 171,
+      "wickets": 4,
+      "win_prob": 0.9651085914682631
+    },
+    {
+      "ball": 81,
+      "over": "14.3",
+      "score": 171,
+      "wickets": 4,
+      "win_prob": 0.9602785987764797
+    },
+    {
+      "ball": 82,
+      "over": "14.4",
+      "score": 175,
+      "wickets": 4,
+      "win_prob": 0.9650186826802298
+    },
+    {
+      "ball": 83,
+      "over": "14.5",
+      "score": 177,
+      "wickets": 4,
+      "win_prob": 0.9649736445958237
+    },
+    {
+      "ball": 84,
+      "over": "14.6",
+      "score": 177,
+      "wickets": 4,
+      "win_prob": 0.960125743109485
+    },
+    {
+      "ball": 85,
+      "over": "15.1",
+      "score": 179,
+      "wickets": 4,
+      "win_prob": 0.9600746660471863
+    },
+    {
+      "ball": 86,
+      "over": "15.2",
+      "score": 179,
+      "wickets": 4,
+      "win_prob": 0.9545806250672697
+    },
+    {
+      "ball": 87,
+      "over": "15.3",
+      "score": 183,
+      "wickets": 4,
+      "win_prob": 0.9599723237431325
+    },
+    {
+      "ball": 88,
+      "over": "15.4",
+      "score": 183,
+      "wickets": 4,
+      "win_prob": 0.9544648675987578
+    },
+    {
+      "ball": 89,
+      "over": "15.5",
+      "score": 185,
+      "wickets": 4,
+      "win_prob": 0.9544068835595787
+    },
+    {
+      "ball": 90,
+      "over": "15.6",
+      "score": 185,
+      "wickets": 4,
+      "win_prob": 0.9481750118235559
+    },
+    {
+      "ball": 91,
+      "over": "16.1",
+      "score": 187,
+      "wickets": 4,
+      "win_prob": 0.9481094537795961
+    },
+    {
+      "ball": 92,
+      "over": "16.2",
+      "score": 187,
+      "wickets": 4,
+      "win_prob": 0.9410699689300598
+    },
+    {
+      "ball": 93,
+      "over": "16.3",
+      "score": 191,
+      "wickets": 4,
+      "win_prob": 0.9479781024515535
+    },
+    {
+      "ball": 94,
+      "over": "16.4",
+      "score": 191,
+      "wickets": 4,
+      "win_prob": 0.9409219087847546
+    },
+    {
+      "ball": 95,
+      "over": "16.5",
+      "score": 193,
+      "wickets": 4,
+      "win_prob": 0.9408477480364715
+    },
+    {
+      "ball": 96,
+      "over": "16.6",
+      "score": 194,
+      "wickets": 4,
+      "win_prob": 0.9369479211327334
+    },
+    {
+      "ball": 97,
+      "over": "17.1",
+      "score": 197,
+      "wickets": 4,
+      "win_prob": 0.9406991647494312
+    },
+    {
+      "ball": 98,
+      "over": "17.2",
+      "score": 197,
+      "wickets": 4,
+      "win_prob": 0.9327257291826229
+    },
+    {
+      "ball": 99,
+      "over": "17.3",
+      "score": 201,
+      "wickets": 4,
+      "win_prob": 0.9405502318222054
+    },
+    {
+      "ball": 100,
+      "over": "17.4",
+      "score": 201,
+      "wickets": 4,
+      "win_prob": 0.9325582067897539
+    },
+    {
+      "ball": 101,
+      "over": "17.5",
+      "score": 203,
+      "wickets": 4,
+      "win_prob": 0.9324743005460872
+    },
+    {
+      "ball": 102,
+      "over": "17.6",
+      "score": 205,
+      "wickets": 4,
+      "win_prob": 0.9323902974804863
+    },
+    {
+      "ball": 103,
+      "over": "18.1",
+      "score": 209,
+      "wickets": 4,
+      "win_prob": 0.9402513142296512
+    }
+  ],
+  "pressure_index": {
+    "rcb": {
+      "1": {
+        "dots": 3,
+        "wickets": 1,
+        "runs": 7
+      },
+      "2": {
+        "dots": 4,
+        "wickets": 0,
+        "runs": 8
+      },
+      "3": {
+        "dots": 2,
+        "wickets": 0,
+        "runs": 13
+      },
+      "4": {
+        "dots": 2,
+        "wickets": 0,
+        "runs": 11
+      },
+      "5": {
+        "dots": 2,
+        "wickets": 0,
+        "runs": 13
+      },
+      "6": {
+        "dots": 2,
+        "wickets": 0,
+        "runs": 13
+      },
+      "7": {
+        "dots": 4,
+        "wickets": 1,
+        "runs": 10
+      },
+      "8": {
+        "dots": 4,
+        "wickets": 0,
+        "runs": 6
+      },
+      "9": {
+        "dots": 3,
+        "wickets": 1,
+        "runs": 12
+      },
+      "10": {
+        "dots": 3,
+        "wickets": 0,
+        "runs": 7
+      },
+      "11": {
+        "dots": 2,
+        "wickets": 0,
+        "runs": 14
+      },
+      "12": {
+        "dots": 3,
+        "wickets": 0,
+        "runs": 13
+      },
+      "13": {
+        "dots": 1,
+        "wickets": 1,
+        "runs": 11
+      },
+      "14": {
+        "dots": 3,
+        "wickets": 0,
+        "runs": 9
+      },
+      "15": {
+        "dots": 2,
+        "wickets": 0,
+        "runs": 14
+      },
+      "16": {
+        "dots": 3,
+        "wickets": 1,
+        "runs": 8
+      },
+      "17": {
+        "dots": 2,
+        "wickets": 1,
+        "runs": 14
+      },
+      "18": {
+        "dots": 3,
+        "wickets": 0,
+        "runs": 14
+      },
+      "19": {
+        "dots": 3,
+        "wickets": 0,
+        "runs": 8
+      },
+      "20": {
+        "dots": 3,
+        "wickets": 0,
+        "runs": 7
+      }
+    },
+    "rr": {
+      "1": {
+        "dots": 3,
+        "wickets": 0,
+        "runs": 7
+      },
+      "2": {
+        "dots": 3,
+        "wickets": 0,
+        "runs": 10
+      },
+      "3": {
+        "dots": 2,
+        "wickets": 0,
+        "runs": 13
+      },
+      "4": {
+        "dots": 2,
+        "wickets": 0,
+        "runs": 11
+      },
+      "5": {
+        "dots": 2,
+        "wickets": 0,
+        "runs": 13
+      },
+      "6": {
+        "dots": 2,
+        "wickets": 1,
+        "runs": 13
+      },
+      "7": {
+        "dots": 2,
+        "wickets": 2,
+        "runs": 20
+      },
+      "8": {
+        "dots": 2,
+        "wickets": 0,
+        "runs": 22
+      },
+      "9": {
+        "dots": 2,
+        "wickets": 0,
+        "runs": 16
+      },
+      "10": {
+        "dots": 3,
+        "wickets": 0,
+        "runs": 7
+      },
+      "11": {
+        "dots": 2,
+        "wickets": 0,
+        "runs": 10
+      },
+      "12": {
+        "dots": 3,
+        "wickets": 0,
+        "runs": 13
+      },
+      "13": {
+        "dots": 1,
+        "wickets": 1,
+        "runs": 12
+      },
+      "14": {
+        "dots": 3,
+        "wickets": 0,
+        "runs": 10
+      },
+      "15": {
+        "dots": 3,
+        "wickets": 0,
+        "runs": 8
+      },
+      "16": {
+        "dots": 2,
+        "wickets": 0,
+        "runs": 9
+      },
+      "17": {
+        "dots": 2,
+        "wickets": 0,
+        "runs": 11
+      },
+      "18": {
+        "dots": 0,
+        "wickets": 0,
+        "runs": 4
+      }
+    }
+  },
+  "game_changers": [
+    {
+      "name": "Vaibhav Sooryavanshi",
+      "role": "Star Batter",
+      "team": "RR",
+      "impact": "78 off 26 (SR 300)"
+    },
+    {
+      "name": "Dhruv Jurel",
+      "role": "Anchor",
+      "team": "RR",
+      "impact": "81 not out off 52"
+    },
+    {
+      "name": "Sandeep Sharma",
+      "role": "Key Bowler",
+      "team": "RR",
+      "impact": "2/31 - slower ball dismissal"
+    },
+    {
+      "name": "Josh Hazlewood",
+      "role": "Leakage",
+      "team": "RCB",
+      "impact": "1/52 - expensive opening spell"
+    }
+  ],
+  "turning_points": [
+    {
+      "over": "7-8",
+      "description": "Sooryavanshi explosive phase",
+      "impact": "+0.20"
+    },
+    {
+      "over": "7.4",
+      "description": "Double wicket brings RR back",
+      "impact": "-0.13"
+    },
+    {
+      "over": "13-15",
+      "description": "Jurel accelerates with Jadeja",
+      "impact": "+0.30"
+    }
+  ]
+}
