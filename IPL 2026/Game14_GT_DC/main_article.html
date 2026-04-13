@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>One Run. One Ball. One Regret. — GT vs DC, IPL 2026 Match 14</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Lora:ital,wght@0,400;0,600;1,400&display=swap');
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'Inter', -apple-system, 'Helvetica Neue', sans-serif;
+  font-size: 18px; line-height: 1.78; color: #2C2C2C;
+  background: #FAFAF8; max-width: 720px;
+  margin: 0 auto; padding: 56px 24px 100px 24px;
+}
+
+h1 {
+  font-family: 'Lora', Georgia, serif;
+  font-size: 2.4em; font-weight: 600; line-height: 1.18;
+  letter-spacing: -0.01em; color: #111111; margin-bottom: 10px;
+}
+
+.meta {
+  font-size: 0.88em; color: #AAAAAA; margin-bottom: 48px;
+  letter-spacing: 0.04em; text-transform: uppercase;
+}
+
+h2 {
+  font-size: 0.78em; font-weight: 700; text-transform: uppercase;
+  letter-spacing: 0.12em; color: #AAAAAA; margin-top: 60px;
+  margin-bottom: 18px; padding-bottom: 8px;
+  border-bottom: 1px solid #E8E8E5;
+}
+
+h3 {
+  font-size: 1.05em; font-weight: 700; color: #1A1A1A;
+  margin-top: 32px; margin-bottom: 10px;
+}
+
+p { margin-bottom: 22px; }
+
+.summary-box {
+  background: #F4F4F1; border-left: 3px solid #1A56DB;
+  padding: 18px 22px; margin: 0 0 32px 0; border-radius: 0 6px 6px 0;
+  font-family: 'Lora', Georgia, serif; font-size: 1.08em;
+  line-height: 1.65; color: #1A1A1A;
+}
+
+.humdinger-score {
+  font-family: 'Inter', sans-serif; font-size: 5em;
+  font-weight: 900; text-align: center; color: #F5A623;
+  letter-spacing: -0.04em; padding: 28px 0 4px 0; line-height: 1.0;
+}
+.humdinger-label {
+  text-align: center; color: #AAAAAA; font-size: 0.82em;
+  letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 16px;
+}
+.humdinger-breakdown {
+  background: #FFFDF5; border: 1px solid #F5E6C3;
+  border-radius: 8px; padding: 16px 20px; margin: 12px 0 28px 0;
+  font-size: 0.9em; line-height: 1.9; color: #555;
+}
+
+blockquote {
+  border-left: 3px solid #F5A623; padding: 14px 20px;
+  margin: 28px 0; background: #FFFBF2;
+  font-family: 'Lora', Georgia, serif; font-style: italic;
+  color: #3D3D3D; font-size: 0.97em; border-radius: 0 6px 6px 0;
+}
+blockquote .ball-ref {
+  display: block; font-family: 'Inter', sans-serif;
+  font-style: normal; font-size: 0.78em; font-weight: 600;
+  color: #F5A623; letter-spacing: 0.06em;
+  text-transform: uppercase; margin-bottom: 6px;
+}
+
+table { width: 100%; border-collapse: collapse; margin: 20px 0; font-size: 0.88em; }
+th {
+  background: #F0F0EE; text-align: left; padding: 10px 14px;
+  font-weight: 600; text-transform: uppercase;
+  font-size: 0.76em; letter-spacing: 0.07em; color: #777;
+}
+td { padding: 10px 14px; border-bottom: 1px solid #F0F0EE; }
+tr:last-child td { border-bottom: none; }
+td.highlight { font-weight: 600; color: #1A56DB; }
+
+img.chart {
+  width: 100%; margin: 28px 0; border-radius: 10px;
+  border: 1px solid #E8E8E5; display: block;
+}
+
+.cs-compare {
+  display: flex; gap: 16px; margin: 20px 0 28px 0;
+}
+.cs-team {
+  flex: 1; background: #F8F8F6; border-radius: 10px;
+  padding: 16px 18px; border: 1px solid #E8E8E5;
+}
+.cs-team-name {
+  font-weight: 700; font-size: 0.9em; text-transform: uppercase;
+  letter-spacing: 0.08em; color: #666; margin-bottom: 8px;
+}
+.cs-total {
+  font-family: 'Inter', sans-serif; font-size: 2.6em; font-weight: 800;
+  line-height: 1; margin-bottom: 12px;
+}
+.cs-row { display: flex; justify-content: space-between; font-size: 0.82em;
+          color: #555; padding: 3px 0; border-bottom: 1px solid #F0F0EE; }
+.cs-row:last-child { border-bottom: none; }
+.cs-value { font-weight: 600; color: #1A1A1A; }
+
+.lola-scenario {
+  background: #F0F4FF; border: 1px solid #C7D7FD;
+  border-radius: 10px; padding: 20px 24px; margin: 24px 0;
+}
+.lola-title {
+  font-weight: 700; font-size: 1.05em; color: #1E40AF;
+  margin-bottom: 8px;
+}
+.lola-delta {
+  display: inline-block; background: #1A56DB; color: white;
+  padding: 2px 10px; border-radius: 20px; font-size: 0.8em;
+  font-weight: 700; margin-bottom: 12px; letter-spacing: 0.04em;
+}
+.lola-outcome { font-size: 0.9em; color: #444; margin-bottom: 12px; }
+.lola-narrative { font-size: 0.92em; line-height: 1.7; color: #333; }
+.lola-narrative p { margin-bottom: 14px; }
+
+.tp-card {
+  border-left: 3px solid #F5A623; padding: 12px 16px; margin: 16px 0;
+  background: #FFFBF2; border-radius: 0 6px 6px 0;
+}
+.tp-label { font-size: 0.8em; font-weight: 700; text-transform: uppercase;
+            letter-spacing: 0.08em; color: #F5A623; margin-bottom: 6px; }
+
+.gc-card { padding: 14px 0; border-bottom: 1px solid #F0F0EE; }
+.gc-card:last-child { border-bottom: none; }
+.gc-player { font-weight: 700; font-size: 1.05em; color: #1A1A1A; }
+.gc-stat { color: #1A56DB; font-size: 0.85em; font-weight: 600; margin: 2px 0 6px 0; }
+.gc-reason { font-size: 0.9em; color: #444; line-height: 1.6; }
+
+.audio-section {
+  background: #F8F8F6; border: 1px solid #E4E4E0;
+  border-radius: 10px; padding: 20px 22px; margin: 40px 0;
+  text-align: center;
+}
+.audio-label {
+  font-weight: 700; font-size: 0.9em; text-transform: uppercase;
+  letter-spacing: 0.08em; color: #555; margin-bottom: 12px;
+}
+.audio-coming-soon {
+  color: #AAAAAA; font-size: 0.9em; font-style: italic;
+  padding: 12px 0; display: block;
+}
+.audio-sub { font-size: 0.82em; color: #AAAAAA; }
+
+hr { border: none; border-top: 1px solid #E8E8E5; margin: 52px 0; }
+
+.toss-pill {
+  display: inline-block; background: #EEF4FF; color: #1A56DB;
+  padding: 5px 14px; border-radius: 20px; font-size: 0.84em;
+  font-weight: 600; margin-bottom: 16px;
+}
+</style>
+</head>
+<body>
+
+<h1>One Run. One Ball. One Regret.</h1>
+<p class="meta">April 7, 2026 &nbsp;·&nbsp; Gujarat Titans vs Delhi Capitals &nbsp;·&nbsp; Arun Jaitley Stadium, Delhi &nbsp;·&nbsp; IPL 2026, Match 14</p>
+
+<div class="summary-box">
+  Gujarat Titans 210/4 beat Delhi Capitals 209/8 by one run. A last-ball slower bouncer from Prasidh Krishna. A missed pull from David Miller. An underarm direct hit from Jos Buttler. The IPL 2026 season has its first proper thriller — and its first great regret.
+</div>
+
+<!-- SECTION 1: AUDIO BRIEF -->
+<h2>AUDIO BRIEF</h2>
+<div class="audio-section">
+  <p class="audio-label">Match Brief</p>
+  <span class="audio-coming-soon">Audio episode coming soon — upload your NotebookLM sources from Output/notebooklm/ to generate it.</span>
+  <p class="audio-sub">Powered by NotebookLM | Full analysis below</p>
+</div>
+
+<hr>
+
+<!-- SECTION 2: THE HUMDINGER SCORE -->
+<h2>THE HUMDINGER SCORE</h2>
+
+<div class="humdinger-score">9.0</div>
+<div class="humdinger-label">out of 10</div>
+
+<div class="humdinger-breakdown">
+  <strong>Component Breakdown:</strong><br>
+  a. Time near 50/50 win probability (20.8% of chase deliveries): <strong>4.00 / 4.00</strong><br>
+  b. Last-over drama (result in final over, ball 19.6): <strong>+2.00</strong><br>
+  c. Match margin (1 run): <strong>+2.00</strong><br>
+  d. Wicket cluster (Rashid takes Rana + Rizvi on consecutive balls, overs 9-10): <strong>+1.00</strong><br>
+  e. Death boundary burst: <strong>+0.00</strong> (GT 25%, DC 33% — just below the 40% threshold)<br>
+  <strong>Total: 9.0 / 10</strong>
+</div>
+
+<p>A Humdinger of 9.0 is not a score you see often. Only a handful of T20 finishes in the modern era score this high — and the one thing they share is a quality that this match had in abundance: time spent in the knife-edge zone, where neither side could be confident, where every ball carried consequence. Over a fifth of Delhi Capitals' chase was played with the win probability sitting between 40% and 60%. That is a long time to hold your breath.</p>
+
+<p>The two points for last-over drama and the two for a one-run margin are almost a formality after the fact. What really built the score was the architecture of the middle overs — a chase that was never clearly won, never clearly lost, and kept reassigning itself between the teams every time it seemed settled. The highest single win-probability shift in the match came in over 13 when Rashid's dismissal of Axar swung the match from 77% DC to 48% DC in three balls. That kind of swing is what keeps a score near maximum.</p>
+
+<p>What kept this from a perfect 10 was the death boundaries. Both GT and DC were below the 40% threshold in overs 16-20, a reminder that pressure without boundaries can produce tension, but it takes boundary bursts in death overs to create the kind of spectacular, carnival-style finish that makes a cricket match go viral. The finish here was better: it was surgical, desperate, and ultimately decided by the smallest unit of cricket.</p>
+
+<!-- IMAGE 1: Humdinger Score display -->
+
+<hr>
+
+<!-- SECTION 3: THE CRITECHERY SCORE -->
+<h2>The Critechery Score</h2>
+
+<div class="cs-compare">
+  <div class="cs-team">
+    <div class="cs-team-name">🔵 GUJARAT TITANS</div>
+    <div class="cs-total" style="color:#1A56DB">63.8</div>
+    <div style="font-size:0.78em;color:#888;text-transform:uppercase;letter-spacing:0.07em;margin-bottom:6px;">Batting (50 max)</div>
+    <div class="cs-row"><span>SR Dominance</span><span class="cs-value">28.0 / 25 → capped 25.0</span></div>
+    <div class="cs-row"><span>Boundary Efficiency</span><span class="cs-value">11.0 / 15</span></div>
+    <div class="cs-row"><span>Extras Discipline</span><span class="cs-value">7.5 / 10</span></div>
+    <div style="font-size:0.78em;color:#888;text-transform:uppercase;letter-spacing:0.07em;margin-top:10px;margin-bottom:6px;">Bowling (50 max)</div>
+    <div class="cs-row"><span>Economy Squeeze</span><span class="cs-value">2.3 / 15</span></div>
+    <div class="cs-row"><span>Wicket Punch</span><span class="cs-value">10.0 / 15</span></div>
+    <div class="cs-row"><span>Dot Dominance</span><span class="cs-value">8.5 / 10</span></div>
+    <div class="cs-row"><span>Bowling Strike Rate</span><span class="cs-value">7.5 / 10</span></div>
+  </div>
+  <div class="cs-team">
+    <div class="cs-team-name">🔴 DELHI CAPITALS</div>
+    <div class="cs-total" style="color:#E3311D">55.3</div>
+    <div style="font-size:0.78em;color:#888;text-transform:uppercase;letter-spacing:0.07em;margin-bottom:6px;">Batting (50 max)</div>
+    <div class="cs-row"><span>SR Dominance</span><span class="cs-value">22.0 / 25</span></div>
+    <div class="cs-row"><span>Boundary Efficiency</span><span class="cs-value">10.5 / 15</span></div>
+    <div class="cs-row"><span>Extras Discipline</span><span class="cs-value">1.0 / 10</span></div>
+    <div style="font-size:0.78em;color:#888;text-transform:uppercase;letter-spacing:0.07em;margin-top:10px;margin-bottom:6px;">Bowling (50 max)</div>
+    <div class="cs-row"><span>Economy Squeeze</span><span class="cs-value">0.0 / 15</span></div>
+    <div class="cs-row"><span>Wicket Punch</span><span class="cs-value">10.0 / 15</span></div>
+    <div class="cs-row"><span>Dot Dominance</span><span class="cs-value">8.0 / 10</span></div>
+    <div class="cs-row"><span>Bowling Strike Rate</span><span class="cs-value">8.8 / 10</span></div>
+  </div>
+</div>
+
+<p>The Critechery Score gap of 8.5 points (63.8 to 55.3) tells the story of this match better than the scoreboard does. Gujarat Titans won on both ends — their batting was simply superior in output, and their bowling held its nerve under extraordinary pressure. But the gap is not as wide as GT's batting advantage might suggest. DC's bowlers — specifically Ngidi and Rashid — were excellent in the context they were given.</p>
+
+<p>The most striking sub-metric comparison is Extras Discipline. GT's DC-bowling-against-them gave up eight wides, generating an Extras Discipline score of just 1.0 out of 10 for DC. DC bowlers gave away six extras — five wides, one no-ball — for a comparatively tidy 7.5. In a match settled by one run, DC's extra delivery concessions (8 compared to 6) represent exactly the kind of marginal cost that accumulates into a defeat. Eight wides = eight free runs. The final margin was one run. Think about that.</p>
+
+<p>What the score cannot capture is how close DC came to flipping it. GT's Economy Squeeze of just 2.3 reflects a DC batting line-up that hit the GT bowling for 209 runs — a rate of 10.45 per over in response to 10.50. The winning margin was measured in fractions. DC's batting was good enough to win this match. Their bowling, just not quite enough to contain the GT top order at will.</p>
+
+<!-- IMAGE 2: Critechery Score comparison -->
+
+<hr>
+
+<!-- SECTION 4: MATCHUP 1 -->
+<h2>Matchup 1: KL Rahul vs Prasidh Krishna</h2>
+
+<p>The numbers are almost insulting in what they suggest. Across eight legal deliveries — a full bowling spell's worth of confrontation — KL Rahul scored 30 runs off Prasidh Krishna at a strike rate of 375. His overall strike rate in the match was 176.92. The ratio is 2.12: Rahul more than doubled his run-scoring pace whenever Prasidh had the ball. Three sixes. Prasidh couldn't buy a dot ball against him.</p>
+
+<p>This context makes the final over extraordinary rather than merely dramatic. Prasidh had been Rahul's preferred punching bag throughout the DC innings. When he was handed the final over with DC needing 13 to win, the data said the match was over. Instead, Prasidh showed the rarest quality a bowler can possess: the capacity to reset completely when it matters most. Rahul was no longer at the crease — Siraj had done that job — and Prasidh was handed a new problem, a new batsman (Miller), and an old skill (the slower bouncer). He used it exactly once, on the ball that mattered.</p>
+
+<img class="chart" src="charts/matchup_1.png" alt="Matchup 1: KL Rahul vs Prasidh Krishna">
+<!-- IMAGE 3 -->
+
+<h2>Matchup 2: Jos Buttler vs Lungi Ngidi</h2>
+
+<p>Of the four main matchups in this game, this was the most surprising. Jos Buttler has the batting record of someone who doesn't get contained — 192 strike rate overall, a history of taking spinners and seamers alike into orbit. Yet against Ngidi, he managed just five runs from six balls at a strike rate of 83.3 — less than half his natural rate. Ngidi's length and angle, attacking the stumps and forcing Buttler to play to his weaker leg side, completely disrupted the rhythm that had produced 52 from 27 against everyone else.</p>
+
+<p>The DC captain will look at Ngidi's figures — 4-0-24-1 at an economy of 6.00, the second-best conceded in the entire match behind only Rashid Khan — and wonder. Had Ngidi bowled four at Buttler from over the wicket rather than three, this match might have ended with a different score on the board. Containment works. It just needs to be systematic.</p>
+
+<img class="chart" src="charts/matchup_2.png" alt="Matchup 2: Jos Buttler vs Lungi Ngidi">
+<!-- IMAGE 4 -->
+
+<h2>Matchup 3: Pathum Nissanka vs Rashid Khan</h2>
+
+<p>Rashid Khan operates by making good batsmen look ordinary. Nissanka — who scored 41 from 24 at 170 SR against every other GT bowler — managed five runs from six balls at an 83.3 SR against Rashid. The difference is what Rashid asks of left-handers: his angle from around the wicket, his variable pace, and the way his googly stays straight rather than turning away. Nissanka is a horizontal-bat dasher. Rashid makes him play straight. The mismatch is fundamental.</p>
+
+<p>The consequence of this matchup wasn't visible in Nissanka's scorecard — she was already gone by the time Rashid took the wickets that mattered. But the shot restriction that Rashid imposed on Nissanka in overs 8 and 9 set up the double-blow that followed. When Rashid bowled Nissanka's dismissal over (she was already out), he immediately turned on Rana and Rizvi. The match had been building to a Rashid moment. The opening he needed was created precisely because Nissanka couldn't get him away.</p>
+
+<img class="chart" src="charts/matchup_3.png" alt="Matchup 3: Nissanka vs Rashid Khan">
+<!-- IMAGE 5 -->
+
+<h2>Matchup 4: Shubman Gill vs Kuldeep Yadav</h2>
+
+<p>Delhi's best bowling option against GT's captain was Kuldeep Yadav — a left-arm wrist spinner who had been their most economical option in previous matches. The theory was sound. Against Gill, it failed completely. Gill scored 31 from 14 balls at a 221 SR against Kuldeep, attacking the flight and repeatedly finding the mid-wicket and long-on boundaries. His ability to read the googly early — a result of detailed planning — turned the matchup into a liability rather than a weapon.</p>
+
+<p>Axar Patel, used four overs as DC's anchor spinner, was the better option against Gill in terms of economy (9.50 RPO to Kuldeep's 12.00). The captain's decision to persist with Kuldeep against Gill in the middle overs, when Gill was set and accelerating, was the tactical error that allowed GT to push past 200. Kuldeep's wicket — getting Buttler in over 7 — was real and important. But the gift of 12 an over in the overs that followed cost DC the match by a margin of one.</p>
+
+<img class="chart" src="charts/matchup_4.png" alt="Matchup 4: Shubman Gill vs Kuldeep Yadav">
+<!-- IMAGE 6 -->
+
+<hr>
+
+<!-- SECTION 8: TURNING POINTS -->
+<h2>Turning Points</h2>
+
+<div class="tp-card">
+  <div class="tp-label">Turning Point 1 — The Double Blow (Overs 9.5–9.6)</div>
+  <p>DC were 101/1 after eight overs and threatening to make this chase look easy. KL Rahul was 46 from 28 and barely breaking a sweat. Then Rashid Khan bowled back-to-back wickets — Nitish Rana, caught at long-off for 5, then Sameer Rizvi, clean bowled first ball. Two wickets in two deliveries. The win probability fell from 68% to 42% in the space of a single over. The required rate ticked up. More critically, the next two batsmen in — Axar Patel and a still-injured David Miller — were not the batsmen DC needed to be at the crease with 110 runs still needed from 63 balls.</p>
+</div>
+
+<div class="tp-card">
+  <div class="tp-label">Turning Point 2 — The KL Dismissal (Over 16.6)</div>
+  <p>KL Rahul had just done something extraordinary. Three consecutive boundaries off Mohammed Siraj in over 16 — six, four, six — had dragged DC back from the brink. The required rate had been 15 an over before that over began. By the end of the fifth ball, it was 9 from 22. The game was back in DC's hands. Then Siraj bowled one wide delivery on the final ball of the over. Rahul chased it. Edged it. Jos Buttler took a clean catch. In 1.7 seconds, the match flipped again. Win probability: 65% DC to 35% DC. Game on.</p>
+</div>
+
+<div class="tp-card">
+  <div class="tp-label">Turning Point 3 — The Miller Six (Over 19.4)</div>
+  <p>Two needed from two, Prasidh vs Miller. It had all come to this. Prasidh dropped his length short. Miller loaded up and launched it clean over long-off, past the boundary rope, out of the stadium. Six runs. The crowd noise was extraordinary. New ball required. DC had done it — surely they'd done it. Win probability surged from 22% to 45%. One run from one ball felt possible. The problem was what happened next.</p>
+</div>
+
+<img class="chart" src="charts/pressure_heatmap.png" alt="Pressure Index Heatmap">
+<!-- IMAGE 7 -->
+
+<!-- SECTION 9: THE INFLEXION POINT -->
+<h2>The Inflexion Point</h2>
+
+<p>Before over 13.6, Delhi Capitals held a 77% probability of winning this match. KL Rahul was 70 from 38, DC were 130/3 (Miller had just retired hurt), and the asking rate sat at a very manageable 9.7 per over. The Rashid Khan spell that was about to unfold felt like a formality in a match DC appeared to be winning.</p>
+
+<p>Then Rashid dismissed Axar Patel — caught at cover by Glenn Phillips for 2 — and in 1.7 seconds the win probability dropped to 48%. Not because Axar's contribution had been enormous; 2 from 3 is barely a walk-on part. But because Axar's dismissal put Tristan Stubbs at the crease, and Stubbs' arrival signalled that the DC middle order was thin. The win probability delta on that single ball — minus 28.6 percentage points — was the largest single-delivery swing of the entire match.</p>
+
+<blockquote>
+  <span class="ball-ref">Over 13.6 — Rashid Khan to Axar Patel</span>
+  "Axar walks across to this one, looking to flick but Rashid gets it past the inside edge and catches the outside. Phillips dives to his right at cover and takes a fine catch. It was turning away from the left-hander, Axar expecting to flick but finds outside edge instead."
+</blockquote>
+
+<p>What made this the true inflexion — rather than the KL Rahul dismissal, which was more dramatic — was the compounding effect. Axar out meant Miller had to accelerate from the moment he came in. Miller accelerating with a bruised finger, 81 balls removed from a retirement that had been forced upon him, against a bowling attack that knew exactly what he wanted to do. The entire tension of the final three overs was seeded in that one ball in over 13.</p>
+
+<img class="chart" src="charts/win_probability.png" alt="Win Probability Chart">
+<!-- IMAGE 8 -->
+
+<hr>
+
+<!-- SECTION 10: THAT PRASIDH OVER -->
+<h2>That Prasidh Over</h2>
+
+<p>Thirteen runs needed. Six balls. Prasidh Krishna, who had already conceded 30 from 8 balls to KL Rahul earlier in the match, took the ball for the final over. His career numbers suggest a bowler capable of this — Prasidh has defended totals before, in pressure situations, with authority. But this was different. Miller on strike. Nigam at the other end. DC three wickets in hand.</p>
+
+<p>Ball 19.1 to Vipraj Nigam: a full delivery and Nigam punched it over mid-off for four. DC needed 9 from 5. "Over mid-off," wrote the commentary. "Why do you need a Miller when a Nigam is here?" Ball 19.2, next delivery: Prasidh tightened his length. Nigam tried to repeat the shot and skied it — Shubman Gill ran in from long-on, slid to catch it and tumbled in style. Eight wickets down. Miller now had to do this alone. Nine from four.</p>
+
+<p>Kuldeep Yadav scurried a single off 19.3. Eight from three — but Miller was back on strike. Prasidh dropped short. Miller launched it out of the ground for six — the ball disappeared into the Delhi night. Two from two. The entire stadium was standing. Then, the pivotal moment: a short ball, and Miller sent Kuldeep back. Dot. Two needed off one.</p>
+
+<blockquote>
+  <span class="ball-ref">Over 19.6 — Prasidh Krishna to David Miller</span>
+  "Prasidh holds his nerve and bowls a slower bouncer. Miller swings and misses. Buttler nails a direct hit from behind the stumps with an underarm throw to run out Kuldeep Yadav. Have GT won by one run?! Miller reviews for a possible wide — replays confirm it wasn't wide. GT win by 1 run."
+</blockquote>
+
+<p>The slower ball was the pre-planned delivery. Prasidh had bowled it in practice. GT had identified it as Miller's vulnerability when he's loading up for maximum power. Miller was expecting pace. He got nothing — a ball that looped and sat on his bat. The swing was violent. The contact was non-existent. And Buttler, reading the moment faster than anyone, threw underarm at the stumps with Kuldeep stranded mid-pitch. GT 210. DC 209. History, by one run.</p>
+
+<!-- SECTION 11: BLACK MIRROR -->
+<h2>BLACK MIRROR</h2>
+
+<p>Two scenarios. One question: what if?</p>
+
+<div class="lola-scenario">
+  <div class="lola-title">Scenario 1: What If KL Rahul Hadn't Edged Off the Last Ball of Over 16?</div>
+  <span class="lola-delta">+11 runs for DC</span>
+  <div class="lola-outcome">Original: GT won by 1 run (DC 209/8) → Counterfactual: DC win by ~9 runs (DC ~220/5)</div>
+  <div class="lola-narrative">
+    <p>KL Rahul had turned this chase from a mountain into a molehill. Ninety-two from fifty-two was the innings DC needed — dominant, precise, relentless against every bowler except the one that finally got him. Siraj's wide yorker in the final ball of over 16 was the exact delivery GT had workshopped. Rahul bit. One edge, one catch, one game changed.</p>
+    <p>Had he held his shape, left that wide one as he'd left three others in the same over, Rahul would have faced the last three overs alongside Miller — the two best-equipped DC batsmen for exactly this situation. With Rahul striking at 176 and needing 45 from 24 balls, that equation becomes comfortable. Even at his death-overs baseline of 140 SR, Rahul adds 11 runs across 8 balls. DC reach 220.</p>
+    <p>Prasidh's final over becomes academic. The last-ball drama never happens. Miller never has to take on the slower bouncer alone. One wide delivery, one decision, and the entire architecture of the final three overs collapses. The umpire raises his finger and no one reviews for height. The win probability at the moment of that edge was 65% in DC's favour. One ball reset it to 35%.</p>
+  </div>
+</div>
+
+<div class="lola-scenario">
+  <div class="lola-title">Scenario 2: What If Miller Had Called Kuldeep Through on Ball 19.5?</div>
+  <span class="lola-delta">+1 run, +30% win probability</span>
+  <div class="lola-outcome">Original: GT won by 1 run — Miller out run out (Buttler) last ball → Counterfactual: DC had ~60% chance needing 1 from 1</div>
+  <div class="lola-narrative">
+    <p>He sent Kuldeep back. In real time, it looked like a calculation: Miller on strike, Prasidh to face, one ball, two runs. More winnable, surely, than one run off a delivery where Kuldeep might be run out again. But the math didn't hold.</p>
+    <p>With 2 off 1, Prasidh had every option available to him. He chose a slower bouncer — the exact delivery that neutralises Miller's power game. It hit him high, he missed, and Buttler's underarm throw did the rest. The win probability at that moment was barely 18%.</p>
+    <p>With 1 off 1, the equation looks entirely different. Prasidh still has options, but DC need only an inside edge, a wide, a no-ball, a leg-bye — anything. The probability of scoring exactly 1 run from 1 ball, at 60%+, is more than three times as likely as scoring exactly 2. Miller's instinct to stay on strike — to back himself — was cricket's great gamble. But Kuldeep, running a single, might have been the most important delivery of the match.</p>
+  </div>
+</div>
+
+<hr>
+
+<!-- SECTION 12: BY THE NUMBERS -->
+<h2>By the numbers</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Metric</th>
+      <th>Gujarat Titans (1st)</th>
+      <th>Delhi Capitals (Chase)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Total Runs</td><td class="highlight">210/4</td><td>209/8</td></tr>
+    <tr><td>Overs</td><td>20.0</td><td>20.0</td></tr>
+    <tr><td>Run Rate</td><td class="highlight">10.50</td><td>10.45</td></tr>
+    <tr><td>Powerplay Runs (1-6)</td><td class="highlight">68 (RR 11.33)</td><td>63 (RR 10.50)</td></tr>
+    <tr><td>Middle Overs Runs (7-15)</td><td class="highlight">100 (RR 9.84)</td><td>95 (RR 9.50)</td></tr>
+    <tr><td>Death Overs Runs (16-20)</td><td>42 (RR 10.50)</td><td class="highlight">51 (RR 12.75)</td></tr>
+    <tr><td>Boundaries (4s / 6s)</td><td class="highlight">20 / 14</td><td>20 / 8</td></tr>
+    <tr><td>Dot Ball %</td><td>22.2%</td><td class="highlight">24.6%</td></tr>
+    <tr><td>Extras Conceded</td><td>6 (w5, nb1)</td><td class="highlight">8 (w8)</td></tr>
+    <tr><td>Best Bowling Economy</td><td class="highlight">Rashid Khan 4.25</td><td>Ngidi 6.00</td></tr>
+    <tr><td>Top Scorer</td><td>Shubman Gill 70(45)</td><td class="highlight">KL Rahul 92(52)</td></tr>
+    <tr><td>Highest Partnership</td><td>Buttler-Washington 97(60)</td><td class="highlight">Rahul-Nissanka 74(49)</td></tr>
+    <tr><td>Critechery Score</td><td class="highlight">63.8</td><td>55.3</td></tr>
+  </tbody>
+</table>
+
+<p>The number that stands out most brutally: DC conceded 8 wides to GT's 5. In a match lost by 1 run, those extra three deliveries — which handed DC the ball back, reset the over, gave GT a free run — are worth more than any tactical misjudgement made with the bat.</p>
+
+<!-- IMAGE 9: By the Numbers table -->
+
+<!-- SECTION 13: HOW THE INNINGS BURNED -->
+<h2>How the Innings Burned</h2>
+
+<p>Gujarat Titans burned their innings intelligently, starting with a powerplay that was efficient (68 from 36, RR 11.33) and then throttling back through the middle without surrendering wickets. The first three wickets fell at overs 2, 7, and 17 — meaning GT kept 8 wickets in hand through their first fifteen overs. That resource-abundance gave them the freedom to build partnerships and cash in at the death. The Burn Rate chart shows a mostly green and blue path through the middle overs — efficient classification, the kind of progress that doesn't ask too many questions of the team batting at 10 and 11.</p>
+
+<p>DC's path was far more volatile. A clean powerplay (63 from 36, no wickets) gave way to the Rashid collapse in overs 9-10, a brief consolidation by Axar and Miller, and then three wickets in three overs between 13 and 17. The Burn Rate shows DC entering the death phase with only two wickets left — an entirely different resource position to GT. GT had seven wickets left when the death began. DC had four. That gap explains everything about the final over. GT had no pressure at the death because they batted normally through it. DC had maximum pressure because they'd spent their wickets too early in the middle overs.</p>
+
+<img class="chart" src="charts/burn_rate.png" alt="Burn Rate Chart">
+<!-- IMAGE 10 -->
+
+<!-- SECTION 14: THE ARCHITECTURE -->
+<h2>The Architecture</h2>
+
+<p>GT's load-bearing partnership was Buttler and Washington Sundar: 97 runs from 60 balls at a SR of 161.7. It began at 79/2 (over 7.3) and lasted into over 17 — a 9.3-over stand that formed the entire body of GT's innings. Buttler was aggressive, Washington was assured, and neither gave DC a clean line of attack. Before that partnership, GT had scored 79 from 7.3 overs. By its end, they'd reached 183 from 17.3. The 104 runs in those 60 balls defined the match.</p>
+
+<p>DC's architecture looked completely different. Their load-bearer — the Rahul-Nissanka opening stand of 74 from 49 at SR 151 — was impressive but contained. What DC's partnership flow really illustrates is the fragility of their middle order: three consecutive partnerships after the powerplay of 25 (SR 250), 0 (SR 0), 32 (SR 133) — up, crash, recovery — before Rahul and Miller finally provided something resembling structure. Had the Rahul-Miller partnership (#7, 35 from 14 at SR 250) begun earlier rather than being separated by retirements and run-outs, this would have been a different game. The architecture tells the story of a chase that was built on two brilliant individuals rather than a connected team effort.</p>
+
+<img class="chart" src="charts/partnership_flow.png" alt="Partnership Flow Chart">
+<!-- IMAGE 11 -->
+
+<!-- SECTION 15: GAME CHANGERS -->
+<h2>Game Changers</h2>
+
+<div class="gc-card">
+  <div class="gc-player">KL Rahul</div>
+  <div class="gc-stat">92 (52b, 11×4, 4×6) SR 176.92 — highest score of the match, DC (losing side)</div>
+  <div class="gc-reason">Rahul's innings was the architecture of DC's chase. He absorbed Rashid Khan's threat, accelerated through the middle, and took DC from 101/3 at the halfway point to 166/6 by over 16. His 6-4-6 sequence off Siraj in over 16 took DC from needing 15 per over to needing 9. His dismissal — one wide delivery, one edge — cut the win probability by 30 percentage points in a single ball. No batsman in this match did more with less margin for error.</div>
+</div>
+
+<div class="gc-card">
+  <div class="gc-player">Prasidh Krishna</div>
+  <div class="gc-stat">4-0-42-2, ER 10.50 — last-over executioner</div>
+  <div class="gc-reason">By the data, Prasidh had a bad game. KL Rahul scored 30 off him at 375 SR. His economy was not impressive. But the final over rewrites everything. Entrusted with the match ball at 13 needed from 6, he conceded a four (Nigam), took a wicket (Nigam, caught Gill), held his nerve through a Miller six, and then — on the ball that defined the match — bowled a slower bouncer that neutralised Miller completely. Every bad ball he bowled earlier was a tuition fee for that one.</div>
+</div>
+
+<div class="gc-card">
+  <div class="gc-player">Rashid Khan</div>
+  <div class="gc-stat">4-0-17-3, ER 4.25 — one spell, three wickets, one match changed</div>
+  <div class="gc-reason">When DC were 76/1 and threatening to make this look routine, Rashid Khan stepped up and delivered the most economical spell in the match. Back-to-back wickets — Rana and Rizvi — in over 9 shifted the match from a DC procession to a genuine contest. His dismissal of Axar in over 13 was the inflexion point that set up everything that followed. Without Rashid, GT don't win this match. The numbers say 17 runs from 24 balls. The reality says the game turned on every one of his overs.</div>
+</div>
+
+<div class="gc-card">
+  <div class="gc-player">David Miller</div>
+  <div class="gc-stat">41* (20b, 3×4, 3×6) SR 205.00 — came back with a bruised finger and nearly did it</div>
+  <div class="gc-reason">Miller retired hurt at 130/3, came back with a bruised finger when Stubbs was run out at 160/5, and turned DC from "probably losing" to "almost certainly winning" in the space of 12 balls. Six, four, six off Siraj. Six off Prasidh on ball 19.4. He was one single — one run off ball 19.5 — from making this the greatest last-ball win DC ever produced. The decision to stay on strike will be debated. But the audacity that got DC that close in the first place deserves more than a footnote.</div>
+</div>
+
+<!-- IMAGE 12: Game Changers -->
+
+</body>
+</html>
