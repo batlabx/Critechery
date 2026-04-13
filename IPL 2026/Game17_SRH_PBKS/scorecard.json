@@ -1,0 +1,397 @@
+{
+  "match_info": {
+    "team1": "Sunrisers Hyderabad",
+    "team2": "Punjab Kings",
+    "venue": "Maharaja Yadavindra Singh International Cricket Stadium, New Chandigarh",
+    "date": "April 11, 2026",
+    "toss_winner": "Punjab Kings",
+    "toss_decision": "field",
+    "result": "Punjab Kings won by 6 wickets",
+    "winner": "Punjab Kings",
+    "margin": "6 wickets",
+    "player_of_match": "Shreyas Iyer",
+    "team1_abbrev": "SRH",
+    "team2_abbrev": "PBKS",
+    "match_number": 17,
+    "tournament": "IPL 2026",
+    "team1_score": "219/6",
+    "team2_score": "223/4",
+    "team1_overs": "20.0",
+    "team2_overs": "18.5",
+    "team1_impact_player_in": "Jaydev Unadkat",
+    "team1_impact_player_out": "Travis Head",
+    "team1_impact_player_over": 19.6,
+    "team2_impact_player_in": "Nehal Wadhera",
+    "team2_impact_player_out": "Yuzvendra Chahal",
+    "team2_impact_player_over": 10.2
+  },
+  "batting_innings1": [
+    {
+      "name": "Abhishek Sharma",
+      "runs": 74,
+      "balls": 28,
+      "fours": 5,
+      "sixes": 8,
+      "sr": 264.28,
+      "how_out": "caught",
+      "bowler_dismissed_by": "Shashank Singh"
+    },
+    {
+      "name": "Travis Head",
+      "runs": 38,
+      "balls": 23,
+      "fours": 5,
+      "sixes": 1,
+      "sr": 165.21,
+      "how_out": "caught",
+      "bowler_dismissed_by": "Shashank Singh"
+    },
+    {
+      "name": "Ishan Kishan",
+      "runs": 27,
+      "balls": 17,
+      "fours": 3,
+      "sixes": 1,
+      "sr": 158.82,
+      "how_out": "caught",
+      "bowler_dismissed_by": "Arshdeep Singh"
+    },
+    {
+      "name": "Heinrich Klaasen",
+      "runs": 39,
+      "balls": 33,
+      "fours": 1,
+      "sixes": 1,
+      "sr": 118.18,
+      "how_out": "caught",
+      "bowler_dismissed_by": "Bartlett"
+    },
+    {
+      "name": "Aniket Verma",
+      "runs": 18,
+      "balls": 9,
+      "fours": 1,
+      "sixes": 1,
+      "sr": 200.0,
+      "how_out": "run out (Stoinis/\u2020Prabhsimran Singh)",
+      "bowler_dismissed_by": null
+    },
+    {
+      "name": "Salil Arora",
+      "runs": 9,
+      "balls": 8,
+      "fours": 0,
+      "sixes": 1,
+      "sr": 112.5,
+      "how_out": "caught",
+      "bowler_dismissed_by": "Arshdeep Singh"
+    },
+    {
+      "name": "Nitish Kumar Reddy",
+      "runs": 0,
+      "balls": 1,
+      "fours": 0,
+      "sixes": 0,
+      "sr": 0.0,
+      "how_out": "not out",
+      "bowler_dismissed_by": null
+    },
+    {
+      "name": "Harsh Dubey",
+      "runs": 1,
+      "balls": 2,
+      "fours": 0,
+      "sixes": 0,
+      "sr": 50.0,
+      "how_out": "not out",
+      "bowler_dismissed_by": null
+    }
+  ],
+  "bowling_innings1": [
+    {
+      "name": "Arshdeep Singh",
+      "overs": "4",
+      "maidens": 0,
+      "runs": 50,
+      "wickets": 2,
+      "economy": 12.5,
+      "dots": 10,
+      "wides": 6,
+      "noballs": 0
+    },
+    {
+      "name": "Xavier Bartlett",
+      "overs": "4",
+      "maidens": 0,
+      "runs": 42,
+      "wickets": 1,
+      "economy": 10.5,
+      "dots": 5,
+      "wides": 0,
+      "noballs": 1
+    },
+    {
+      "name": "Marco Jansen",
+      "overs": "4",
+      "maidens": 0,
+      "runs": 40,
+      "wickets": 0,
+      "economy": 10.0,
+      "dots": 5,
+      "wides": 1,
+      "noballs": 0
+    },
+    {
+      "name": "Vijaykumar Vyshak",
+      "overs": "2",
+      "maidens": 0,
+      "runs": 33,
+      "wickets": 0,
+      "economy": 16.5,
+      "dots": 3,
+      "wides": 0,
+      "noballs": 0
+    },
+    {
+      "name": "Shashank Singh",
+      "overs": "3",
+      "maidens": 0,
+      "runs": 20,
+      "wickets": 2,
+      "economy": 6.66,
+      "dots": 7,
+      "wides": 1,
+      "noballs": 0
+    },
+    {
+      "name": "Yuzvendra Chahal",
+      "overs": "3",
+      "maidens": 0,
+      "runs": 33,
+      "wickets": 0,
+      "economy": 11.0,
+      "dots": 3,
+      "wides": 3,
+      "noballs": 0
+    }
+  ],
+  "batting_innings2": [
+    {
+      "name": "Priyansh Arya",
+      "runs": 57,
+      "balls": 20,
+      "fours": 5,
+      "sixes": 5,
+      "sr": 285.0,
+      "how_out": "caught",
+      "bowler_dismissed_by": "Shivang Kumar"
+    },
+    {
+      "name": "Prabhsimran Singh",
+      "runs": 51,
+      "balls": 25,
+      "fours": 4,
+      "sixes": 4,
+      "sr": 204.0,
+      "how_out": "caught",
+      "bowler_dismissed_by": "Shivang Kumar"
+    },
+    {
+      "name": "Cooper Connolly",
+      "runs": 11,
+      "balls": 12,
+      "fours": 1,
+      "sixes": 0,
+      "sr": 91.66,
+      "how_out": "caught",
+      "bowler_dismissed_by": "Shivang Kumar"
+    },
+    {
+      "name": "Shreyas Iyer",
+      "runs": 69,
+      "balls": 33,
+      "fours": 5,
+      "sixes": 5,
+      "sr": 209.09,
+      "how_out": "not out",
+      "bowler_dismissed_by": null
+    },
+    {
+      "name": "Nehal Wadhera",
+      "runs": 14,
+      "balls": 14,
+      "fours": 0,
+      "sixes": 1,
+      "sr": 100.0,
+      "how_out": "bowled",
+      "bowler_dismissed_by": "Dubey"
+    },
+    {
+      "name": "Shashank Singh",
+      "runs": 16,
+      "balls": 9,
+      "fours": 1,
+      "sixes": 1,
+      "sr": 177.77,
+      "how_out": "not out",
+      "bowler_dismissed_by": null
+    }
+  ],
+  "bowling_innings2": [
+    {
+      "name": "Harsh Dubey",
+      "overs": "4",
+      "maidens": 0,
+      "runs": 38,
+      "wickets": 1,
+      "economy": 9.5,
+      "dots": 5,
+      "wides": 2,
+      "noballs": 0
+    },
+    {
+      "name": "Jaydev Unadkat",
+      "overs": "3",
+      "maidens": 0,
+      "runs": 40,
+      "wickets": 0,
+      "economy": 13.33,
+      "dots": 4,
+      "wides": 0,
+      "noballs": 0
+    },
+    {
+      "name": "Eshan Malinga",
+      "overs": "3",
+      "maidens": 0,
+      "runs": 46,
+      "wickets": 0,
+      "economy": 15.33,
+      "dots": 6,
+      "wides": 2,
+      "noballs": 0
+    },
+    {
+      "name": "Harshal Patel",
+      "overs": "2",
+      "maidens": 0,
+      "runs": 39,
+      "wickets": 0,
+      "economy": 19.5,
+      "dots": 2,
+      "wides": 0,
+      "noballs": 0
+    },
+    {
+      "name": "Shivang Kumar",
+      "overs": "4",
+      "maidens": 0,
+      "runs": 33,
+      "wickets": 3,
+      "economy": 8.25,
+      "dots": 8,
+      "wides": 1,
+      "noballs": 0
+    },
+    {
+      "name": "Nitish Kumar Reddy",
+      "overs": "2",
+      "maidens": 0,
+      "runs": 20,
+      "wickets": 0,
+      "economy": 10.0,
+      "dots": 1,
+      "wides": 0,
+      "noballs": 0
+    },
+    {
+      "name": "Abhishek Sharma",
+      "overs": "0.5",
+      "maidens": 0,
+      "runs": 7,
+      "wickets": 0,
+      "economy": 8.4,
+      "dots": 1,
+      "wides": 0,
+      "noballs": 0
+    }
+  ],
+  "extras_innings1": {
+    "wides": 11,
+    "noballs": 1,
+    "byes": 1,
+    "legbyes": 0,
+    "total": 13
+  },
+  "extras_innings2": {
+    "wides": 5,
+    "noballs": 0,
+    "byes": 0,
+    "legbyes": 0,
+    "total": 5
+  },
+  "fall_of_wickets_innings1": [
+    {
+      "wicket_num": 1,
+      "score": 120,
+      "over": 9.1,
+      "batsman": "Travis Head"
+    },
+    {
+      "wicket_num": 2,
+      "score": 122,
+      "over": 9.4,
+      "batsman": "Abhishek Sharma"
+    },
+    {
+      "wicket_num": 3,
+      "score": 169,
+      "over": 14.6,
+      "batsman": "Ishan Kishan"
+    },
+    {
+      "wicket_num": 4,
+      "score": 195,
+      "over": 17.4,
+      "batsman": "Aniket Verma"
+    },
+    {
+      "wicket_num": 5,
+      "score": 214,
+      "over": 19.5,
+      "batsman": "Salil Arora"
+    },
+    {
+      "wicket_num": 6,
+      "score": 218,
+      "over": 20.4,
+      "batsman": "Heinrich Klaasen"
+    }
+  ],
+  "fall_of_wickets_innings2": [
+    {
+      "wicket_num": 1,
+      "score": 99,
+      "over": 7.2,
+      "batsman": "Priyansh Arya"
+    },
+    {
+      "wicket_num": 2,
+      "score": 117,
+      "over": 9.6,
+      "batsman": "Prabhsimran Singh"
+    },
+    {
+      "wicket_num": 3,
+      "score": 128,
+      "over": 11.2,
+      "batsman": "Cooper Connolly"
+    },
+    {
+      "wicket_num": 4,
+      "score": 197,
+      "over": 17.1,
+      "batsman": "Nehal Wadhera"
+    }
+  ]
+}
