@@ -1,0 +1,1995 @@
+{
+  "match_info": {
+    "match_num": 13,
+    "team1": "Rajasthan Royals",
+    "team2": "Mumbai Indians",
+    "team1_short": "RR",
+    "team2_short": "MI",
+    "venue": "Barsapara Cricket Stadium, Guwahati",
+    "date": "April 7, 2026",
+    "toss_winner": "Mumbai Indians",
+    "toss_decision": "field",
+    "result": "RR won by 27 runs (D/L method, 11 overs per side)",
+    "winner": "Rajasthan Royals",
+    "margin": "27 runs",
+    "player_of_match": "Yashasvi Jaiswal",
+    "notes": "Rain affected match. 11 overs per side.",
+    "team1_impact_player_in": "Ravi Bishnoi",
+    "team1_impact_player_out": "Dhruv Jurel",
+    "team1_impact_player_over": 5,
+    "team2_impact_player_in": "Sherfane Rutherford",
+    "team2_impact_player_out": "AM Ghazanfar",
+    "team2_impact_player_over": 6,
+    "inn1_score": "150/3",
+    "inn2_score": "123/9",
+    "inn1_overs": 11,
+    "inn2_overs": 11,
+    "inn2_target": 151
+  },
+  "refined_critechery_score": {
+    "rr": {
+      "total": 77.1,
+      "batting": {
+        "sr_dominance": {
+          "value": 25,
+          "max": 25
+        },
+        "boundary_efficiency": {
+          "value": 15,
+          "max": 15
+        },
+        "extras_discipline": {
+          "value": 1.0,
+          "max": 10
+        },
+        "subtotal": 41.0
+      },
+      "bowling": {
+        "economy_squeeze": {
+          "value": 1.1,
+          "max": 15
+        },
+        "wicket_punch": {
+          "value": 15,
+          "max": 15
+        },
+        "dot_dominance": {
+          "value": 10,
+          "max": 10
+        },
+        "bowling_sr": {
+          "value": 10,
+          "max": 10
+        },
+        "subtotal": 36.1
+      },
+      "metrics": {
+        "weighted_sr": 218.2,
+        "economy": 10.64,
+        "wickets": 8
+      }
+    },
+    "mi": {
+      "total": 51.0,
+      "batting": {
+        "sr_dominance": {
+          "value": 12.9,
+          "max": 25
+        },
+        "boundary_efficiency": {
+          "value": 15,
+          "max": 15
+        },
+        "extras_discipline": {
+          "value": 1.0,
+          "max": 10
+        },
+        "subtotal": 28.9
+      },
+      "bowling": {
+        "economy_squeeze": {
+          "value": 0,
+          "max": 15
+        },
+        "wicket_punch": {
+          "value": 7.5,
+          "max": 15
+        },
+        "dot_dominance": {
+          "value": 10,
+          "max": 10
+        },
+        "bowling_sr": {
+          "value": 4.6,
+          "max": 10
+        },
+        "subtotal": 22.1
+      },
+      "metrics": {
+        "weighted_sr": 161.2,
+        "economy": 13.18,
+        "wickets": 3
+      }
+    }
+  },
+  "humdinger_score": {
+    "total": 5.9,
+    "components": {
+      "time_near_50_pct": 1.9,
+      "last_over_drama": 2.0,
+      "margin": 1.0,
+      "wicket_cluster": 1.0,
+      "boundary_burst": 0.0
+    },
+    "time_near_50_raw": 0.097
+  },
+  "pressure_index": {
+    "innings1": [
+      {
+        "over": 0,
+        "pressure": 0.319,
+        "dot_pct": 0.17,
+        "wickets": 0,
+        "rr_this_over": 22,
+        "runs_this_over": 22,
+        "level": "above_average"
+      },
+      {
+        "over": 1,
+        "pressure": 0.145,
+        "dot_pct": 0.33,
+        "wickets": 0,
+        "rr_this_over": 14,
+        "runs_this_over": 14,
+        "level": "above_average"
+      },
+      {
+        "over": 2,
+        "pressure": 0.222,
+        "dot_pct": 0.0,
+        "wickets": 0,
+        "rr_this_over": 21,
+        "runs_this_over": 21,
+        "level": "above_average"
+      },
+      {
+        "over": 3,
+        "pressure": 0.421,
+        "dot_pct": 0.33,
+        "wickets": 0,
+        "rr_this_over": 4,
+        "runs_this_over": 4,
+        "level": "above_average"
+      },
+      {
+        "over": 4,
+        "pressure": 0.432,
+        "dot_pct": 0.0,
+        "wickets": 1,
+        "rr_this_over": 18,
+        "runs_this_over": 18,
+        "level": "above_average"
+      },
+      {
+        "over": 5,
+        "pressure": 0.535,
+        "dot_pct": 0.17,
+        "wickets": 1,
+        "rr_this_over": 8,
+        "runs_this_over": 8,
+        "level": "above_average"
+      },
+      {
+        "over": 6,
+        "pressure": 0.235,
+        "dot_pct": 0.17,
+        "wickets": 0,
+        "rr_this_over": 8,
+        "runs_this_over": 8,
+        "level": "above_average"
+      },
+      {
+        "over": 7,
+        "pressure": 0.085,
+        "dot_pct": 0.17,
+        "wickets": 0,
+        "rr_this_over": 13,
+        "runs_this_over": 13,
+        "level": "above_average"
+      },
+      {
+        "over": 8,
+        "pressure": 0.415,
+        "dot_pct": 0.17,
+        "wickets": 1,
+        "rr_this_over": 12,
+        "runs_this_over": 12,
+        "level": "above_average"
+      },
+      {
+        "over": 9,
+        "pressure": 0.271,
+        "dot_pct": 0.33,
+        "wickets": 0,
+        "rr_this_over": 9,
+        "runs_this_over": 9,
+        "level": "above_average"
+      },
+      {
+        "over": 10,
+        "pressure": 0.109,
+        "dot_pct": 0.17,
+        "wickets": 0,
+        "rr_this_over": 15,
+        "runs_this_over": 15,
+        "level": "above_average"
+      }
+    ],
+    "innings2": [
+      {
+        "over": 0,
+        "pressure": 0.423,
+        "dot_pct": 0.0,
+        "wickets": 1,
+        "rr_this_over": 10,
+        "runs_this_over": 10,
+        "level": "above_average"
+      },
+      {
+        "over": 1,
+        "pressure": 0.533,
+        "dot_pct": 0.33,
+        "wickets": 1,
+        "rr_this_over": 11,
+        "runs_this_over": 11,
+        "level": "above_average"
+      },
+      {
+        "over": 2,
+        "pressure": 0.8,
+        "dot_pct": 0.5,
+        "wickets": 1,
+        "rr_this_over": 2,
+        "runs_this_over": 2,
+        "level": "extreme"
+      },
+      {
+        "over": 3,
+        "pressure": 0.264,
+        "dot_pct": 0.17,
+        "wickets": 0,
+        "rr_this_over": 10,
+        "runs_this_over": 10,
+        "level": "above_average"
+      },
+      {
+        "over": 4,
+        "pressure": 0.83,
+        "dot_pct": 0.0,
+        "wickets": 2,
+        "rr_this_over": 10,
+        "runs_this_over": 10,
+        "level": "extreme"
+      },
+      {
+        "over": 5,
+        "pressure": 0.265,
+        "dot_pct": 0.33,
+        "wickets": 0,
+        "rr_this_over": 14,
+        "runs_this_over": 14,
+        "level": "above_average"
+      },
+      {
+        "over": 6,
+        "pressure": 0.158,
+        "dot_pct": 0.0,
+        "wickets": 0,
+        "rr_this_over": 14,
+        "runs_this_over": 14,
+        "level": "above_average"
+      },
+      {
+        "over": 7,
+        "pressure": 0.34,
+        "dot_pct": 0.0,
+        "wickets": 1,
+        "rr_this_over": 18,
+        "runs_this_over": 18,
+        "level": "above_average"
+      },
+      {
+        "over": 8,
+        "pressure": 0.667,
+        "dot_pct": 0.17,
+        "wickets": 1,
+        "rr_this_over": 9,
+        "runs_this_over": 9,
+        "level": "high"
+      },
+      {
+        "over": 9,
+        "pressure": 0.733,
+        "dot_pct": 0.33,
+        "wickets": 1,
+        "rr_this_over": 7,
+        "runs_this_over": 7,
+        "level": "high"
+      },
+      {
+        "over": 10,
+        "pressure": 0.667,
+        "dot_pct": 0.17,
+        "wickets": 1,
+        "rr_this_over": 7,
+        "runs_this_over": 7,
+        "level": "high"
+      }
+    ],
+    "baselines": {
+      "overall_avg": 0.403,
+      "powerplay_avg_inn2": 0.505,
+      "death_avg_inn2": 0.689,
+      "p75": 0.535,
+      "p90": 0.733
+    },
+    "heatmap_grid": {
+      "innings1": {
+        "10_10": 0.319,
+        "9_10": 0.145,
+        "8_10": 0.222,
+        "7_10": 0.421,
+        "6_10": 0.432,
+        "6_9": 0.432,
+        "5_9": 0.535,
+        "5_8": 0.535,
+        "4_8": 0.235,
+        "3_8": 0.085,
+        "2_8": 0.415,
+        "2_7": 0.415,
+        "1_7": 0.271,
+        "0_7": 0.109
+      },
+      "innings2": {
+        "10_10": 0.423,
+        "10_9": 0.423,
+        "9_9": 0.533,
+        "9_8": 0.533,
+        "8_8": 0.8,
+        "8_7": 0.8,
+        "7_7": 0.264,
+        "6_7": 0.83,
+        "6_6": 0.83,
+        "6_5": 0.83,
+        "5_5": 0.265,
+        "4_5": 0.158,
+        "3_5": 0.34,
+        "3_4": 0.34,
+        "2_4": 0.667,
+        "2_3": 0.667,
+        "1_3": 0.733,
+        "1_2": 0.733,
+        "0_1": 0.667
+      }
+    }
+  },
+  "win_probability": [
+    {
+      "ball_index": 0,
+      "over": 0,
+      "ball": 1,
+      "score": 1,
+      "wickets": 0,
+      "win_prob": 0.517,
+      "is_wicket": false,
+      "is_four": false,
+      "is_six": false,
+      "boundary_type": null,
+      "batsman": "Rickelton",
+      "bowler": "Archer"
+    },
+    {
+      "ball_index": 1,
+      "over": 0,
+      "ball": 2,
+      "score": 2,
+      "wickets": 0,
+      "win_prob": 0.533,
+      "is_wicket": false,
+      "is_four": false,
+      "is_six": false,
+      "boundary_type": null,
+      "batsman": "Rohit Sharma",
+      "bowler": "Archer"
+    },
+    {
+      "ball_index": 2,
+      "over": 0,
+      "ball": 3,
+      "score": 3,
+      "wickets": 0,
+      "win_prob": 0.55,
+      "is_wicket": false,
+      "is_four": false,
+      "is_six": false,
+      "boundary_type": null,
+      "batsman": "Rickelton",
+      "bowler": "Archer"
+    },
+    {
+      "ball_index": 3,
+      "over": 0,
+      "ball": 4,
+      "score": 4,
+      "wickets": 0,
+      "win_prob": 0.566,
+      "is_wicket": false,
+      "is_four": false,
+      "is_six": false,
+      "boundary_type": null,
+      "batsman": "Rohit Sharma",
+      "bowler": "Archer"
+    },
+    {
+      "ball_index": 4,
+      "over": 0,
+      "ball": 5,
+      "score": 10,
+      "wickets": 0,
+      "win_prob": 0.661,
+      "is_wicket": false,
+      "is_four": false,
+      "is_six": true,
+      "boundary_type": "six",
+      "batsman": "Rickelton",
+      "bowler": "Archer"
+    },
+    {
+      "ball_index": 5,
+      "over": 0,
+      "ball": 6,
+      "score": 10,
+      "wickets": 1,
+      "win_prob": 0.661,
+      "is_wicket": true,
+      "is_four": false,
+      "is_six": false,
+      "boundary_type": null,
+      "batsman": "Rickelton",
+      "bowler": "Archer"
+    },
+    {
+      "ball_index": 6,
+      "over": 1,
+      "ball": 1,
+      "score": 13,
+      "wickets": 1,
+      "win_prob": 0.704,
+      "is_wicket": false,
+      "is_four": false,
+      "is_six": false,
+      "boundary_type": null,
+      "batsman": "Rohit Sharma",
+      "bowler": "Burger"
+    },
+    {
+      "ball_index": 7,
+      "over": 1,
+      "ball": 2,
+      "score": 19,
+      "wickets": 1,
+      "win_prob": 0.78,
+      "is_wicket": false,
+      "is_four": false,
+      "is_six": true,
+      "boundary_type": "six",
+      "batsman": "Suryakumar",
+      "bowler": "Burger"
+    },
+    {
+      "ball_index": 8,
+      "over": 1,
+      "ball": 3,
+      "score": 19,
+      "wickets": 1,
+      "win_prob": 0.78,
+      "is_wicket": false,
+      "is_four": false,
+      "is_six": false,
+      "boundary_type": null,
+      "batsman": "Suryakumar",
+      "bowler": "Burger"
+    },
+    {
+      "ball_index": 9,
+      "over": 1,
+      "ball": 3,
+      "score": 20,
+      "wickets": 1,
+      "win_prob": 0.791,
+      "is_wicket": false,
+      "is_four": false,
+      "is_six": false,
+      "boundary_type": null,
+      "batsman": "Suryakumar",
+      "bowler": "Burger"
+    },
+    {
+      "ball_index": 10,
+      "over": 1,
+      "ball": 4,
+      "score": 20,
+      "wickets": 2,
+      "win_prob": 0.791,
+      "is_wicket": true,
+      "is_four": false,
+      "is_six": false,
+      "boundary_type": null,
+      "batsman": "Suryakumar",
+      "bowler": "Burger"
+    },
+    {
+      "ball_index": 11,
+      "over": 1,
+      "ball": 5,
+      "score": 22,
+      "wickets": 2,
+      "win_prob": 0.813,
+      "is_wicket": false,
+      "is_four": false,
+      "is_six": false,
+      "boundary_type": null,
+      "batsman": "Tilak Varma",
+      "bowler": "Burger"
+    },
+    {
+      "ball_index": 12,
+      "over": 1,
+      "ball": 6,
+      "score": 22,
+      "wickets": 2,
+      "win_prob": 0.813,
+      "is_wicket": false,
+      "is_four": false,
+      "is_six": false,
+      "boundary_type": null,
+      "batsman": "Tilak Varma",
+      "bowler": "Burger"
+    },
+    {
+      "ball_index": 13,
+      "over": 2,
+      "ball": 1,
+      "score": 22,
+      "wickets": 2,
+      "win_prob": 0.813,
+      "is_wicket": false,
+      "is_four": false,
+      "is_six": false,
+      "boundary_type": null,
+      "batsman": "Rohit Sharma",
+      "bowler": "Sandeep"
+    },
+    {
+      "ball_index": 14,
+      "over": 2,
+      "ball": 2,
+      "score": 22,
+      "wickets": 2,
+      "win_prob": 0.813,
+      "is_wicket": false,
+      "is_four": false,
+      "is_six": false,
+      "boundary_type": null,
+      "batsman": "Rohit Sharma",
+      "bowler": "Sandeep"
+    },
+    {
+      "ball_index": 15,
+      "over": 2,
+      "ball": 3,
+      "score": 22,
+      "wickets": 3,
+      "win_prob": 0.813,
+      "is_wicket": true,
+      "is_four": false,
+      "is_six": false,
+      "boundary_type": null,
+      "batsman": "Rohit Sharma",
+      "bowler": "Sandeep"
+    },
+    {
+      "ball_index": 16,
+      "over": 2,
+      "ball": 4,
+      "score": 23,
+      "wickets": 3,
+      "win_prob": 0.822,
+      "is_wicket": false,
+      "is_four": false,
+      "is_six": false,
+      "boundary_type": null,
+      "batsman": "Hardik",
+      "bowler": "Sandeep"
+    },
+    {
+      "ball_index": 17,
+      "over": 2,
+      "ball": 5,
+      "score": 23,
+      "wickets": 3,
+      "win_prob": 0.822,
+      "is_wicket": false,
+      "is_four": false,
+      "is_six": false,
+      "boundary_type": null,
+      "batsman": "Tilak Varma",
+      "bowler": "Sandeep"
+    },
+    {
+      "ball_index": 18,
+      "over": 2,
+      "ball": 6,
+      "score": 24,
+      "wickets": 3,
+      "win_prob": 0.832,
+      "is_wicket": false,
+      "is_four": false,
+      "is_six": false,
+      "boundary_type": null,
+      "batsman": "Tilak Varma",
+      "bowler": "Sandeep"
+    },
+    {
+      "ball_index": 19,
+      "over": 2,
+      "ball": 6,
+      "score": 25,
+      "wickets": 3,
+      "win_prob": 0.841,
+      "is_wicket": false,
+      "is_four": false,
+      "is_six": false,
+      "boundary_type": null,
+      "batsman": "Tilak Varma",
+      "bowler": "Sandeep"
+    },
+    {
+      "ball_index": 20,
+      "over": 3,
+      "ball": 1,
+      "score": 29,
+      "wickets": 3,
+      "win_prob": 0.87,
+      "is_wicket": false,
+      "is_four": true,
+      "is_six": false,
+      "boundary_type": "four",
+      "batsman": "Tilak Varma",
+      "bowler": "Deshpande"
+    },
+    {
+      "ball_index": 21,
+      "over": 3,
+      "ball": 2,
+      "score": 30,
+      "wickets": 3,
+      "win_prob": 0.853,
+      "is_wicket": false,
+      "is_four": false,
+      "is_six": false,
+      "boundary_type": null,
+      "batsman": "Tilak Varma",
+      "bowler": "Deshpande"
+    },
+    {
+      "ball_index": 22,
+      "over": 3,
+      "ball": 3,
+      "score": 34,
+      "wickets": 3,
+      "win_prob": 0.859,
+      "is_wicket": false,
+      "is_four": true,
+      "is_six": false,
+      "boundary_type": "four",
+      "batsman": "Hardik",
+      "bowler": "Deshpande"
+    },
+    {
+      "ball_index": 23,
+      "over": 3,
+      "ball": 4,
+      "score": 34,
+      "wickets": 3,
+      "win_prob": 0.831,
+      "is_wicket": false,
+      "is_four": false,
+      "is_six": false,
+      "boundary_type": null,
+      "batsman": "Hardik",
+      "bowler": "Deshpande"
+    },
+    {
+      "ball_index": 24,
+      "over": 3,
+      "ball": 5,
+      "score": 34,
+      "wickets": 3,
+      "win_prob": 0.799,
+      "is_wicket": false,
+      "is_four": false,
+      "is_six": false,
+      "boundary_type": null,
+      "batsman": "Hardik",
+      "bowler": "Deshpande"
+    },
+    {
+      "ball_index": 25,
+      "over": 3,
+      "ball": 6,
+      "score": 35,
+      "wickets": 3,
+      "win_prob": 0.775,
+      "is_wicket": false,
+      "is_four": false,
+      "is_six": false,
+      "boundary_type": null,
+      "batsman": "Tilak Varma",
+      "bowler": "Deshpande"
+    },
+    {
+      "ball_index": 26,
+      "over": 4,
+      "ball": 1,
+      "score": 36,
+      "wickets": 3,
+      "win_prob": 0.748,
+      "is_wicket": false,
+      "is_four": false,
+      "is_six": false,
+      "boundary_type": null,
+      "batsman": "Tilak Varma",
+      "bowler": "Ravi Bishnoi"
+    },
+    {
+      "ball_index": 27,
+      "over": 4,
+      "ball": 2,
+      "score": 40,
+      "wickets": 3,
+      "win_prob": 0.758,
+      "is_wicket": false,
+      "is_four": true,
+      "is_six": false,
+      "boundary_type": "four",
+      "batsman": "Hardik",
+      "bowler": "Ravi Bishnoi"
+    },
+    {
+      "ball_index": 28,
+      "over": 4,
+      "ball": 3,
+      "score": 40,
+      "wickets": 4,
+      "win_prob": 0.435,
+      "is_wicket": true,
+      "is_four": false,
+      "is_six": false,
+      "boundary_type": null,
+      "batsman": "Hardik",
+      "bowler": "Ravi Bishnoi"
+    },
+    {
+      "ball_index": 29,
+      "over": 4,
+      "ball": 4,
+      "score": 41,
+      "wickets": 4,
+      "win_prob": 0.407,
+      "is_wicket": false,
+      "is_four": false,
+      "is_six": false,
+      "boundary_type": null,
+      "batsman": "Naman Dhir",
+      "bowler": "Ravi Bishnoi"
+    },
+    {
+      "ball_index": 30,
+      "over": 4,
+      "ball": 5,
+      "score": 45,
+      "wickets": 4,
+      "win_prob": 0.427,
+      "is_wicket": false,
+      "is_four": true,
+      "is_six": false,
+      "boundary_type": "four",
+      "batsman": "Tilak Varma",
+      "bowler": "Ravi Bishnoi"
+    },
+    {
+      "ball_index": 31,
+      "over": 4,
+      "ball": 6,
+      "score": 45,
+      "wickets": 5,
+      "win_prob": 0.171,
+      "is_wicket": true,
+      "is_four": false,
+      "is_six": false,
+      "boundary_type": null,
+      "batsman": "Tilak Varma",
+      "bowler": "Ravi Bishnoi"
+    },
+    {
+      "ball_index": 32,
+      "over": 5,
+      "ball": 1,
+      "score": 45,
+      "wickets": 5,
+      "win_prob": 0.151,
+      "is_wicket": false,
+      "is_four": false,
+      "is_six": false,
+      "boundary_type": null,
+      "batsman": "Naman Dhir",
+      "bowler": "Sandeep"
+    },
+    {
+      "ball_index": 33,
+      "over": 5,
+      "ball": 2,
+      "score": 47,
+      "wickets": 5,
+      "win_prob": 0.148,
+      "is_wicket": false,
+      "is_four": false,
+      "is_six": false,
+      "boundary_type": null,
+      "batsman": "Naman Dhir",
+      "bowler": "Sandeep"
+    },
+    {
+      "ball_index": 34,
+      "over": 5,
+      "ball": 3,
+      "score": 53,
+      "wickets": 5,
+      "win_prob": 0.182,
+      "is_wicket": false,
+      "is_four": false,
+      "is_six": true,
+      "boundary_type": "six",
+      "batsman": "Naman Dhir",
+      "bowler": "Sandeep"
+    },
+    {
+      "ball_index": 35,
+      "over": 5,
+      "ball": 4,
+      "score": 53,
+      "wickets": 5,
+      "win_prob": 0.161,
+      "is_wicket": false,
+      "is_four": false,
+      "is_six": false,
+      "boundary_type": null,
+      "batsman": "Naman Dhir",
+      "bowler": "Sandeep"
+    },
+    {
+      "ball_index": 36,
+      "over": 5,
+      "ball": 5,
+      "score": 57,
+      "wickets": 5,
+      "win_prob": 0.177,
+      "is_wicket": false,
+      "is_four": true,
+      "is_six": false,
+      "boundary_type": "four",
+      "batsman": "Naman Dhir",
+      "bowler": "Sandeep"
+    },
+    {
+      "ball_index": 37,
+      "over": 5,
+      "ball": 6,
+      "score": 59,
+      "wickets": 5,
+      "win_prob": 0.174,
+      "is_wicket": false,
+      "is_four": false,
+      "is_six": false,
+      "boundary_type": null,
+      "batsman": "Naman Dhir",
+      "bowler": "Sandeep"
+    },
+    {
+      "ball_index": 38,
+      "over": 6,
+      "ball": 1,
+      "score": 61,
+      "wickets": 5,
+      "win_prob": 0.171,
+      "is_wicket": false,
+      "is_four": false,
+      "is_six": false,
+      "boundary_type": null,
+      "batsman": "Rutherford",
+      "bowler": "Ravi Bishnoi"
+    },
+    {
+      "ball_index": 39,
+      "over": 6,
+      "ball": 2,
+      "score": 63,
+      "wickets": 5,
+      "win_prob": 0.169,
+      "is_wicket": false,
+      "is_four": false,
+      "is_six": false,
+      "boundary_type": null,
+      "batsman": "Rutherford",
+      "bowler": "Ravi Bishnoi"
+    },
+    {
+      "ball_index": 40,
+      "over": 6,
+      "ball": 3,
+      "score": 64,
+      "wickets": 5,
+      "win_prob": 0.157,
+      "is_wicket": false,
+      "is_four": false,
+      "is_six": false,
+      "boundary_type": null,
+      "batsman": "Rutherford",
+      "bowler": "Ravi Bishnoi"
+    },
+    {
+      "ball_index": 41,
+      "over": 6,
+      "ball": 3,
+      "score": 65,
+      "wickets": 5,
+      "win_prob": 0.166,
+      "is_wicket": false,
+      "is_four": false,
+      "is_six": false,
+      "boundary_type": null,
+      "batsman": "Rutherford",
+      "bowler": "Ravi Bishnoi"
+    },
+    {
+      "ball_index": 42,
+      "over": 6,
+      "ball": 4,
+      "score": 66,
+      "wickets": 5,
+      "win_prob": 0.154,
+      "is_wicket": false,
+      "is_four": false,
+      "is_six": false,
+      "boundary_type": null,
+      "batsman": "Naman Dhir",
+      "bowler": "Ravi Bishnoi"
+    },
+    {
+      "ball_index": 43,
+      "over": 6,
+      "ball": 5,
+      "score": 70,
+      "wickets": 5,
+      "win_prob": 0.17,
+      "is_wicket": false,
+      "is_four": true,
+      "is_six": false,
+      "boundary_type": "four",
+      "batsman": "Rutherford",
+      "bowler": "Ravi Bishnoi"
+    },
+    {
+      "ball_index": 44,
+      "over": 6,
+      "ball": 6,
+      "score": 74,
+      "wickets": 5,
+      "win_prob": 0.187,
+      "is_wicket": false,
+      "is_four": true,
+      "is_six": false,
+      "boundary_type": "four",
+      "batsman": "Rutherford",
+      "bowler": "Ravi Bishnoi"
+    },
+    {
+      "ball_index": 45,
+      "over": 7,
+      "ball": 1,
+      "score": 78,
+      "wickets": 5,
+      "win_prob": 0.204,
+      "is_wicket": false,
+      "is_four": true,
+      "is_six": false,
+      "boundary_type": "four",
+      "batsman": "Naman Dhir",
+      "bowler": "Deshpande"
+    },
+    {
+      "ball_index": 46,
+      "over": 7,
+      "ball": 2,
+      "score": 79,
+      "wickets": 5,
+      "win_prob": 0.191,
+      "is_wicket": false,
+      "is_four": false,
+      "is_six": false,
+      "boundary_type": null,
+      "batsman": "Naman Dhir",
+      "bowler": "Deshpande"
+    },
+    {
+      "ball_index": 47,
+      "over": 7,
+      "ball": 3,
+      "score": 85,
+      "wickets": 5,
+      "win_prob": 0.232,
+      "is_wicket": false,
+      "is_four": false,
+      "is_six": true,
+      "boundary_type": "six",
+      "batsman": "Rutherford",
+      "bowler": "Deshpande"
+    },
+    {
+      "ball_index": 48,
+      "over": 7,
+      "ball": 4,
+      "score": 91,
+      "wickets": 5,
+      "win_prob": 0.279,
+      "is_wicket": false,
+      "is_four": false,
+      "is_six": true,
+      "boundary_type": "six",
+      "batsman": "Rutherford",
+      "bowler": "Deshpande"
+    },
+    {
+      "ball_index": 49,
+      "over": 7,
+      "ball": 4,
+      "score": 92,
+      "wickets": 5,
+      "win_prob": 0.293,
+      "is_wicket": false,
+      "is_four": false,
+      "is_six": false,
+      "boundary_type": null,
+      "batsman": "Rutherford",
+      "bowler": "Deshpande"
+    },
+    {
+      "ball_index": 50,
+      "over": 7,
+      "ball": 5,
+      "score": 92,
+      "wickets": 6,
+      "win_prob": 0.166,
+      "is_wicket": true,
+      "is_four": false,
+      "is_six": false,
+      "boundary_type": null,
+      "batsman": "Rutherford",
+      "bowler": "Deshpande"
+    },
+    {
+      "ball_index": 51,
+      "over": 7,
+      "ball": 6,
+      "score": 93,
+      "wickets": 6,
+      "win_prob": 0.158,
+      "is_wicket": false,
+      "is_four": false,
+      "is_six": false,
+      "boundary_type": null,
+      "batsman": "Thakur",
+      "bowler": "Deshpande"
+    },
+    {
+      "ball_index": 52,
+      "over": 8,
+      "ball": 1,
+      "score": 97,
+      "wickets": 6,
+      "win_prob": 0.179,
+      "is_wicket": false,
+      "is_four": true,
+      "is_six": false,
+      "boundary_type": "four",
+      "batsman": "Thakur",
+      "bowler": "Burger"
+    },
+    {
+      "ball_index": 53,
+      "over": 8,
+      "ball": 2,
+      "score": 98,
+      "wickets": 6,
+      "win_prob": 0.171,
+      "is_wicket": false,
+      "is_four": false,
+      "is_six": false,
+      "boundary_type": null,
+      "batsman": "Thakur",
+      "bowler": "Burger"
+    },
+    {
+      "ball_index": 54,
+      "over": 8,
+      "ball": 3,
+      "score": 98,
+      "wickets": 6,
+      "win_prob": 0.154,
+      "is_wicket": false,
+      "is_four": false,
+      "is_six": false,
+      "boundary_type": null,
+      "batsman": "Naman Dhir",
+      "bowler": "Burger"
+    },
+    {
+      "ball_index": 55,
+      "over": 8,
+      "ball": 4,
+      "score": 102,
+      "wickets": 6,
+      "win_prob": 0.174,
+      "is_wicket": false,
+      "is_four": true,
+      "is_six": false,
+      "boundary_type": "four",
+      "batsman": "Naman Dhir",
+      "bowler": "Burger"
+    },
+    {
+      "ball_index": 56,
+      "over": 8,
+      "ball": 5,
+      "score": 102,
+      "wickets": 7,
+      "win_prob": 0.111,
+      "is_wicket": true,
+      "is_four": false,
+      "is_six": false,
+      "boundary_type": null,
+      "batsman": "Naman Dhir",
+      "bowler": "Burger"
+    },
+    {
+      "ball_index": 57,
+      "over": 8,
+      "ball": 6,
+      "score": 102,
+      "wickets": 7,
+      "win_prob": 0.103,
+      "is_wicket": false,
+      "is_four": false,
+      "is_six": false,
+      "boundary_type": null,
+      "batsman": "Chahar",
+      "bowler": "Burger"
+    },
+    {
+      "ball_index": 58,
+      "over": 9,
+      "ball": 1,
+      "score": 102,
+      "wickets": 7,
+      "win_prob": 0.094,
+      "is_wicket": false,
+      "is_four": false,
+      "is_six": false,
+      "boundary_type": null,
+      "batsman": "Thakur",
+      "bowler": "Sandeep"
+    },
+    {
+      "ball_index": 59,
+      "over": 9,
+      "ball": 2,
+      "score": 102,
+      "wickets": 7,
+      "win_prob": 0.087,
+      "is_wicket": false,
+      "is_four": false,
+      "is_six": false,
+      "boundary_type": null,
+      "batsman": "Thakur",
+      "bowler": "Sandeep"
+    },
+    {
+      "ball_index": 60,
+      "over": 9,
+      "ball": 2,
+      "score": 103,
+      "wickets": 7,
+      "win_prob": 0.092,
+      "is_wicket": false,
+      "is_four": false,
+      "is_six": false,
+      "boundary_type": null,
+      "batsman": "Thakur",
+      "bowler": "Sandeep"
+    },
+    {
+      "ball_index": 61,
+      "over": 9,
+      "ball": 3,
+      "score": 105,
+      "wickets": 7,
+      "win_prob": 0.096,
+      "is_wicket": false,
+      "is_four": false,
+      "is_six": false,
+      "boundary_type": null,
+      "batsman": "Thakur",
+      "bowler": "Sandeep"
+    },
+    {
+      "ball_index": 62,
+      "over": 9,
+      "ball": 4,
+      "score": 105,
+      "wickets": 8,
+      "win_prob": 0.071,
+      "is_wicket": true,
+      "is_four": false,
+      "is_six": false,
+      "boundary_type": null,
+      "batsman": "Thakur",
+      "bowler": "Sandeep"
+    },
+    {
+      "ball_index": 63,
+      "over": 9,
+      "ball": 4,
+      "score": 106,
+      "wickets": 8,
+      "win_prob": 0.075,
+      "is_wicket": false,
+      "is_four": false,
+      "is_six": false,
+      "boundary_type": null,
+      "batsman": "Thakur",
+      "bowler": "Sandeep"
+    },
+    {
+      "ball_index": 64,
+      "over": 9,
+      "ball": 5,
+      "score": 107,
+      "wickets": 8,
+      "win_prob": 0.075,
+      "is_wicket": false,
+      "is_four": false,
+      "is_six": false,
+      "boundary_type": null,
+      "batsman": "Boult",
+      "bowler": "Sandeep"
+    },
+    {
+      "ball_index": 65,
+      "over": 9,
+      "ball": 6,
+      "score": 111,
+      "wickets": 8,
+      "win_prob": 0.091,
+      "is_wicket": false,
+      "is_four": true,
+      "is_six": false,
+      "boundary_type": "four",
+      "batsman": "Chahar",
+      "bowler": "Sandeep"
+    },
+    {
+      "ball_index": 66,
+      "over": 10,
+      "ball": 1,
+      "score": 111,
+      "wickets": 9,
+      "win_prob": 0.075,
+      "is_wicket": true,
+      "is_four": false,
+      "is_six": false,
+      "boundary_type": null,
+      "batsman": "Boult",
+      "bowler": "Archer"
+    },
+    {
+      "ball_index": 67,
+      "over": 10,
+      "ball": 2,
+      "score": 111,
+      "wickets": 9,
+      "win_prob": 0.073,
+      "is_wicket": false,
+      "is_four": false,
+      "is_six": false,
+      "boundary_type": null,
+      "batsman": "Chahar",
+      "bowler": "Archer"
+    },
+    {
+      "ball_index": 68,
+      "over": 10,
+      "ball": 3,
+      "score": 112,
+      "wickets": 9,
+      "win_prob": 0.075,
+      "is_wicket": false,
+      "is_four": false,
+      "is_six": false,
+      "boundary_type": null,
+      "batsman": "Chahar",
+      "bowler": "Archer"
+    },
+    {
+      "ball_index": 69,
+      "over": 10,
+      "ball": 4,
+      "score": 116,
+      "wickets": 9,
+      "win_prob": 0.093,
+      "is_wicket": false,
+      "is_four": true,
+      "is_six": false,
+      "boundary_type": "four",
+      "batsman": "Bumrah",
+      "bowler": "Archer"
+    },
+    {
+      "ball_index": 70,
+      "over": 10,
+      "ball": 5,
+      "score": 117,
+      "wickets": 9,
+      "win_prob": 0.097,
+      "is_wicket": false,
+      "is_four": false,
+      "is_six": false,
+      "boundary_type": null,
+      "batsman": "Bumrah",
+      "bowler": "Archer"
+    },
+    {
+      "ball_index": 71,
+      "over": 10,
+      "ball": 6,
+      "score": 118,
+      "wickets": 9,
+      "win_prob": 0.0,
+      "is_wicket": false,
+      "is_four": false,
+      "is_six": false,
+      "boundary_type": null,
+      "batsman": "Chahar",
+      "bowler": "Archer"
+    }
+  ],
+  "inflexion_points": [
+    {
+      "idx": 28,
+      "delta": -0.323,
+      "over_ball": "4.3",
+      "wp_before": 0.758,
+      "wp_after": 0.435,
+      "batsman": "Hardik",
+      "bowler": "Ravi Bishnoi"
+    },
+    {
+      "idx": 31,
+      "delta": -0.256,
+      "over_ball": "4.6",
+      "wp_before": 0.427,
+      "wp_after": 0.171,
+      "batsman": "Tilak Varma",
+      "bowler": "Ravi Bishnoi"
+    },
+    {
+      "idx": 50,
+      "delta": -0.12699999999999997,
+      "over_ball": "7.5",
+      "wp_before": 0.293,
+      "wp_after": 0.166,
+      "batsman": "Rutherford",
+      "bowler": "Deshpande"
+    }
+  ],
+  "volatility_index": {
+    "value": 0.347,
+    "interpretation": "Moderate volatility \u2014 brief parity moments"
+  },
+  "burn_rate": {
+    "innings1": [
+      {
+        "over": 0,
+        "runs": 22,
+        "wickets_fell": 0,
+        "wickets_remaining": 10,
+        "classification": "Attacking",
+        "cum_score": 22,
+        "cum_wickets": 0
+      },
+      {
+        "over": 1,
+        "runs": 14,
+        "wickets_fell": 0,
+        "wickets_remaining": 10,
+        "classification": "Attacking",
+        "cum_score": 36,
+        "cum_wickets": 0
+      },
+      {
+        "over": 2,
+        "runs": 21,
+        "wickets_fell": 0,
+        "wickets_remaining": 10,
+        "classification": "Attacking",
+        "cum_score": 58,
+        "cum_wickets": 0
+      },
+      {
+        "over": 3,
+        "runs": 4,
+        "wickets_fell": 0,
+        "wickets_remaining": 10,
+        "classification": "Conservative",
+        "cum_score": 62,
+        "cum_wickets": 0
+      },
+      {
+        "over": 4,
+        "runs": 18,
+        "wickets_fell": 1,
+        "wickets_remaining": 9,
+        "classification": "Attacking",
+        "cum_score": 80,
+        "cum_wickets": 1
+      },
+      {
+        "over": 5,
+        "runs": 8,
+        "wickets_fell": 1,
+        "wickets_remaining": 8,
+        "classification": "Efficient",
+        "cum_score": 89,
+        "cum_wickets": 2
+      },
+      {
+        "over": 6,
+        "runs": 8,
+        "wickets_fell": 0,
+        "wickets_remaining": 8,
+        "classification": "Efficient",
+        "cum_score": 97,
+        "cum_wickets": 2
+      },
+      {
+        "over": 7,
+        "runs": 13,
+        "wickets_fell": 0,
+        "wickets_remaining": 8,
+        "classification": "Attacking",
+        "cum_score": 110,
+        "cum_wickets": 2
+      },
+      {
+        "over": 8,
+        "runs": 12,
+        "wickets_fell": 1,
+        "wickets_remaining": 7,
+        "classification": "Attacking",
+        "cum_score": 122,
+        "cum_wickets": 3
+      },
+      {
+        "over": 9,
+        "runs": 9,
+        "wickets_fell": 0,
+        "wickets_remaining": 7,
+        "classification": "Efficient",
+        "cum_score": 132,
+        "cum_wickets": 3
+      },
+      {
+        "over": 10,
+        "runs": 15,
+        "wickets_fell": 0,
+        "wickets_remaining": 7,
+        "classification": "Attacking",
+        "cum_score": 149,
+        "cum_wickets": 3
+      }
+    ],
+    "innings2": [
+      {
+        "over": 0,
+        "runs": 10,
+        "wickets_fell": 1,
+        "wickets_remaining": 9,
+        "classification": "Efficient",
+        "cum_score": 10,
+        "cum_wickets": 1
+      },
+      {
+        "over": 1,
+        "runs": 11,
+        "wickets_fell": 1,
+        "wickets_remaining": 8,
+        "classification": "Attacking",
+        "cum_score": 22,
+        "cum_wickets": 2
+      },
+      {
+        "over": 2,
+        "runs": 2,
+        "wickets_fell": 1,
+        "wickets_remaining": 7,
+        "classification": "Efficient",
+        "cum_score": 24,
+        "cum_wickets": 3
+      },
+      {
+        "over": 3,
+        "runs": 10,
+        "wickets_fell": 0,
+        "wickets_remaining": 7,
+        "classification": "Efficient",
+        "cum_score": 35,
+        "cum_wickets": 3
+      },
+      {
+        "over": 4,
+        "runs": 10,
+        "wickets_fell": 2,
+        "wickets_remaining": 5,
+        "classification": "Efficient",
+        "cum_score": 45,
+        "cum_wickets": 5
+      },
+      {
+        "over": 5,
+        "runs": 14,
+        "wickets_fell": 0,
+        "wickets_remaining": 5,
+        "classification": "Attacking",
+        "cum_score": 59,
+        "cum_wickets": 5
+      },
+      {
+        "over": 6,
+        "runs": 14,
+        "wickets_fell": 0,
+        "wickets_remaining": 5,
+        "classification": "Attacking",
+        "cum_score": 74,
+        "cum_wickets": 5
+      },
+      {
+        "over": 7,
+        "runs": 18,
+        "wickets_fell": 1,
+        "wickets_remaining": 4,
+        "classification": "Attacking",
+        "cum_score": 93,
+        "cum_wickets": 6
+      },
+      {
+        "over": 8,
+        "runs": 9,
+        "wickets_fell": 1,
+        "wickets_remaining": 3,
+        "classification": "Efficient",
+        "cum_score": 102,
+        "cum_wickets": 7
+      },
+      {
+        "over": 9,
+        "runs": 7,
+        "wickets_fell": 1,
+        "wickets_remaining": 2,
+        "classification": "Efficient",
+        "cum_score": 111,
+        "cum_wickets": 8
+      },
+      {
+        "over": 10,
+        "runs": 7,
+        "wickets_fell": 1,
+        "wickets_remaining": 1,
+        "classification": "Efficient",
+        "cum_score": 118,
+        "cum_wickets": 9
+      }
+    ]
+  },
+  "partnerships": {
+    "innings1": [
+      {
+        "batsman1": "Yashasvi Jaiswal",
+        "batsman2": "Vaibhav Sooryavanshi",
+        "runs": 80,
+        "balls": 30,
+        "sr": 266.7,
+        "start_over": 0,
+        "end_over": 4.6,
+        "load_bearing": true
+      },
+      {
+        "batsman1": "Yashasvi Jaiswal",
+        "batsman2": "Dhruv Jurel",
+        "runs": 4,
+        "balls": 4,
+        "sr": 100.0,
+        "start_over": 4.6,
+        "end_over": 5.4,
+        "load_bearing": false
+      },
+      {
+        "batsman1": "Riyan Parag",
+        "batsman2": "Yashasvi Jaiswal",
+        "runs": 37,
+        "balls": 19,
+        "sr": 194.7,
+        "start_over": 5.4,
+        "end_over": 8.5,
+        "load_bearing": false
+      },
+      {
+        "batsman1": "Shimron Hetmyer",
+        "batsman2": "Yashasvi Jaiswal",
+        "runs": 29,
+        "balls": 13,
+        "sr": 223.1,
+        "start_over": 8.5,
+        "end_over": 11.0,
+        "load_bearing": false
+      }
+    ],
+    "innings2": [
+      {
+        "batsman1": "Rohit Sharma",
+        "batsman2": "Ryan Rickelton",
+        "runs": 10,
+        "balls": 6,
+        "sr": 166.7,
+        "start_over": 0,
+        "end_over": 0.6,
+        "load_bearing": false
+      },
+      {
+        "batsman1": "Rohit Sharma",
+        "batsman2": "Suryakumar Yadav",
+        "runs": 10,
+        "balls": 4,
+        "sr": 250.0,
+        "start_over": 0.6,
+        "end_over": 1.4,
+        "load_bearing": false
+      },
+      {
+        "batsman1": "Rohit Sharma",
+        "batsman2": "Tilak Varma",
+        "runs": 2,
+        "balls": 5,
+        "sr": 40.0,
+        "start_over": 1.4,
+        "end_over": 2.3,
+        "load_bearing": false
+      },
+      {
+        "batsman1": "Hardik Pandya",
+        "batsman2": "Tilak Varma",
+        "runs": 19,
+        "balls": 12,
+        "sr": 158.3,
+        "start_over": 2.3,
+        "end_over": 4.3,
+        "load_bearing": false
+      },
+      {
+        "batsman1": "Tilak Varma",
+        "batsman2": "Naman Dhir",
+        "runs": 5,
+        "balls": 3,
+        "sr": 166.7,
+        "start_over": 4.3,
+        "end_over": 4.6,
+        "load_bearing": false
+      },
+      {
+        "batsman1": "Sherfane Rutherford",
+        "batsman2": "Naman Dhir",
+        "runs": 47,
+        "balls": 17,
+        "sr": 276.5,
+        "start_over": 4.6,
+        "end_over": 7.5,
+        "load_bearing": true
+      },
+      {
+        "batsman1": "Shardul Thakur",
+        "batsman2": "Naman Dhir",
+        "runs": 10,
+        "balls": 6,
+        "sr": 166.7,
+        "start_over": 7.5,
+        "end_over": 8.5,
+        "load_bearing": false
+      },
+      {
+        "batsman1": "Deepak Chahar",
+        "batsman2": "Shardul Thakur",
+        "runs": 8,
+        "balls": 5,
+        "sr": 160.0,
+        "start_over": 8.5,
+        "end_over": 9.4,
+        "load_bearing": false
+      },
+      {
+        "batsman1": "Trent Boult",
+        "batsman2": "Deepak Chahar",
+        "runs": 5,
+        "balls": 3,
+        "sr": 166.7,
+        "start_over": 9.4,
+        "end_over": 10.1,
+        "load_bearing": false
+      },
+      {
+        "batsman1": "Deepak Chahar",
+        "batsman2": "Jasprit Bumrah",
+        "runs": 7,
+        "balls": 5,
+        "sr": 140.0,
+        "start_over": 10.1,
+        "end_over": 11.0,
+        "load_bearing": false
+      }
+    ]
+  },
+  "matchups": {
+    "innings1": [
+      {
+        "batsman": "Jaiswal",
+        "bowler": "Hardik",
+        "runs": 8,
+        "balls": 7,
+        "wickets": 0,
+        "fours": 1,
+        "sixes": 0,
+        "matchup_sr": 114.3,
+        "overall_sr": 240.6,
+        "sr_ratio": 0.47,
+        "effectiveness": "effective"
+      },
+      {
+        "batsman": "Jaiswal",
+        "bowler": "Chahar",
+        "runs": 22,
+        "balls": 6,
+        "wickets": 0,
+        "fours": 4,
+        "sixes": 1,
+        "matchup_sr": 366.7,
+        "overall_sr": 240.6,
+        "sr_ratio": 1.52,
+        "effectiveness": "ineffective"
+      },
+      {
+        "batsman": "Jaiswal",
+        "bowler": "Boult",
+        "runs": 14,
+        "balls": 4,
+        "wickets": 0,
+        "fours": 0,
+        "sixes": 2,
+        "matchup_sr": 350.0,
+        "overall_sr": 240.6,
+        "sr_ratio": 1.45,
+        "effectiveness": "ineffective"
+      },
+      {
+        "batsman": "Hetmyer",
+        "bowler": "Bumrah",
+        "runs": 2,
+        "balls": 4,
+        "wickets": 0,
+        "fours": 0,
+        "sixes": 0,
+        "matchup_sr": 50.0,
+        "overall_sr": 85.7,
+        "sr_ratio": 0.58,
+        "effectiveness": "effective"
+      }
+    ],
+    "innings2": [
+      {
+        "batsman": "Thakur",
+        "bowler": "Sandeep",
+        "runs": 2,
+        "balls": 4,
+        "wickets": 1,
+        "fours": 0,
+        "sixes": 0,
+        "matchup_sr": 50.0,
+        "overall_sr": 114.3,
+        "sr_ratio": 0.44,
+        "effectiveness": "effective"
+      },
+      {
+        "batsman": "Naman Dhir",
+        "bowler": "Sandeep",
+        "runs": 14,
+        "balls": 6,
+        "wickets": 0,
+        "fours": 1,
+        "sixes": 1,
+        "matchup_sr": 233.3,
+        "overall_sr": 192.3,
+        "sr_ratio": 1.21,
+        "effectiveness": "neutral"
+      },
+      {
+        "batsman": "Rutherford",
+        "bowler": "Ravi Bishnoi",
+        "runs": 13,
+        "balls": 5,
+        "wickets": 0,
+        "fours": 2,
+        "sixes": 0,
+        "matchup_sr": 260.0,
+        "overall_sr": 312.5,
+        "sr_ratio": 0.83,
+        "effectiveness": "neutral"
+      },
+      {
+        "batsman": "Rickelton",
+        "bowler": "Archer",
+        "runs": 8,
+        "balls": 4,
+        "wickets": 1,
+        "fours": 0,
+        "sixes": 1,
+        "matchup_sr": 200.0,
+        "overall_sr": 200.0,
+        "sr_ratio": 1.0,
+        "effectiveness": "neutral"
+      }
+    ]
+  },
+  "turning_points": [
+    {
+      "tp_num": 1,
+      "name": "Sooryavanshi vs Bumrah \u2014 Over 2",
+      "over": "2.1-2.6",
+      "description": "Jaiswal had blazed 22 off Chahar's first over. Then Sooryavanshi faced Bumrah \u2014 and the 15-year-old did the unthinkable. A six over fine leg, a four through cover, a pulled six over deep square. Three boundaries in six balls. RR 47/0 after 3 overs.",
+      "win_prob_before": null,
+      "win_prob_after": null,
+      "pressure_impact": "Bumrah's economy ballooned to 13+ RPO"
+    },
+    {
+      "tp_num": 2,
+      "name": "MI's 5-wicket Powerplay Collapse",
+      "over": "0.1-4.6",
+      "description": "MI needed 151 in 11 overs. They needed to be 70+ after 4 overs. Instead they lost Rickelton (0.6), SKY (1.4), Rohit (2.3), Hardik (4.3) and Tilak (4.6) \u2014 five wickets in 45 balls, for 45 runs. The chase was effectively over.",
+      "win_prob_before": 0.517,
+      "win_prob_after": 0.427,
+      "pressure_impact": "Extreme pressure on every MI batsman from over 1 onwards"
+    },
+    {
+      "tp_num": 3,
+      "name": "Rutherford-Dhir Stand \u2014 Brief False Hope",
+      "over": "4.6-7.5",
+      "description": "Rutherford arrived as impact player and immediately muscled two sixes off Deshpande. With Naman Dhir at the other end, the two put on 47 in just 17 balls \u2014 the only period where MI looked threatening. But RR still needed 59 from 21 balls at the end of it.",
+      "win_prob_before": 0.427,
+      "win_prob_after": 0.166,
+      "pressure_impact": "Brief pressure relief for MI, before Burger struck twice"
+    }
+  ],
+  "counterfactual_scenarios": [
+    {
+      "scenario_id": 1,
+      "title": "What If Sooryavanshi Had Faced Bumrah in Over 1 Instead of Over 2?",
+      "change": "Bumrah opens the bowling against Sooryavanshi in over 1 instead of over 2",
+      "original_outcome": "RR 150/3 in 11 overs",
+      "lola_outcome": "RR would have scored ~128-135, target ~136",
+      "key_number": 15,
+      "original_win_prob": 0.5,
+      "counterfactual_win_prob": 0.42,
+      "narrative": "Hardik Pandya gave Sooryavanshi a free over from Chahar to warm up. The 15-year-old collected a calm single before Chahar was replaced. But in this counterfactual, Bumrah opens from over 1 to Sooryavanshi. The field is still set up for the powerplay. The question becomes: can even Bumrah contain a teenager batting on pure instinct, without the pressure of knowing he's facing the world's best? The evidence from what actually happened in over 2 suggests no \u2014 Sooryavanshi would have found him for 20 regardless. But over 1, facing a fresh Bumrah, the odds lean slightly against an immediate explosion. A more conservative 12-14 run over instead of the actual 22 reduces RR's total by 15, and the target drops from 151 to ~136. At 136, MI's collapse looks the same \u2014 but the match was barely winnable as it was. The math shifts only marginally."
+    },
+    {
+      "scenario_id": 2,
+      "title": "What If Rutherford Had Arrived at the Fall of Wicket 1 Instead of Over 6?",
+      "change": "Rutherford comes in as impact player immediately after Rickelton's dismissal at 10/1 (over 0.6)",
+      "original_outcome": "MI 123/9 (lost by 27)",
+      "lola_outcome": "MI could have scored ~148, losing by 3 runs or forcing a Super Over",
+      "key_number": 25,
+      "original_win_prob": 0.05,
+      "counterfactual_win_prob": 0.45,
+      "narrative": "The MI brain trust waited until over 6 to bring Rutherford on as their impact substitute. By then, they were 45/5, needing 106 from 30 balls \u2014 an equation requiring 21 RPO. What if they'd unleashed Rutherford immediately after Rickelton fell at 10/1 in the first over? Rutherford, who hit 25 off just 8 balls in reality, would have faced Archer and Burger in the powerplay instead of Bishnoi and Deshpande. Still, with 9 wickets in hand instead of 5, the chase looked very different. A Rutherford-SKY partnership in overs 1-4 could have added 50+ instead of the 12 they managed with Rohit's injured shell. The math suggests MI reach 145-150 in this scenario \u2014 a genuine last-ball thriller rather than the 27-run walking defeat. The impact substitution rule exists precisely for moments like these; Hardik's conservative deployment may have cost his side a Super Over."
+    }
+  ],
+  "commentary_gems": [
+    {
+      "ball": "2.1 (RR innings)",
+      "batsman": "Sooryavanshi",
+      "bowler": "Bumrah",
+      "text": "watch this! Sooryavanshi walks across and swings hard to leg. The ball goes fine, not where the fielders are. SIX over fine leg!",
+      "why": "The moment 90,000 fans realized a 15-year-old was taking the fight to Bumrah"
+    },
+    {
+      "ball": "0.1 (MI innings)",
+      "batsman": "Jaiswal (off Chahar)",
+      "bowler": "Chahar",
+      "text": "FOUR runs \u2014 what a way to start! Jaiswal walks down the pitch and drills it back past the bowler. Statement of intent.",
+      "why": "RR's first ball boundary set the tone for the entire evening"
+    },
+    {
+      "ball": "5.4 (RR innings)",
+      "batsman": "Jurel",
+      "bowler": "Ghazanfar",
+      "text": "trapped on the back leg, and Jurel has to walk! Fizzed through on a back of a length on middle and leg. No bat involved. Ball Tracking: three reds.",
+      "why": "Ghazanfar's decisive breakthrough \u2014 silenced the scoring just as momentum was building"
+    },
+    {
+      "ball": "4.2 (MI innings)",
+      "batsman": "Hardik",
+      "bowler": "Bishnoi",
+      "text": "Hardik backs away outside off and flays it over covers. This is pressure-batting. FOUR! But he gets lbw next ball.",
+      "why": "The futility of one great shot when the wicket column is piling up"
+    },
+    {
+      "ball": "7.3 (MI innings)",
+      "batsman": "Rutherford",
+      "bowler": "Deshpande",
+      "text": "watch this fly! Full, in the slot, and Rutherford launches it miles over deep mid wicket. SIX! He's arrived.",
+      "why": "The moment MI's fans dared to believe \u2014 before reality arrived over-by-over"
+    }
+  ],
+  "game_changers": [
+    {
+      "player": "Yashasvi Jaiswal",
+      "team": "RR",
+      "key_stat": "77* (32) \u2014 240.6 SR, 10 fours, 4 sixes",
+      "reason": "The anchor who also accelerated. Jaiswal faced every single delivery from over 1 through to the last ball of the innings. He absorbed two wickets at the other end (Jurel at 84, Parag at 121) without breaking stride \u2014 going from 53 at the end of over 7 to 77 when the last ball was bowled. This wasn't just run-scoring; it was architecture."
+    },
+    {
+      "player": "Vaibhav Sooryavanshi",
+      "team": "RR",
+      "key_stat": "39 (14) \u2014 278.6 SR, 1 four, 5 sixes",
+      "reason": "The 15-year-old hit Bumrah for two sixes in a single over. That sentence still doesn't get easier to write. Sooryavanshi's audacity \u2014 specifically his willingness to go over the top against the world's best death bowler in the second over of a short innings \u2014 changed the match's psychological fabric. MI never recovered their natural swagger."
+    },
+    {
+      "player": "Sandeep Sharma",
+      "team": "RR",
+      "key_stat": "3-0-26-2 (Eco: 8.67) \u2014 dismissed Rohit and Thakur",
+      "reason": "In an 11-over game where every over matters doubly, Sandeep's three overs were the most economical from any RR bowler. He bowled the decisive 10th over, picking up Thakur and conceding just 9 runs after Rutherford's carnage had made the match seem like it was coming alive. His wicket-taking in the chase's crucial phase \u2014 when MI were hunting the big partnership \u2014 was worth far more than the scorecard shows."
+    },
+    {
+      "player": "Sherfane Rutherford",
+      "team": "MI",
+      "key_stat": "25 (8) \u2014 312.5 SR, 2 fours, 2 sixes",
+      "reason": "The losing side's game changer. Rutherford arrived at 45/5 needing 106 from 30 balls and immediately launched two maximums off Deshpande. He and Dhir put on 47 in 17 balls \u2014 the only period of the chase where MI's RR was near par. The impact substitution was brilliant in execution; the tragedy was it came four wickets too late."
+    }
+  ]
+}
