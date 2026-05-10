@@ -1,0 +1,403 @@
+{
+  "match_info": {
+    "team1": "Delhi Capitals",
+    "team1_short": "DC",
+    "team2": "Kolkata Knight Riders",
+    "team2_short": "KKR",
+    "venue": "Arun Jaitley Stadium, Delhi",
+    "date": "May 7, 2026",
+    "tournament": "IPL 2026",
+    "match_number": "51st Match",
+    "series_match": "IPL 2026 Match 51",
+    "critechery_match": "Game 20 (Critechery archive)",
+    "toss_winner": null,
+    "toss_decision": null,
+    "result": "Kolkata Knight Riders won by 8 wickets",
+    "winner": "Kolkata Knight Riders",
+    "margin": "8 wickets (34 balls remaining)",
+    "first_innings_total": 142,
+    "first_innings_wickets": 8,
+    "first_innings_overs": "19.6",
+    "second_innings_total": 147,
+    "second_innings_wickets": 2,
+    "second_innings_overs": "14.2",
+    "target": 143,
+    "player_of_match": null,
+    "team1_impact_player_in": null,
+    "team1_impact_player_out": null,
+    "team2_impact_player_in": null,
+    "team2_impact_player_out": null
+  },
+  "batting_innings1": [
+    {
+      "name": "Nissanka",
+      "display_name": "Pathum Nissanka",
+      "runs": 50,
+      "balls": 29,
+      "fours": 5,
+      "sixes": 3,
+      "how_out": "st Raghuvanshi b Roy",
+      "bowler_dismissed_by": "Roy",
+      "sr": 172.41
+    },
+    {
+      "name": "Rahul",
+      "display_name": "KL Rahul",
+      "runs": 23,
+      "balls": 14,
+      "fours": 4,
+      "sixes": 0,
+      "how_out": "c Green b Kartik Tyagi",
+      "bowler_dismissed_by": "Kartik Tyagi",
+      "sr": 164.29
+    },
+    {
+      "name": "Rana",
+      "display_name": "Nitish Rana",
+      "runs": 8,
+      "balls": 10,
+      "fours": 1,
+      "sixes": 0,
+      "how_out": "c Narine b Green",
+      "bowler_dismissed_by": "Green",
+      "sr": 80.0
+    },
+    {
+      "name": "Sameer Rizvi",
+      "display_name": "Sameer Rizvi",
+      "runs": 3,
+      "balls": 7,
+      "fours": 0,
+      "sixes": 0,
+      "how_out": "c Powell b Narine",
+      "bowler_dismissed_by": "Narine",
+      "sr": 42.86
+    },
+    {
+      "name": "Stubbs",
+      "display_name": "Tristan Stubbs",
+      "runs": 2,
+      "balls": 4,
+      "fours": 0,
+      "sixes": 0,
+      "how_out": "b Roy",
+      "bowler_dismissed_by": "Roy",
+      "sr": 50.0
+    },
+    {
+      "name": "Axar Patel",
+      "display_name": "Axar Patel",
+      "runs": 11,
+      "balls": 22,
+      "fours": 0,
+      "sixes": 0,
+      "how_out": "c Roy b Arora",
+      "bowler_dismissed_by": "Arora",
+      "sr": 50.0
+    },
+    {
+      "name": "Ashutosh",
+      "display_name": "Ashutosh Sharma",
+      "runs": 39,
+      "balls": 28,
+      "fours": 3,
+      "sixes": 3,
+      "how_out": "c Rahane b Kartik Tyagi",
+      "bowler_dismissed_by": "Kartik Tyagi",
+      "sr": 139.29
+    },
+    {
+      "name": "Nigam",
+      "display_name": "Vipraj Nigam",
+      "runs": 3,
+      "balls": 3,
+      "fours": 0,
+      "sixes": 0,
+      "how_out": "not out",
+      "bowler_dismissed_by": null,
+      "sr": 100.0
+    },
+    {
+      "name": "Starc",
+      "display_name": "Mitchell Starc",
+      "runs": 0,
+      "balls": 2,
+      "fours": 0,
+      "sixes": 0,
+      "how_out": "run out",
+      "bowler_dismissed_by": "Kartik Tyagi",
+      "sr": 0.0
+    },
+    {
+      "name": "Ngidi",
+      "display_name": "Lungi Ngidi",
+      "runs": 1,
+      "balls": 1,
+      "fours": 0,
+      "sixes": 0,
+      "how_out": "not out",
+      "bowler_dismissed_by": null,
+      "sr": 100.0
+    }
+  ],
+  "bowling_innings1": [
+    {
+      "name": "Roy",
+      "overs": 4.0,
+      "maidens": 0,
+      "runs": 31,
+      "wickets": 2,
+      "economy": 7.75,
+      "dots": 9,
+      "wides": 2,
+      "noballs": 0
+    },
+    {
+      "name": "Arora",
+      "overs": 3.0,
+      "maidens": 0,
+      "runs": 29,
+      "wickets": 1,
+      "economy": 9.67,
+      "dots": 4,
+      "wides": 0,
+      "noballs": 0
+    },
+    {
+      "name": "Narine",
+      "overs": 4.0,
+      "maidens": 0,
+      "runs": 17,
+      "wickets": 1,
+      "economy": 4.25,
+      "dots": 13,
+      "wides": 0,
+      "noballs": 0
+    },
+    {
+      "name": "Kartik Tyagi",
+      "overs": 4.0,
+      "maidens": 0,
+      "runs": 25,
+      "wickets": 2,
+      "economy": 6.25,
+      "dots": 7,
+      "wides": 0,
+      "noballs": 0
+    },
+    {
+      "name": "Varun",
+      "overs": 4.0,
+      "maidens": 0,
+      "runs": 28,
+      "wickets": 0,
+      "economy": 7.0,
+      "dots": 10,
+      "wides": 0,
+      "noballs": 0
+    },
+    {
+      "name": "Green",
+      "overs": 1.0,
+      "maidens": 0,
+      "runs": 12,
+      "wickets": 1,
+      "economy": 12.0,
+      "dots": 1,
+      "wides": 0,
+      "noballs": 0
+    }
+  ],
+  "extras_innings1": {
+    "wides": 2,
+    "noballs": 0,
+    "byes": 0,
+    "legbyes": 0,
+    "total": 2
+  },
+  "fall_of_wickets_innings1": [
+    {
+      "wicket_num": 1,
+      "score": 49,
+      "over": 4.6,
+      "batsman": "KL Rahul"
+    },
+    {
+      "wicket_num": 2,
+      "score": 74,
+      "over": 7.6,
+      "batsman": "Nitish Rana"
+    },
+    {
+      "wicket_num": 3,
+      "score": 80,
+      "over": 9.5,
+      "batsman": "Sameer Rizvi"
+    },
+    {
+      "wicket_num": 4,
+      "score": 85,
+      "over": 10.2,
+      "batsman": "Pathum Nissanka"
+    },
+    {
+      "wicket_num": 5,
+      "score": 89,
+      "over": 10.5,
+      "batsman": "Tristan Stubbs"
+    },
+    {
+      "wicket_num": 6,
+      "score": 128,
+      "over": 18.3,
+      "batsman": "Axar Patel"
+    },
+    {
+      "wicket_num": 7,
+      "score": 140,
+      "over": 19.2,
+      "batsman": "Ashutosh Sharma"
+    },
+    {
+      "wicket_num": 8,
+      "score": 140,
+      "over": 19.4,
+      "batsman": "Mitchell Starc"
+    }
+  ],
+  "batting_innings2": [
+    {
+      "name": "Rahane",
+      "display_name": "Ajinkya Rahane",
+      "runs": 13,
+      "balls": 9,
+      "fours": 1,
+      "sixes": 1,
+      "how_out": "run out",
+      "bowler_dismissed_by": "Starc",
+      "sr": 144.44
+    },
+    {
+      "name": "Allen",
+      "display_name": "Finn Allen",
+      "runs": 100,
+      "balls": 47,
+      "fours": 5,
+      "sixes": 10,
+      "how_out": "not out",
+      "bowler_dismissed_by": null,
+      "sr": 212.77
+    },
+    {
+      "name": "A Raghuvanshi",
+      "display_name": "Angkrish Raghuvanshi",
+      "runs": 1,
+      "balls": 3,
+      "fours": 0,
+      "sixes": 0,
+      "how_out": "b Patel",
+      "bowler_dismissed_by": "Patel",
+      "sr": 33.33
+    },
+    {
+      "name": "Green",
+      "display_name": "Cameron Green",
+      "runs": 33,
+      "balls": 27,
+      "fours": 0,
+      "sixes": 2,
+      "how_out": "not out",
+      "bowler_dismissed_by": null,
+      "sr": 122.22
+    }
+  ],
+  "bowling_innings2": [
+    {
+      "name": "Starc",
+      "overs": 3.0,
+      "maidens": 0,
+      "runs": 31,
+      "wickets": 0,
+      "economy": 10.33,
+      "dots": 4,
+      "wides": 0,
+      "noballs": 0
+    },
+    {
+      "name": "Axar Patel",
+      "overs": 4.0,
+      "maidens": 0,
+      "runs": 27,
+      "wickets": 1,
+      "economy": 6.75,
+      "dots": 8,
+      "wides": 0,
+      "noballs": 0
+    },
+    {
+      "name": "Ngidi",
+      "overs": 2.0,
+      "maidens": 0,
+      "runs": 7,
+      "wickets": 0,
+      "economy": 3.5,
+      "dots": 5,
+      "wides": 0,
+      "noballs": 0
+    },
+    {
+      "name": "Nigam",
+      "overs": 2.0,
+      "maidens": 0,
+      "runs": 34,
+      "wickets": 0,
+      "economy": 17.0,
+      "dots": 1,
+      "wides": 0,
+      "noballs": 0
+    },
+    {
+      "name": "Kuldeep",
+      "overs": 3.0,
+      "maidens": 0,
+      "runs": 41,
+      "wickets": 0,
+      "economy": 13.67,
+      "dots": 6,
+      "wides": 0,
+      "noballs": 0
+    },
+    {
+      "name": "Mukesh",
+      "overs": 0.2,
+      "maidens": 0,
+      "runs": 7,
+      "wickets": 0,
+      "economy": 21.0,
+      "dots": 0,
+      "wides": 0,
+      "noballs": 0
+    }
+  ],
+  "extras_innings2": {
+    "wides": 0,
+    "noballs": 0,
+    "byes": 0,
+    "legbyes": 0,
+    "total": 0
+  },
+  "fall_of_wickets_innings2": [
+    {
+      "wicket_num": 1,
+      "score": 29,
+      "over": 2.6,
+      "batsman": "Ajinkya Rahane"
+    },
+    {
+      "wicket_num": 2,
+      "score": 31,
+      "over": 3.4,
+      "batsman": "Angkrish Raghuvanshi"
+    }
+  ]
+}
